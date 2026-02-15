@@ -8,14 +8,14 @@ export const factionFilters = {
   all: (): Faction[] => factionList,
   byId: (id: number): Faction | null => {
     if (!isValidId(id)) return null;
-    return factionList.find((r) => r.id === id) ?? null;
+    return factionList.find((f) => f.id === id) ?? null;
   },
   byName: (name: string): Faction | null => {
     const search = sanitizeSearchString(name);
     if (!search) return null;
     return (
-      factionList.find((r) => {
-        const normalizedDataName = r.name.toLowerCase();
+      factionList.find((f) => {
+        const normalizedDataName = f.name.toLowerCase();
         return normalizedDataName === search;
       }) ?? null
     );
