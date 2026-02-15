@@ -1,4 +1,4 @@
-import { types } from '../data/types';
+import { types } from '../data';
 import { Type } from '../types';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 

@@ -1,4 +1,4 @@
-import { rarities } from '../data/rarities';
+import { rarities } from '../data';
 import { Rarity } from '../types';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 
