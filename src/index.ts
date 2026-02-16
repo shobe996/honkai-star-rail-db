@@ -1,4 +1,5 @@
 export {
+  characterFilters,
   factionFilters,
   pathFilters,
   rarityFilters,
