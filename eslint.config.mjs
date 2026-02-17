@@ -4,7 +4,7 @@ import simpleImportSort from "eslint-plugin-simple-import-sort";
 
 export default [
   {
-    // This replaces .eslintignore
+    // Global ignores
     ignores: ["dist/**", "node_modules/**", "coverage/**"],
   },
   {
@@ -21,9 +21,11 @@ export default [
       "simple-import-sort": simpleImportSort,
     },
     rules: {
-      // Your existing rules
+      ...tsPlugin.configs.recommended.rules,
+
       "@typescript-eslint/no-explicit-any": "error",
-      "no-console": "off", // Keep logs for now since you're testing
+      "@typescript-eslint/no-unused-vars": "warn",
+      "no-console": "off", 
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
     },
