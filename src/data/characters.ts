@@ -2,6 +2,7 @@ import { factions, paths, rarities, types } from '../data';
 import { Character } from '../types';
 
 export const characters = {
+  //TODO: check descriptios
   Trailblazer_Destruction: {
     id: 6,
     name: 'Trailblazer',
@@ -599,6 +600,456 @@ export const characters = {
         base_atk: 562,
         base_def: 485,
         base_speed: 98,
+      },
+    },
+  },
+  Silver_Wolf: {
+    id: 710,
+    name: 'Silver Wolf',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/440b816d643f7fe275c18d7cdb530e4e.png',
+    desc: 'A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She\'s mastered the skill know as "aether editing" which can be used to tamper with the data of reality.',
+    path: paths.Nihility,
+    faction: factions.Stellaron_Hunters,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 87,
+        base_def: 62,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 640,
+        base_def: 460,
+        base_speed: 107,
+      },
+    },
+  },
+  Luocha: {
+    id: 711,
+    name: 'Luocha',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/063eb7a48de60cde11a62e10de637599.png',
+    desc: 'Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas. Has excellent medical skills.',
+    path: paths.Abundance,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 174,
+        base_atk: 102,
+        base_def: 49,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1280,
+        base_atk: 756,
+        base_def: 363,
+        base_speed: 101,
+      },
+    },
+  },
+  Yukong: {
+    id: 712,
+    name: 'Yukong',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/4056de864600648c1b7fe453a41513cc.png',
+    desc: "Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork.",
+    path: paths.Harmony,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Four_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 124,
+        base_atk: 81,
+        base_def: 51,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 916,
+        base_atk: 599,
+        base_def: 374,
+        base_speed: 107,
+      },
+    },
+  },
+  Blade: {
+    id: 789,
+    name: 'Blade',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/94893773857267575043bcc0c78931c1.png',
+    desc: 'A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade. Pledges loyalty to "Destiny\'s Slave," and possesses a terrifying self-healing ability.',
+    path: paths.Destruction,
+    faction: factions.Stellaron_Hunters,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 73,
+        base_def: 66,
+        base_speed: 97,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 543,
+        base_def: 485,
+        base_speed: 97,
+      },
+    },
+  },
+  Kafka: {
+    id: 791,
+    name: 'Kafka',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/33d91d2aa748306ab8fe76a37e60d5a5.png',
+    desc: 'A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.',
+    path: paths.Nihility,
+    faction: factions.Stellaron_Hunters,
+    rarity: rarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 92,
+        base_def: 66,
+        base_speed: 100,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 679,
+        base_def: 485,
+        base_speed: 100,
+      },
+    },
+  },
+  Luka: {
+    id: 801,
+    name: 'Luka',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/4b35e86d3ccd6b312ea5f0ff3136628f.png',
+    desc: "The boxing champion in Belobog's Underground, and one of Wildfire's most capable fighters. The consecutive champion of the Fight Club, his enthusiasm inspires children of the Underworld who dare to dream big.",
+    path: paths.Nihility,
+    faction: factions.Jarilo_VI,
+    rarity: rarities.Four_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 124,
+        base_atk: 79,
+        base_def: 66,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 917,
+        base_atk: 582,
+        base_def: 485,
+        base_speed: 103,
+      },
+    },
+  },
+  Fu_Xuan: {
+    id: 804,
+    name: 'Fu Xuan',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/5344c4bce6cbd77b61913833fb0f8b69.png',
+    desc: "The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events.",
+    path: paths.Preservation,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 200,
+        base_atk: 63,
+        base_def: 82,
+        base_speed: 100,
+      },
+      level80: {
+        base_hp: 1474,
+        base_atk: 465,
+        base_def: 606,
+        base_speed: 100,
+      },
+    },
+  },
+  Dan_Heng_Imbibitor_Lunae: {
+    id: 1226,
+    name: 'Dan Heng • Imbibitor Lunae',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/e360708232477489d36c145fe4e389fc.png',
+    desc: 'Dan Heng\'s true Vidyadhara form, revealed after accepting residual powers from the previous reincarnation of "Imbibitor Lunae." Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that person.',
+    path: paths.Destruction,
+    faction: factions.Astral_Express,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 168,
+        base_atk: 95,
+        base_def: 49,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1241,
+        base_atk: 698,
+        base_def: 363,
+        base_speed: 102,
+      },
+    },
+  },
+  Lynx: {
+    id: 1228,
+    name: 'Lynx',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/df8fec3999f1e64147d869656e82c4ac.png',
+    desc: 'A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.',
+    path: paths.Abundance,
+    faction: factions.Jarilo_VI,
+    rarity: rarities.Four_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 144,
+        base_atk: 67,
+        base_def: 75,
+        base_speed: 100,
+      },
+      level80: {
+        base_hp: 1058,
+        base_atk: 493,
+        base_def: 551,
+        base_speed: 100,
+      },
+    },
+  },
+  Jingliu: {
+    id: 1387,
+    name: 'Jingliu',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/0f3f152bdffd4aa6719b2986fd3d84b0.png',
+    desc: "Former Sword Champion of the Luofu, and the creator of the Cloud Knights' legends of undefeated might. Now, her name has been wiped from the records, and she is a traitor of the Xianzhou walking on the fine line between sanity and mara-struck.",
+    path: paths.Destruction,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 195,
+        base_atk: 92,
+        base_def: 66,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1435,
+        base_atk: 679,
+        base_def: 485,
+        base_speed: 96,
+      },
+    },
+  },
+  Topaz_and_Numby: {
+    id: 1389,
+    name: 'Topaz & Numby',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/1a258d2a1076ea4516cf5764e8392856.png',
+    desc: "Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the IPC. Alongside her Warp Trotter partner Numby, she travels the cosmos seeking liability disputes that affect the IPC's business progression.",
+    path: paths.Hunt,
+    faction: factions.Interastral_Peace_Corporation,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 126,
+        base_atk: 84,
+        base_def: 56,
+        base_speed: 110,
+      },
+      level80: {
+        base_hp: 931,
+        base_atk: 620,
+        base_def: 412,
+        base_speed: 110,
+      },
+    },
+  },
+  Guinaifen: {
+    id: 1392,
+    name: 'Guinaifen',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/33932eec4da522bf9a5386a4de475c18.png',
+    desc: "A performance artist visiting the Xianzhou Luofu - in other words, a street performer. She's chasing a new life on the Loufu when not concerned with food and shelter.",
+    path: paths.Nihility,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Four_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 120,
+        base_atk: 79,
+        base_def: 60,
+        base_speed: 106,
+      },
+      level80: {
+        base_hp: 882,
+        base_atk: 582,
+        base_def: 441,
+        base_speed: 106,
+      },
+    },
+  },
+  Huohuo: {
+    id: 1533,
+    name: 'Huohuo',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/052b3effab13b7b4ebb84b0973556497.png',
+    desc: 'A Foxian girl who is a Ten-Lords Commission Judge-in-training. Due to having a heliobus named Tail sealed in her tail, she became a "cursed one" who attracts inhuman beings. Though she is fearful, she is tasked with eradicating vile spirits.',
+    path: paths.Abundance,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 81,
+        base_def: 69,
+        base_speed: 98,
+      },
+      level80: {
+        base_hp: 1411,
+        base_atk: 623,
+        base_def: 533,
+        base_speed: 98,
+      },
+    },
+  },
+  Argenti: {
+    id: 1535,
+    name: 'Argenti',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/d51869e8d720fe379c2d3a56fcf78f2e.png',
+    desc: 'A classic knight of the "Knights of Beauty" who is piously seeking his missing Aeon Idrila the "Beauty." Forthright and candid, he wanders the cosmos espousing the virtues of Idrila\'s good name.',
+    path: paths.Erudition,
+    faction: factions.The_Knights_of_Beauty,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 100,
+        base_def: 49,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 737,
+        base_def: 363,
+        base_speed: 103,
+      },
+    },
+  },
+  Hanya: {
+    id: 1537,
+    name: 'Hanya',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/3790326c5acd456a7cd29cf6335aaf51.png',
+    desc: "One of the judges of the Xianzhou Luofu's Ten-Lords Commission. Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions.",
+    path: paths.Harmony,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Four_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 124,
+        base_atk: 76,
+        base_def: 48,
+        base_speed: 110,
+      },
+      level80: {
+        base_hp: 917,
+        base_atk: 564,
+        base_def: 352,
+        base_speed: 110,
+      },
+    },
+  },
+  Ruan_Mei: {
+    id: 1638,
+    name: 'Ruan Mei',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/2fe8741bd36bfcabbc914a02d558c80d.png',
+    desc: 'A member of the Genius Society and an expert in life sciences. She teamed up with Herta and others to develop the Simulated Universe.',
+    path: paths.Harmony,
+    faction: factions.Herta_Space_Station,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 89,
+        base_def: 66,
+        base_speed: 104,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 659,
+        base_def: 485,
+        base_speed: 104,
+      },
+    },
+  },
+  Dr_Ratio: {
+    id: 1639,
+    name: 'Dr. Ratio',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/6230d9ea30932b3428e1a75c6b31b0b6.png',
+    desc: 'An eccentric, self-centered, slightly gloomy, and yet elegant Intelligentsia Guild member. He often wears a bizarre plaster head sculpture over his head despite his handsome features.',
+    path: paths.Hunt,
+    faction: factions.Intelligentsia_Guild,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 105,
+        base_def: 62,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 776,
+        base_def: 460,
+        base_speed: 103,
+      },
+    },
+  },
+  Xueyi: {
+    id: 1640,
+    name: 'Xueyi',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/596c7833fbec289c7da1188d0dc0f371.png',
+    desc: 'Judge of the Ten-Lords Commission, which controls life and death on the Luofu. For years after her death, she inhabited a puppet body and returned to the world to fulfill her mission.',
+    path: paths.Destruction,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Four_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 144,
+        base_atk: 81,
+        base_def: 54,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 1058,
+        base_atk: 599,
+        base_def: 396,
+        base_speed: 103,
       },
     },
   },
