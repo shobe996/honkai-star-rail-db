@@ -758,7 +758,7 @@ export const characters = {
     name: 'Fu Xuan',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/5344c4bce6cbd77b61913833fb0f8b69.png',
-    desc: "The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events.",
+    desc: 'The head of the Xianzhou Luofu\'s Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou\'s route and predicts the fortune of future events. She firmly believes that everything she does is the "best solution" for the situation. Fu Xuan is waiting for the general\'s promised "abdication." However, that day still seems... very far away.',
     path: paths.Preservation,
     faction: factions.Xianzhou_Luofu,
     rarity: rarities.Five_Star,
@@ -783,7 +783,7 @@ export const characters = {
     name: 'Dan Heng • Imbibitor Lunae',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/e360708232477489d36c145fe4e389fc.png',
-    desc: 'Dan Heng\'s true Vidyadhara form, revealed after accepting residual powers from the previous reincarnation of "Imbibitor Lunae." Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that person.',
+    desc: 'Dan Heng\'s true Vidyadhara form, revealed after accepting residual powers from the previous reincarnation of "Imbibitor Lunae." Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that person. However, he was never himself.',
     path: paths.Destruction,
     faction: factions.Astral_Express,
     rarity: rarities.Five_Star,
@@ -858,7 +858,7 @@ export const characters = {
     name: 'Topaz & Numby',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/1a258d2a1076ea4516cf5764e8392856.png',
-    desc: "Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the IPC. Alongside her Warp Trotter partner Numby, she travels the cosmos seeking liability disputes that affect the IPC's business progression.",
+    desc: 'Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the "Ten Stronehearts" at a young age, Topaz\'s foundational expertise is "debt retrieval." Her partner, the Warp Trotter "Numby," is also capable of keenly perceiving where "riches" are located, ensuring that jobs based in security, debt collection, and actuarial varieties are of no great challenge. At presently they are traveling the cosmos together, seeking all manner of liability disputes that might be affecting the stable progression of the IPC\'s businesses.',
     path: paths.Hunt,
     faction: factions.Interastral_Peace_Corporation,
     rarity: rarities.Five_Star,
@@ -908,7 +908,7 @@ export const characters = {
     name: 'Huohuo',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/052b3effab13b7b4ebb84b0973556497.png',
-    desc: 'A Foxian girl who is a Ten-Lords Commission Judge-in-training. Due to having a heliobus named Tail sealed in her tail, she became a "cursed one" who attracts inhuman beings. Though she is fearful, she is tasked with eradicating vile spirits.',
+    desc: 'A pitiable and helpless Foxian girl who is also a Ten-Lords Commission Judge-in-training, who fears ghosts but must catch them. Due to having a heliobus named Tail sealed in her tail by the judges of the Ten-Lords Comission, she became a "cursed one" who attracts inhuman beings. She fears demons and heliobi, but contrarily is tasked with their capture and entrusted with the heavy task of eradicating vile spirits. Though she believes herself lacking in ability, she is unable to muster the courage to resign and continues onward despite walking in a valley of her own fear.',
     path: paths.Abundance,
     faction: factions.Xianzhou_Luofu,
     rarity: rarities.Five_Star,
@@ -958,7 +958,7 @@ export const characters = {
     name: 'Hanya',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/3790326c5acd456a7cd29cf6335aaf51.png',
-    desc: "One of the judges of the Xianzhou Luofu's Ten-Lords Commission. Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions.",
+    desc: "One of the judges of the Xianzhou Luofu's Ten-Lords Commission. Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions, then issues punishments and karmic retribution.",
     path: paths.Harmony,
     faction: factions.Xianzhou_Luofu,
     rarity: rarities.Four_Star,
