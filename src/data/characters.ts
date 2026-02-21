@@ -1552,4 +1552,454 @@ export const characters = {
       },
     },
   },
+  The_Herta: {
+    id: 3285,
+    name: 'The Herta',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/659dc749feb70d8f0bceb12e0428ff8d.png',
+    desc: "Esteemed Genius Society #83, human, female, young, beautiful, attractive. It's said that she lives in the far edge of the Cosmos, almost never leaving. Sounds like her appearance this time... must be for some issue that requires a personal touch, right?",
+    path: paths.Erudition,
+    faction: factions.Herta_Space_Station,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 158,
+        base_atk: 92,
+        base_def: 66,
+        base_speed: 99,
+      },
+      level80: {
+        base_hp: 1164,
+        base_atk: 679,
+        base_def: 485,
+        base_speed: 99,
+      },
+    },
+  },
+  Aglaea: {
+    id: 3286,
+    name: 'Aglaea',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/07718bc670a83cb649d70654e82a2997.png',
+    desc: 'In that holy city kissed by the dawn, the weaver caresses the golden threads, entwining fates. The Chrysos Heir that bears the "Romance" Coreflame gathered the world\'s heroes, leading them on a long journey once more — to topple the gods, reclaim the divine flame, and grant rebirth to the nearly fallen Amphoreus.',
+    path: paths.Remembrance,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 168,
+        base_atk: 95,
+        base_def: 66,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1241,
+        base_atk: 698,
+        base_def: 485,
+        base_speed: 102,
+      },
+    },
+  },
+  Trailblazer_Remembrance: {
+    id: 3287,
+    name: 'Trailblazer',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/7c3801e4147e3d5419aec6e3450b1c12.png',
+    desc: 'A girl who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
+    path: paths.Remembrance,
+    faction: factions.Astral_Express,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 143,
+        base_atk: 73,
+        base_def: 85,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 1048,
+        base_atk: 543,
+        base_def: 630,
+        base_speed: 103,
+      },
+    },
+  },
+  Tribbie: {
+    id: 3322,
+    name: 'Tribbie',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/f57a22c6c11bc1d099bb6e262a44f84f.png',
+    desc: "From that holy land blessed by the tripartite prophecy, the messenger split into a thousand forms, embarking on a long journey. Tribios, Holy Maidens of Janusopolis, the Chrysos Heir who stole Passage's Coreflame. She toiled for the masses, bringing the news of deliverance to all domains. — Go find the children of humanity with golden blood in their veins, shatter the dimmest dark in this world, and walk toward the tomorrow where the stars shine.",
+    path: paths.Harmony,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 71,
+        base_def: 99,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 523,
+        base_def: 727,
+        base_speed: 96,
+      },
+    },
+  },
+  Mydei: {
+    id: 3324,
+    name: 'Mydei',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/de75caf16acea1f66900a323371e9f7a.png',
+    desc: 'Kremnos, the mist-shrouded city of chaos and war! Its royal lineage is tainted with patricide, and its god bears the name of calamity. The undying Mydeimos, the lion apart from the rest. Chrysos Heir who seeks the Coreflame of Strife, must suffer a thousand deaths, be bathed in blood on the path home, and bear the madness of fate alone. — Kingslayer be king, godslayer be god. Iron-hooves pound across the wilderness for the campaign, and must eventually soak in the blood of their homeland.',
+    path: paths.Destruction,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 211,
+        base_atk: 58,
+        base_def: 26,
+        base_speed: 95,
+      },
+      level80: {
+        base_hp: 1552,
+        base_atk: 426,
+        base_def: 194,
+        base_speed: 95,
+      },
+    },
+  },
+  Castorice: {
+    id: 3560,
+    name: 'Castorice',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/619a5956f30a7cbffa38b125150d2831.png',
+    desc: '"Servant of Death" Castorice. The land that reveres death, Aidonia, where snow falls endlessly, has today drifted into a sweet slumber. Castorice, daughter of the River of Souls, Chrysos Heir in search of "Death" Coreflame, sets forth. You must guard the lament of souls and embrace the solitude of destiny. — Life and death are but a journey. When butterfly alights on the branch, what withers will bloom anew.',
+    path: paths.Remembrance,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 221,
+        base_atk: 71,
+        base_def: 66,
+        base_speed: 95,
+      },
+      level80: {
+        base_hp: 1629,
+        base_atk: 523,
+        base_def: 485,
+        base_speed: 95,
+      },
+    },
+  },
+  Anaxa: {
+    id: 3561,
+    name: 'Anaxa',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/02472fb114ad645299c6c40ed39c0090.png',
+    desc: 'The Grove of Epiphany, where knowledge flourishes and philosophers are born. Yet here stands Anaxagoras the blasphemer, the Chrysos Heir who challenges the Coreflame of Reason. He is questioned: Would you defy the prophecy even if you must bear infamy, and insist on driving the thorns of doubt into the Sacred Tree of wisdom? ——"Ridiculous. In a world full of lies, I am the only truth."',
+    path: paths.Erudition,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 132,
+        base_atk: 102,
+        base_def: 75,
+        base_speed: 97,
+      },
+      level80: {
+        base_hp: 970,
+        base_atk: 756,
+        base_def: 557,
+        base_speed: 97,
+      },
+    },
+  },
+  Hyacine: {
+    id: 3688,
+    name: 'Hyacine',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/0db6f55c8f8fb1bc632ec57a2f7fdaca.png',
+    desc: "As the city-state in the clouds crumbles through time, the Twilight Courtyard opens its gates once more, bringing a glimmer of light to Evernight. You, Physician Hyacinthia, Chrysos Heir who guards the Sky Coreflame, must inherit your ancestors' will and mend the torn fabric of dusk and dawn. May the rainbow light pour down, dissolve all grudges, and bring the dawn back to this land.",
+    path: paths.Remembrance,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 52,
+        base_def: 85,
+        base_speed: 110,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 388,
+        base_def: 630,
+        base_speed: 110,
+      },
+    },
+  },
+  Cipher: {
+    id: 3691,
+    name: 'Cipher',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/2d38065d2cfd732380a7a4ca304b3eb1.png',
+    desc: 'In the fallen city of bandits, Dolos, the 300 Rogues run wild and free. Race onward, fleet-footed Thief Star Cifera, Chrysos Heir of the "Trickery" Coreflame. May your web of lies spread with the breeze throughout all lands. —"Tryna trick me? Not a chance!"',
+    path: paths.Nihility,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 127,
+        base_atk: 87,
+        base_def: 69,
+        base_speed: 106,
+      },
+      level80: {
+        base_hp: 931,
+        base_atk: 640,
+        base_def: 509,
+        base_speed: 106,
+      },
+    },
+  },
+  Saber: {
+    id: 3767,
+    name: 'Saber',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/32a3e6a314529a05eb3e2c353e32f50f.png',
+    desc: 'The solitary Heroic Spirit traverses the long night of fate. The banner of the round table remains unfurled in a dream. Alas, the knight-king of Camelot has yet to reach that ever-distant utopia. Though still a young maiden, she has heeded the call for this most unique iteration of the Holy Grail War. With the Sword in the Stone offering its choice once more, how shall she shatter the illusions of the past? "The wishes I did not fulfill will end here."',
+    path: paths.Destruction,
+    faction: factions.Another_World,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 168,
+        base_atk: 81,
+        base_def: 89,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1241,
+        base_atk: 601,
+        base_def: 654,
+        base_speed: 101,
+      },
+    },
+  },
+  Archer: {
+    id: 3768,
+    name: 'Archer',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/e8c6fc0c5a5bf9827520114a2bb3ba2c.png',
+    desc: 'Despair plays in cycles between the past and future. Countless ideals were incinerated before that red Holy Shroud. Yet, do not let this smear of ashes fool you — Should someone create a phantasmal sweet dream under the guise of false ideals, then he will burn again, facing down the hypocrites of the world till the very end.No matter where he is, he always remains the steadfast hero of justice.',
+    path: paths.Hunt,
+    faction: factions.Another_World,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 158,
+        base_atk: 84,
+        base_def: 66,
+        base_speed: 105,
+      },
+      level80: {
+        base_hp: 1164,
+        base_atk: 620,
+        base_def: 485,
+        base_speed: 105,
+      },
+    },
+  },
+  Phainon: {
+    id: 3769,
+    name: 'Phainon',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/aa685e015bd409772ce45e488b56fd19.png',
+    desc: 'Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends. The Nameless hero, █████, the Chrysos Heir carrying the Coreflame of "Worldbearing," memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world — "But should dawn have never existed, let the fires of rage burn this body to ashes and transform into the blazing sun of tomorrow!"',
+    path: paths.Destruction,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 195,
+        base_atk: 79,
+        base_def: 95,
+        base_speed: 94,
+      },
+      level80: {
+        base_hp: 1435,
+        base_atk: 582,
+        base_def: 703,
+        base_speed: 94,
+      },
+    },
+  },
+  Hysilens: {
+    id: 3885,
+    name: 'Hysilens',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/a28e45b4af40acdc71936ed4dc1c1750.png',
+    desc: "Styxia, the coastal city of intoxication and dreams, where echoes of old songs still drift among the waves. Helektra, Daughter of the Sea, Chrysos Heir who cleanses the Ocean's Coreflame, dispels the murky undercurrents and orchestrates a banquet of revelry for the heroes beyond the sky. The show must go on. Even if hope is as fragile as bubbles, the waves will keep surging forward.",
+    path: paths.Nihility,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 163,
+        base_atk: 81,
+        base_def: 66,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1203,
+        base_atk: 601,
+        base_def: 485,
+        base_speed: 102,
+      },
+    },
+  },
+  Cerydra: {
+    id: 3886,
+    name: 'Cerydra',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/2d09dda59f13f07d6a04a6f1e1794aac.png',
+    desc: 'The Northern Empire, a lost dynasty, where its frozen lands burn with the fever of conquest. Sovereign Cerydra, the Chrysos Heir who wields the Coreflame of "Law," weaves her schemes, contends with the gods, passes judgment upon the faithless, and lays the foundation of Flame-Chase into this world. ..."This is far from the end. Amphoreus\'s journey is set to blaze across the stars!"',
+    path: paths.Harmony,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 84,
+        base_def: 66,
+        base_speed: 99,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 620,
+        base_def: 485,
+        base_speed: 99,
+      },
+    },
+  },
+  Evernight: {
+    id: 3956,
+    name: 'Evernight',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/621cef9c4f0b3e2b62aa1d695a240860.png',
+    desc: 'In the Memory Zone secluded from the world, candlelight reflects the past, silently extinguishing in the mist. Evernight, child of Remembrance born from the shadow, Chrysos Heir who conceals the Coreflame of Time, you shall stir the tide of "Oblivion," guarding the wish of the mirrored soul. ——"Don\'t worry, I will guard the path of Trailblaze for you... at any cost ♭"',
+    path: paths.Remembrance,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 180,
+        base_atk: 74,
+        base_def: 79,
+        base_speed: 99,
+      },
+      level80: {
+        base_hp: 1319,
+        base_atk: 543,
+        base_def: 582,
+        base_speed: 99,
+      },
+    },
+  },
+  Dan_Heng_Permansor_Terrae: {
+    id: 3957,
+    name: 'Dan Heng • Permansor Terrae',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/b8e4a0a42283640e7582ffd7cf4f108f.png',
+    desc: "The chest of Georios, the body of the fallen dragon supporting the shattered earth, enduring millennia of pain. Dan Heng, the Nameless and the Chrysos Heir who guards the Earth's Coreflame, steadies the world before it falls and guides all life across the land to a new home beyond. Rivers flow to the sea, mountains echo in harmony, and the eternal path stretches ten thousand miles.",
+    path: paths.Preservation,
+    faction: factions.Astral_Express,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 143,
+        base_atk: 79,
+        base_def: 105,
+        base_speed: 97,
+      },
+      level80: {
+        base_hp: 1048,
+        base_atk: 582,
+        base_def: 776,
+        base_speed: 97,
+      },
+    },
+  },
+  Cyrene: {
+    id: 4003,
+    name: 'Cyrene',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/7fdefde286a19197f3260ba1813230cc.png',
+    desc: 'A meteor streaks across the night sky, stirring ripples in the river of life, shimmering with thirteen hues. Daughter of Aedes Elysiae, nurturer of the Chrysos Heir of "███," plants the Seed of Memory, letting yesterday\'s flowers bloom in tomorrow —"Now, let\'s write a different kind of poem together♪"',
+    path: paths.Remembrance,
+    faction: factions.Amphoreus,
+    rarity: rarities.Five_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 190,
+        base_atk: 60,
+        base_def: 79,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1397,
+        base_atk: 446,
+        base_def: 582,
+        base_speed: 101,
+      },
+    },
+  },
+  The_Dahlia: {
+    id: 4060,
+    name: 'The Dahlia',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/dd2c1d94ef5fc0f21c7e9b28c15a7866.png',
+    desc: 'The sweet dream burned down the Ever-Flame Mansion, taking with it every trace of "her." Destruction, Remembrance... flowers of betrayal bloomed wherever they passed. To return to the dreamscape no one remembers, who will be the one to set her aflame again?',
+    path: paths.Nihility,
+    faction: factions.The_Cremators,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 92,
+        base_def: 82,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 679,
+        base_def: 606,
+        base_speed: 96,
+      },
+    },
+  },
 } as const satisfies Record<string, Character>;
