@@ -2002,4 +2002,29 @@ export const characters = {
       },
     },
   },
+  Yao_Guang: {
+    id: 4736,
+    name: 'Yao Guang',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/24a8a666a67fb7c587839602e41df09e.png',
+    desc: '"I am General Yao Guang, Seer Strategist aboard the Xianzhou Yuque. Like everyone else, you may simply call me Madam Yao. It\'s true, I could have divined the finer details of this encounter, but where\'s the fun in that? Being here in person has turned up some rather pleasant surprises". Her mysterious, bold, and radical actions were so revolutionary that they left everyone stunned. She saw all fortune, good and ill, through the "eye" of The Hunt. Yet, knowing that fate is not to be defied, the Seer Strategist still faced the danger alone.To be dealt such a cursed fortune... How can one ever hope to alter their fate?',
+    path: paths.Elation,
+    faction: factions.The_Xianzhou_Yuque,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 169,
+        base_atk: 63,
+        base_def: 89,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1242,
+        base_atk: 466,
+        base_def: 655,
+        base_speed: 101,
+      },
+    },
+  },
 } as const satisfies Record<string, Character>;
