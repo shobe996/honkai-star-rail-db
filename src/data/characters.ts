@@ -2,7 +2,6 @@ import { factions, paths, rarities, types } from '../data';
 import { Character } from '../types';
 
 export const characters = {
-  //TODO: check descriptios
   Trailblazer_Destruction: {
     id: 6,
     name: 'Trailblazer',
@@ -28,7 +27,7 @@ export const characters = {
       },
     },
   },
-  March_7th: {
+  March_7th_Preservation: {
     id: 7,
     name: 'March 7th',
     icon_url:
@@ -1050,6 +1049,506 @@ export const characters = {
         base_atk: 599,
         base_def: 396,
         base_speed: 103,
+      },
+    },
+  },
+  Black_Swan: {
+    id: 1806,
+    name: 'Black Swan',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/4c25aee3a751d33de2e33458faf53c39.png',
+    desc: 'A Memokeeper of the Garden of Recollection. A mysterious and elegant soothsayer. She often wears a warm smile and is willing to patiently listen to the words of others, thus using such means as a pretext to enter "memories" and gain omniscience over certain matters. A lady passionate about collecting unique memories, yet the thoughts that guide her are hard to glean.',
+    path: paths.Nihility,
+    faction: factions.Garden_of_Recollection,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 89,
+        base_def: 66,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 659,
+        base_def: 485,
+        base_speed: 102,
+      },
+    },
+  },
+  Sparkle: {
+    id: 1807,
+    name: 'Sparkle',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/b53760112ede65018871c7d7a8a8c07b.png',
+    desc: 'A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous maestro of theatrics, utterly engrossed in the art of performance. Adorned with innumerable masks, she is the hero with a thousand faces. Wealth, status, power... None of this matters to Sparkle. The only thing that can get her attention is "amusement."',
+    path: paths.Harmony,
+    faction: factions.Masked_Fool,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 190,
+        base_atk: 71,
+        base_def: 66,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1397,
+        base_atk: 523,
+        base_def: 485,
+        base_speed: 101,
+      },
+    },
+  },
+  Misha: {
+    id: 1808,
+    name: 'Misha',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/4a22ac1b9309f8e94d1e7563577048a8.png',
+    desc: 'A well-behaved young man serving as a hotel bellboy in Penacony. Misha has a great longing for the Nameless and dreams of one day embarking on a journey of his own.',
+    path: paths.Destruction,
+    faction: factions.Penacony,
+    rarity: rarities.Four_Star,
+    type: types.Ice,
+    stats: {
+      level1: {
+        base_hp: 172,
+        base_atk: 81,
+        base_def: 54,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1270,
+        base_atk: 599,
+        base_def: 396,
+        base_speed: 96,
+      },
+    },
+  },
+  Acheron: {
+    id: 1919,
+    name: 'Acheron',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/fa895cd3c7dc22e2078c70e5cdb2e920.png',
+    desc: 'A drifter claiming to be a Galaxy Ranger. Her true name is unknown. She walks the cosmos alone, carrying with her a long sword.',
+    path: paths.Nihility,
+    faction: factions.Self_Annihilator,
+    rarity: rarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 153,
+        base_atk: 95,
+        base_def: 59,
+        base_speed: 101,
+      },
+      level80: {
+        base_hp: 1125,
+        base_atk: 698,
+        base_def: 436,
+        base_speed: 101,
+      },
+    },
+  },
+  Aventurine: {
+    id: 1920,
+    name: 'Aventurine',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/d981b3193e2d83214de84c1ab0d4388a.png',
+    desc: 'A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for his cornerstone "Aventurine of stratagems." He always dons a smile that conceals his true intentions and lives by the principle of "the greater the risk, the greater the reward."',
+    path: paths.Preservation,
+    faction: factions.Interastral_Peace_Corporation,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 163,
+        base_atk: 60,
+        base_def: 89,
+        base_speed: 106,
+      },
+      level80: {
+        base_hp: 1203,
+        base_atk: 446,
+        base_def: 654,
+        base_speed: 106,
+      },
+    },
+  },
+  Gallagher: {
+    id: 1924,
+    name: 'Gallagher',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/4d15e0e6b061924f1628a2844eb47653.png',
+    desc: 'A security officer from the Bloodhound Family in Penacony. He is also a slovenly and indolent drinksmith. Though unorganized in apparel and casual in how he makes his drinks, he is always courteous toward visiting guests but keeps his vigilance about him. He seems to carry a weight of a complicated past, yet he never voluntarily divulges any details.',
+    path: paths.Abundance,
+    faction: factions.Penacony,
+    rarity: rarities.Four_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 177,
+        base_atk: 72,
+        base_def: 60,
+        base_speed: 98,
+      },
+      level80: {
+        base_hp: 1305,
+        base_atk: 529,
+        base_def: 441,
+        base_speed: 98,
+      },
+    },
+  },
+  Robin: {
+    id: 2366,
+    name: 'Robin',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/f87d1281884c3344e290be671282ff26.png',
+    desc: 'A Halovian singer who was born in Penacony and has risen to cosmic fame. An elegant and demure young lady. This time, she has been invited home by The Family to grace everyone with song during the Charmony Festival. She can use the power of "Harmony" to broadcast her music, manifesting "resonance" among not only her fans but all manner of lifeforms.',
+    path: paths.Harmony,
+    faction: factions.Penacony,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 174,
+        base_atk: 87,
+        base_def: 66,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1280,
+        base_atk: 640,
+        base_def: 485,
+        base_speed: 102,
+      },
+    },
+  },
+  Boothill: {
+    id: 2367,
+    name: 'Boothill',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/7afd6413461155ddbda02c24a5283eb3.png',
+    desc: 'A cyborg cowboy drifting among the stars. Extremely optimistic and unrestrained. He is a member of the Galaxy Rangers who swore to punish the wretched by any and all means... His flamboyant and brash actions were all to draw the attention of the Interastral Peace Corporation — the target of his revenge.',
+    path: paths.Hunt,
+    faction: factions.Galaxy_Ranger,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 163,
+        base_atk: 84,
+        base_def: 59,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 1203,
+        base_atk: 620,
+        base_def: 436,
+        base_speed: 107,
+      },
+    },
+  },
+  Firefly: {
+    id: 2494,
+    name: 'Firefly',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/9a4bea34ab2de4d4e9c16eeaf46caeb7.png',
+    desc: 'A member of the Stellaron Hunters, clad in a set of mechanized armor known as "SAM." Her character is marked by unwavering loyalty and steely resolve. Engineered as a weapon against the Swarm, she experiences accelerated growth, but a tragically shortened lifespan. She joined the Stellaron Hunters in a quest for a chance at "life," seeking to defy her fated demise.',
+    path: paths.Destruction,
+    faction: factions.Stellaron_Hunters,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 111,
+        base_atk: 71,
+        base_def: 105,
+        base_speed: 104,
+      },
+      level80: {
+        base_hp: 814,
+        base_atk: 523,
+        base_def: 776,
+        base_speed: 104,
+      },
+    },
+  },
+  Jade: {
+    id: 2495,
+    name: 'Jade',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/5ed05742508a33929adb1caee9c83006.png',
+    desc: 'A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for her cornerstone "Jade of Credit." A cold and elegant moneylender, she is skilled at understanding the human heart, with a personal hobby called "Bonajade Exchange." She\'s willing to wait patiently for high-value acquisitions and adept at extracting value from seemingly destitute clients.',
+    path: paths.Erudition,
+    faction: factions.Interastral_Peace_Corporation,
+    rarity: rarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 89,
+        base_def: 69,
+        base_speed: 103,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 659,
+        base_def: 509,
+        base_speed: 103,
+      },
+    },
+  },
+  Trailblazer_Harmony: {
+    id: 2511,
+    name: 'Trailblazer',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/6cff2aa54cd3872b44a4a3fea88e92f1.png',
+    desc: 'A girl who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
+    path: paths.Harmony,
+    faction: factions.Astral_Express,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 60,
+        base_def: 92,
+        base_speed: 105,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 446,
+        base_def: 679,
+        base_speed: 105,
+      },
+    },
+  },
+  Yunli: {
+    id: 2642,
+    name: 'Yunli',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/78dd2c4838d777784bc4f257dcf5ce65.png',
+    desc: 'A sword hunter from the Xianzhou Zhuming and "the Flaming Heart" General Huaiyan\'s darling granddaughter. Frank and straightforward. She has learned swordplay and forging from Huaiyan since young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to "hunt down and wipe out all cursed swords."',
+    path: paths.Destruction,
+    faction: factions.The_Xianzhou_Zhuming,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 92,
+        base_def: 62,
+        base_speed: 94,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 679,
+        base_def: 460,
+        base_speed: 94,
+      },
+    },
+  },
+  Jiaoqiu: {
+    id: 2643,
+    name: 'Jiaoqiu',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/574349359fd9921010da934867a84381.png',
+    desc: 'A foxian healer and counselor from the Xianzhou Yaoqing. Often greets people with a smile on his face and a scheme in his heart. Born into a prestigious Alchemy Commission family, he once withdrew from practicing medicine due to a broken heart. However, he returned to the field to treat "the Merlin\'s Claw," General Feixiao. Skilled in the study of alchemical prescription that views food as medicine, especially those that induce a sensation of spiciness. They invented a cauldron-based medicinal formula known as the "nine-square grid."',
+    path: paths.Nihility,
+    faction: factions.The_Xianzhou_Yaoqing,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 81,
+        base_def: 69,
+        base_speed: 98,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 601,
+        base_def: 509,
+        base_speed: 98,
+      },
+    },
+  },
+  March_7th_Hunt: {
+    id: 2657,
+    name: 'March 7th',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/c6020c2709bac9d2168fde084480ca9f.png',
+    desc: 'March 7th in a Xianzhou-styled outfit. A sword-wielding female martial artist.Learning swordplay from both Yunli and Yanqing, she is eager to create more beautiful memories on the Xianzhou.',
+    path: paths.Hunt,
+    faction: factions.Astral_Express,
+    rarity: rarities.Four_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 144,
+        base_atk: 76,
+        base_def: 60,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1058,
+        base_atk: 564,
+        base_def: 441,
+        base_speed: 102,
+      },
+    },
+  },
+  Feixiao: {
+    id: 2947,
+    name: 'Feixiao',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/c2a9ea5c3b5198a5f079ec5d578dfa4a.png',
+    desc: 'The Xianzhou Yaoqing\'s Merlin\'s Claw and one of the Seven Arbiter-Generals. Unconventional and straightforward, she exudes effortless charm. She is skilled in all forms of martial arts and has honed herself into a supreme weapon. She is widely adored by Xianzhou soldiers and civilians alike as "The Vanquishing General". However, she bears the burden of the Moon Rage affliction. If she were to hunt down all the abominations in her limited lifetime — then the only enemy Feixiao has would be herself.',
+    path: paths.Hunt,
+    faction: factions.The_Xianzhou_Yaoqing,
+    rarity: rarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 81,
+        base_def: 52,
+        base_speed: 112,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 601,
+        base_def: 388,
+        base_speed: 112,
+      },
+    },
+  },
+  Lingsha: {
+    id: 2948,
+    name: 'Lingsha',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/380e768d866281afd7d2cffc04746f13.png',
+    desc: "The new Cauldron Master of the Xianzhou Luofu's Alchemy Commission is one perceptive and intelligent Vidyadhara healer. With a keen sense of smell, she diagnoses ailments and calms minds with aromatic therapy. Adept at navigating complex social relationships, she can remain impeccably composed even when turmoil rages within.",
+    path: paths.Abundance,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 184,
+        base_atk: 92,
+        base_def: 59,
+        base_speed: 98,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 679,
+        base_def: 436,
+        base_speed: 98,
+      },
+    },
+  },
+  Moze: {
+    id: 2949,
+    name: 'Moze',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/a218b9d5e1ff2484637ae118e66e4883.png',
+    desc: 'A Shadow Guard of the Yaoqing, Moze is taciturn and solitary, always acting on his own. As an expert in intelligence services and other operations that must remain covert, Moze rarely shows himself before others. The moment he reveals his blade usually spells doom for his enemies. He commands a vast wealth of assassination techniques, coupled with an extraordinary obsession for orderliness and cleanliness.',
+    path: paths.Hunt,
+    faction: factions.The_Xianzhou_Yaoqing,
+    rarity: rarities.Four_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 110,
+        base_atk: 81,
+        base_def: 48,
+        base_speed: 111,
+      },
+      level80: {
+        base_hp: 811,
+        base_atk: 599,
+        base_def: 352,
+        base_speed: 111,
+      },
+    },
+  },
+  Rappa: {
+    id: 3057,
+    name: 'Rappa',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/978e0c6eeeac11f667f945a111293fc3.png',
+    desc: 'A peculiar girl who appears in Penacony like a flashbang at the darkest hour of night, identifying herself as a ninja and attributing everything in the world to "ninjutsu." Upholding the recitation of ninja mantra, creating Dazzling Ninja Seals, and studying ninja scrolls — That is, the Way of the Ninja involves rap, graffiti, and manga — Through rigorous self-discipline, she roams the stars, upholding justice and righteousness. As a member of the Galaxy Rangers, she relentlessly pursues the villain known as Evil Ninja Osaru, chasing them to the very edge of the Cosmos.',
+    path: paths.Erudition,
+    faction: factions.Galaxy_Ranger,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 97,
+        base_def: 62,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 717,
+        base_def: 460,
+        base_speed: 96,
+      },
+    },
+  },
+  Sunday: {
+    id: 3150,
+    name: 'Sunday',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/232c7d3fa3ef91e0dcb034189e28313e.png',
+    desc: 'The former head of the Oak Family and the elder brother of Robin. After the upheaval of the Charmony Festival was quelled, he bid farewell to Order and his homeland, boarding the Astral Express in search of a new path.',
+    path: paths.Harmony,
+    faction: factions.Cosmos,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 168,
+        base_atk: 87,
+        base_def: 72,
+        base_speed: 96,
+      },
+      level80: {
+        base_hp: 1241,
+        base_atk: 640,
+        base_def: 533,
+        base_speed: 96,
+      },
+    },
+  },
+  Fugue: {
+    id: 3151,
+    name: 'Fugue',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/e8d610ca22ab071b6591bb4fcd28662e.png',
+    desc: 'A tactful foxian girl, whose appearance, name, and identity have all been stolen. The fates have left her a thread of chance at survival, yet the brand of Destruction still writhes with anticipation. The one in a fugue who has experienced life and death and is given a new life... when would she be able to return home?',
+    path: paths.Nihility,
+    faction: factions.Xianzhou_Luofu,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 153,
+        base_atk: 79,
+        base_def: 75,
+        base_speed: 102,
+      },
+      level80: {
+        base_hp: 1125,
+        base_atk: 582,
+        base_def: 557,
+        base_speed: 102,
       },
     },
   },
