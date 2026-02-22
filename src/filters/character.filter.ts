@@ -19,7 +19,7 @@ export const characterFilters = {
       characterList.filter((c) => {
         const normalizedDataName = c.name.toLowerCase();
         return normalizedDataName.includes(search);
-      }) ?? null
+      }) ?? []
     );
   },
 
@@ -30,7 +30,7 @@ export const characterFilters = {
       characterList.filter((c) => {
         const normalizedDataName = c.desc.toLowerCase();
         return normalizedDataName.toLowerCase().includes(search);
-      }) ?? null
+      }) ?? []
     );
   },
 
