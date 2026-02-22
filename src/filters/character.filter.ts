@@ -6,10 +6,12 @@ const characterList = Object.values(characters);
 
 export const characterFilters = {
   all: (): Character[] => characterList,
+
   byId: (id: number): Character | null => {
     if (!isValidId(id)) return null;
     return characterList.find((c) => c.id === id) ?? null;
   },
+
   byName: (name: string): Character | null => {
     const search = sanitizeSearchString(name);
     if (!search) return null;
@@ -20,6 +22,18 @@ export const characterFilters = {
       }) ?? null
     );
   },
+
+  byDescription: (description: string): Character[] => {
+    const search = sanitizeSearchString(description);
+    if (!search) return [];
+    return (
+      characterList.filter((c) => {
+        const normalizedDataName = c.desc.toLowerCase();
+        return normalizedDataName.toLowerCase().includes(search);
+      }) ?? null
+    );
+  },
+
   byPath: (pathName: string): Character[] => {
     const search = sanitizeSearchString(pathName);
     if (!search) return [];
