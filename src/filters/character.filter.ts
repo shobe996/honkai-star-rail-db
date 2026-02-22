@@ -30,12 +30,10 @@ export const characterFilters = {
   byName: (name: string): Character[] => {
     const search = sanitizeSearchString(name);
     if (!search) return [];
-    return (
-      characterList.filter((c) => {
-        const normalizedDataName = c.name.toLowerCase();
-        return normalizedDataName.includes(search);
-      }) ?? []
-    );
+    return characterList.filter((c) => {
+      const normalizedDataName = c.name.toLowerCase();
+      return normalizedDataName.includes(search);
+    });
   },
 
   /**
@@ -47,12 +45,10 @@ export const characterFilters = {
   byDescription: (description: string): Character[] => {
     const search = sanitizeSearchString(description);
     if (!search) return [];
-    return (
-      characterList.filter((c) => {
-        const normalizedDataName = c.desc.toLowerCase();
-        return normalizedDataName.toLowerCase().includes(search);
-      }) ?? []
-    );
+    return characterList.filter((c) => {
+      const normalizedDataName = c.desc.toLowerCase();
+      return normalizedDataName.toLowerCase().includes(search);
+    });
   },
 
   /**
