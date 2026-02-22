@@ -56,4 +56,18 @@ export const characterFilters = {
     if (stars < 4 || stars > 5) return [];
     return characterList.filter((c) => c.rarity.rarity === stars);
   },
+
+  searchCharacters: (query: string): Character[] => {
+    const search = sanitizeSearchString(query);
+    if (!search) return [];
+
+    return characterList.filter(
+      (c) =>
+        c.name.toLowerCase().includes(search) ||
+        c.desc.toLowerCase().includes(search) ||
+        c.faction.name.toLowerCase().includes(search) ||
+        c.path.name.toLowerCase().includes(search) ||
+        c.type.name.toLowerCase().includes(search),
+    );
+  },
 };
