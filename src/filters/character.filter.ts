@@ -12,13 +12,13 @@ export const characterFilters = {
     return characterList.find((c) => c.id === id) ?? null;
   },
 
-  byName: (name: string): Character | null => {
+  byName: (name: string): Character[] => {
     const search = sanitizeSearchString(name);
-    if (!search) return null;
+    if (!search) return [];
     return (
-      characterList.find((c) => {
+      characterList.filter((c) => {
         const normalizedDataName = c.name.toLowerCase();
-        return normalizedDataName === search;
+        return normalizedDataName.includes(search);
       }) ?? null
     );
   },
