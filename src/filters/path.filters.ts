@@ -10,14 +10,12 @@ export const pathFilters = {
     if (!isValidId(id)) return null;
     return pathList.find((p) => p.id === id) ?? null;
   },
-  byName: (name: string): Path | null => {
+  byName: (name: string): Path[] => {
     const search = sanitizeSearchString(name);
-    if (!search) return null;
-    return (
-      pathList.find((p) => {
-        const normalizedDataName = p.name.trim().toLowerCase();
-        return normalizedDataName === search;
-      }) ?? null
-    );
+    if (!search) return [];
+    return pathList.filter((p) => {
+      const normalizedDataName = p.name.trim().toLowerCase();
+      return normalizedDataName.includes(search);
+    });
   },
 };
