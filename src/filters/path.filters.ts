@@ -4,7 +4,6 @@ import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 
 const pathList = Object.values(paths);
 
-// TODO: add method descriptions
 export const pathFilters = {
   /**
    * Returns all paths in the data set.
