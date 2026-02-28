@@ -12,12 +12,12 @@ export type PathName = keyof typeof paths;
 export type Path = (typeof paths)[PathName];
 
 export type RarityName = keyof typeof rarities;
-export type Rarity = {
+export interface Rarity {
   readonly id: number;
   readonly name: string;
   readonly value: number;
   readonly icon: string;
-};
+}
 
 export type TypeName = keyof typeof types;
 export interface Type {
