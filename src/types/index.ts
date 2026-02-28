@@ -9,7 +9,11 @@ export type FactionName = keyof typeof factions;
 export type Faction = (typeof factions)[FactionName];
 
 export type PathName = keyof typeof paths;
-export type Path = (typeof paths)[PathName];
+export interface Path {
+  readonly id: number;
+  readonly name: string;
+  readonly icon_url: string;
+}
 
 export type RarityName = keyof typeof rarities;
 export interface Rarity {
