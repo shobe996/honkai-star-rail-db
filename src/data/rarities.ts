@@ -1,3 +1,5 @@
+import { Rarity } from '../types';
+
 export const rarities = {
   Four_Star: {
     id: 1468,
@@ -11,4 +13,4 @@ export const rarities = {
     value: 5,
     icon: '✦'.repeat(5),
   },
-} as const;
+} as const satisfies Record<string, Rarity>;

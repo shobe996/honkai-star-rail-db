@@ -4,6 +4,7 @@ import { paths } from '../data/paths';
 import { rarities } from '../data/rarities';
 import { types } from '../data/types';
 
+// TODO: improve types
 export type FactionName = keyof typeof factions;
 export type Faction = (typeof factions)[FactionName];
 
@@ -11,7 +12,12 @@ export type PathName = keyof typeof paths;
 export type Path = (typeof paths)[PathName];
 
 export type RarityName = keyof typeof rarities;
-export type Rarity = (typeof rarities)[RarityName];
+export type Rarity = {
+  readonly id: number;
+  readonly name: string;
+  readonly value: number;
+  readonly icon: string;
+};
 
 export type TypeName = keyof typeof types;
 export interface Type {
