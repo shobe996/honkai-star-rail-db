@@ -20,5 +20,5 @@ export const rarityFilters = {
       }) ?? null
     );
   },
-  byValue: (val: 4 | 5): Rarity[] => rarityList.filter((r) => r.rarity === val),
+  byValue: (val: 4 | 5): Rarity[] => rarityList.filter((r) => r.value === val),
 };
