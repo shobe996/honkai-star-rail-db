@@ -12,7 +12,7 @@ export const typeFilters = {
   all: (): Type[] => typeList,
 
   /**
-   * Finds a type by their unique identifier.
+   * Finds a type by its unique identifier.
    * @param id - The unique numerical ID of the type.
    * @returns The matching type object, or null if not found or ID is invalid.
    */
