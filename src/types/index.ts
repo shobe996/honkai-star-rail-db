@@ -14,7 +14,11 @@ export type RarityName = keyof typeof rarities;
 export type Rarity = (typeof rarities)[RarityName];
 
 export type TypeName = keyof typeof types;
-export type Type = (typeof types)[TypeName];
+export interface Type {
+  readonly id: number;
+  readonly name: string;
+  readonly icon_url: string;
+}
 
 export type CharacterName = keyof typeof characters;
 export interface CharacterStats {
