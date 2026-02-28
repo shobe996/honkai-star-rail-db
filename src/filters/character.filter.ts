@@ -94,7 +94,7 @@ export const characterFilters = {
    */
   byRarity: (stars: number): Character[] => {
     if (stars < 4 || stars > 5) return [];
-    return characterList.filter((c) => c.rarity.rarity === stars);
+    return characterList.filter((c) => c.rarity.value === stars);
   },
 
   /**
