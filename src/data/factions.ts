@@ -1,3 +1,5 @@
+import { Faction } from '../types';
+
 export const factions = {
   Astral_Express: {
     id: 1496,
@@ -79,4 +81,4 @@ export const factions = {
     id: 3734,
     name: 'The Xianzhou Yuque',
   },
-} as const;
+} as const satisfies Record<string, Faction>;
