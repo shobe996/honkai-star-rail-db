@@ -10,13 +10,13 @@ export const rarityFilters = {
     if (!isValidId(id)) return null;
     return rarityList.find((r) => r.id === id) ?? null;
   },
-  byName: (name: string): Rarity | null => {
+  byName: (name: string): Rarity[] => {
     const search = sanitizeSearchString(name);
-    if (!search) return null;
+    if (!search) return [];
     return (
-      rarityList.find((r) => {
+      rarityList.filter((r) => {
         const normalizedDataName = r.name.trim().toLowerCase();
-        return normalizedDataName === search;
+        return normalizedDataName.includes(search);
       }) ?? null
     );
   },
