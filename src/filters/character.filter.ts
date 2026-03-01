@@ -47,7 +47,7 @@ export const characterFilters = {
     if (!search) return [];
     return characterList.filter((c) => {
       const normalizedDataName = c.desc.toLowerCase();
-      return normalizedDataName.toLowerCase().includes(search);
+      return normalizedDataName.includes(search);
     });
   },
 
