@@ -30,12 +30,10 @@ export const rarityFilters = {
   byName: (name: string): Rarity[] => {
     const search = sanitizeSearchString(name);
     if (!search) return [];
-    return (
-      rarityList.filter((r) => {
-        const normalizedDataName = r.name.trim().toLowerCase();
-        return normalizedDataName.includes(search);
-      }) ?? null
-    );
+    return rarityList.filter((r) => {
+      const normalizedDataName = r.name.trim().toLowerCase();
+      return normalizedDataName.includes(search);
+    });
   },
 
   /**
