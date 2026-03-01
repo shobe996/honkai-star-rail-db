@@ -1,8 +1,10 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 echo "--- Pre-Commit Safety Checks ---"
-npm run lint || exit 1
+
+# 1. Run lint-staged to fix/sort imports and re-stage files
+npx lint-staged || exit 1
+
+# 2. Security and Build checks
 npm audit || exit 1
 npm run build || exit 1
+
 echo "--- All checks passed! ---"
