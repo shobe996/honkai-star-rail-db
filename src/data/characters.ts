@@ -1,5 +1,5 @@
 import { factions, paths, rarities, types } from '../data';
-import { Character } from '../types';
+import { Character } from '../types/characters';
 
 export const characters = {
   Trailblazer_Destruction: {

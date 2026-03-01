@@ -1,5 +1,5 @@
 import { characters } from '../data';
-import { Character } from '../types';
+import { Character } from '../types/characters';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 
 const characterList = Object.values(characters);
