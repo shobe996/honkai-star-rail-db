@@ -1,3 +1,12 @@
+## [1.1.6](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.5...v1.1.6) (2026-03-07)
+
+
+### Bug Fixes
+
+* add --ignore-scripts flag to npm publish command ([4a93621](https://github.com/shobe996/honkai-star-rail-db/commit/4a93621492b270ee42febc13e87c42230b49797a))
+
+
+
 ## [1.1.5](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.4...v1.1.5) (2026-03-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * update lint:fix script for flat config compatibility ([e14031a](https://github.com/shobe996/honkai-star-rail-db/commit/e14031a040a216f2893452eefe34eb96490dc0c7))
-
-
-
-## [1.1.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.0...v1.1.1) (2026-03-07)
-
-
-### Bug Fixes
-
-* update lint script for flat config compatibility ([9bee5f8](https://github.com/shobe996/honkai-star-rail-db/commit/9bee5f837baf06019b7571492bf6dde44c2c5316))
 
 
 
