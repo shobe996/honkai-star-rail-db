@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "husky",
+    "prepare": "node .husky/install.mjs",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --check \"src/**/*.ts\"",
