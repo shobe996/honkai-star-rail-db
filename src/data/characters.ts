@@ -2027,4 +2027,29 @@ export const characters = {
       },
     },
   },
+  Sparxie: {
+    id: 4737,
+    name: 'Sparxie',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0250d/48599b938bfa1cd6864294dba504d2da.png',
+    desc: 'Like! Follow! Stream! Views! Party till the world ends! Sparxie and Sparkle, the Mask and the Fool are fundamentally the same. Whoever is seen, whoever is liked, is the correct answer!',
+    path: paths.Elation,
+    faction: factions.Masked_Fool,
+    rarity: rarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 143,
+        base_atk: 87,
+        base_def: 62,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 640,
+        base_def: 460,
+        base_speed: 107,
+      },
+    },
+  },
 } as const satisfies Record<string, Character>;
