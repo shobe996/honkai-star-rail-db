@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.0...v1.1.1) (2026-03-07)
+
+
+### Bug Fixes
+
+* update lint script for flat config compatibility ([9bee5f8](https://github.com/shobe996/honkai-star-rail-db/commit/9bee5f837baf06019b7571492bf6dde44c2c5316))
+
+
+
 # [1.1.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.0.0...v1.1.0) (2026-03-07)
 
 
