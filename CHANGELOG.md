@@ -1,3 +1,13 @@
+## [1.1.5](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.4...v1.1.5) (2026-03-07)
+
+
+### Bug Fixes
+
+* remove prepublishOnly script and revert publish yaml and scripts to default setup ([d613cd9](https://github.com/shobe996/honkai-star-rail-db/commit/d613cd9c70b848b97d10e01920d32087d06ca991))
+* revert the version from 1.1.0 to 1.1.4 ([a912552](https://github.com/shobe996/honkai-star-rail-db/commit/a9125525099cc7d42637818c81d0c61fd4a61433))
+
+
+
 ## [1.1.4](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.3...v1.1.4) (2026-03-07)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * update lint script for flat config compatibility ([9bee5f8](https://github.com/shobe996/honkai-star-rail-db/commit/9bee5f837baf06019b7571492bf6dde44c2c5316))
-
-
-
-# [1.1.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.0.0...v1.1.0) (2026-03-07)
-
-
-### Features
-
-* **character:** add Sparxie into character dataset ([db995fa](https://github.com/shobe996/honkai-star-rail-db/commit/db995fa0eeeb8a41730f9a97269196002f350329))
 
 
 
