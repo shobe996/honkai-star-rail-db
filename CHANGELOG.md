@@ -1,3 +1,12 @@
+## [1.1.7](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.6...v1.1.7) (2026-03-07)
+
+
+### Bug Fixes
+
+* modify prepare script to use install.mjs ([e5b115e](https://github.com/shobe996/honkai-star-rail-db/commit/e5b115edef39f08420e066587657a59a5f197622))
+
+
+
 ## [1.1.6](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.5...v1.1.6) (2026-03-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * update scripts to point to the local binary in node_modules ([eb8b074](https://github.com/shobe996/honkai-star-rail-db/commit/eb8b074fc8bcbf84af41e1d7e52d62a123aace53))
-
-
-
-## [1.1.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.1...v1.1.2) (2026-03-07)
-
-
-### Bug Fixes
-
-* update lint:fix script for flat config compatibility ([e14031a](https://github.com/shobe996/honkai-star-rail-db/commit/e14031a040a216f2893452eefe34eb96490dc0c7))
 
 
 
