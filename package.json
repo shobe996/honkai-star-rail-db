@@ -9,12 +9,12 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --check \"src/**/*.ts\"",
-    "format:fix": "prettier --write \"src/**/*.ts\"",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "format": "./node_modules/.bin/prettier --check .",
+    "format:fix": "./node_modules/.bin/prettier --write .",
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && ./node_modules/.bin/tsc",
     "prepublishOnly": "npm run lint && npm run build"
   },
   "publishConfig": {
