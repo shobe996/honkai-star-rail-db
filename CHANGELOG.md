@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.2...v1.1.3) (2026-03-07)
+
+
+### Bug Fixes
+
+* update scripts to point to the local binary in node_modules ([eb8b074](https://github.com/shobe996/honkai-star-rail-db/commit/eb8b074fc8bcbf84af41e1d7e52d62a123aace53))
+
+
+
 ## [1.1.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.1...v1.1.2) (2026-03-07)
 
 
