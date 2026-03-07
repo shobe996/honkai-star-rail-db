@@ -1,6 +1,6 @@
 {
   "name": "honkai-star-rail-db",
-  "version": "1.1.4",
+  "version": "1.1.0",
   "description": "A type-safe database for Honkai: Star Rail characters and assets.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,13 +9,12 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "lint": "./node_modules/.bin/eslint .",
-    "lint:fix": "./node_modules/.bin/eslint . --fix",
-    "format": "./node_modules/.bin/prettier --check .",
-    "format:fix": "./node_modules/.bin/prettier --write .",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\"",
     "clean": "rm -rf dist",
-    "build": "npm run clean && ./node_modules/.bin/tsc",
-    "prepublishOnly": "npm run lint && npm run build"
+    "build": "npm run clean && tsc"
   },
   "publishConfig": {
     "access": "public"
