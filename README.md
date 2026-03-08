@@ -119,6 +119,24 @@ const globalSearch: Character[] = characterFilters.searchCharacters(
 
 // Find single character by ID (non-paginated)
 const acheron: Character | null = characterFilters.byId(1308);
+
+// Find characters that are either 'Destruction' path OR 'Fire' type
+const results = characterFilters.byAttributes({
+  path: 'Destruction',
+  type: 'Fire',
+});
+
+// Find characters matching one or more criteria simultaneously. It performs an **OR** operation, meaning it will return any character that satisfies at least one of the provided search parameters.
+const customSearch = characterFilters.byAttributes({
+  name: 'March',
+  faction: 'Astral Express',
+});
+```
+
+
+
+```typescript
+
 ```
 
 ### Faction Filters
