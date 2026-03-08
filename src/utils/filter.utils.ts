@@ -38,3 +38,27 @@ export const sanitizeSearchString = (
 export const isValidId = (id: unknown): id is number => {
   return typeof id === 'number' && Number.isSafeInteger(id) && id > 0;
 };
+
+/**
+ * Safely compares a data string against a search criterion.
+ * Returns true if the criterion is empty (AND logic),
+ * or if the data string includes the sanitized criterion.
+ */
+export const matches = (
+  dataVal: string | undefined,
+  criteriaVal?: string | null,
+): boolean => {
+  // If criteria is null, undefined, or just whitespace, IGNORE this filter (return true)
+  if (!criteriaVal || criteriaVal.trim() === '') return true;
+
+  // If dataVal is missing in the character data, it cannot match, return false
+  if (!dataVal) return false;
+
+  const sanitized = sanitizeSearchString(criteriaVal);
+
+  // Only proceed if sanitized result exists and matches
+  return (
+    sanitized !== null &&
+    dataVal.toLowerCase().includes(sanitized.toLowerCase())
+  );
+};
