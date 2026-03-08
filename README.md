@@ -95,18 +95,30 @@ Includes foundational attributes used for scaling:
 
 ### Character Filters
 
+Most character filters now support optional pagination parameters (page and size). If left blank, they default to a large page size to ensure you receive all results by default.
+
 ```typescript
 import { Character, characterFilters } from 'honkai-star-rail-db';
 
-const allChars: Character[] = characterFilters.all();
-const acheron: Character | null = characterFilters.byId(1308);
-const march: Character[] = characterFilters.byName('March 7th');
-const loreSearch: Character[] = characterFilters.byDescription('Galaxy Ranger');
+// Get all characters (page 1, 10 items per page)
+const allChars: Character[] = characterFilters.all(1, 10);
+
+// Search by name with pagination (page 2, 5 items per page)
+const march: Character[] = characterFilters.byName('March 7th', 2, 5);
+
+// Filter by Path or Faction (defaults to all results)
 const destructionChars: Character[] = characterFilters.byPath('Destruction');
-const fireChars: Character[] = characterFilters.byType('Fire');
 const expressCrew: Character[] = characterFilters.byFaction('Astral Express');
-const fiveStars: Character[] = characterFilters.byRarity(5);
-const globalSearch: Character[] = characterFilters.searchCharacters('Quantum');
+
+// Broad search
+const globalSearch: Character[] = characterFilters.searchCharacters(
+  'Quantum',
+  1,
+  20,
+);
+
+// Find single character by ID (non-paginated)
+const acheron: Character | null = characterFilters.byId(1308);
 ```
 
 ### Faction Filters
