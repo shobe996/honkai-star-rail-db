@@ -1,5 +1,6 @@
 import { characters } from '../data';
 import { Character } from '../types/characters';
+import { PaginatedResult } from '../types/pagination.types';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
@@ -12,7 +13,7 @@ export const characterFilters = {
    * @param size - The number of characters to return per page (defaults to 999).
    * @returns An array of characters for the requested page.
    */
-  all: (page: number = 1, size: number = 999): Character[] =>
+  all: (page: number = 1, size: number = 999): PaginatedResult<Character> =>
     paginate(characterList, page, size),
 
   /**
@@ -32,9 +33,13 @@ export const characterFilters = {
    * @param size - The number of characters to return per page (defaults to 999).
    * @returns An array of characters whose names contain the search string.
    */
-  byName: (name: string, page: number = 1, size: number = 999): Character[] => {
+  byName: (
+    name: string,
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(name);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) =>
       c.name.toLowerCase().includes(search),
     );
@@ -52,9 +57,9 @@ export const characterFilters = {
     description: string,
     page: number = 1,
     size: number = 10,
-  ): Character[] => {
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(description);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) =>
       c.desc.toLowerCase().includes(search),
     );
@@ -72,9 +77,9 @@ export const characterFilters = {
     pathName: string,
     page: number = 1,
     size: number = 999,
-  ): Character[] => {
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(pathName);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) =>
       c.path.name.toLowerCase().includes(search),
     );
@@ -92,9 +97,9 @@ export const characterFilters = {
     typeName: string,
     page: number = 1,
     size: number = 999,
-  ): Character[] => {
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(typeName);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) =>
       c.type.name.toLowerCase().includes(search),
     );
@@ -112,9 +117,9 @@ export const characterFilters = {
     factionName: string,
     page: number = 1,
     size: number = 999,
-  ): Character[] => {
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(factionName);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) =>
       c.faction.name.toLowerCase().includes(search),
     );
@@ -132,8 +137,9 @@ export const characterFilters = {
     stars: number,
     page: number = 1,
     size: number = 999,
-  ): Character[] => {
-    if (stars < 4 || stars > 5) return [];
+  ): PaginatedResult<Character> => {
+    if (stars < 4 || stars > 5)
+      return { data: [], total: 0, hasMore: false, page, size };
     const filtered = characterList.filter((c) => c.rarity.value === stars);
     return paginate(filtered, page, size);
   },
@@ -149,9 +155,9 @@ export const characterFilters = {
     query: string,
     page: number = 1,
     size: number = 999,
-  ): Character[] => {
+  ): PaginatedResult<Character> => {
     const search = sanitizeSearchString(query);
-    if (!search) return [];
+    if (!search) return { data: [], total: 0, hasMore: false, page, size };
 
     const filtered = characterList.filter(
       (c) =>

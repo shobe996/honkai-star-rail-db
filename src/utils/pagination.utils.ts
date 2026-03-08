@@ -6,7 +6,7 @@
  * @param data - The source array to paginate.
  * @param page - The current page number (1-based index).
  * @param size - The number of items to display per page.
- * @returns A sub-array containing the items for the requested page.
+ * @returns A PaginatedResult containing the data slice and metadata.
  */
 export const paginate = <T>(data: T[], page: number, size: number): T[] => {
   // Ensure page and size are at least 1 to prevent unexpected slice behavior
@@ -19,5 +19,14 @@ export const paginate = <T>(data: T[], page: number, size: number): T[] => {
   const startIndex = (currentPage - 1) * pageSize;
 
   // Return the specific slice for the requested page
-  return data.slice(startIndex, startIndex + pageSize);
+  const paginatedData = data.slice(startIndex, startIndex + pageSize);
+
+  return {
+    data: paginatedData,
+    total: data.length,
+    // hasMore is true if the current page slice does not reach the end of the total data
+    hasMore: startIndex + paginatedData.length < data.length,
+    page: currentPage,
+    size: pageSize,
+  };
 };
