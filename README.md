@@ -138,12 +138,6 @@ const customSearch = characterFilters.byAttributes({
 });
 ```
 
-
-
-```typescript
-
-```
-
 ### Faction Filters
 
 ```typescript
