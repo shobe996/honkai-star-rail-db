@@ -1,7 +1,12 @@
 import { characters } from '../data';
 import { Character } from '../types/characters';
+import { CharacterSearchCriteria } from '../types/characters/character-criteria.types';
 import { PaginatedResult } from '../types/pagination.types';
-import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
+import {
+  isValidId,
+  matches,
+  sanitizeSearchString,
+} from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
 const characterList = Object.values(characters);
@@ -167,6 +172,56 @@ export const characterFilters = {
         c.path.name.toLowerCase().includes(search) ||
         c.type.name.toLowerCase().includes(search),
     );
+    return paginate(filtered, page, size);
+  },
+  /**
+   * Filters characters based on multiple criteria.
+   * Performs an OR operation across fields (matches if any provided criteria match).
+   * @param criteria - Object containing search parameters.
+   * @param page - Current page number.
+   * @param size - Items per page.
+   * @returns Array of characters matching at least one criterion.
+   */
+  byAttributes: (
+    criteria: CharacterSearchCriteria,
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
+    const filtered = characterList.filter((c) => {
+      // Check if any filter is actually active
+      const isNameActive = criteria.name?.trim();
+      const isDescActive = criteria.description?.trim();
+      const isPathActive = criteria.path?.trim();
+      const isTypeActive = criteria.type?.trim();
+      const isFactionActive = criteria.faction?.trim();
+      const isRarityActive =
+        criteria.rarity !== undefined &&
+        criteria.rarity !== null &&
+        !isNaN(criteria.rarity);
+
+      // If no filters are active, return all characters
+      if (
+        !isNameActive &&
+        !isDescActive &&
+        !isPathActive &&
+        !isTypeActive &&
+        !isFactionActive &&
+        !isRarityActive
+      ) {
+        return true;
+      }
+
+      // Return true only if all active filters pass
+      return (
+        (isNameActive ? matches(c.name, criteria.name) : true) &&
+        (isDescActive ? matches(c.desc, criteria.description) : true) &&
+        (isPathActive ? matches(c.path?.name, criteria.path) : true) &&
+        (isTypeActive ? matches(c.type?.name, criteria.type) : true) &&
+        (isFactionActive ? matches(c.faction?.name, criteria.faction) : true) &&
+        (isRarityActive ? c.rarity?.value === criteria.rarity : true)
+      );
+    });
+
     return paginate(filtered, page, size);
   },
 };
