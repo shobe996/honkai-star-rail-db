@@ -26,6 +26,8 @@ export const characters = {
         base_speed: 100,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   March_7th_Preservation: {
     id: 7,
@@ -51,6 +53,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Dan_Heng: {
     id: 8,
@@ -76,6 +80,8 @@ export const characters = {
         base_speed: 110,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Himeko: {
     id: 9,
@@ -101,6 +107,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Welt: {
     id: 10,
@@ -126,6 +134,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Arlan: {
     id: 11,
@@ -151,6 +161,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Asta: {
     id: 12,
@@ -176,6 +188,8 @@ export const characters = {
         base_speed: 106,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Herta: {
     id: 13,
@@ -201,6 +215,8 @@ export const characters = {
         base_speed: 100,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Bronya: {
     id: 14,
@@ -226,6 +242,8 @@ export const characters = {
         base_speed: 99,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Seele: {
     id: 15,
@@ -251,6 +269,8 @@ export const characters = {
         base_speed: 115,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Serval: {
     id: 16,
@@ -276,6 +296,8 @@ export const characters = {
         base_speed: 104,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Gepard: {
     id: 17,
@@ -301,6 +323,8 @@ export const characters = {
         base_speed: 92,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Natasha: {
     id: 18,
@@ -326,6 +350,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Pela: {
     id: 19,
@@ -351,6 +377,8 @@ export const characters = {
         base_speed: 105,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Clara: {
     id: 20,
@@ -376,6 +404,8 @@ export const characters = {
         base_speed: 90,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Sampo: {
     id: 21,
@@ -401,6 +431,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Hook: {
     id: 22,
@@ -426,6 +458,8 @@ export const characters = {
         base_speed: 94,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Trailblazer_Preservation: {
     id: 23,
@@ -451,6 +485,8 @@ export const characters = {
         base_speed: 95,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Qingque: {
     id: 24,
@@ -476,6 +512,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Tingyun: {
     id: 25,
@@ -501,6 +539,8 @@ export const characters = {
         base_speed: 112,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Jing_Yuan: {
     id: 26,
@@ -526,6 +566,8 @@ export const characters = {
         base_speed: 99,
       },
     },
+    release_date: new Date('2023-05-17'),
+    splash_art_url: '',
   },
   Sushang: {
     id: 27,
@@ -551,6 +593,8 @@ export const characters = {
         base_speed: 107,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Yanqing: {
     id: 28,
@@ -576,6 +620,8 @@ export const characters = {
         base_speed: 109,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Bailu: {
     id: 29,
@@ -601,6 +647,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2023-04-26'),
+    splash_art_url: '',
   },
   Silver_Wolf: {
     id: 710,
@@ -626,6 +674,8 @@ export const characters = {
         base_speed: 107,
       },
     },
+    release_date: new Date('2023-06-07'),
+    splash_art_url: '',
   },
   Luocha: {
     id: 711,
@@ -651,6 +701,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2023-06-28'),
+    splash_art_url: '',
   },
   Yukong: {
     id: 712,
@@ -676,6 +728,8 @@ export const characters = {
         base_speed: 107,
       },
     },
+    release_date: new Date('2023-06-28'),
+    splash_art_url: '',
   },
   Blade: {
     id: 789,
@@ -701,6 +755,8 @@ export const characters = {
         base_speed: 97,
       },
     },
+    release_date: new Date('2023-07-19'),
+    splash_art_url: '',
   },
   Kafka: {
     id: 791,
@@ -726,6 +782,8 @@ export const characters = {
         base_speed: 100,
       },
     },
+    release_date: new Date('2023-08-09'),
+    splash_art_url: '',
   },
   Luka: {
     id: 801,
@@ -751,6 +809,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2023-08-09'),
+    splash_art_url: '',
   },
   Fu_Xuan: {
     id: 804,
@@ -776,6 +836,8 @@ export const characters = {
         base_speed: 100,
       },
     },
+    release_date: new Date('2023-09-20'),
+    splash_art_url: '',
   },
   Dan_Heng_Imbibitor_Lunae: {
     id: 1226,
@@ -801,6 +863,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2023-08-30'),
+    splash_art_url: '',
   },
   Lynx: {
     id: 1228,
@@ -826,6 +890,8 @@ export const characters = {
         base_speed: 100,
       },
     },
+    release_date: new Date('2023-09-20'),
+    splash_art_url: '',
   },
   Jingliu: {
     id: 1387,
@@ -851,6 +917,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2023-10-11'),
+    splash_art_url: '',
   },
   Topaz_and_Numby: {
     id: 1389,
@@ -876,6 +944,8 @@ export const characters = {
         base_speed: 110,
       },
     },
+    release_date: new Date('2023-10-27'),
+    splash_art_url: '',
   },
   Guinaifen: {
     id: 1392,
@@ -901,6 +971,8 @@ export const characters = {
         base_speed: 106,
       },
     },
+    release_date: new Date('2023-10-27'),
+    splash_art_url: '',
   },
   Huohuo: {
     id: 1533,
@@ -926,6 +998,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2023-11-15'),
+    splash_art_url: '',
   },
   Argenti: {
     id: 1535,
@@ -951,6 +1025,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2023-12-06'),
+    splash_art_url: '',
   },
   Hanya: {
     id: 1537,
@@ -976,6 +1052,8 @@ export const characters = {
         base_speed: 110,
       },
     },
+    release_date: new Date('2023-12-06'),
+    splash_art_url: '',
   },
   Ruan_Mei: {
     id: 1638,
@@ -1001,6 +1079,8 @@ export const characters = {
         base_speed: 104,
       },
     },
+    release_date: new Date('2023-12-27'),
+    splash_art_url: '',
   },
   Dr_Ratio: {
     id: 1639,
@@ -1026,6 +1106,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2024-01-17'),
+    splash_art_url: '',
   },
   Xueyi: {
     id: 1640,
@@ -1051,6 +1133,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2023-12-27'),
+    splash_art_url: '',
   },
   Black_Swan: {
     id: 1806,
@@ -1076,6 +1160,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2024-02-06'),
+    splash_art_url: '',
   },
   Sparkle: {
     id: 1807,
@@ -1101,6 +1187,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2024-02-29'),
+    splash_art_url: '',
   },
   Misha: {
     id: 1808,
@@ -1126,6 +1214,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2024-02-06'),
+    splash_art_url: '',
   },
   Acheron: {
     id: 1919,
@@ -1151,6 +1241,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2024-03-27'),
+    splash_art_url: '',
   },
   Aventurine: {
     id: 1920,
@@ -1176,6 +1268,8 @@ export const characters = {
         base_speed: 106,
       },
     },
+    release_date: new Date('2024-04-17'),
+    splash_art_url: '',
   },
   Gallagher: {
     id: 1924,
@@ -1201,6 +1295,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2024-03-27'),
+    splash_art_url: '',
   },
   Robin: {
     id: 2366,
@@ -1226,6 +1322,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2024-05-08'),
+    splash_art_url: '',
   },
   Boothill: {
     id: 2367,
@@ -1251,6 +1349,8 @@ export const characters = {
         base_speed: 107,
       },
     },
+    release_date: new Date('2023-05-29'),
+    splash_art_url: '',
   },
   Firefly: {
     id: 2494,
@@ -1276,6 +1376,8 @@ export const characters = {
         base_speed: 104,
       },
     },
+    release_date: new Date('2024-06-19'),
+    splash_art_url: '',
   },
   Jade: {
     id: 2495,
@@ -1301,6 +1403,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2024-07-10'),
+    splash_art_url: '',
   },
   Trailblazer_Harmony: {
     id: 2511,
@@ -1326,6 +1430,8 @@ export const characters = {
         base_speed: 105,
       },
     },
+    release_date: new Date('2024-05-08'),
+    splash_art_url: '',
   },
   Yunli: {
     id: 2642,
@@ -1351,6 +1457,8 @@ export const characters = {
         base_speed: 94,
       },
     },
+    release_date: new Date('2024-07-31'),
+    splash_art_url: '',
   },
   Jiaoqiu: {
     id: 2643,
@@ -1376,6 +1484,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2024-08-21'),
+    splash_art_url: '',
   },
   March_7th_Hunt: {
     id: 2657,
@@ -1401,6 +1511,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2024-07-31'),
+    splash_art_url: '',
   },
   Feixiao: {
     id: 2947,
@@ -1426,6 +1538,8 @@ export const characters = {
         base_speed: 112,
       },
     },
+    release_date: new Date('2024-09-10'),
+    splash_art_url: '',
   },
   Lingsha: {
     id: 2948,
@@ -1451,6 +1565,8 @@ export const characters = {
         base_speed: 98,
       },
     },
+    release_date: new Date('2024-10-02'),
+    splash_art_url: '',
   },
   Moze: {
     id: 2949,
@@ -1476,6 +1592,8 @@ export const characters = {
         base_speed: 111,
       },
     },
+    release_date: new Date('2024-09-10'),
+    splash_art_url: '',
   },
   Rappa: {
     id: 3057,
@@ -1501,6 +1619,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2024-10-23'),
+    splash_art_url: '',
   },
   Sunday: {
     id: 3150,
@@ -1526,6 +1646,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2024-12-04'),
+    splash_art_url: '',
   },
   Fugue: {
     id: 3151,
@@ -1551,6 +1673,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2024-12-25'),
+    splash_art_url: '',
   },
   The_Herta: {
     id: 3285,
@@ -1576,6 +1700,8 @@ export const characters = {
         base_speed: 99,
       },
     },
+    release_date: new Date('2025-01-15'),
+    splash_art_url: '',
   },
   Aglaea: {
     id: 3286,
@@ -1601,6 +1727,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2025-02-05'),
+    splash_art_url: '',
   },
   Trailblazer_Remembrance: {
     id: 3287,
@@ -1626,6 +1754,8 @@ export const characters = {
         base_speed: 103,
       },
     },
+    release_date: new Date('2025-01-15'),
+    splash_art_url: '',
   },
   Tribbie: {
     id: 3322,
@@ -1651,6 +1781,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2025-02-26'),
+    splash_art_url: '',
   },
   Mydei: {
     id: 3324,
@@ -1676,6 +1808,8 @@ export const characters = {
         base_speed: 95,
       },
     },
+    release_date: new Date('2025-03-19'),
+    splash_art_url: '',
   },
   Castorice: {
     id: 3560,
@@ -1701,6 +1835,8 @@ export const characters = {
         base_speed: 95,
       },
     },
+    release_date: new Date('2025-04-09'),
+    splash_art_url: '',
   },
   Anaxa: {
     id: 3561,
@@ -1726,6 +1862,8 @@ export const characters = {
         base_speed: 97,
       },
     },
+    release_date: new Date('2025-04-30'),
+    splash_art_url: '',
   },
   Hyacine: {
     id: 3688,
@@ -1751,6 +1889,8 @@ export const characters = {
         base_speed: 110,
       },
     },
+    release_date: new Date('2025-05-21'),
+    splash_art_url: '',
   },
   Cipher: {
     id: 3691,
@@ -1776,6 +1916,8 @@ export const characters = {
         base_speed: 106,
       },
     },
+    release_date: new Date('2025-06-11'),
+    splash_art_url: '',
   },
   Saber: {
     id: 3767,
@@ -1801,6 +1943,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2025-07-11'),
+    splash_art_url: '',
   },
   Archer: {
     id: 3768,
@@ -1826,6 +1970,8 @@ export const characters = {
         base_speed: 105,
       },
     },
+    release_date: new Date('2025-07-11'),
+    splash_art_url: '',
   },
   Phainon: {
     id: 3769,
@@ -1851,6 +1997,8 @@ export const characters = {
         base_speed: 94,
       },
     },
+    release_date: new Date('2025-07-02'),
+    splash_art_url: '',
   },
   Hysilens: {
     id: 3885,
@@ -1876,6 +2024,8 @@ export const characters = {
         base_speed: 102,
       },
     },
+    release_date: new Date('2025-08-13'),
+    splash_art_url: '',
   },
   Cerydra: {
     id: 3886,
@@ -1901,6 +2051,8 @@ export const characters = {
         base_speed: 99,
       },
     },
+    release_date: new Date('2025-09-02'),
+    splash_art_url: '',
   },
   Evernight: {
     id: 3956,
@@ -1926,6 +2078,8 @@ export const characters = {
         base_speed: 99,
       },
     },
+    release_date: new Date('2025-09-24'),
+    splash_art_url: '',
   },
   Dan_Heng_Permansor_Terrae: {
     id: 3957,
@@ -1951,6 +2105,8 @@ export const characters = {
         base_speed: 97,
       },
     },
+    release_date: new Date('2025-10-15'),
+    splash_art_url: '',
   },
   Cyrene: {
     id: 4003,
@@ -1976,6 +2132,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2025-11-05'),
+    splash_art_url: '',
   },
   The_Dahlia: {
     id: 4060,
@@ -2001,6 +2159,8 @@ export const characters = {
         base_speed: 96,
       },
     },
+    release_date: new Date('2025-12-17'),
+    splash_art_url: '',
   },
   Yao_Guang: {
     id: 4736,
@@ -2026,6 +2186,8 @@ export const characters = {
         base_speed: 101,
       },
     },
+    release_date: new Date('2026-02-13'),
+    splash_art_url: '',
   },
   Sparxie: {
     id: 4737,
@@ -2051,5 +2213,7 @@ export const characters = {
         base_speed: 107,
       },
     },
+    release_date: new Date('2026-03-03'),
+    splash_art_url: '',
   },
 } as const satisfies Record<string, Character>;
