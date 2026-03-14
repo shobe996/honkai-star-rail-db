@@ -10,6 +10,9 @@ import {
 import { paginate } from '../utils/pagination.utils';
 
 const characterList = Object.values(characters);
+const characterMap = new Map<number, Character>(
+  Object.values(characters).map((c) => [c.id, c]),
+);
 
 export const characterFilters = {
   /**
@@ -28,7 +31,7 @@ export const characterFilters = {
    */
   byId: (id: number): Character | null => {
     if (!isValidId(id)) return null;
-    return characterList.find((c) => c.id === id) ?? null;
+    return characterMap.get(id) ?? null;
   },
 
   /**
