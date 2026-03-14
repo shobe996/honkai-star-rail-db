@@ -238,14 +238,18 @@ export const characterFilters = {
   byReleaseDateRange: (
     start: Date | string,
     end: Date | string,
-  ): Character[] => {
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
     const startTime = toTimestamp(start);
     const endTime = toTimestamp(end);
 
-    return characterList.filter((c) => {
+    const filtered = characterList.filter((c) => {
       const charTime = c.release_date.getTime();
       return charTime >= startTime && charTime <= endTime;
     });
+
+    return paginate(filtered, page, size);
   },
 
   /**
@@ -253,11 +257,17 @@ export const characterFilters = {
    * @param targetDate - date on which characters were released
    * @returns Array of characters released on a specific date.
    */
-  byExactReleaseDate: (targetDate: Date | string): Character[] => {
+  byExactReleaseDate: (
+    targetDate: Date | string,
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
     const targetStr = toDateKey(targetDate);
 
-    return characterList.filter((c) => {
+    const filtered = characterList.filter((c) => {
       return toDateKey(c.release_date) === targetStr;
     });
+
+    return paginate(filtered, page, size);
   },
 };
