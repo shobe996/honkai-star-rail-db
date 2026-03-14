@@ -6,6 +6,8 @@ import {
   isValidId,
   matches,
   sanitizeSearchString,
+  toDateKey,
+  toTimestamp,
 } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
@@ -226,5 +228,36 @@ export const characterFilters = {
     });
 
     return paginate(filtered, page, size);
+  },
+  /**
+   * Filters a list of characters released within a specific date range.
+   * @param start - The inclusive start date.
+   * @param end - The inclusive end date.
+   * @returns Array of characters released within a specific date range.
+   */
+  byReleaseDateRange: (
+    start: Date | string,
+    end: Date | string,
+  ): Character[] => {
+    const startTime = toTimestamp(start);
+    const endTime = toTimestamp(end);
+
+    return characterList.filter((c) => {
+      const charTime = c.release_date.getTime();
+      return charTime >= startTime && charTime <= endTime;
+    });
+  },
+
+  /**
+   * Filters for characters released on an exact date.
+   * @param targetDate - date on which characters were released
+   * @returns Array of characters released on a specific date.
+   */
+  byExactReleaseDate: (targetDate: Date | string): Character[] => {
+    const targetStr = toDateKey(targetDate);
+
+    return characterList.filter((c) => {
+      return toDateKey(c.release_date) === targetStr;
+    });
   },
 };
