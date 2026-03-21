@@ -37,4 +37,14 @@ export interface Character {
    * Note: These exclude bonuses from Light Cones, Relics, and Traces.
    */
   readonly stats: CharacterLevelStats;
+
+  /**
+   * The official release date of the character in the game.
+   */
+  readonly release_date: Date;
+
+  /**
+   * A URL or path string pointing to the high-resolution splash art image.
+   */
+  readonly splash_art_url: string;
 }

@@ -62,3 +62,22 @@ export const matches = (
     dataVal.toLowerCase().includes(sanitized.toLowerCase())
   );
 };
+
+/**
+ * Helper to normalize any input (Date or string) into a standard YYYY-MM-DD string.
+ * @param date - date to normalize.
+ * @returns normalized string date in format 'YYYY-MM-DD'.
+ */
+export const toDateKey = (date: Date | string): string => {
+  const d = new Date(date);
+  return d.toISOString().split('T')[0];
+};
+
+/**
+ * Normalizes an input to a sortable numeric timestamp.
+ * @param date - date to normalize.
+ * @returns stored time value in milliseconds
+ */
+export const toTimestamp = (date: Date | string): number => {
+  return new Date(date).getTime();
+};
