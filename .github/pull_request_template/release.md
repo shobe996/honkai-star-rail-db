@@ -3,7 +3,7 @@
 Release vX.Y.Z: Introduces...
 
 ## Included Features
-* **Added:** pagination to character filters and filter by attributes
+* **Added:** [Mention all features added]
 * **Fixed:** [Mention any critical bug fixes]
 
 ## Verification

@@ -8,6 +8,6 @@ This PR introduces...
 ## Breaking Changes
 * List breaking changes
 
-## Testing
+## Verification
 - [ ] List performed tests
 - [ ] Ran npm run build to ensure type definitions are correct.
