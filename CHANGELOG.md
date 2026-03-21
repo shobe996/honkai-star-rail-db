@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.2.0...v1.3.0) (2026-03-21)
+
+
+### Features
+
+* add filtering by target date and date range ([efdf274](https://github.com/shobe996/honkai-star-rail-db/commit/efdf2748d14e1b93552eca580f1de5c190758eca))
+* add new fields release_date and splash _art_url ([325744c](https://github.com/shobe996/honkai-star-rail-db/commit/325744c9af38e32653403c524eff6252c9c02a54))
+* update splash_art_url for all characters ([ef9d6e2](https://github.com/shobe996/honkai-star-rail-db/commit/ef9d6e2706509acf91789352b4a6c145dbbaaac9))
+
+
+### Performance Improvements
+
+* **data:** implement O(1) lookup registry for characters ([dcfd199](https://github.com/shobe996/honkai-star-rail-db/commit/dcfd199531f47eb4c26ff9213d0e4b6d2be9ec1b))
+
+
+
 # [1.2.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.8...v1.2.0) (2026-03-08)
 
 
@@ -38,16 +54,6 @@
 ### Bug Fixes
 
 * add --ignore-scripts flag to npm publish command ([4a93621](https://github.com/shobe996/honkai-star-rail-db/commit/4a93621492b270ee42febc13e87c42230b49797a))
-
-
-
-## [1.1.5](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.4...v1.1.5) (2026-03-07)
-
-
-### Bug Fixes
-
-* remove prepublishOnly script and revert publish yaml and scripts to default setup ([d613cd9](https://github.com/shobe996/honkai-star-rail-db/commit/d613cd9c70b848b97d10e01920d32087d06ca991))
-* revert the version from 1.1.0 to 1.1.4 ([a912552](https://github.com/shobe996/honkai-star-rail-db/commit/a9125525099cc7d42637818c81d0c61fd4a61433))
 
 
 
