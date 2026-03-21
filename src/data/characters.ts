@@ -27,7 +27,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6f/Character_Trailblazer_%28F%29_Destruction_Splash_Art.png/revision/latest?cb=20230501005741',
   },
   March_7th_Preservation: {
     id: 7,
@@ -54,7 +55,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_March_7th_%28Preservation%29_Splash_Art.png/revision/latest?cb=20230525090156',
   },
   Dan_Heng: {
     id: 8,
@@ -81,7 +83,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e5/Character_Dan_Heng_Splash_Art.png/revision/latest?cb=20230525090149',
   },
   Himeko: {
     id: 9,
@@ -108,7 +111,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Character_Himeko_Splash_Art.png/revision/latest?cb=20230525090036',
   },
   Welt: {
     id: 10,
@@ -135,7 +139,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Welt_Splash_Art.png/revision/latest?cb=20230525090017',
   },
   Arlan: {
     id: 11,
@@ -162,7 +167,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Arlan_Splash_Art.png/revision/latest?cb=20230216231038',
   },
   Asta: {
     id: 12,
@@ -189,7 +195,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bd/Character_Asta_Splash_Art.png/revision/latest?cb=20230216231122',
   },
   Herta: {
     id: 13,
@@ -216,7 +223,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Character_Herta_Splash_Art.png/revision/latest?cb=20230216231220',
   },
   Bronya: {
     id: 14,
@@ -243,7 +251,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Character_Bronya_Splash_Art.png/revision/latest?cb=20240121130128',
   },
   Seele: {
     id: 15,
@@ -270,7 +279,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Character_Seele_Splash_Art.png/revision/latest?cb=20240121123334',
   },
   Serval: {
     id: 16,
@@ -297,7 +307,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Character_Serval_Splash_Art.png/revision/latest?cb=20230525090108',
   },
   Gepard: {
     id: 17,
@@ -324,7 +335,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Gepard_Splash_Art.png/revision/latest?cb=20230216232354',
   },
   Natasha: {
     id: 18,
@@ -351,7 +363,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Character_Natasha_Splash_Art.png/revision/latest?cb=20240525042421',
   },
   Pela: {
     id: 19,
@@ -378,7 +391,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Character_Pela_Splash_Art.png/revision/latest?cb=20230525090100',
   },
   Clara: {
     id: 20,
@@ -405,7 +419,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Clara_Splash_Art.png/revision/latest?cb=20230216231958',
   },
   Sampo: {
     id: 21,
@@ -432,7 +447,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/65/Character_Sampo_Splash_Art.png/revision/latest?cb=20230525090046',
   },
   Hook: {
     id: 22,
@@ -459,7 +475,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Character_Hook_Splash_Art.png/revision/latest?cb=20230525090126',
   },
   Trailblazer_Preservation: {
     id: 23,
@@ -486,7 +503,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/17/Character_Trailblazer_%28F%29_Preservation_Splash_Art.png/revision/latest?cb=20230501005729',
   },
   Qingque: {
     id: 24,
@@ -513,7 +531,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Character_Qingque_Splash_Art.png/revision/latest?cb=20230210115335',
   },
   Tingyun: {
     id: 25,
@@ -540,7 +559,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Tingyun_Splash_Art.png/revision/latest?cb=20230210115502',
   },
   Jing_Yuan: {
     id: 26,
@@ -567,7 +587,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-05-17'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Character_Jing_Yuan_Splash_Art.png/revision/latest?cb=20230210115809',
   },
   Sushang: {
     id: 27,
@@ -594,7 +615,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Sushang_Splash_Art.png/revision/latest?cb=20230210115023',
   },
   Yanqing: {
     id: 28,
@@ -621,7 +643,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Yanqing_Splash_Art.png/revision/latest?cb=20230210121516',
   },
   Bailu: {
     id: 29,
@@ -648,7 +671,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-04-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Character_Bailu_Splash_Art.png/revision/latest?cb=20230210120736',
   },
   Silver_Wolf: {
     id: 710,
@@ -675,7 +699,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-06-07'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Character_Silver_Wolf_Splash_Art.png/revision/latest?cb=20230216230911',
   },
   Luocha: {
     id: 711,
@@ -702,7 +727,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-06-28'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Character_Luocha_Splash_Art.png/revision/latest?cb=20230628091054',
   },
   Yukong: {
     id: 712,
@@ -729,7 +755,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-06-28'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Yukong_Splash_Art.png/revision/latest?cb=20230628090836',
   },
   Blade: {
     id: 789,
@@ -756,7 +783,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-07-19'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Character_Blade_Splash_Art.png/revision/latest?cb=20230501004859',
   },
   Kafka: {
     id: 791,
@@ -783,7 +811,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-08-09'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Character_Kafka_Splash_Art.png/revision/latest?cb=20230809042240',
   },
   Luka: {
     id: 801,
@@ -810,7 +839,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-08-09'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Character_Luka_Splash_Art.png/revision/latest?cb=20230809042157',
   },
   Fu_Xuan: {
     id: 804,
@@ -837,7 +867,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-09-20'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3e/Character_Fu_Xuan_Splash_Art.png/revision/latest?cb=20230928224921',
   },
   Dan_Heng_Imbibitor_Lunae: {
     id: 1226,
@@ -864,7 +895,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-08-30'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2c/Character_Dan_Heng_%E2%80%A2_Imbibitor_Lunae_Splash_Art.png/revision/latest?cb=20230818234313',
   },
   Lynx: {
     id: 1228,
@@ -891,7 +923,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-09-20'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Character_Lynx_Splash_Art.png/revision/latest?cb=20230719101506',
   },
   Jingliu: {
     id: 1387,
@@ -918,7 +951,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-10-11'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Character_Jingliu_Splash_Art.png/revision/latest?cb=20240525000314',
   },
   Topaz_and_Numby: {
     id: 1389,
@@ -945,7 +979,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-10-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Character_Topaz_and_Numby_Splash_Art.png/revision/latest?cb=20231030040101',
   },
   Guinaifen: {
     id: 1392,
@@ -972,7 +1007,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-10-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/33/Character_Guinaifen_Splash_Art.png/revision/latest?cb=20231030040741',
   },
   Huohuo: {
     id: 1533,
@@ -999,7 +1035,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-11-15'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Character_Huohuo_Splash_Art.png/revision/latest?cb=20250604025217',
   },
   Argenti: {
     id: 1535,
@@ -1026,7 +1063,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-12-06'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Argenti_Splash_Art.png/revision/latest?cb=20231206232011',
   },
   Hanya: {
     id: 1537,
@@ -1053,7 +1091,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-12-06'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Character_Hanya_Splash_Art.png/revision/latest?cb=20231206232120',
   },
   Ruan_Mei: {
     id: 1638,
@@ -1080,7 +1119,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-12-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Ruan_Mei_Splash_Art.png/revision/latest?cb=20231227021137',
   },
   Dr_Ratio: {
     id: 1639,
@@ -1107,7 +1147,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-01-17'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Character_Dr._Ratio_Splash_Art.png/revision/latest?cb=20231227132629',
   },
   Xueyi: {
     id: 1640,
@@ -1134,7 +1175,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-12-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Character_Xueyi_Splash_Art.png/revision/latest?cb=20231227045314',
   },
   Black_Swan: {
     id: 1806,
@@ -1161,7 +1203,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-02-06'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Character_Black_Swan_Splash_Art.png/revision/latest?cb=20240220023547',
   },
   Sparkle: {
     id: 1807,
@@ -1188,7 +1231,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-02-29'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Sparkle_Splash_Art.png/revision/latest?cb=20240327022635',
   },
   Misha: {
     id: 1808,
@@ -1215,7 +1259,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-02-06'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/revision/latest?cb=20240206022717',
   },
   Acheron: {
     id: 1919,
@@ -1242,7 +1287,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-03-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Character_Acheron_Splash_Art.png/revision/latest?cb=20240327021325',
   },
   Aventurine: {
     id: 1920,
@@ -1269,7 +1315,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-04-17'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Aventurine_Splash_Art.png/revision/latest?cb=20240327104723',
   },
   Gallagher: {
     id: 1924,
@@ -1296,7 +1343,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-03-27'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Character_Gallagher_Splash_Art.png/revision/latest?cb=20240327022011',
   },
   Robin: {
     id: 2366,
@@ -1323,7 +1371,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-05-08'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Character_Robin_Splash_Art.png/revision/latest?cb=20240508021256',
   },
   Boothill: {
     id: 2367,
@@ -1350,7 +1399,8 @@ export const characters = {
       },
     },
     release_date: new Date('2023-05-29'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Character_Boothill_Splash_Art.png/revision/latest?cb=20240624231026',
   },
   Firefly: {
     id: 2494,
@@ -1377,7 +1427,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-06-19'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Character_Firefly_Splash_Art.png/revision/latest?cb=20241007220547',
   },
   Jade: {
     id: 2495,
@@ -1404,7 +1455,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-07-10'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Jade_Splash_Art.png/revision/latest?cb=20240706170539',
   },
   Trailblazer_Harmony: {
     id: 2511,
@@ -1431,7 +1483,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-05-08'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0a/Character_Trailblazer_%28F%29_Harmony_Splash_Art.png/revision/latest?cb=20240508064117',
   },
   Yunli: {
     id: 2642,
@@ -1458,7 +1511,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-07-31'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Yunli_Splash_Art.png/revision/latest?cb=20241007221656',
   },
   Jiaoqiu: {
     id: 2643,
@@ -1485,7 +1539,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-08-21'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Character_Jiaoqiu_Splash_Art.png/revision/latest?cb=20240911023034',
   },
   March_7th_Hunt: {
     id: 2657,
@@ -1512,7 +1567,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-07-31'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Character_March_7th_%28The_Hunt%29_Splash_Art.png/revision/latest?cb=20240724123019',
   },
   Feixiao: {
     id: 2947,
@@ -1539,7 +1595,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-09-10'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Character_Feixiao_Splash_Art.png/revision/latest?cb=20241007220552',
   },
   Lingsha: {
     id: 2948,
@@ -1566,7 +1623,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-10-02'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Character_Lingsha_Splash_Art.png/revision/latest?cb=20241120224130',
   },
   Moze: {
     id: 2949,
@@ -1593,7 +1651,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-09-10'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Character_Moze_Splash_Art.png/revision/latest?cb=20240910181952',
   },
   Rappa: {
     id: 3057,
@@ -1620,7 +1679,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-10-23'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Character_Rappa_Splash_Art.png/revision/latest?cb=20241120154734',
   },
   Sunday: {
     id: 3150,
@@ -1647,7 +1707,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-12-04'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Character_Sunday_Splash_Art.png/revision/latest?cb=20241224161538',
   },
   Fugue: {
     id: 3151,
@@ -1674,7 +1735,8 @@ export const characters = {
       },
     },
     release_date: new Date('2024-12-25'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Character_Fugue_Splash_Art.png/revision/latest?cb=20241122125941',
   },
   The_Herta: {
     id: 3285,
@@ -1701,7 +1763,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-01-15'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Character_The_Herta_Splash_Art.png/revision/latest?cb=20250121214107',
   },
   Aglaea: {
     id: 3286,
@@ -1728,7 +1791,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-02-05'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Character_Aglaea_Splash_Art.png/revision/latest?cb=20250117063425',
   },
   Trailblazer_Remembrance: {
     id: 3287,
@@ -1755,7 +1819,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-01-15'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Character_Trailblazer_%28F%29_Remembrance_Splash_Art_%28Updated%29.png/revision/latest?cb=20251108102447',
   },
   Tribbie: {
     id: 3322,
@@ -1782,7 +1847,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-02-26'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Character_Tribbie_Splash_Art.png/revision/latest?cb=20250309185506',
   },
   Mydei: {
     id: 3324,
@@ -1809,7 +1875,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-03-19'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Character_Mydei_Splash_Art.png/revision/latest?cb=20250725220512',
   },
   Castorice: {
     id: 3560,
@@ -1836,7 +1903,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-04-09'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Character_Castorice_Splash_Art.png/revision/latest?cb=20250409035111',
   },
   Anaxa: {
     id: 3561,
@@ -1863,7 +1931,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-04-30'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Character_Anaxa_Splash_Art.png/revision/latest?cb=20250409035048',
   },
   Hyacine: {
     id: 3688,
@@ -1890,7 +1959,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-05-21'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Character_Hyacine_Splash_Art.png/revision/latest?cb=20250521031729',
   },
   Cipher: {
     id: 3691,
@@ -1917,7 +1987,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-06-11'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0d/Character_Cipher_Splash_Art.png/revision/latest?cb=20250725220236',
   },
   Saber: {
     id: 3767,
@@ -1944,7 +2015,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-07-11'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Saber_Splash_Art.png/revision/latest?cb=20250620172940',
   },
   Archer: {
     id: 3768,
@@ -1971,7 +2043,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-07-11'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Character_Archer_Splash_Art.png/revision/latest?cb=20250620172923',
   },
   Phainon: {
     id: 3769,
@@ -1998,7 +2071,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-07-02'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Character_Phainon_Splash_Art.png/revision/latest?cb=20250622125151',
   },
   Hysilens: {
     id: 3885,
@@ -2025,7 +2099,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-08-13'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Character_Hysilens_Splash_Art.png/revision/latest?cb=20250720121134',
   },
   Cerydra: {
     id: 3886,
@@ -2052,7 +2127,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-09-02'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Character_Cerydra_Splash_Art.png/revision/latest?cb=20250725220412',
   },
   Evernight: {
     id: 3956,
@@ -2079,7 +2155,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-09-24'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Character_Evernight_Splash_Art.png/revision/latest?cb=20250912143541',
   },
   Dan_Heng_Permansor_Terrae: {
     id: 3957,
@@ -2106,7 +2183,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-10-15'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Character_Dan_Heng_%E2%80%A2_Permansor_Terrae_Splash_Art.png/revision/latest?cb=20250912143415',
   },
   Cyrene: {
     id: 4003,
@@ -2133,7 +2211,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-11-05'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Character_Cyrene_Splash_Art.png/revision/latest?cb=20251105032126',
   },
   The_Dahlia: {
     id: 4060,
@@ -2160,7 +2239,8 @@ export const characters = {
       },
     },
     release_date: new Date('2025-12-17'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Character_The_Dahlia_Splash_Art.png/revision/latest?cb=20251205121609',
   },
   Yao_Guang: {
     id: 4736,
@@ -2187,7 +2267,8 @@ export const characters = {
       },
     },
     release_date: new Date('2026-02-13'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Character_Yao_Guang_Splash_Art.png/revision/latest?cb=20260213053032',
   },
   Sparxie: {
     id: 4737,
@@ -2214,6 +2295,7 @@ export const characters = {
       },
     },
     release_date: new Date('2026-03-03'),
-    splash_art_url: '',
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Character_Sparxie_Splash_Art.png/revision/latest?cb=20260206131556',
   },
 } as const satisfies Record<string, Character>;
