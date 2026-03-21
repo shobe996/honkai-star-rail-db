@@ -6,10 +6,15 @@ import {
   isValidId,
   matches,
   sanitizeSearchString,
+  toDateKey,
+  toTimestamp,
 } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
 const characterList = Object.values(characters);
+const characterMap = new Map<number, Character>(
+  Object.values(characters).map((c) => [c.id, c]),
+);
 
 export const characterFilters = {
   /**
@@ -28,7 +33,7 @@ export const characterFilters = {
    */
   byId: (id: number): Character | null => {
     if (!isValidId(id)) return null;
-    return characterList.find((c) => c.id === id) ?? null;
+    return characterMap.get(id) ?? null;
   },
 
   /**
@@ -220,6 +225,47 @@ export const characterFilters = {
         (isFactionActive ? matches(c.faction?.name, criteria.faction) : true) &&
         (isRarityActive ? c.rarity?.value === criteria.rarity : true)
       );
+    });
+
+    return paginate(filtered, page, size);
+  },
+  /**
+   * Filters a list of characters released within a specific date range.
+   * @param start - The inclusive start date.
+   * @param end - The inclusive end date.
+   * @returns Array of characters released within a specific date range.
+   */
+  byReleaseDateRange: (
+    start: Date | string,
+    end: Date | string,
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
+    const startTime = toTimestamp(start);
+    const endTime = toTimestamp(end);
+
+    const filtered = characterList.filter((c) => {
+      const charTime = c.release_date.getTime();
+      return charTime >= startTime && charTime <= endTime;
+    });
+
+    return paginate(filtered, page, size);
+  },
+
+  /**
+   * Filters for characters released on an exact date.
+   * @param targetDate - date on which characters were released
+   * @returns Array of characters released on a specific date.
+   */
+  byExactReleaseDate: (
+    targetDate: Date | string,
+    page: number = 1,
+    size: number = 999,
+  ): PaginatedResult<Character> => {
+    const targetStr = toDateKey(targetDate);
+
+    const filtered = characterList.filter((c) => {
+      return toDateKey(c.release_date) === targetStr;
     });
 
     return paginate(filtered, page, size);
