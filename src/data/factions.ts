@@ -29,9 +29,9 @@ export const factions = {
     id: 3383,
     name: 'The Knights of Beauty',
   },
-  Masked_Fool: {
+  Masked_Fools: {
     id: 3449,
-    name: 'Masked Fool',
+    name: 'Masked Fools',
   },
   Garden_of_Recollection: {
     id: 3450,
@@ -41,9 +41,9 @@ export const factions = {
     id: 3451,
     name: 'Penacony',
   },
-  Galaxy_Ranger: {
+  Galaxy_Rangers: {
     id: 3452,
-    name: 'Galaxy Ranger',
+    name: 'Galaxy Rangers',
   },
   Self_Annihilator: {
     id: 3453,
@@ -80,5 +80,9 @@ export const factions = {
   The_Xianzhou_Yuque: {
     id: 3734,
     name: 'The Xianzhou Yuque',
+  },
+  Planarcadia: {
+    id: 3763,
+    name: 'Planarcadia',
   },
 } as const satisfies Record<string, Faction>;
