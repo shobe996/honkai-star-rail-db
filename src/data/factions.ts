@@ -81,4 +81,8 @@ export const factions = {
     id: 3734,
     name: 'The Xianzhou Yuque',
   },
+  Planarcadia: {
+    id: 3763,
+    name: 'Planarcadia',
+  },
 } as const satisfies Record<string, Faction>;
