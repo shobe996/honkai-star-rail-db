@@ -429,7 +429,7 @@ export const characters = {
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/266f6cbd790816885fd3a73539f2a4ae.png',
     desc: "A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.",
     path: paths.Nihility,
-    faction: factions.Masked_Fool,
+    faction: factions.Masked_Fools,
     rarity: rarities.Four_Star,
     type: types.Wind,
     stats: {
@@ -1213,7 +1213,7 @@ export const characters = {
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/b53760112ede65018871c7d7a8a8c07b.png',
     desc: 'A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous maestro of theatrics, utterly engrossed in the art of performance. Adorned with innumerable masks, she is the hero with a thousand faces. Wealth, status, power... None of this matters to Sparkle. The only thing that can get her attention is "amusement."',
     path: paths.Harmony,
-    faction: factions.Masked_Fool,
+    faction: factions.Masked_Fools,
     rarity: rarities.Five_Star,
     type: types.Quantum,
     stats: {
@@ -1381,7 +1381,7 @@ export const characters = {
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/7afd6413461155ddbda02c24a5283eb3.png',
     desc: 'A cyborg cowboy drifting among the stars. Extremely optimistic and unrestrained. He is a member of the Galaxy Rangers who swore to punish the wretched by any and all means... His flamboyant and brash actions were all to draw the attention of the Interastral Peace Corporation — the target of his revenge.',
     path: paths.Hunt,
-    faction: factions.Galaxy_Ranger,
+    faction: factions.Galaxy_Rangers,
     rarity: rarities.Five_Star,
     type: types.Physical,
     stats: {
@@ -1661,7 +1661,7 @@ export const characters = {
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u65dyd/978e0c6eeeac11f667f945a111293fc3.png',
     desc: 'A peculiar girl who appears in Penacony like a flashbang at the darkest hour of night, identifying herself as a ninja and attributing everything in the world to "ninjutsu." Upholding the recitation of ninja mantra, creating Dazzling Ninja Seals, and studying ninja scrolls — That is, the Way of the Ninja involves rap, graffiti, and manga — Through rigorous self-discipline, she roams the stars, upholding justice and righteousness. As a member of the Galaxy Rangers, she relentlessly pursues the villain known as Evil Ninja Osaru, chasing them to the very edge of the Cosmos.',
     path: paths.Erudition,
-    faction: factions.Galaxy_Ranger,
+    faction: factions.Galaxy_Rangers,
     rarity: rarities.Five_Star,
     type: types.Imaginary,
     stats: {
@@ -2277,7 +2277,7 @@ export const characters = {
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0250d/48599b938bfa1cd6864294dba504d2da.png',
     desc: 'Like! Follow! Stream! Views! Party till the world ends! Sparxie and Sparkle, the Mask and the Fool are fundamentally the same. Whoever is seen, whoever is liked, is the correct answer!',
     path: paths.Elation,
-    faction: factions.Masked_Fool,
+    faction: factions.Masked_Fools,
     rarity: rarities.Five_Star,
     type: types.Fire,
     stats: {
