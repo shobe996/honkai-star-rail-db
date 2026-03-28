@@ -2296,6 +2296,34 @@ export const characters = {
     },
     release_date: new Date('2026-03-03'),
     splash_art_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Character_Sparxie_Splash_Art.png/revision/latest?cb=20260206131556',
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u42a2d/5fe657d4780648e9c9c9762a43e9ca50.png',
+  },
+  Ashveil: {
+    id: 4781,
+    name: 'Ashveil',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/pre_webtool_cn/item_icon_u32bac/150f71d6810c55b42b6fb75500d6d893.png',
+    desc: '<p>He takes cases on a whim, cracks them with hard-core logic, and solves the strangest crimes on sheer instinct.</p><p>With a monkey for an assistant and his heart set on retirement, the detective sleeps in a refrigerator, waiting for the bait to catch its willing prey.</p><p>Under the light of the Phantasmoon, the vile beast howls. How will he draw the net on this hunt?</p>',
+    path: paths.Hunt,
+    faction: factions.Planarcadia,
+    rarity: rarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 116,
+        base_atk: 105,
+        base_def: 52,
+        base_speed: 106,
+      },
+      level80: {
+        base_hp: 776,
+        base_atk: 853,
+        base_def: 388,
+        base_speed: 106,
+      },
+    },
+    release_date: new Date('2026-03-25'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Character_Ashveil_Splash_Art.png/revision/latest?cb=20260313174406',
   },
 } as const satisfies Record<string, Character>;
