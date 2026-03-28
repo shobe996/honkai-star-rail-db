@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.3.0...v1.4.0) (2026-03-28)
+
+
+### Bug Fixes
+
+* **character:** replace old faction names with new one ([980e11b](https://github.com/shobe996/honkai-star-rail-db/commit/980e11b947741bf789e68a32d2bda98ec6929750))
+* **faction:** change names of Galaxy Ranger and Masked Fool factions ([5de44a7](https://github.com/shobe996/honkai-star-rail-db/commit/5de44a7e7e7a865104b11a0d9764fb21acaa7ea5))
+
+
+### Features
+
+* **character:** add character Ashveil ([2ca7114](https://github.com/shobe996/honkai-star-rail-db/commit/2ca7114ca2e5e225399128d414dfd241cd081021))
+* **faction:** add faction Planarcadia ([82193f8](https://github.com/shobe996/honkai-star-rail-db/commit/82193f809997413af7357e16b9fd75f91c87440e))
+
+
+
 # [1.3.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.2.0...v1.3.0) (2026-03-21)
 
 
@@ -45,15 +61,6 @@
 ### Bug Fixes
 
 * modify prepare script to use install.mjs ([e5b115e](https://github.com/shobe996/honkai-star-rail-db/commit/e5b115edef39f08420e066587657a59a5f197622))
-
-
-
-## [1.1.6](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.5...v1.1.6) (2026-03-07)
-
-
-### Bug Fixes
-
-* add --ignore-scripts flag to npm publish command ([4a93621](https://github.com/shobe996/honkai-star-rail-db/commit/4a93621492b270ee42febc13e87c42230b49797a))
 
 
 
