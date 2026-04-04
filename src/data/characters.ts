@@ -2296,7 +2296,7 @@ export const characters = {
     },
     release_date: new Date('2026-03-03'),
     splash_art_url:
-      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u42a2d/5fe657d4780648e9c9c9762a43e9ca50.png',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Character_Sparxie_Splash_Art.png/revision/latest?cb=20260206131556',
   },
   Ashveil: {
     id: 4781,
