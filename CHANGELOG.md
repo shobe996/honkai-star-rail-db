@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.0...v1.4.1) (2026-04-04)
+
+
+### Bug Fixes
+
+* Sparxie splash art url ([9680720](https://github.com/shobe996/honkai-star-rail-db/commit/9680720c9e91597d4ebf21e2332b85c99f63185e))
+
+
+
 # [1.4.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.3.0...v1.4.0) (2026-03-28)
 
 
@@ -52,15 +61,6 @@
 ### Bug Fixes
 
 * restore CHANGELOG.md sections from 1.0.0 to 1.1.2 ([de9ad63](https://github.com/shobe996/honkai-star-rail-db/commit/de9ad639e23f814212dcd6e5dc14943a1b145b04))
-
-
-
-## [1.1.7](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.6...v1.1.7) (2026-03-07)
-
-
-### Bug Fixes
-
-* modify prepare script to use install.mjs ([e5b115e](https://github.com/shobe996/honkai-star-rail-db/commit/e5b115edef39f08420e066587657a59a5f197622))
 
 
 
