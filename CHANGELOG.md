@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.1...v1.4.2) (2026-04-04)
+
+
+### Bug Fixes
+
+* package json and package lock json out of synch during build job ([62081b6](https://github.com/shobe996/honkai-star-rail-db/commit/62081b6f55cfe33dcf0ad82fb300e2002d5dcbb7))
+
+
+
 ## [1.4.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.0...v1.4.1) (2026-04-04)
 
 
@@ -52,15 +61,6 @@
 * **character:** implement byAttributes search filter ([44a8629](https://github.com/shobe996/honkai-star-rail-db/commit/44a8629d8fbdb122ff381046eab51b0085413b6f))
 * **character:** implement pagination for character dataset ([c5595d3](https://github.com/shobe996/honkai-star-rail-db/commit/c5595d30afe165326481e422a07d26fd564a0f8b))
 * implement pagination interface ([669531f](https://github.com/shobe996/honkai-star-rail-db/commit/669531f0cb0277ea87556627640ff99f9da9e518))
-
-
-
-## [1.1.8](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.7...v1.1.8) (2026-03-07)
-
-
-### Bug Fixes
-
-* restore CHANGELOG.md sections from 1.0.0 to 1.1.2 ([de9ad63](https://github.com/shobe996/honkai-star-rail-db/commit/de9ad639e23f814212dcd6e5dc14943a1b145b04))
 
 
 
