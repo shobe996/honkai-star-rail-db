@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.2...v1.4.3) (2026-04-05)
+
+
+### Bug Fixes
+
+* transform descriptions into the HTML format and fix some sign typos ([dfd096e](https://github.com/shobe996/honkai-star-rail-db/commit/dfd096e8fb459679c72ec08dfbaaaeff2b0583dc))
+
+
+
 ## [1.4.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.1...v1.4.2) (2026-04-04)
 
 
@@ -45,22 +54,6 @@
 ### Performance Improvements
 
 * **data:** implement O(1) lookup registry for characters ([dcfd199](https://github.com/shobe996/honkai-star-rail-db/commit/dcfd199531f47eb4c26ff9213d0e4b6d2be9ec1b))
-
-
-
-# [1.2.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.1.8...v1.2.0) (2026-03-08)
-
-
-### Bug Fixes
-
-* prevent decimal value for size ([357b579](https://github.com/shobe996/honkai-star-rail-db/commit/357b579b73a4a11d6aebaa7422dbc94d2d57fa76))
-
-
-### Features
-
-* **character:** implement byAttributes search filter ([44a8629](https://github.com/shobe996/honkai-star-rail-db/commit/44a8629d8fbdb122ff381046eab51b0085413b6f))
-* **character:** implement pagination for character dataset ([c5595d3](https://github.com/shobe996/honkai-star-rail-db/commit/c5595d30afe165326481e422a07d26fd564a0f8b))
-* implement pagination interface ([669531f](https://github.com/shobe996/honkai-star-rail-db/commit/669531f0cb0277ea87556627640ff99f9da9e518))
 
 
 
