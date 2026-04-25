@@ -18,6 +18,11 @@ This library provides a structured, fully typed dataset of Honkai: Star Rail cha
   - [Path Filters](#path-filters)
   - [Rarity Filters](#rarity-filters)
   - [Type (Element) Filters](#type-element-filters)
+- [Development](#-development)
+- [Pre-commit Hooks](#-pre-commit-hooks)
+- [Contributing](#-contributing)
+- [How to Suggest Changes](#how-to-suggest-changes)
+- [Legal & License](#️-legal--license)
 
 ---
 
@@ -131,12 +136,6 @@ const customSearch = characterFilters.byAttributes({
   name: 'March',
   faction: 'Astral Express',
 });
-```
-
-
-
-```typescript
-
 ```
 
 ### Faction Filters
