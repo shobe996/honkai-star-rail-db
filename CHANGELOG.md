@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.3...v1.5.0) (2026-04-25)
+
+
+### Features
+
+* **character:** add characters Silver Wolf LV.999 and Elation Trailblazer ([662090c](https://github.com/shobe996/honkai-star-rail-db/commit/662090cdd9882d064be85fea689df7b89e78d4b6))
+
+
+
 ## [1.4.3](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.2...v1.4.3) (2026-04-05)
 
 
@@ -38,22 +47,6 @@
 
 * **character:** add character Ashveil ([2ca7114](https://github.com/shobe996/honkai-star-rail-db/commit/2ca7114ca2e5e225399128d414dfd241cd081021))
 * **faction:** add faction Planarcadia ([82193f8](https://github.com/shobe996/honkai-star-rail-db/commit/82193f809997413af7357e16b9fd75f91c87440e))
-
-
-
-# [1.3.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.2.0...v1.3.0) (2026-03-21)
-
-
-### Features
-
-* add filtering by target date and date range ([efdf274](https://github.com/shobe996/honkai-star-rail-db/commit/efdf2748d14e1b93552eca580f1de5c190758eca))
-* add new fields release_date and splash _art_url ([325744c](https://github.com/shobe996/honkai-star-rail-db/commit/325744c9af38e32653403c524eff6252c9c02a54))
-* update splash_art_url for all characters ([ef9d6e2](https://github.com/shobe996/honkai-star-rail-db/commit/ef9d6e2706509acf91789352b4a6c145dbbaaac9))
-
-
-### Performance Improvements
-
-* **data:** implement O(1) lookup registry for characters ([dcfd199](https://github.com/shobe996/honkai-star-rail-db/commit/dcfd199531f47eb4c26ff9213d0e4b6d2be9ec1b))
 
 
 
