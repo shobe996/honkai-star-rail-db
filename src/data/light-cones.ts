@@ -1489,7 +1489,7 @@ export const lightCones = {
   },
   Reforged_Remembrance: {
     id: 1937,
-    name: 'Reforged Remembrance ',
+    name: 'Reforged Remembrance',
     rarity: rarities.Five_Star,
     path: paths.Nihility,
     icon_url:
@@ -1899,7 +1899,8 @@ export const lightCones = {
   Sailing_Towards_A_Second_Life: {
     id: 2501,
     name: 'Sailing Towards A Second Life',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Sailing_Towards_a_Second_Life_Icon.png/revision/latest?cb=20240611233757',
     effect: `Rough Water<p>Increases the wearer's Break Effect by <span style="color: #FFC870">60</span>/<span style="color: #FFC870">70</span>/<span style="color: #FFC870">80</span>/<span style="color: #FFC870">90</span>/<span style="color: #FFC870">100%</span>. The Break DMG dealt by the wearer ignores 20/23/26/29/32% of the target's DEF. When the wearer's Break Effect in battle is at 150% or greater, increases their SPD by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20%</span>.</p>`,
     path: paths.Hunt,
     rarity: rarities.Five_Star,
@@ -1911,7 +1912,8 @@ export const lightCones = {
   For_Tomorrows_Journey: {
     id: 2502,
     name: "For Tomorrow's Journey",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/85/Light_Cone_For_Tomorrow%27s_Journey_Icon.png/revision/latest?cb=20240508033217',
     effect: `Bonds<p>Increases the wearer's ATK by <span style="color: #FFC870">16/20/24/28/32%</span>. After the wearer uses their Ultimate, increases their DMG dealt by <span style="color: #FFC870">18/21/24/27/30%</span>, lasting for 1 turn(s).</p>`,
     path: paths.Harmony,
     rarity: rarities.Four_Star,
@@ -1923,7 +1925,8 @@ export const lightCones = {
   Boundless_Choreo: {
     id: 2503,
     name: 'Boundless Choreo',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Boundless_Choreo_Icon.png/revision/latest?cb=20240508030942',
     effect: `Scrutinize<p>Increase the wearer's CRIT Rate by <span style="color: #FFC870">8%/10%/12%/14%/16%</span>. The wearer deals <span style="color: #FFC870">24%/30%/36%/42%/48%</span> more CRIT DMG to enemies that are currently Slowed or have reduced DEF.</p>`,
     path: paths.Nihility,
     rarity: rarities.Four_Star,
@@ -1935,7 +1938,8 @@ export const lightCones = {
   Whereabouts_Should_Dreams_Rest: {
     id: 2645,
     name: 'Whereabouts Should Dreams Rest',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Whereabouts_Should_Dreams_Rest_Icon.png/revision/latest?cb=20250318142616',
     effect: `Metamorphosis<p>Increases the wearer's Break Effect by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40% </span>increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.</p>`,
     path: paths.Destruction,
     rarity: rarities.Five_Star,
@@ -1947,7 +1951,8 @@ export const lightCones = {
   Yet_Hope_Is_Priceless: {
     id: 2646,
     name: 'Yet Hope Is Priceless',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5e/Light_Cone_Yet_Hope_Is_Priceless_Icon.png/revision/latest?cb=20250318142629',
     effect: `Promise<p>Increases the wearer's CRIT Rate by <span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: rgb(255, 200, 112)">19%</span>/<span style="color: rgb(255, 200, 112)">22%</span>/<span style="color: rgb(255, 200, 112)">25%</span>/<span style="color: rgb(255, 200, 112)">28%</span>. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by <span style="color: rgb(255, 200, 112)">12%</span>/<span style="color: rgb(255, 200, 112)">14%</span>/<span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: rgb(255, 200, 112)">18%</span>/<span style="color: rgb(255, 200, 112)">20%</span>. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore <span style="color: rgb(255, 200, 112)">20%</span>/<span style="color: #FFC870">24%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: #FFC870">28%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: #FFC870">32%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: rgb(255, 200, 112)">36% </span>of the target's DEF, lasting for 2 turn(s).</p>`,
     path: paths.Erudition,
     rarity: rarities.Five_Star,
@@ -1958,8 +1963,9 @@ export const lightCones = {
   },
   After_the_Charmony_Fall: {
     id: 2647,
-    name: 'After the Charmony Fall ',
-    icon_url: '',
+    name: 'After the Charmony Fall',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Light_Cone_After_the_Charmony_Fall_Icon.png/revision/latest?cb=20241205031039',
     effect: `Quiescence<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">28%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">49%</span>/<span style="color: rgb(255, 200, 112)">56%</span>. After the wearer uses Ultimate, increases SPD by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: rgb(255, 200, 112)">16%</span>, lasting for 2 turn(s).</p>`,
     path: paths.Erudition,
     rarity: rarities.Four_Star,
@@ -1971,7 +1977,8 @@ export const lightCones = {
   Eternal_Calculus: {
     id: 2648,
     name: 'Eternal Calculus',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Light_Cone_Eternal_Calculus_Icon.png/revision/latest?cb=20250318142603',
     effect: `Boundless Thought<p>Increases the wearer's ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>. After using an attack, for each enemy target hit, additionally increases ATK by <span style="color: #FFC870">4%</span>/<span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">8%</span>. This effect can stack 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, lasting for 1 turn(s).</p>`,
     path: paths.Erudition,
     rarity: rarities.Five_Star,
@@ -1983,7 +1990,8 @@ export const lightCones = {
   Poised_to_Bloom: {
     id: 2954,
     name: 'Poised to Bloom',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Light_Cone_Poised_to_Bloom_Icon.png/revision/latest?cb=20240821090943',
     effect: `Lose Not, Forget Not<p>Increases the wearer's ATK by <span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. <span style="color: rgba(255, 255, 255, 0.85)">Upon entering the battle, if there are two or more allies in the team who follow the same Path, these characters' CRIT DMG increases by </span><span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. Abilities of the same type cannot stack.</p>`,
     path: paths.Harmony,
     rarity: rarities.Four_Star,
@@ -1995,7 +2003,8 @@ export const lightCones = {
   Those_Many_Springs: {
     id: 2955,
     name: 'Those Many Springs',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Those_Many_Springs_Icon.png/revision/latest?cb=20240821090713',
     effect: `Worldly Affairs Leave No Mark<p>Increases the wearer's Effect Hit Rate by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict "Unarmored" on the target. While in the Unarmored state, the enemy target receives <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span> increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the "Unarmored" state inflicted by the wearer to the "Cornered" state, which additionally increases the DMG the target enemy receives by <span style="color: rgb(255, 200, 112)">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>, lasting for 2 turn(s). During this period, the wearer cannot inflict "Unarmored" on the target.</p>`,
     path: paths.Nihility,
     rarity: rarities.Five_Star,
@@ -2007,7 +2016,8 @@ export const lightCones = {
   Dance_at_Sunset: {
     id: 2956,
     name: 'Dance at Sunset',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Light_Cone_Dance_at_Sunset_Icon.png/revision/latest?cb=20240806081745',
     effect: `Deeply Engrossed<p>Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by <span style="color: rgb(255, 200, 112)">36%</span>/<span style="color: rgb(255, 200, 112)">42%</span>/<span style="color: rgb(255, 200, 112)">48%</span>/<span style="color: rgb(255, 200, 112)">54%</span>/<span style="color: rgb(255, 200, 112)">60%</span>. After the wearer uses Ultimate, receives 1 stack of Firedance, lasting for 2 turns and stacking up to 2 time(s). Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by <span style="color: rgb(255, 200, 112)">36%</span>/<span style="color: rgb(255, 200, 112)">42%</span>/<span style="color: rgb(255, 200, 112)">48%</span>/<span style="color: rgb(255, 200, 112)">54%</span>/<span style="color: rgb(255, 200, 112)">60</span>%.</p>`,
     path: paths.Destruction,
     rarity: rarities.Five_Star,
@@ -2018,8 +2028,9 @@ export const lightCones = {
   },
   Shadowed_by_Night: {
     id: 3067,
-    name: 'Shadowed by Night ',
-    icon_url: '',
+    name: 'Shadowed by Night',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Light_Cone_Shadowed_by_Night_Icon.png/revision/latest?cb=20241002193843',
     effect: `Concealment<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">28%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">49%</span>/<span style="color: #FFC870">56%</span>. When entering battle or after dealing Break DMG, increases SPD by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>, lasting for 2 turn(s). This effect can only trigger once per turn.</p>`,
     path: paths.Hunt,
     rarity: rarities.Four_Star,
@@ -2030,8 +2041,9 @@ export const lightCones = {
   },
   Scent_Alone_Stays_True: {
     id: 3068,
-    name: 'Scent Alone Stays True ',
-    icon_url: '',
+    name: 'Scent Alone Stays True',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Scent_Alone_Stays_True_Icon.png/revision/latest?cb=20241002193742',
     effect: `Contentment<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the "Woefree" state, lasting for 2 turn(s). While in "Woefree," enemy targets take <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span> increased DMG. The effect of increasing DMG taken is additionally boosted by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span> if the wearer's current Break Effect is 150% or higher.</p>`,
     path: paths.Abundance,
     rarity: rarities.Five_Star,
@@ -2043,7 +2055,8 @@ export const lightCones = {
   I_Venture_Forth_to_Hunt: {
     id: 3069,
     name: 'I Venture Forth to Hunt',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_I_Venture_Forth_to_Hunt_Icon.png/revision/latest?cb=20240910183809',
     effect: `Intimidation<p>Increase the wearer's CRIT Rate by <span style="color: rgb(255, 200, 112)">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">25%</span>. When the wearer launches a follow-up attack, gains 1 stack of "Luminflux," stack up to 2 time(s). Each stack of "Luminflux" enables the Ultimate DMG dealt by the wearer to ignore <span style="color: rgb(255, 200, 112)">27%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">33%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">39%</span> of the target's DEF. When the wearer's turn ends, remove 1 stack of "Luminflux."</p>`,
     path: paths.Hunt,
     rarity: rarities.Five_Star,
@@ -2055,7 +2068,8 @@ export const lightCones = {
   Ninja_Record_Sound_Hunt: {
     id: 3167,
     name: 'Ninja Record: Sound Hunt',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Light_Cone_Ninja_Record_Sound_Hunt_Icon.png/revision/latest?cb=20241025211429',
     effect: `Curtains Up!<p>Increases the wearer's Max HP by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When losing or restoring this unit's HP, increases CRIT DMG by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span>, lasting for 2 turn(s). This effect can only trigger once per turn.</p>`,
     path: paths.Destruction,
     rarity: rarities.Four_Star,
@@ -2067,7 +2081,8 @@ export const lightCones = {
   Dreams_Montage: {
     id: 3168,
     name: "Dream's Montage",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Light_Cone_Dream%27s_Montage_Icon.png/revision/latest?cb=20241025210216',
     effect: `Academy-Style Edit<p>Increases the wearer's SPD by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>. After attacking enemy targets that are Weakness Broken, regenerates <span style="color: #FFC870">3</span>/<span style="color: #FFC870">3.5</span>/<span style="color: #FFC870">4</span>/<span style="color: #FFC870">4.5</span>/<span style="color: #FFC870">5 </span>Energy. This effect can trigger up to 2 time(s) per turn.</p>`,
     path: paths.Abundance,
     rarity: rarities.Four_Star,
@@ -2076,10 +2091,33 @@ export const lightCones = {
       level80: { base_hp: 952, base_atk: 423, base_def: 396 },
     },
   },
+  Ninjutsu_Inscription_Dazzling_Evilbreaker: {
+    id: 3169,
+    name: 'Ninjutsu Inscription: Dazzling Evilbreaker',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Light_Cone_Ninjutsu_Inscription_Dazzling_Evilbreaker_Icon.png/revision/latest?cb=20241025210745',
+    effect:
+      'Exorcism<p>Increases the wearer\'s Break Effect by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100% </span>When entering battle, immediately regenerates <span style="color: rgb(255, 200, 112)">30.0/</span><span style="color: #FFC870">32.5</span>/<span style="color: #FFC870">35</span>/<span style="color: #FFC870">37.5</span>/<span style="color: #FFC870">40 </span>Energy. After the wearer uses Ultimate, obtain "Raiton." After using 2 Basic ATKs, advances the wearer\'s action by <span style="color: rgb(255, 200, 112)">50%</span>/<span style="color: #FFC870">55%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">65%</span>/<span style="color: #FFC870">70%</span> and removes "Raiton." After the wearer uses Ultimate, resets "Raiton."</p>',
+    path: paths.Erudition,
+    rarity: rarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 43,
+        base_atk: 26,
+        base_def: 24,
+      },
+      level80: {
+        base_hp: 952,
+        base_atk: 582,
+        base_def: 529,
+      },
+    },
+  },
   Shadowburn: {
     id: 3352,
     name: 'Shadowburn',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_Shadowburn_Icon.png/revision/latest?cb=20250117060249',
     effect:
       'Beautify<p>When the wearer summons memosprite for the first time in battle, recovers 1 Skill Point(s) and regenerates <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20 </span>Energy for this unit.</p>',
     path: paths.Remembrance,
@@ -2100,7 +2138,8 @@ export const lightCones = {
   Reminiscence: {
     id: 3351,
     name: 'Reminiscence',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Reminiscence_Icon.png/revision/latest?cb=20250117060336',
     effect:
       'Going to Sleep<p>When memosprite\'s turn starts, the wearer and the memosprite each gain 1 stack of "Commemoration." Each stack increases DMG dealt by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870}>10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>, stacking up to 4 time(s). "Commemoration" is removed from the wearer and the memosprite when the memosprite disappears.</p>',
     path: paths.Remembrance,
@@ -2121,7 +2160,8 @@ export const lightCones = {
   Memory_s_Curtain_Never_Falls: {
     id: 3574,
     name: "Memory's Curtain Never Falls",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Light_Cone_Memory%27s_Curtain_Never_Falls_Icon.png/revision/latest?cb=20250226134215',
     effect:
       'Reception<p>Increases the wearer\'s SPD by <span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10.5%</span>/<span style="color: #FFC870">12%</span>. After the wearer uses Skill, increases the DMG dealt by all allies by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, lasting for 3 turn(s).</p>',
     path: paths.Remembrance,
@@ -2142,7 +2182,8 @@ export const lightCones = {
   Flame_of_Blood__Blaze_My_Path: {
     id: 3575,
     name: 'Flame of Blood, Blaze My Path',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Light_Cone_Flame_of_Blood%2C_Blaze_My_Path_Icon.png/revision/latest?cb=20250226134202',
     effect:
       'Vista<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span> and Incoming Healing by <span style="color: #FFC870">20%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>. When using Skill or Ultimate, consumes HP equal to <span style="color: #FFC870">6%</span>/<span style="color: #FFC870">6.5%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">8%</span> of the wearer\'s Max HP and increases the DMG dealt by this attack by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>. If this effect\'s consumed HP is greater than 500, the DMG additionally increases by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>.</p><p>If the current HP is not sufficient, this effect reduces the wearer\'s current HP down to 1.</p>',
     path: paths.Destruction,
@@ -2163,7 +2204,8 @@ export const lightCones = {
   If_Time_Were_a_Flower: {
     id: 3576,
     name: 'If Time Were a Flower',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Light_Cone_If_Time_Were_a_Flower_Icon.png/revision/latest?cb=20250226134138',
     effect:
       'Aspiration<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span>/<span style="color: #FFC870">54%</span>/<span style="color: #FFC870">60%</span>. After the wearer launches Follow-up ATK, additionally regenerates 12 Energy and gains "Presage," lasting for 2 turn(s). While the wearer has "Presage," all ally targets\' CRIT DMG increases by <span style="color: #FFC870">48%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">72%</span>/<span style="color: #FFC870">84%</span>/<span style="color: #FFC870">96%</span>. When entering battle, the wearer regenerates 21 Energy and gains "Presage," lasting for 2 turn(s). </p>',
     path: paths.Harmony,
@@ -2184,7 +2226,8 @@ export const lightCones = {
   The_Great_Cosmic_Enterprise: {
     id: 3693,
     name: 'The Great Cosmic Enterprise',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_The_Great_Cosmic_Enterprise_Icon.png/revision/latest?cb=20250409035215',
     effect:
       'Mutual Benefit<p>Increases the wearer\'s ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by <span style="color: #FFC870">4%</span>/<span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">8%</span>. Up to a max of 7 Weakness Types can be taken into account for this effect.</p>',
     path: paths.Erudition,
@@ -2205,7 +2248,8 @@ export const lightCones = {
   Life_Should_Be_Cast_to_Flames: {
     id: 3697,
     name: 'Life Should Be Cast to Flames',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_Life_Should_Be_Cast_to_Flames_Icon.png/revision/latest?cb=20250409035138',
     effect:
       'Smelt<p>When the wearer\'s turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer\'s DMG dealt to it by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>.</p><p>When an enemy target gets attacked by the wearer, the wearer decreases the target\'s DEF by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>, lasting for 2 turn(s). The same types of effects cannot stack.</p>',
     path: paths.Erudition,
@@ -2226,7 +2270,8 @@ export const lightCones = {
   Make_Farewells_More_Beautiful: {
     id: 3698,
     name: 'Make Farewells More Beautiful',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_Make_Farewells_More_Beautiful_Icon.png/revision/latest?cb=20250409035202',
     effect:
       'Engrave<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span> of the target\'s DEF when dealing DMG, lasting for 2 turn(s).</p><p>When the wearer\'s memosprite disappears, advances the wearer\'s action by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.</p>',
     path: paths.Remembrance,
@@ -2239,7 +2284,8 @@ export const lightCones = {
   Lies_Dance_on_the_Breeze: {
     id: 3774,
     name: 'Lies Dance on the Breeze',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Lies_Dance_on_the_Breeze_Icon.png/revision/latest?cb=20250611051645',
     effect:
       'Deceit<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. After the wearer uses an attack, there is a 120% base chance to inflict the "Bamboozle" state on every enemy target. While under the "Bamboozle" state, enemy targets have their DEF decreased by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">24% </span>for 2 turn(s). If the wearer\'s SPD is higher than or equal to 170, there is a 120% base chance to inflict the "Theft" state on every enemy target. While under the "Theft" state, enemy targets have their DEF decreased by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span> for 2 turn(s). When "Bamboozle" or "Theft" is repeatedly inflicted, only the most recently inflicted instance takes effect.</p>',
     path: paths.Nihility,
@@ -2252,7 +2298,8 @@ export const lightCones = {
   Long_May_Rainbows_Adorn_the_Sky: {
     id: 3775,
     name: 'Long May Rainbows Adorn the Sky',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Long_May_Rainbows_Adorn_the_Sky_Icon.png/revision/latest?cb=20250521031836',
     effect:
       'Tolerant<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies\' HP equal to <span style="color: #FFC870">1%</span>/<span style="color: #FFC870">1.25%</span>/<span style="color: #FFC870">1.5%</span>/<span style="color: #FFC870">1.75%</span>/<span style="color: #FFC870">2%</span> of their current HP and additionally deals 1 instance of Additional DMG of the wearer\'s memosprite Type equal to <span style="color: #FFC870">250%</span>/<span style="color: #FFC870">312.5%</span>/<span style="color: #FFC870">375%</span>/<span style="color: #FFC870">437.5%</span>/<span style="color: #FFC870">500% </span>of the total consumed HP to the attacked target after the next attack launched by the wearer\'s memosprite. The total HP consumed is then reset. When the wearer\'s memosprite uses Memosprite Skill, increases the DMG taken by all enemies by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span> for 2 turn(s). The same types of effects cannot stack.</p>',
     path: paths.Remembrance,
@@ -2265,7 +2312,8 @@ export const lightCones = {
   Thus_Burns_the_Dawn: {
     id: 3887,
     name: 'Thus Burns the Dawn',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Light_Cone_Thus_Burns_the_Dawn_Icon.png/revision/latest?cb=20250725220253',
     effect:
       'Dispossession<p>The wearer\'s base SPD increases by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20</span>. When dealing DMG, ignores <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span> of the target\'s DEF. After the wearer uses Ultimate, gains "Blazing Sun," which is removed at the start of the turn. While holding "Blazing Sun," increases the wearer\'s DMG dealt by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">78%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">114%</span>/<span style="color: #FFC870">132%</span>.</p>',
     path: paths.Destruction,
@@ -2278,7 +2326,8 @@ export const lightCones = {
   The_Storys_Next_Page: {
     id: 3888,
     name: "The Story's Next Page",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_The_Story%27s_Next_Page_Icon.png/revision/latest?cb=20250702033308',
     effect:
       'Written Down\n<p>ncreases the wearer\'s Max HP by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer\'s memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>, lasting for 1 turn(s).</p>',
     path: paths.Remembrance,
@@ -2291,7 +2340,8 @@ export const lightCones = {
   Journey_Forever_Peaceful: {
     id: 3889,
     name: 'Journey, Forever Peaceful',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_Journey%2C_Forever_Peaceful_Icon.png/revision/latest?cb=20250702033240',
     effect:
       'Sweet Dream<p>Increases the wearer\'s provided Shield Effect by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When an ally target has a Shield, the DMG dealt increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>.</p>',
     path: paths.Preservation,
@@ -2304,7 +2354,8 @@ export const lightCones = {
   Unto_Tomorrows_Morrow: {
     id: 3890,
     name: "Unto Tomorrow's Morrow",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Unto_Tomorrow%27s_Morrow_Icon.png/revision/latest?cb=20250702033328',
     effect:
       'Farewell<p>Increases the wearer\'s Outgoing Healing by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When an ally target\'s current HP percentage is greater than or equal to 50%, increases the DMG dealt by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>.</p>',
     path: paths.Abundance,
@@ -2317,7 +2368,8 @@ export const lightCones = {
   In_Pursuit_of_the_Wind: {
     id: 3891,
     name: 'In Pursuit of the Wind',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Light_Cone_In_Pursuit_of_the_Wind_Icon.png/revision/latest?cb=20250702033231',
     effect:
       'Flustered<p>After entering combat, increases all allies\' Break DMG dealt by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">24%</span>. Abilities of the same type cannot stack</p>',
     path: paths.Harmony,
@@ -2330,7 +2382,8 @@ export const lightCones = {
   The_Flower_Remembers: {
     id: 3892,
     name: 'The Flower Remembers',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_The_Flower_Remembers_Icon.png/revision/latest?cb=20250702033258',
     effect:
       'Interdependence<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>. The CRIT DMG dealt by the wearer\'s memosprite increases by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span>.</p>',
     path: paths.Remembrance,
@@ -2343,7 +2396,8 @@ export const lightCones = {
   A_Trail_of_Bygone_Blood: {
     id: 3893,
     name: 'A Trail of Bygone Blood',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_A_Trail_of_Bygone_Blood_Icon.png/revision/latest?cb=20250702033213',
     effect:
       'Massacre<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. The Skill DMG and Ultimate DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p><p></p>',
     path: paths.Destruction,
@@ -2356,7 +2410,8 @@ export const lightCones = {
   A_Dream_Scented_in_Wheat: {
     id: 3894,
     name: 'A Dream Scented in Wheat',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_A_Dream_Scented_in_Wheat_Icon.png/revision/latest?cb=20250702033203',
     effect:
       'Longing<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. The Ultimate DMG and Follow-up ATK DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p>',
     path: paths.Erudition,
@@ -2369,7 +2424,8 @@ export const lightCones = {
   Holiday_Thermae_Escapade: {
     id: 3895,
     name: 'Holiday Thermae Escapade',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Holiday_Thermae_Escapade_Icon.png/revision/latest?cb=20250702033222',
     effect:
       'Chill Out<p>Increases the wearer\'s DMG dealt by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer attacks, there is a 100% base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11.5%</span>/<span style="color: #FFC870">13%</span>/<span style="color: #FFC870">14.5%</span>/<span style="color: #FFC870">16%</span> for 2 turn(s). Effects of the same type cannot stack.</p>',
     path: paths.Nihility,
@@ -2382,7 +2438,8 @@ export const lightCones = {
   See_You_at_the_End: {
     id: 3896,
     name: 'See You at the End',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Light_Cone_See_You_at_the_End_Icon.png/revision/latest?cb=20250702033250',
     effect:
       'Persistence<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>. The Skill DMG and Follow-up ATK DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p>',
     path: paths.Hunt,
@@ -2395,7 +2452,8 @@ export const lightCones = {
   A_Thankless_Coronation: {
     id: 3900,
     name: 'A Thankless Coronation',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_A_Thankless_Coronation_Icon.png/revision/latest?cb=20250711043435',
     effect:
       'King of Knights<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">36%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">54%</span>/<span style="color: #FFC870">63%</span>/<span style="color: #FFC870">72%</span>. When using Ultimate, increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">40%</span>/<span style="color: rgb(255, 200, 112)">50%</span>/<span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: rgb(255, 200, 112)">70%</span>/<span style="color: rgb(255, 200, 112)">80%</span>, and if the wearer\'s Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer\'s Max Energy and once again increases the wearer\'s ATK by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>, lasting for 2 turns.</p>',
     path: paths.Destruction,
@@ -2408,7 +2466,8 @@ export const lightCones = {
   The_Hell_Where_Ideals_Burn: {
     id: 3901,
     name: 'The Hell Where Ideals Burn',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_The_Hell_Where_Ideals_Burn_Icon.png/revision/latest?cb=20250702131416',
     effect:
       'Hrunting<p>Increases the wearer\'s CRIT Rate by<span style="color: #FFC870"> 16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. When entering combat, if the allies\' Skill Points limit is 6 or higher, increases the wearer\'s ATK by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>. After each use of the wearer\'s Skill, increases the wearer\'s ATK by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span>, stacking up to 4 time(s).</p>',
     path: paths.Hunt,
@@ -2421,7 +2480,8 @@ export const lightCones = {
   Why_Does_the_Ocean_Sing: {
     id: 3949,
     name: 'Why Does the Ocean Sing',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Why_Does_the_Ocean_Sing_Icon.png/revision/latest?cb=20250813023359',
     effect:
       'Solo<p>Increases the wearer\'s Effect Hit Rate by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">55%</span>/<span style="color: #FFC870">60%</span>. When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter "Enthrallment," lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in "Enthrallment," for every 1 debuff applied by the wearer on the target, increases the target\'s received DoT by <span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6.25%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">8.75%</span>/<span style="color: #FFC870">10%</span>, stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker\'s SPD by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span> for 3 turn(s). When the wearer gets knocked down, removes all "Enthrallment."</p>',
     path: paths.Nihility,
@@ -2434,7 +2494,8 @@ export const lightCones = {
   Epoch_Etched_in_Golden_Blood: {
     id: 3950,
     name: 'Epoch Etched in Golden Blood',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Epoch_Etched_in_Golden_Blood_Icon.png/revision/latest?cb=20250902145109',
     effect:
       'Conquer<p>Increases the wearer\'s ATK by <span style="color: #FFC870">64%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">112%</span>/<span style="color: #FFC870">128%</span>. After using Ultimate to attack, recovers 1 Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by <span style="color: #FFC870">54%</span>/<span style="color: #FFC870">67.5%</span>/<span style="color: #FFC870">81%</span>/<span style="color: #FFC870">94.5%</span>/<span style="color: #FFC870">108%</span> for 3 turn(s).</p>',
     path: paths.Harmony,
@@ -2447,7 +2508,8 @@ export const lightCones = {
   The_Forever_Victual: {
     id: 3951,
     name: 'The Forever Victual',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Light_Cone_The_Forever_Victual_Icon.png/revision/latest?cb=20250813023350',
     effect:
       'So good!<p>Increases the wearer\'s ATK by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer uses Skill, increases ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, stacking up to 3 times.</p>',
     path: paths.Harmony,
@@ -2460,7 +2522,8 @@ export const lightCones = {
   To_Evernights_Stars: {
     id: 4005,
     name: "To Evernight's Stars",
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Light_Cone_To_Evernight%27s_Stars_Icon.png/revision/latest?cb=20250924034315',
     effect:
       'Sleepless<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer\'s memosprite uses an ability, the wearer gains "Noctis." While the wearer has "Noctis," all allies\' memosprites ignore <span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">27.5%</span>/<span style="color: #FFC870">30%</span> of the target\'s DEF when dealing DMG. Increases the DMG dealt by the wearer and their memosprite by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer\'s memosprite disappears, the wearer recovers 8 Energy. Similar effects cannot stack.</p>',
     path: paths.Remembrance,
@@ -2473,7 +2536,8 @@ export const lightCones = {
   Though_Worlds_Apart: {
     id: 4006,
     name: 'Though Worlds Apart',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Light_Cone_Though_Worlds_Apart_Icon.png/revision/latest?cb=20251015044629',
     effect:
       'New Scale<p>Increases the wearer\'s ATK by <span style="color: #FFC870">64%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">112%</span>/<span style="color: #FFC870">128%</span>. When the wearer uses Ultimate, restores HP equal to <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: rgb(255, 200, 112)">12.5%</span>/<span style="color: rgb(255, 200, 112)">15%</span>/<span style="color: rgb(255, 200, 112)">17.5%</span>/<span style="color: rgb(255, 200, 112)">20%</span> of the wearer\'s ATK for all allies, and additionally restores HP equal to <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span> of the wearer\'s ATK for the character with the lowest current HP, and grants "Redoubt" to all allies for 3 turn(s). Targets with "Redoubt" deal <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span> increased DMG, which further increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span> if the targets have summons</p>',
     path: paths.Preservation,
@@ -2486,7 +2550,8 @@ export const lightCones = {
   This_Love_Forever: {
     id: 4061,
     name: 'This Love, Forever',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_This_Love%2C_Forever_Icon.png/revision/latest?cb=20251105033038',
     effect:
       'A Promise<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. When the wearer\'s memosprite uses Memosprite Skill on one ally, gains "Blank," which increases DMG taken by all enemies by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>. When the wearer\'s memosprite uses Memosprite Skill on an enemy, gains "Verse," which increases CRIT DMG of all allies by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">19%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">28%</span>. When the wearer\'s memosprite has both "Blank" and "Verse," increases the effects of both "Blank" and "Verse" by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">65%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">75%</span>/<span style="color: #FFC870">80%</span>.</p>',
     path: paths.Remembrance,
@@ -2499,7 +2564,8 @@ export const lightCones = {
   Fly_Into_a_Pink_Tomorrow: {
     id: 4062,
     name: 'Fly Into a Pink Tomorrow',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Light_Cone_Fly_Into_a_Pink_Tomorrow_Icon.png/revision/latest?cb=20251105033534',
     effect:
       'Gaze<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When equipped by Trailblazer (Remembrance), increases all ally targets\' DMG dealt by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span> and increases the DMG dealt by the Enhanced Basic ATK "Together, We Script Tomorrow!" by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>.</p>',
     path: paths.Remembrance,
@@ -2512,7 +2578,8 @@ export const lightCones = {
   The_Finale_of_a_Lie: {
     id: 5007,
     name: 'The Finale of a Lie',
-    icon_url: '',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Light_Cone_The_Finale_of_a_Lie_Icon.png/revision/latest?cb=20260325055147',
     effect:
       'Subsume<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. At the start of battle or for every 4 instance(s) of Follow-Up ATK the wearer uses, the wearer gains "Umbra Devourer." While holding "Umbra Devourer," the wearer ignores <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">22.5%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">31.5%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF and increases the wearer\'s Follow-Up ATK DMG by <span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">22.5%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">27.5%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. Effects of the same type cannot stack.</p>',
     path: paths.Hunt,
@@ -2520,6 +2587,27 @@ export const lightCones = {
     stats: {
       level1: { base_hp: 38, base_atk: 28, base_def: 24 },
       level80: { base_hp: 846, base_atk: 635, base_def: 529 },
+    },
+  },
+  Time_Woven_Into_Gold: {
+    id: 0,
+    name: 'Time Woven Into Gold',
+    icon_url: 'https://honkai-star-rail.fandom.com/wiki/Time_Woven_Into_Gold',
+    effect:
+      'Establishment<p>Increases the wearer\'s base SPD by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20</span>. After the wearer and the wearer\'s memosprite attacks, the wearer gains 1 stack of "Brocade." Each stack of "Brocade" increases the wearer\'s and their memosprite\'s CRIT DMG by <span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10.5%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">13.5%</span>/<span style="color: #FFC870">15%</span>, stacking up to 6 time(s). When reaching maximum stacks, each "Brocade" stack additionally increases Basic ATK DMG dealt by <span style="color: rgb(255, 200, 112)">9%</span>/<span style="color: rgb(255, 200, 112)">10.5%</span>/<span style="color: rgb(255, 200, 112)">12%</span>/<span style="color: rgb(255, 200, 112)">13.5%</span>/<span style="color: rgb(255, 200, 112)">15%</span>.</p>',
+    path: paths.Remembrance,
+    rarity: rarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 48,
+        base_atk: 28,
+        base_def: 18,
+      },
+      level80: {
+        base_hp: 1058,
+        base_atk: 635,
+        base_def: 396,
+      },
     },
   },
 } as const satisfies Record<string, LightCone>;
