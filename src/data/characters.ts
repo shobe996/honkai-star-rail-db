@@ -2334,7 +2334,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Elation,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -2362,7 +2362,7 @@ export const characters = {
     desc: "<p>A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.999\"!</p><p>She's conquered the universe, unlocked every cosmic achievement... What's left to play?</p><p>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</p>",
     path: paths.Elation,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
