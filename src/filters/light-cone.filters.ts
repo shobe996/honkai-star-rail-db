@@ -1,5 +1,5 @@
 import { lightCones } from '../data/light-cones';
-import { LightCone } from '../types/light-cones/light-cone.types';
+import { LightCone } from '../types/light-cone.types';
 import { LightConeSearchCriteria } from '../types/light-cones/light-cone-criteria.types';
 import { PaginatedResult } from '../types/pagination.types';
 import {
