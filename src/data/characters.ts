@@ -2326,4 +2326,60 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Character_Ashveil_Splash_Art.png/revision/latest?cb=20260313174406',
   },
+  Trailblazer_Elation: {
+    id: 5006,
+    name: 'Trailblazer',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0134d/8607089f3aeeb9c2414ffd5a026b4c48.png',
+    desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
+    path: paths.Elation,
+    faction: factions.Astral_Express,
+    rarity: rarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_hp: 147,
+        base_atk: 63,
+        base_def: 85,
+        base_speed: 106,
+      },
+      level80: {
+        base_hp: 1086,
+        base_atk: 465,
+        base_def: 630,
+        base_speed: 106,
+      },
+    },
+    release_date: new Date('2026-04-22'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a8/Character_Trailblazer_%28F%29_Elation_Splash_Art.png/revision/latest?cb=20260422043547',
+  },
+  Silver_Wolf_LV_999: {
+    id: 5217,
+    name: 'Silver Wolf LV.999',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0134d/d4dd05fda72861505ff112282cef81a6.png',
+    desc: "<p>A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.999\"!</p><p>She's conquered the universe, unlocked every cosmic achievement... What's left to play?</p><p>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</p>",
+    path: paths.Elation,
+    faction: factions.Stellaron_Hunters,
+    rarity: rarities.Five_Star,
+    type: types.Imaginary,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 52,
+        base_def: 89,
+        base_speed: 110,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 388,
+        base_def: 654,
+        base_speed: 110,
+      },
+    },
+    release_date: new Date('2026-04-22'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f0/Character_Silver_Wolf_LV.999_Splash_Art.png/revision/latest?cb=20260417164013',
+  },
 } as const satisfies Record<string, Character>;
