@@ -1,6 +1,6 @@
 import { Rarity } from '../types';
 
-export const rarities = {
+export const characterRarities = {
   Four_Star: {
     id: 1468,
     name: '4-Star',
