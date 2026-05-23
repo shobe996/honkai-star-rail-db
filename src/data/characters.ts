@@ -2382,4 +2382,32 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f0/Character_Silver_Wolf_LV.999_Splash_Art.png/revision/latest?cb=20260417164013',
   },
+  Evanescia: {
+    id: 5005,
+    name: 'Evanescia',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ua8b8d/e798e19e93e8b3996b5fdbeaa27d10c7.png',
+    desc: '<p>One season the Phantasmoon waxes full, one season the mortal world shifts anew: The mysterious girl reappears in Planarcadia!</p><p>Fallen petals scatter with ease, and her stay was but a fleeting instant. Everything about this new era enthralls her, and she will not allow anyone to bring it to ruin...</p><p>A single ruler blade judges right from wrong, but who can say how much good or evil lies within oneself?</p>',
+    path: paths.Elation,
+    faction: factions.Planarcadia,
+    rarity: rarities.Five_Star,
+    type: types.Physical,
+    stats: {
+      level1: {
+        base_hp: 142,
+        base_atk: 100,
+        base_def: 62,
+        base_speed: 104,
+      },
+      level80: {
+        base_hp: 1047,
+        base_atk: 737,
+        base_def: 460,
+        base_speed: 104,
+      },
+    },
+    release_date: new Date('2026-05-13'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Character_Evanescia_Splash_Art.png/revision/latest?cb=20260506070712',
+  },
 } as const satisfies Record<string, Character>;
