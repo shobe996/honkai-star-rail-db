@@ -2390,7 +2390,7 @@ export const characters = {
     desc: '<p>One season the Phantasmoon waxes full, one season the mortal world shifts anew: The mysterious girl reappears in Planarcadia!</p><p>Fallen petals scatter with ease, and her stay was but a fleeting instant. Everything about this new era enthralls her, and she will not allow anyone to bring it to ruin...</p><p>A single ruler blade judges right from wrong, but who can say how much good or evil lies within oneself?</p>',
     path: paths.Elation,
     faction: factions.Planarcadia,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
