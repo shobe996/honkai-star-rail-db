@@ -1,4 +1,4 @@
-import { factions, paths, rarities, types } from '../data';
+import { characterRarities, factions, paths, types } from '../data';
 import { Character } from '../types/characters';
 
 export const characters = {
@@ -10,7 +10,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Destruction,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -38,7 +38,7 @@ export const characters = {
     desc: '<p>A girl who once slumbered in eternal ice and knows nothing about her past.</p><p>To find out the truth about her origins, she decided to travel with the Astral Express.</p><p>As of right now, she has prepared about 67 different versions of her life story for herself.</p>',
     path: paths.Preservation,
     faction: factions.Astral_Express,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -66,7 +66,7 @@ export const characters = {
     desc: '<p>A cold and reserved young man who is reticent about his past.</p><p>To avoid his kin, he decided to travel with the Astral Express.</p>',
     path: paths.Hunt,
     faction: factions.Astral_Express,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -94,7 +94,7 @@ export const characters = {
     desc: '<p>The one who repaired the Astral Express.</p><p>To witness the vast starry sky, she decided to travel with the Astral Express.</p><p>Her hobby is brewing hand-made coffee.</p>',
     path: paths.Erudition,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -122,7 +122,7 @@ export const characters = {
     desc: '<p>A seasoned member of the Express Crew.</p><p>The passion buried in his heart burns anew as he enjoys this fresh adventure.</p><p>Occasionally, he would sketch the experiences in a notebook.</p>',
     path: paths.Nihility,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -150,7 +150,7 @@ export const characters = {
     desc: "<p>The head of Herta Space Station's Security Department.</p><p>This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.</p>",
     path: paths.Destruction,
     faction: factions.Herta_Space_Station,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -178,7 +178,7 @@ export const characters = {
     desc: "<p>The lead researcher of Herta Space Station and a lady from a renowned family.</p><p>She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.</p>",
     path: paths.Harmony,
     faction: factions.Herta_Space_Station,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -206,7 +206,7 @@ export const characters = {
     desc: '<p>Member 83 of the Genius Society. The real master of the space station.</p><p>An incredibly intelligent yet unsympathetic scientist.</p>',
     path: paths.Erudition,
     faction: factions.Herta_Space_Station,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -234,7 +234,7 @@ export const characters = {
     desc: '<p>Heir apparent to the Supreme Guardian of Belobog.</p><p>She possesses pride befitting of a princess, but also the determination and integrity of a soldier.</p>',
     path: paths.Harmony,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -262,7 +262,7 @@ export const characters = {
     desc: '<p>A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka".</p><p>She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.</p>',
     path: paths.Hunt,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -290,7 +290,7 @@ export const characters = {
     desc: "<p>A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.</p><p>As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's.</p><p>She loves an ancient form of music known as \"rock 'n' roll\" that was popular before the Eternal Freeze.</p>",
     path: paths.Erudition,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -318,7 +318,7 @@ export const characters = {
     desc: '<p>A captain in the Silvermane Guards and an outstanding warrior of Belobog.</p><p>He is meticulous and vigilant to the core and is always true to himself.</p>',
     path: paths.Preservation,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -346,7 +346,7 @@ export const characters = {
     desc: '<p>A doctor from the Underworld and a caregiver of children.</p><p>Alongside her kindness and caring, she also has a hidden dangerous side.</p>',
     path: paths.Abundance,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -374,7 +374,7 @@ export const characters = {
     desc: '<p>An intelligence officer for the Silvermane Guards.</p><p>She has a serious personality and is revered by other members of the Silvermane Guards.</p>',
     path: paths.Nihility,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -402,7 +402,7 @@ export const characters = {
     desc: '<p>A vagrant girl who lives with robots.</p><p>She is introverted, gentle, and has a pure heart.</p><p>She wishes for all Underworlders to become a family.</p>',
     path: paths.Destruction,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -430,7 +430,7 @@ export const characters = {
     desc: "<p>A merchant who freely travels between the Overworld and the Underworld.</p><p>He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.</p>",
     path: paths.Nihility,
     faction: factions.Masked_Fools,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -458,7 +458,7 @@ export const characters = {
     desc: '<p>Boss (self-proclaimed) of an Underworld adventure squad, The Moles.</p><p>She loves freedom and sees life as a series of adventures.</p>',
     path: paths.Destruction,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -486,7 +486,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Preservation,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -514,7 +514,7 @@ export const characters = {
     desc: '<p>Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian.</p><p>Always slacks off and is about to be demoted to a "door guardian".</p>',
     path: paths.Erudition,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -542,7 +542,7 @@ export const characters = {
     desc: '<p>Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.</p><p>She travels with business delegates, forging trade relationships and alliances with many worlds.</p>',
     path: paths.Harmony,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -570,7 +570,7 @@ export const characters = {
     desc: "<p>The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.</p><p>A student of the Luofu's previous Sword Champion, though not known for his martial prowess.</p>",
     path: paths.Erudition,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -598,7 +598,7 @@ export const characters = {
     desc: '<p>Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training.</p><p>She wields her family sword, a gift from her mother, and longs for the future she will go on to write.</p>',
     path: paths.Hunt,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -626,7 +626,7 @@ export const characters = {
     desc: "<p>General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age.</p><p>No one can best him when Yanqing holds a sword in hand.</p>",
     path: paths.Hunt,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -654,7 +654,7 @@ export const characters = {
     desc: '<p>The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu.</p><p>She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.</p>',
     path: paths.Abundance,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -682,7 +682,7 @@ export const characters = {
     desc: '<p>A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She\'s mastered the skill know as "aether editing" which can be used to tamper with the data of reality.</p>',
     path: paths.Nihility,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -710,7 +710,7 @@ export const characters = {
     desc: '<p>Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.</p><p>Has excellent medical skills.</p>',
     path: paths.Abundance,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -738,7 +738,7 @@ export const characters = {
     desc: "<p>Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork.</p>",
     path: paths.Harmony,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -766,7 +766,7 @@ export const characters = {
     desc: '<p><span style="color: rgba(255, 255, 255, 0.65)">A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade.</span></p><p><span style="color: rgba(255, 255, 255, 0.65)">Pledges loyalty to "Destiny\'s Slave", and possesses a terrifying self-healing ability.</span></p>',
     path: paths.Destruction,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -794,7 +794,7 @@ export const characters = {
     desc: '<p>A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.</p>',
     path: paths.Nihility,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -822,7 +822,7 @@ export const characters = {
     desc: "<p>The boxing champion in Belobog's Underground, and one of Wildfire's most capable fighters. The consecutive champion of the Fight Club, his enthusiasm inspires children of the Underworld who dare to dream big.</p>",
     path: paths.Nihility,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -850,7 +850,7 @@ export const characters = {
     desc: '<p>The head of the Xianzhou Luofu\'s Divination Commission. A confident and blunt sage.</p><p>Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou\'s route and predicts the fortune of future events. She firmly believes that everything she does is the "best solution" for the situation.</p><p>Fu Xuan is waiting for the general\'s promised "abdication". However, that day still seems... very far away.</p>',
     path: paths.Preservation,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -878,7 +878,7 @@ export const characters = {
     desc: '<p><span style="color: rgba(255, 255, 255, 0.65)">Dan Heng\'s true Vidyadhara form, revealed after accepting residual powers from the previous reincarnation of "Imbibitor Lunae". </span></p><p><span style="color: rgba(255, 255, 255, 0.65)">Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that person. </span></p><p><span style="color: rgba(255, 255, 255, 0.65)">However, he was never himself.</span></p>',
     path: paths.Destruction,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -906,7 +906,7 @@ export const characters = {
     desc: '<p>A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.</p>',
     path: paths.Abundance,
     faction: factions.Jarilo_VI,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -934,7 +934,7 @@ export const characters = {
     desc: "<p>Former Sword Champion of the Luofu, and the creator of the Cloud Knights' legends of undefeated might.</p><p>Now, her name has been wiped from the records, and she is a traitor of the Xianzhou walking on the fine line between sanity and mara-struck.</p>",
     path: paths.Destruction,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -962,7 +962,7 @@ export const characters = {
     desc: '<p>Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the "Ten Stronehearts" at a young age, Topaz\'s foundational expertise is "debt retrieval". Her partner, the Warp Trotter "Numby", is also capable of keenly perceiving where "riches" are located, ensuring that jobs based in security, debt collection, and actuarial varieties are of no great challenge. At presently they are traveling the cosmos together, seeking all manner of liability disputes that might be affecting the stable progression of the IPC\'s businesses.</p>',
     path: paths.Hunt,
     faction: factions.Interastral_Peace_Corporation,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -990,7 +990,7 @@ export const characters = {
     desc: "<p>A performance artist visiting the Xianzhou Luofu - in other words, a street performer. She's chasing a new life on the Loufu when not concerned with food and shelter.</p>",
     path: paths.Nihility,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1018,7 +1018,7 @@ export const characters = {
     desc: '<p>A pitiable and helpless Foxian girl who is also a Ten-Lords Commission Judge-in-training, who fears ghosts but must catch them.</p><p>Due to having a heliobus named Tail sealed in her tail by the judges of the Ten-Lords Comission, she became a "cursed one" who attracts inhuman beings.</p><p>She fears demons and heliobi, but contrarily is tasked with their capture and entrusted with the heavy task of eradicating vile spirits.</p><p>Though she believes herself lacking in ability, she is unable to muster the courage to resign and continues onward despite walking in a valley of her own fear.</p>',
     path: paths.Abundance,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -1046,7 +1046,7 @@ export const characters = {
     desc: '<p>A classic knight of the "Knights of Beauty" who is piously seeking his missing Aeon Idrila the "Beauty".</p><p>Forthright and candid, he wanders the cosmos espousing the virtues of Idrila\'s good name.</p>',
     path: paths.Erudition,
     faction: factions.The_Knights_of_Beauty,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -1074,7 +1074,7 @@ export const characters = {
     desc: "<p>One of the judges of the Xianzhou Luofu's Ten-Lords Commission.</p><p>Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions, then issues punishments and karmic retribution.</p>",
     path: paths.Harmony,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -1102,7 +1102,7 @@ export const characters = {
     desc: 'A member of the Genius Society and an expert in life sciences. She teamed up with Herta and others to develop the Simulated Universe.',
     path: paths.Harmony,
     faction: factions.Herta_Space_Station,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -1130,7 +1130,7 @@ export const characters = {
     desc: 'An eccentric, self-centered, slightly gloomy, and yet elegant Intelligentsia Guild member. He often wears a bizarre plaster head sculpture over his head despite his handsome features.',
     path: paths.Hunt,
     faction: factions.Intelligentsia_Guild,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1158,7 +1158,7 @@ export const characters = {
     desc: '<p>Judge of the Ten-Lords Commission, which controls life and death on the Luofu. For years after her death, she inhabited a puppet body and returned to the world to fulfill her mission.</p>',
     path: paths.Destruction,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1186,7 +1186,7 @@ export const characters = {
     desc: '<p>A Memokeeper of the Garden of Recollection. A mysterious and elegant soothsayer.</p><p>She often wears a warm smile and is willing to patiently listen to the words of others, thus using such means as a pretext to enter "memories" and gain omniscience over certain matters.</p><p>A lady passionate about collecting unique memories, yet the thoughts that guide her are hard to glean.</p>',
     path: paths.Nihility,
     faction: factions.Garden_of_Recollection,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -1214,7 +1214,7 @@ export const characters = {
     desc: '<p>A member of the Masked Fools. Inscrutable and unscrupulous.</p><p>A dangerous maestro of theatrics, utterly engrossed in the art of performance. Adorned with innumerable masks, she is the hero with a thousand faces.</p><p>Wealth, status, power... None of this matters to Sparkle. The only thing that can get her attention is "amusement".</p>',
     path: paths.Harmony,
     faction: factions.Masked_Fools,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1242,7 +1242,7 @@ export const characters = {
     desc: '<p>A well-behaved young man serving as a hotel bellboy in Penacony.</p><p>Misha has a great longing for the Nameless and dreams of one day embarking on a journey of his own.</p>',
     path: paths.Destruction,
     faction: factions.Penacony,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -1270,7 +1270,7 @@ export const characters = {
     desc: '<p>A drifter claiming to be a Galaxy Ranger. Her true name is unknown.</p><p>She walks the cosmos alone, carrying with her a long sword.</p>',
     path: paths.Nihility,
     faction: factions.Self_Annihilator,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -1298,7 +1298,7 @@ export const characters = {
     desc: '<p>A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for his cornerstone "Aventurine of stratagems".</p><p>He always dons a smile that conceals his true intentions and lives by the principle of "the greater the risk, the greater the reward".</p>',
     path: paths.Preservation,
     faction: factions.Interastral_Peace_Corporation,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1326,7 +1326,7 @@ export const characters = {
     desc: '<p>A security officer from the Bloodhound Family in Penacony. He is also a slovenly and indolent drinksmith. Though unorganized in apparel and casual in how he makes his drinks, he is always courteous toward visiting guests but keeps his vigilance about him. He seems to carry a weight of a complicated past, yet he never voluntarily divulges any details.</p>',
     path: paths.Abundance,
     faction: factions.Penacony,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1354,7 +1354,7 @@ export const characters = {
     desc: '<p>A Halovian singer who was born in Penacony and has risen to cosmic fame. An elegant and demure young lady.</p><p>This time, she has been invited home by The Family to grace everyone with song during the Charmony Festival.</p><p>She can use the power of "Harmony" to broadcast her music, manifesting "resonance" among not only her fans but all manner of lifeforms.</p>',
     path: paths.Harmony,
     faction: factions.Penacony,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -1382,7 +1382,7 @@ export const characters = {
     desc: '<p>A cyborg cowboy drifting among the stars. Extremely optimistic and unrestrained.</p><p>He is a member of the Galaxy Rangers who swore to punish the wretched by any and all means...</p><p>His flamboyant and brash actions were all to draw the attention of the Interastral Peace Corporation — the target of his revenge.</p>',
     path: paths.Hunt,
     faction: factions.Galaxy_Rangers,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -1410,7 +1410,7 @@ export const characters = {
     desc: '<p><span style="color: rgba(255, 255, 255, 0.45)">A member of the Stellaron Hunters, clad in a set of mechanized armor known as "SAM". Her character is marked by unwavering loyalty and steely resolve.</p><p>Engineered as a weapon against the Swarm, she experiences accelerated growth, but a tragically shortened lifespan.</p><p>She joined the Stellaron Hunters in a quest for a chance at "life", seeking to defy her fated demise.</span></p>',
     path: paths.Destruction,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1438,7 +1438,7 @@ export const characters = {
     desc: '<p>A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for her cornerstone "Jade of Credit".</p><p>A cold and elegant moneylender, she is skilled at understanding the human heart, with a personal hobby called "Bonajade Exchange".</p><p>She\'s willing to wait patiently for high-value acquisitions and adept at extracting value from seemingly destitute clients.</p>',
     path: paths.Erudition,
     faction: factions.Interastral_Peace_Corporation,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1466,7 +1466,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Harmony,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1494,7 +1494,7 @@ export const characters = {
     desc: '<p>A sword hunter from the Xianzhou Zhuming and "the Flaming Heart" General Huaiyan\'s darling granddaughter. Frank and straightforward.</p><p>She has learned swordplay and forging from Huaiyan since young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.</p><p>Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to "hunt down and wipe out all cursed swords".</p>',
     path: paths.Destruction,
     faction: factions.The_Xianzhou_Zhuming,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -1522,7 +1522,7 @@ export const characters = {
     desc: '<p>A foxian healer and counselor from the Xianzhou Yaoqing. Often greets people with a smile on his face and a scheme in his heart.</p><p>Born into a prestigious Alchemy Commission family, he once withdrew from practicing medicine due to a broken heart. However, he returned to the field to treat "the Merlin\'s Claw", General Feixiao.</p><p>Skilled in the study of alchemical prescription that views food as medicine, especially those that induce a sensation of spiciness. They invented a cauldron-based medicinal formula known as the "nine-square grid".</p>',
     path: paths.Nihility,
     faction: factions.The_Xianzhou_Yaoqing,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1550,7 +1550,7 @@ export const characters = {
     desc: '<p>March 7th in a Xianzhou-styled outfit. A sword-wielding female martial artist.</p><p>Learning swordplay from both Yunli and Yanqing, she is eager to create more beautiful memories on the Xianzhou.</p>',
     path: paths.Hunt,
     faction: factions.Astral_Express,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1578,7 +1578,7 @@ export const characters = {
     desc: '<p>The Xianzhou Yaoqing\'s Merlin\'s Claw and one of the Seven Arbiter-Generals. Unconventional and straightforward, she exudes effortless charm.</p><p>She is skilled in all forms of martial arts and has honed herself into a supreme weapon. She is widely adored by Xianzhou soldiers and civilians alike as "The Vanquishing General".</p><p>However, she bears the burden of the Moon Rage affliction. If she were to hunt down all the abominations in her limited lifetime — then the only enemy Feixiao has would be herself.</p>',
     path: paths.Hunt,
     faction: factions.The_Xianzhou_Yaoqing,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -1606,7 +1606,7 @@ export const characters = {
     desc: "<p>The new Cauldron Master of the Xianzhou Luofu's Alchemy Commission is one perceptive and intelligent Vidyadhara healer.</p><p>With a keen sense of smell, she diagnoses ailments and calms minds with aromatic therapy.</p><p>Adept at navigating complex social relationships, she can remain impeccably composed even when turmoil rages within.</p>",
     path: paths.Abundance,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1634,7 +1634,7 @@ export const characters = {
     desc: '<p>A Shadow Guard of the Yaoqing, Moze is taciturn and solitary, always acting on his own.</p><p>As an expert in intelligence services and other operations that must remain covert, Moze rarely shows himself before others. The moment he reveals his blade usually spells doom for his enemies.</p><p>He commands a vast wealth of assassination techniques, coupled with an extraordinary obsession for orderliness and cleanliness.</p>',
     path: paths.Hunt,
     faction: factions.The_Xianzhou_Yaoqing,
-    rarity: rarities.Four_Star,
+    rarity: characterRarities.Four_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -1662,7 +1662,7 @@ export const characters = {
     desc: '<p>A peculiar girl who appears in Penacony like a flashbang at the darkest hour of night, identifying herself as a ninja and attributing everything in the world to "ninjutsu".</p><p>Upholding the recitation of ninja mantra, creating Dazzling Ninja Seals, and studying ninja scrolls — That is, the Way of the Ninja involves rap, graffiti, and manga — Through rigorous self-discipline, she roams the stars, upholding justice and righteousness.</p><p>As a member of the Galaxy Rangers, she relentlessly pursues the villain known as Evil Ninja Osaru, chasing them to the very edge of the Cosmos.</p>',
     path: paths.Erudition,
     faction: factions.Galaxy_Rangers,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1690,7 +1690,7 @@ export const characters = {
     desc: '<p>The former head of the Oak Family and the elder brother of Robin.</p><p>After the upheaval of the Charmony Festival was quelled, he bid farewell to Order and his homeland, boarding the Astral Express in search of a new path.</p>',
     path: paths.Harmony,
     faction: factions.Cosmos,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1718,7 +1718,7 @@ export const characters = {
     desc: '<p>A tactful foxian girl, whose appearance, name, and identity have all been stolen.</p><p>The fates have left her a thread of chance at survival, yet the brand of Destruction still writhes with anticipation.</p><p>The one in a fugue who has experienced life and death and is given a new life... when would she be able to return home?</p>',
     path: paths.Nihility,
     faction: factions.Xianzhou_Luofu,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -1746,7 +1746,7 @@ export const characters = {
     desc: "<p>Esteemed Genius Society #83, human, female, young, beautiful, attractive.</p><p>It's said that she lives in the far edge of the Cosmos, almost never leaving. Sounds like her appearance this time...</p><p>...must be for some issue that requires a personal touch, right?</p>",
     path: paths.Erudition,
     faction: factions.Herta_Space_Station,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -1774,7 +1774,7 @@ export const characters = {
     desc: '<p>In that holy city kissed by the dawn, the weaver caresses the golden threads, entwining fates. The Chrysos Heir that bears the "Romance" Coreflame gathered the world\'s heroes, leading them on a long journey once more — to topple the gods, reclaim the divine flame, and grant rebirth to the nearly fallen Amphoreus.</p>',
     path: paths.Remembrance,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -1802,7 +1802,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Remembrance,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -1830,7 +1830,7 @@ export const characters = {
     desc: "<p>From that holy land blessed by the tripartite prophecy, the messenger split into a thousand forms, embarking on a long journey.</p><p>Tribios, Holy Maidens of Janusopolis, the Chrysos Heir who stole Passage's Coreflame. She toiled for the masses, bringing the news of deliverance to all domains.</p><p>— Go find the children of humanity with golden blood in their veins, shatter the dimmest dark in this world, and walk toward the tomorrow where the stars shine.</p>",
     path: paths.Harmony,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1858,7 +1858,7 @@ export const characters = {
     desc: '<p>Kremnos, the mist-shrouded city of chaos and war! Its royal lineage is tainted with patricide, and its god bears the name of calamity.</p><p>The undying Mydeimos, the lion apart from the rest. Chrysos Heir who seeks the Coreflame of Strife, must suffer a thousand deaths, be bathed in blood on the path home, and bear the madness of fate alone.</p><p>— Kingslayer be king, godslayer be god. Iron-hooves pound across the wilderness for the campaign, and must eventually soak in the blood of their homeland.</p>',
     path: paths.Destruction,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
@@ -1886,7 +1886,7 @@ export const characters = {
     desc: '<p>"Servant of Death" Castorice</p><p>The land that reveres death, Aidonia, where snow falls endlessly, has today drifted into a sweet slumber.</p><p>Castorice, daughter of the River of Souls, Chrysos Heir in search of "Death" Coreflame, sets forth. You must guard the lament of souls and embrace the solitude of destiny.</p><p>— Life and death are but a journey. When butterfly alights on the branch, what withers will bloom anew.</p>',
     path: paths.Remembrance,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1914,7 +1914,7 @@ export const characters = {
     desc: '<p>The Grove of Epiphany, where knowledge flourishes and philosophers are born.</p><p>Yet here stands Anaxagoras the blasphemer, the Chrysos Heir who challenges the Coreflame of Reason. He is questioned: Would you defy the prophecy even if you must bear infamy, and insist on driving the thorns of doubt into the Sacred Tree of wisdom?</p><p>——<i>"Ridiculous. In a world full of lies, I am the only truth".</i></p>',
     path: paths.Erudition,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -1942,7 +1942,7 @@ export const characters = {
     desc: "<p>As the city-state in the clouds crumbles through time, the Twilight Courtyard opens its gates once more, bringing a glimmer of light to Evernight.</p><p>You, Physician Hyacinthia, Chrysos Heir who guards the Sky Coreflame, must inherit your ancestors' will and mend the torn fabric of dusk and dawn.</p><p>May the rainbow light pour down, dissolve all grudges, and bring the dawn back to this land.</p>",
     path: paths.Remembrance,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -1970,7 +1970,7 @@ export const characters = {
     desc: '<p>In the fallen city of bandits, Dolos, the 300 Rogues run wild and free.</p><p>Race onward, fleet-footed Thief Star Cifera, Chrysos Heir of the "Trickery" Coreflame. May your web of lies spread with the breeze throughout all lands.</p><p>—<i>"Tryna trick me? Not a chance!"</i></p>',
     path: paths.Nihility,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -1998,7 +1998,7 @@ export const characters = {
     desc: '<p>The solitary Heroic Spirit traverses the long night of fate. The banner of the round table remains unfurled in a dream. Alas, the knight-king of Camelot has yet to reach that ever-distant utopia.</p><p>Though still a young maiden, she has heeded the call for this most unique iteration of the Holy Grail War. With the Sword in the Stone offering its choice once more, how shall she shatter the illusions of the past?</p><p>"The wishes I did not fulfill will end here".</p>',
     path: paths.Destruction,
     faction: factions.Another_World,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -2026,7 +2026,7 @@ export const characters = {
     desc: '<p>Despair plays in cycles between the past and future. Countless ideals were incinerated before that red Holy Shroud. Yet, do not let this smear of ashes fool you —</p><p>Should someone create a phantasmal sweet dream under the guise of false ideals, then he will burn again, facing down the hypocrites of the world till the very end.</p><p>No matter where he is, he always remains the steadfast hero of justice.</p>',
     path: paths.Hunt,
     faction: factions.Another_World,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Quantum,
     stats: {
       level1: {
@@ -2054,7 +2054,7 @@ export const characters = {
     desc: '<p>Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.</p><p>The Nameless hero, █████, the Chrysos Heir carrying the Coreflame of "Worldbearing", memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world</p><p>— <em>"But should dawn have never existed, let the fires of rage burn this body to ashes and transform into the blazing sun of tomorrow!"</em></p>',
     path: paths.Destruction,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -2082,7 +2082,7 @@ export const characters = {
     desc: "<p>Styxia, the coastal city of intoxication and dreams, where echoes of old songs still drift among the waves.</p><p>Helektra, Daughter of the Sea, Chrysos Heir who cleanses the Ocean's Coreflame, dispels the murky undercurrents and orchestrates a banquet of revelry for the heroes beyond the sky.</p><p>The show must go on. Even if hope is as fragile as bubbles, the waves will keep surging forward.</p>",
     path: paths.Nihility,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -2110,7 +2110,7 @@ export const characters = {
     desc: '<p>The Northern Empire, a lost dynasty, where its frozen lands burn with the fever of conquest.</p><p>Sovereign Cerydra, the Chrysos Heir who wields the Coreflame of "Law", weaves her schemes, contends with the gods, passes judgment upon the faithless, and lays the foundation of Flame-Chase into this world.</p><p>...<i>"This is far from the end. Amphoreus\'s journey is set to blaze across the stars!"</i></p>',
     path: paths.Harmony,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Wind,
     stats: {
       level1: {
@@ -2138,7 +2138,7 @@ export const characters = {
     desc: '<p>In the Memory Zone secluded from the world, candlelight reflects the past, silently extinguishing in the mist.</p><p>Evernight, child of Remembrance born from the shadow, Chrysos Heir who conceals the Coreflame of Time, you shall stir the tide of "Oblivion", guarding the wish of the mirrored soul.</p><p><em>——"Don\'t worry, I will guard the path of Trailblaze for you... at any cost ♭"</em></p>',
     path: paths.Remembrance,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -2166,7 +2166,7 @@ export const characters = {
     desc: "<p>The chest of Georios, the body of the fallen dragon supporting the shattered earth, enduring millennia of pain.</p><p>Dan Heng, the Nameless and the Chrysos Heir who guards the Earth's Coreflame, steadies the world before it falls and guides all life across the land to a new home beyond.</p><p>Rivers flow to the sea, mountains echo in harmony, and the eternal path stretches ten thousand miles.</p>",
     path: paths.Preservation,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -2194,7 +2194,7 @@ export const characters = {
     desc: '<p>A meteor streaks across the night sky, stirring ripples in the river of life, shimmering with thirteen hues.</p><p>Daughter of Aedes Elysiae, nurturer of the Chrysos Heir of "███", plants the Seed of Memory, letting yesterday\'s flowers bloom in tomorrow</p><p>—"Now, let\'s write a different kind of poem together♪"</p>',
     path: paths.Remembrance,
     faction: factions.Amphoreus,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Ice,
     stats: {
       level1: {
@@ -2222,7 +2222,7 @@ export const characters = {
     desc: '<p>The sweet dream burned down the Ever-Flame Mansion, taking with it every trace of "her".</p><p>Destruction, Remembrance... flowers of betrayal bloomed wherever they passed.</p><p>To return to the dreamscape no one remembers, who will be the one to set her aflame again?</p>',
     path: paths.Nihility,
     faction: factions.The_Cremators,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -2250,7 +2250,7 @@ export const characters = {
     desc: '<p>"I am General Yao Guang, Seer Strategist aboard the Xianzhou Yuque. Like everyone else, you may simply call me Madam Yao. It\'s true, I could have divined the finer details of this encounter, but where\'s the fun in that? Being here in person has turned up some rather pleasant surprises".</p><p>Her mysterious, bold, and radical actions were so revolutionary that they left everyone stunned.</p><p>She saw all fortune, good and ill, through the "eye" of The Hunt. Yet, knowing that fate is not to be defied, the Seer Strategist still faced the danger alone.</p><p>To be dealt such a cursed fortune... How can one ever hope to alter their fate?</p>',
     path: paths.Elation,
     faction: factions.The_Xianzhou_Yuque,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Physical,
     stats: {
       level1: {
@@ -2278,7 +2278,7 @@ export const characters = {
     desc: '<p>Like! Follow! Stream! Views! Party till the world ends!</p><p>Sparxie and Sparkle, the Mask and the Fool are fundamentally the same.</p><p>Whoever is seen, whoever is liked, is the correct answer!</p>',
     path: paths.Elation,
     faction: factions.Masked_Fools,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Fire,
     stats: {
       level1: {
@@ -2306,7 +2306,7 @@ export const characters = {
     desc: '<p>He takes cases on a whim, cracks them with hard-core logic, and solves the strangest crimes on sheer instinct.</p><p>With a monkey for an assistant and his heart set on retirement, the detective sleeps in a refrigerator, waiting for the bait to catch its willing prey.</p><p>Under the light of the Phantasmoon, the vile beast howls. How will he draw the net on this hunt?</p>',
     path: paths.Hunt,
     faction: factions.Planarcadia,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -2334,7 +2334,7 @@ export const characters = {
     desc: '<p>A girl who boarded the Astral Express.</p><p>They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</p>',
     path: paths.Elation,
     faction: factions.Astral_Express,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Lightning,
     stats: {
       level1: {
@@ -2362,7 +2362,7 @@ export const characters = {
     desc: "<p>A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.999\"!</p><p>She's conquered the universe, unlocked every cosmic achievement... What's left to play?</p><p>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</p>",
     path: paths.Elation,
     faction: factions.Stellaron_Hunters,
-    rarity: rarities.Five_Star,
+    rarity: characterRarities.Five_Star,
     type: types.Imaginary,
     stats: {
       level1: {
