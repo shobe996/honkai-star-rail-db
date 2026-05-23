@@ -1,7 +1,7 @@
-import { rarities } from '../data';
+import { lightConeRarities } from '../data';
 
 /** Derived literal type of all available Rarity keys. */
-export type RarityName = keyof typeof rarities;
+export type RarityName = keyof typeof lightConeRarities;
 
 /**
  * Defines the scarcity tier and visual grade of a character.
