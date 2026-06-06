@@ -2985,4 +2985,26 @@ export const lightCones = {
       },
     },
   },
+  Reforged_in_Hellfire: {
+    id: 5340,
+    name: 'Reforged in Hellfire',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f6/Light_Cone_Reforged_in_Hellfire_Icon.png/revision/latest?cb=20260601030625',
+    effect:
+      'Tempering<p><span style="color: rgba(178,173,173,1)">Increases the wearer\'s Max HP by </span><span style="color: rgba(255,199,112,1)">30%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">37.5%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">45%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">52.5%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">60%</span><span style="color: rgba(178,173,173,1)">. At the start of the wearer\'s turn, they regenerate a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses a Skill Attack, inflicts the target with the "Purgatory" state, lasting for 2 turn(s). While in the "Purgatory" state, CRIT DMG taken by the target increases by </span><span style="color: rgb(255, 199, 112)">30%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">37.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">45%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">52.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">60%</span><span style="color: rgba(178,173,173,1)">, and CRIT DMG taken from the wearer additionally increases by </span><span style="color: rgb(255, 199, 112)">30%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">37.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">45%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">52.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">60%</span><span style="color: rgba(178,173,173,1)">.</span></p>',
+    path: paths.Nihility,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 62,
+        base_atk: 19,
+        base_def: 21,
+      },
+      level80: {
+        base_hp: 1375,
+        base_atk: 423,
+        base_def: 463,
+      },
+    },
+  },
 } as const satisfies Record<string, LightCone>;
