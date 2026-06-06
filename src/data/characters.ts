@@ -2410,4 +2410,32 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Character_Evanescia_Splash_Art.png/revision/latest?cb=20260506070712',
   },
+  Mortenax_Blade: {
+    id: 5217,
+    name: 'Mortenax Blade',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0a0ae/ee669ca108fc20c7d05e03b45910ff72.png',
+    desc: "<p>Body like spring wood, heart like dead ash. Yet embers of a craftsman's spark still linger at his fingertips.</p><p>As ancient grudges are ignited once more, he promises to send both himself and the gods to the other side...</p><p>Torn flesh, tempered a thousand times into a blade... What answer will it create?</p>",
+    path: paths.Nihility,
+    faction: factions.Stellaron_Hunters,
+    rarity: characterRarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_hp: 185,
+        base_atk: 73,
+        base_def: 66,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 1358,
+        base_atk: 543,
+        base_def: 485,
+        base_speed: 107,
+      },
+    },
+    release_date: new Date('2026-06-01'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Character_Mortenax_Blade_Splash_Art.png/revision/latest?cb=20260601025859',
+  },
 } as const satisfies Record<string, Character>;
