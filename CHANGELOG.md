@@ -1,3 +1,13 @@
+# [1.7.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.6.0...v1.7.0) (2026-06-06)
+
+
+### Features
+
+* **character:** add Mortenax Blade into character dataset ([962ec05](https://github.com/shobe996/honkai-star-rail-db/commit/962ec05a62961ccc9da741dd468ab2ee78329bd0))
+* **light cone:** add Reforged in Hellfire into light cone dataset ([25d7a81](https://github.com/shobe996/honkai-star-rail-db/commit/25d7a8128a6ce1cfb8fac7add77830a2b09b4b1f))
+
+
+
 # [1.6.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.5.0...v1.6.0) (2026-05-23)
 
 
@@ -52,15 +62,6 @@
 ### Bug Fixes
 
 * package json and package lock json out of synch during build job ([62081b6](https://github.com/shobe996/honkai-star-rail-db/commit/62081b6f55cfe33dcf0ad82fb300e2002d5dcbb7))
-
-
-
-## [1.4.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.0...v1.4.1) (2026-04-04)
-
-
-### Bug Fixes
-
-* Sparxie splash art url ([9680720](https://github.com/shobe996/honkai-star-rail-db/commit/9680720c9e91597d4ebf21e2332b85c99f63185e))
 
 
 
