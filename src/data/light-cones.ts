@@ -571,7 +571,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Woof%21_Walk_Time%21_Icon.png/revision/latest?cb=20240206022157',
     effect:
-      "Increases the wearer's ATK by <orangeStrong>10%/12.5%/15%/17.5%/20%</orangeStrong>, and increases their DMG to enemies afflicted with Burn or Bleed by <orangeStrong>16%/20%/24%/28%/32%</orangeStrong>. This also applies to DoT.",
+      'Run!<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">10%/12.5%/15%/17.5%/20%</span>, and increases their DMG to enemies afflicted with Burn or Bleed by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. This also applies to DoT.</p>',
     stats: {
       level1: {
         base_hp: 43,
@@ -593,7 +593,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_The_Seriousness_of_Breakfast_Icon.png/revision/latest?cb=20240206021928',
     effect:
-      "Increases the wearer's DMG by <orangeStrong>12%/15%/18%/21%/24%</orangeStrong>. For every enemy defeated by the wearer, the wearer's ATK increases by <orangeStrong>4%/5%/6%/7%/8%</orangeStrong>, stacking up to <orangeStrong>3</orangeStrong> time(s).",
+      'Get Ready<p>Increases the wearer\'s DMG by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>. For every enemy defeated by the wearer, the wearer\'s ATK increases by <span style="color: rgb(255, 200, 112)">4%/5%/6%/7%/8%</span>, stacking up to 3 time(s).</p>',
     stats: {
       level1: {
         base_hp: 38,
@@ -615,7 +615,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/f/ff/Light_Cone_Warmth_Shortens_Cold_Nights_Icon.png/revision/latest?cb=20240206022059',
     effect:
-      "Increases the wearer's Max HP by <orangeStrong>16%/20%/24%/28%/32%</orangeStrong>. When using Basic ATK or Skill, restores all allies' HP by an amount equal to <orangeStrong>2%/2.5%/3%/3.5%/4%</orangeStrong> of their respective Max HP.",
+      'Tiny Light<p>Increases the wearer\'s Max HP by <span style="color: rgb(255, 200, 112)">16%/20%/24%%/28%/32%</span>. When using Basic ATK or Skill, restores all allies\' HP by an amount equal to <span style="color: rgb(255, 200, 112)">2%/2.5%/3%/3.5%/4%</span> of their respective Max HP.</p>',
     stats: {
       level1: {
         base_hp: 48,
@@ -637,7 +637,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_We_Will_Meet_Again_Icon.png/revision/latest?cb=20240206022121',
     effect:
-      "After the wearer uses Basic ATK or Skill, deals <orangeStrong>Additional DMG</orangeStrong> equal to <orangeStrong>48%/60%/72%/84%/96%</orangeStrong> of the wearer's ATK to a random enemy that has been attacked.",
+      'A Discourse in Arms<p>After the wearer uses Basic ATK or Skill, <span style="color: rgb(242, 244, 245)">deals Additional DMG equal to</span> <span style="color: rgb(255, 200, 112)">48%/60%/72%/84%/96%</span> <span style="color: rgb(242, 244, 245)">of the wearer\'s ATK to a random enemy that has been attacked.</span></p>',
     stats: {
       level1: {
         base_hp: 38,
@@ -659,7 +659,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/6/63/Light_Cone_This_Is_Me%21_Icon.png/revision/latest?cb=20240206021949',
     effect:
-      "Increases the wearer's DEF by <orangeStrong>16%/20%/24%/28%/32%</orangeStrong>. Increases the DMG of the wearer when they use their Ultimate by <orangeStrong>60%/75%/90%/105%/120%</orangeStrong> of the wearer's DEF. This effect only apply <orangeStrong>1</orangeStrong> time per enemy target.",
+      'New Chapter<p>Increases the wearer\'s DEF by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. Increases the DMG of the wearer when they use their Ultimate by <span style="color: rgb(255, 200, 112)">60%/75%/90%/105%/120%</span> of the wearer\'s DEF. This effect only apply 1 time per enemy target.</p>',
     stats: {
       level1: {
         base_hp: 38,
@@ -681,7 +681,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Return_to_Darkness_Icon.png/revision/latest?cb=20240206021641',
     effect:
-      "Increases the wearer's CRIT Rate by <orangeStrong>12%/15%/18%/21%/24%</orangeStrong>. After a CRIT Hit, there is a <orangeStrong>16%/20%/24%/28%/32%</orangeStrong> fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      'Raging Waves<p>Increases the wearer\'s CRIT Rate by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>. After a CRIT Hit, there is a <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span> fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.</p>',
     stats: {
       level1: {
         base_hp: 38,
@@ -703,7 +703,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Icon.png/revision/latest?cb=20240206022848',
     effect:
-      "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by <orangeStrong>10%/12.5%/15%/17.5%/20%</orangeStrong>, increase all allies' CRIT DMG by <orangeStrong>12%/15%/18%/21%/24%</orangeStrong>, or increase all allies' Energy Regeneration Rate by <orangeStrong>6%/7.5%/9%/10.5%/12%</orangeStrong>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar types cannot be stacked.",
+      'Secret<p>One of the following effects is applied randomly at the start of combat and whenever the wearer\'s turn begins: Increase all allies\' ATK by <span style="color: rgb(255, 200, 112)">10%/12.5%/15%/17.5%/20%</span>, increase all allies\' CRIT DMG by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>, or increase all allies\' Energy Regeneration Rate by <span style="color: rgb(255, 200, 112)">6%/7.5%/9%/10.5%/12%</span>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar types cannot be stacked.</p>',
     stats: {
       level1: {
         base_hp: 43,
@@ -725,7 +725,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Nowhere_to_Run_Icon.png/revision/latest?cb=20240206021418',
     effect:
-      "Increases the wearer's ATK by <orangeStrong>24%/30%/36%/42%/48%</orangeStrong>. Whenever the wearer defeats an enemy, they restore HP equal to <orangeStrong>12%/15%/18%/21%/24%</orangeStrong> of their ATK.",
+      'Crisis<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>. Whenever the wearer defeats an enemy, they restore HP equal to <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span> of their ATK.</p>',
     stats: {
       level1: {
         base_hp: 43,
@@ -747,7 +747,7 @@ export const lightCones = {
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_Today_Is_Another_Peaceful_Day_Icon.png/revision/latest?cb=20240206022012',
     effect:
-      "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by <orangeStrong>0.2%/0.25%/0.3%/0.35%/0.4%</orangeStrong> per point of Energy, up to <orangeStrong>160</orangeStrong> Energy.",
+      'A Storm Is Coming<p>After entering battle, increases the wearer\'s DMG based on their Max Energy. DMG increases by <span style="color: rgb(255, 200, 112)">0.2%/0.25%/0.3%/0.35%/0.4%</span> per point of Energy, up to 160 Energy.</p>',
     stats: {
       level1: {
         base_hp: 38,
@@ -2168,14 +2168,14 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     stats: {
       level1: {
-        base_hp: 0,
-        base_atk: 0,
-        base_def: 0,
+        base_hp: 48,
+        base_atk: 24,
+        base_def: 9,
       },
       level80: {
-        base_hp: 0,
-        base_atk: 0,
-        base_def: 0,
+        base_hp: 1058,
+        base_atk: 529,
+        base_def: 198,
       },
     },
   },
@@ -2224,7 +2224,7 @@ export const lightCones = {
     },
   },
   Time_Woven_Into_Gold: {
-    id: 0,
+    id: 3330,
     name: 'Time Woven Into Gold',
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Light_Cone_Time_Woven_Into_Gold_Icon.png/revision/latest?cb=20250117060800',
@@ -2515,8 +2515,8 @@ export const lightCones = {
     path: paths.Abundance,
     rarity: lightConeRarities.Four_Star,
     stats: {
-      level1: { base_hp: 48, base_atk: 21, base_def: 0 },
-      level80: { base_hp: 1058, base_atk: 476, base_def: 0 },
+      level1: { base_hp: 48, base_atk: 21, base_def: 18 },
+      level80: { base_hp: 1058, base_atk: 476, base_def: 396 },
     },
   },
   In_Pursuit_of_the_Wind: {
@@ -2529,8 +2529,8 @@ export const lightCones = {
     path: paths.Harmony,
     rarity: lightConeRarities.Four_Star,
     stats: {
-      level1: { base_hp: 48, base_atk: 21, base_def: 0 },
-      level80: { base_hp: 1058, base_atk: 476, base_def: 0 },
+      level1: { base_hp: 48, base_atk: 21, base_def: 18 },
+      level80: { base_hp: 1058, base_atk: 476, base_def: 396 },
     },
   },
   The_Flower_Remembers: {
