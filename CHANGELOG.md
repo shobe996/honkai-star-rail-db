@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.0...v1.7.1) (2026-06-20)
+
+
+### Bug Fixes
+
+* fix incorrect light cone data ([ed6d434](https://github.com/shobe996/honkai-star-rail-db/commit/ed6d4341a214f76f1b1264a491487a3e8c72d6bd))
+
+
+
 # [1.7.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.6.0...v1.7.0) (2026-06-06)
 
 
@@ -53,15 +62,6 @@
 ### Bug Fixes
 
 * transform descriptions into the HTML format and fix some sign typos ([dfd096e](https://github.com/shobe996/honkai-star-rail-db/commit/dfd096e8fb459679c72ec08dfbaaaeff2b0583dc))
-
-
-
-## [1.4.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.1...v1.4.2) (2026-04-04)
-
-
-### Bug Fixes
-
-* package json and package lock json out of synch during build job ([62081b6](https://github.com/shobe996/honkai-star-rail-db/commit/62081b6f55cfe33dcf0ad82fb300e2002d5dcbb7))
 
 
 
