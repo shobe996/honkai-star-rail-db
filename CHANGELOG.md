@@ -1,3 +1,13 @@
+# [1.8.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.1...v1.8.0) (2026-07-17)
+
+
+### Features
+
+* **character:** add Himeko Nova into character dataset ([7e1f870](https://github.com/shobe996/honkai-star-rail-db/commit/7e1f8709127f358a4a3b2a0e4c876b06172400fe))
+* **light cone:** add A Star That Lights the Night into light cone dataset ([78f70b6](https://github.com/shobe996/honkai-star-rail-db/commit/78f70b655502c225358675598c6f87c76701695e))
+
+
+
 ## [1.7.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.0...v1.7.1) (2026-06-20)
 
 
@@ -53,15 +63,6 @@
 ### Features
 
 * **character:** add characters Silver Wolf LV.999 and Elation Trailblazer ([662090c](https://github.com/shobe996/honkai-star-rail-db/commit/662090cdd9882d064be85fea689df7b89e78d4b6))
-
-
-
-## [1.4.3](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.2...v1.4.3) (2026-04-05)
-
-
-### Bug Fixes
-
-* transform descriptions into the HTML format and fix some sign typos ([dfd096e](https://github.com/shobe996/honkai-star-rail-db/commit/dfd096e8fb459679c72ec08dfbaaaeff2b0583dc))
 
 
 
