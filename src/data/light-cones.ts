@@ -3007,4 +3007,26 @@ export const lightCones = {
       },
     },
   },
+  A_Star_That_Lights_the_Night: {
+    id: 6574,
+    name: 'A Star That Lights the Night',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Light_Cone_A_Star_That_Lights_the_Night_Icon.png/revision/latest?cb=20260715025832',
+    effect:
+      'First Wish<p>The wearer ignores <span style="color: rgb(255, 199, 112)">32%</span>/<span style="color: rgb(255, 199, 112)">36%</span>/<span style="color: rgb(255, 199, 112)">40%</span>/<span style="color: rgb(255, 199, 112)">44%</span>/<span style="color: rgb(255, 199, 112)">48%</span> of the target\'s DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate 6 Energy and gain "Sail," lasting for 2 turns and stacking up to 3 time(s). Each stack of "Sail" increases Assist Skill DMG by <span style="color: rgb(255, 199, 112)">20%</span>/<span style="color: rgb(255, 199, 112)">25%</span>/<span style="color: rgb(255, 199, 112)">30%</span>/<span style="color: rgb(255, 199, 112)">35%</span>/<span style="color: rgb(255, 199, 112)">40%</span>. When "Sail" reaches 3 stacks, each stack of "Sail" increases Ultimate DMG by <span style="color: rgb(255, 199, 112)">20%</span>/<span style="color: rgb(255, 199, 112)">25%</span>/<span style="color: rgb(255, 199, 112)">30%</span>/<span style="color: rgb(255, 199, 112)">35%</span>/<span style="color: rgb(255, 199, 112)">40%</span>.</p>',
+    path: paths.Erudition,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 38,
+        base_atk: 28,
+        base_def: 24,
+      },
+      level80: {
+        base_hp: 846,
+        base_atk: 635,
+        base_def: 529,
+      },
+    },
+  },
 } as const satisfies Record<string, LightCone>;

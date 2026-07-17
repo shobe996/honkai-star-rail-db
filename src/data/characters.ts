@@ -2438,4 +2438,32 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Character_Mortenax_Blade_Splash_Art.png/revision/latest?cb=20260601025859',
   },
+  Himeko_Nova: {
+    id: 5335,
+    name: 'Himeko Nova',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ua5ece/3c7b74bfd7a6462639245b1662f0bc7b.png?x-oss-process=image/format,webp/quality,Q_90',
+    desc: '<p>"No matter how tangled our pasts or how distant the future, our bond remains unchanged. I am Himeko, Navigator of the </p><p></p><p>Astral Express — and your family, always looking out at the same horizon as you."</p><p>Some fight by your side, while others watch over you, the Trailblaze is never a solitary voyage.</p><p>She paints a trailblazing miracle. The silver rail stretches on, and the Nameless set sail once more, illuminating the galaxy\'s eternal night. At the end of the line, she looks back once again. The dream of setting forth has never run aground.</p>',
+    path: paths.Erudition,
+    faction: factions.Astral_Express,
+    rarity: characterRarities.Five_Star,
+    type: types.Fire,
+    stats: {
+      level1: {
+        base_speed: 98,
+        base_hp: 153,
+        base_atk: 102,
+        base_def: 66,
+      },
+      level80: {
+        base_speed: 98,
+        base_hp: 1125,
+        base_atk: 679,
+        base_def: 557,
+      },
+    },
+    release_date: new Date('2026-06-15'),
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Character_Himeko_%E2%80%A2_Nova_Splash_Art.png/revision/latest?cb=20260715025512',
+  },
 } as const satisfies Record<string, Character>;
