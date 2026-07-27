@@ -2466,4 +2466,56 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Character_Himeko_%E2%80%A2_Nova_Splash_Art.png/revision/latest?cb=20260715025512',
   },
+  Rin_Tohsaka: {
+    id: 5339,
+    name: "Rin Tohsaka",
+    icon_url: "https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/8e61465f0a73f3d2fa0bbd89afd3e4cd.png?x-oss-process=image/format,webp/quality,Q_90",
+    desc: '<p>"The contract is complete.Relax, I\'m not really one for strict hierarchies... well, not for most people, anyway. Got that, my Servant?"</p><p></p><p>Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.</p><p>Currently studying under a renowned master at the "Clock Tower" who has deep ties to the Holy Grail War, hopping across dimensions and planes just to finish an internship assignment...</p><p>"Huh? Where am I? Why isn\'t there any magical energy here at all...? The Ho- Holy Grail? I\'m saved! Sorry, just gonna borrow this!"</p>',
+    path: paths.Erudition,
+    faction: factions.Another_World,
+    rarity: characterRarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_speed: 102,
+        base_hp: 142,
+        base_atk: 95,
+        base_def: 62,
+      },
+      level80: {
+        base_speed: 102,
+        base_hp: 1047,
+        base_atk: 698,
+        base_def: 460,
+      },
+    },
+    release_date: new Date('2026-07-24'),
+    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Rin_Tohsaka_Splash_Art.png/revision/latest?cb=20260724102152'
+  },
+  Gilgamesh: {
+    id: 5338,
+    name: 'Gilgamesh',
+    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/4e7d68e0fdc33a610a56470ca8c417ca.png?x-oss-process=image/format,webp/quality,Q_90',
+    desc: '<p>The King of Heroes from the dawn of human history, hailing from a world beyond the stars.</p><p>Possessing a nature two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation</p>',
+    path: paths.Destruction,
+    faction: factions.Another_World,
+    rarity: characterRarities.Five_Star,
+    type: types.Lightning,
+    stats: {
+      level1: {
+        base_speed: 97,
+        base_hp: 153,
+        base_atk: 97,
+        base_def: 69,
+      },
+      level80: {
+        base_speed: 97,
+        base_hp: 1125,
+        base_atk: 717,
+        base_def: 509,
+      },
+    },
+    release_date: new Date('2026-07-24'),
+    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Gilgamesh_Splash_Art.png/revision/latest?cb=20260724102153'
+  }
 } as const satisfies Record<string, Character>;
