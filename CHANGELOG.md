@@ -1,3 +1,13 @@
+# [1.9.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.8.0...v1.9.0) (2026-07-27)
+
+
+### Features
+
+* **character:** add Rin Tohsaka and Gilgamesh into character dataset ([f657756](https://github.com/shobe996/honkai-star-rail-db/commit/f65775623235a96777966423ecabc5af31b42acf))
+* **light cone:** add Flickering Stars and I Am As You Behold into light cone dataset ([e6ec8e3](https://github.com/shobe996/honkai-star-rail-db/commit/e6ec8e334fe1192fde8f6ce36276d345703fbe0a))
+
+
+
 # [1.8.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.1...v1.8.0) (2026-07-17)
 
 
@@ -54,15 +64,6 @@
 * **character:** add character Evanescia ([7774b43](https://github.com/shobe996/honkai-star-rail-db/commit/7774b43a5595cb67cc4859a91b08acbe0366c5ce))
 * export light cone data and rarities ([43c840f](https://github.com/shobe996/honkai-star-rail-db/commit/43c840f8e89bb6423a23c7a7f30fddba2a060049))
 * use factory function for rarity filters ([fb268b4](https://github.com/shobe996/honkai-star-rail-db/commit/fb268b43e5a5e1a84d0f831f7dec53bed37fe432))
-
-
-
-# [1.5.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.4.3...v1.5.0) (2026-04-25)
-
-
-### Features
-
-* **character:** add characters Silver Wolf LV.999 and Elation Trailblazer ([662090c](https://github.com/shobe996/honkai-star-rail-db/commit/662090cdd9882d064be85fea689df7b89e78d4b6))
 
 
 
