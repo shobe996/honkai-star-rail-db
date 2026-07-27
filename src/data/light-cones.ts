@@ -3029,4 +3029,45 @@ export const lightCones = {
       },
     },
   },
+  Flickering_Stars: {
+    id: 6575,
+    name: 'Flickering Stars',
+    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Flickering_Stars_Icon.png/revision/latest?cb=20260724041852',
+    effect: 'Sprout<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains "Radiant Crown," lasting for 3 turn(s). While the wearer holds "Radiant Crown," all allies\' DMG dealt ignores <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF, and the Skill DMG dealt by the wearer increases by <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">84%</span>/<span style="color: rgba(255,199,112,1)">96%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">120%</span>. Effects of the same type cannot stack.</p>',
+    path: paths.Erudition,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 38,
+        base_atk: 28,
+        base_def: 24,
+      },
+      level80: {
+        base_hp: 846,
+        base_atk: 635,
+        base_def: 529,
+      },
+    },
+  },
+  I_Am_As_You_Behold: {
+    id: 6576,
+    name: "I Am As You Behold",
+    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_I_Am_As_You_Behold_Icon.png/revision/latest?cb=20260715084256',
+    effect: 'At Will<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span> and Energy Regeneration Rate by <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12.5%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">17.5%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by <span style="color: rgba(255,199,112,1)">0.2%</span>/<span style="color: rgba(255,199,112,1)">0.25%</span>/<span style="color: rgba(255,199,112,1)">0.3%</span>/<span style="color: rgba(255,199,112,1)">0.35%</span>/<span style="color: rgba(255,199,112,1)">0.4%</span>, up to a max increase of <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">90%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">126%</span>/<span style="color: rgba(255,199,112,1)">144%</span>. When the wearer enters combat or uses Ultimate, the wearer gains "King\'s Entertainment," lasting for 3 turn(s). While the wearer holds "King\'s Entertainment," increases all allies\' CRIT DMG by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">42%</span>/<span style="color: rgba(255,199,112,1)">48%</span>. Effects of the same type cannot stack.</p>',
+    rarity: lightConeRarities.Five_Star,
+    path: paths.Destruction,
+    stats: {
+      level1: {
+        base_hp: 43,
+        base_atk: 28,
+        base_def: 21,
+      },
+      level80: {
+        base_hp: 952,
+        base_atk: 635,
+        base_def: 463,
+      },
+    },
+  }
+
 } as const satisfies Record<string, LightCone>;
