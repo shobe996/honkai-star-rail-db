@@ -2355,7 +2355,7 @@ export const characters = {
       'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a8/Character_Trailblazer_%28F%29_Elation_Splash_Art.png/revision/latest?cb=20260422043547',
   },
   Silver_Wolf_LV_999: {
-    id: 5217,
+    id: 4997,
     name: 'Silver Wolf LV.999',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u0134d/d4dd05fda72861505ff112282cef81a6.png',
@@ -2468,8 +2468,9 @@ export const characters = {
   },
   Rin_Tohsaka: {
     id: 5339,
-    name: "Rin Tohsaka",
-    icon_url: "https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/8e61465f0a73f3d2fa0bbd89afd3e4cd.png?x-oss-process=image/format,webp/quality,Q_90",
+    name: 'Rin Tohsaka',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/8e61465f0a73f3d2fa0bbd89afd3e4cd.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: '<p>"The contract is complete.Relax, I\'m not really one for strict hierarchies... well, not for most people, anyway. Got that, my Servant?"</p><p></p><p>Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.</p><p>Currently studying under a renowned master at the "Clock Tower" who has deep ties to the Holy Grail War, hopping across dimensions and planes just to finish an internship assignment...</p><p>"Huh? Where am I? Why isn\'t there any magical energy here at all...? The Ho- Holy Grail? I\'m saved! Sorry, just gonna borrow this!"</p>',
     path: paths.Erudition,
     faction: factions.Another_World,
@@ -2490,12 +2491,14 @@ export const characters = {
       },
     },
     release_date: new Date('2026-07-24'),
-    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Rin_Tohsaka_Splash_Art.png/revision/latest?cb=20260724102152'
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Rin_Tohsaka_Splash_Art.png/revision/latest?cb=20260724102152',
   },
   Gilgamesh: {
     id: 5338,
     name: 'Gilgamesh',
-    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/4e7d68e0fdc33a610a56470ca8c417ca.png?x-oss-process=image/format,webp/quality,Q_90',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u47dee/4e7d68e0fdc33a610a56470ca8c417ca.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: '<p>The King of Heroes from the dawn of human history, hailing from a world beyond the stars.</p><p>Possessing a nature two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation</p>',
     path: paths.Destruction,
     faction: factions.Another_World,
@@ -2516,6 +2519,7 @@ export const characters = {
       },
     },
     release_date: new Date('2026-07-24'),
-    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Gilgamesh_Splash_Art.png/revision/latest?cb=20260724102153'
-  }
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Gilgamesh_Splash_Art.png/revision/latest?cb=20260724102153',
+  },
 } as const satisfies Record<string, Character>;
