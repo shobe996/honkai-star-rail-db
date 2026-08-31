@@ -2523,7 +2523,7 @@ export const characters = {
       'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Gilgamesh_Splash_Art.png/revision/latest?cb=20260724102153',
   },
   Robin_Summeretto: {
-    id: '6565',
+    id: 6565,
     name: 'Robin • Summeretto',
     icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ub3eje/d889e50b509c85f140bc0dc5a0ac5acd.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: '<p>Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.</p><p>Following the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—</p><p>Beyond the melody, how else can the Harmony sing?</p>',
