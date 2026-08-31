@@ -2522,4 +2522,30 @@ export const characters = {
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Gilgamesh_Splash_Art.png/revision/latest?cb=20260724102153',
   },
+  Robin_Summeretto: {
+    id: '6565',
+    name: 'Robin • Summeretto',
+    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ub3eje/d889e50b509c85f140bc0dc5a0ac5acd.png?x-oss-process=image/format,webp/quality,Q_90',
+    desc: '<p>Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.</p><p>Following the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—</p><p>Beyond the melody, how else can the Harmony sing?</p>',
+    path: paths.Remembrance,
+    faction: factions.Penacony,
+    rarity: characterRarities.Five_Star,
+    type: types.Wind,
+    stats: {
+      level1: {
+        base_hp: 163,
+        base_atk: 81,
+        base_def: 66,
+        base_speed: 95,
+      },
+      level80: {
+        base_hp: 1203,
+        base_atk: 601,
+        base_def: 485,
+        base_speed: 95,
+      },
+    },
+    release_date: new Date('2026-08-26'),
+    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Character_Robin_%E2%80%A2_Summeretto_Splash_Art.png/revision/latest?cb=20260826032839'
+  }
 } as const satisfies Record<string, Character>;
