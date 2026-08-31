@@ -5,5 +5,7 @@ export * from './paths';
 export * from './types';
 
 // Characters must be last due to circular references
+export * from './cavern-relics';
 export * from './characters';
 export * from './light-cones';
+export * from './planar-ornaments';
