@@ -1,3 +1,12 @@
+## [1.10.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.0...v1.10.1) (2026-08-31)
+
+
+### Bug Fixes
+
+* fix the data type ([da4f640](https://github.com/shobe996/honkai-star-rail-db/commit/da4f640e9c5b56565a6d534d139b9dd37e2d8473))
+
+
+
 # [1.10.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.9.1...v1.10.0) (2026-08-31)
 
 
@@ -34,15 +43,6 @@
 
 * **character:** add Himeko Nova into character dataset ([7e1f870](https://github.com/shobe996/honkai-star-rail-db/commit/7e1f8709127f358a4a3b2a0e4c876b06172400fe))
 * **light cone:** add A Star That Lights the Night into light cone dataset ([78f70b6](https://github.com/shobe996/honkai-star-rail-db/commit/78f70b655502c225358675598c6f87c76701695e))
-
-
-
-## [1.7.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.0...v1.7.1) (2026-06-20)
-
-
-### Bug Fixes
-
-* fix incorrect light cone data ([ed6d434](https://github.com/shobe996/honkai-star-rail-db/commit/ed6d4341a214f76f1b1264a491487a3e8c72d6bd))
 
 
 
