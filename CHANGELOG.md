@@ -1,3 +1,13 @@
+# [1.10.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.9.1...v1.10.0) (2026-08-31)
+
+
+### Features
+
+* **character:** add Robin • Summeretto into character dataset ([42f3e72](https://github.com/shobe996/honkai-star-rail-db/commit/42f3e725a6291fc0284fc764d515895342d182b5))
+* **light cone:** add Rise and Sing into light cone dataset ([f95e2a6](https://github.com/shobe996/honkai-star-rail-db/commit/f95e2a61a6fe3c533c0e7146b074cf38b38b826e))
+
+
+
 ## [1.9.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.9.0...v1.9.1) (2026-08-18)
 
 
@@ -33,16 +43,6 @@
 ### Bug Fixes
 
 * fix incorrect light cone data ([ed6d434](https://github.com/shobe996/honkai-star-rail-db/commit/ed6d4341a214f76f1b1264a491487a3e8c72d6bd))
-
-
-
-# [1.7.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.6.0...v1.7.0) (2026-06-06)
-
-
-### Features
-
-* **character:** add Mortenax Blade into character dataset ([962ec05](https://github.com/shobe996/honkai-star-rail-db/commit/962ec05a62961ccc9da741dd468ab2ee78329bd0))
-* **light cone:** add Reforged in Hellfire into light cone dataset ([25d7a81](https://github.com/shobe996/honkai-star-rail-db/commit/25d7a8128a6ce1cfb8fac7add77830a2b09b4b1f))
 
 
 
