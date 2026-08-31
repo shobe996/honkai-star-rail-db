@@ -3032,8 +3032,10 @@ export const lightCones = {
   Flickering_Stars: {
     id: 6575,
     name: 'Flickering Stars',
-    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Flickering_Stars_Icon.png/revision/latest?cb=20260724041852',
-    effect: 'Sprout<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains "Radiant Crown," lasting for 3 turn(s). While the wearer holds "Radiant Crown," all allies\' DMG dealt ignores <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF, and the Skill DMG dealt by the wearer increases by <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">84%</span>/<span style="color: rgba(255,199,112,1)">96%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">120%</span>. Effects of the same type cannot stack.</p>',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Flickering_Stars_Icon.png/revision/latest?cb=20260724041852',
+    effect:
+      'Sprout<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains "Radiant Crown," lasting for 3 turn(s). While the wearer holds "Radiant Crown," all allies\' DMG dealt ignores <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF, and the Skill DMG dealt by the wearer increases by <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">84%</span>/<span style="color: rgba(255,199,112,1)">96%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">120%</span>. Effects of the same type cannot stack.</p>',
     path: paths.Erudition,
     rarity: lightConeRarities.Five_Star,
     stats: {
@@ -3051,9 +3053,11 @@ export const lightCones = {
   },
   I_Am_As_You_Behold: {
     id: 6576,
-    name: "I Am As You Behold",
-    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_I_Am_As_You_Behold_Icon.png/revision/latest?cb=20260715084256',
-    effect: 'At Will<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span> and Energy Regeneration Rate by <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12.5%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">17.5%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by <span style="color: rgba(255,199,112,1)">0.2%</span>/<span style="color: rgba(255,199,112,1)">0.25%</span>/<span style="color: rgba(255,199,112,1)">0.3%</span>/<span style="color: rgba(255,199,112,1)">0.35%</span>/<span style="color: rgba(255,199,112,1)">0.4%</span>, up to a max increase of <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">90%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">126%</span>/<span style="color: rgba(255,199,112,1)">144%</span>. When the wearer enters combat or uses Ultimate, the wearer gains "King\'s Entertainment," lasting for 3 turn(s). While the wearer holds "King\'s Entertainment," increases all allies\' CRIT DMG by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">42%</span>/<span style="color: rgba(255,199,112,1)">48%</span>. Effects of the same type cannot stack.</p>',
+    name: 'I Am As You Behold',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_I_Am_As_You_Behold_Icon.png/revision/latest?cb=20260715084256',
+    effect:
+      'At Will<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span> and Energy Regeneration Rate by <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12.5%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">17.5%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by <span style="color: rgba(255,199,112,1)">0.2%</span>/<span style="color: rgba(255,199,112,1)">0.25%</span>/<span style="color: rgba(255,199,112,1)">0.3%</span>/<span style="color: rgba(255,199,112,1)">0.35%</span>/<span style="color: rgba(255,199,112,1)">0.4%</span>, up to a max increase of <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">90%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">126%</span>/<span style="color: rgba(255,199,112,1)">144%</span>. When the wearer enters combat or uses Ultimate, the wearer gains "King\'s Entertainment," lasting for 3 turn(s). While the wearer holds "King\'s Entertainment," increases all allies\' CRIT DMG by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">42%</span>/<span style="color: rgba(255,199,112,1)">48%</span>. Effects of the same type cannot stack.</p>',
     rarity: lightConeRarities.Five_Star,
     path: paths.Destruction,
     stats: {
@@ -3068,6 +3072,27 @@ export const lightCones = {
         base_def: 463,
       },
     },
-  }
-
+  },
+  Rise_and_Sing: {
+    id: '10193',
+    name: 'Rise and Sing',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Rise_and_Sing_Icon.png/revision/latest?cb=20260826033801',
+    effect:
+      'Improvisation<p>Increases the wearer\'s Max HP by <span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">37.5%</span>/<span style="color: rgba(255,199,112,1)">45%</span>/<span style="color: rgba(255,199,112,1)">52.5%</span>/<span style="color: rgba(255,199,112,1)">60%</span>. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer\'s action by <span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">32.5%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">37.5%</span>/<span style="color: rgba(255,199,112,1)">40%</span> and grants the wearer "New Melody," lasting for 2 turn(s). While the wearer holds "New Melody," all allies\' SPD increases by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>.</p>',
+    path: paths.Remembrance,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: {
+        base_hp: 52,
+        base_atk: 26,
+        base_def: 18,
+      },
+      level80: {
+        base_hp: 1164,
+        base_atk: 582,
+        base_def: 396,
+      },
+    },
+  },
 } as const satisfies Record<string, LightCone>;
