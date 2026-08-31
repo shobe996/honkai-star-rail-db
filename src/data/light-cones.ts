@@ -3074,7 +3074,7 @@ export const lightCones = {
     },
   },
   Rise_and_Sing: {
-    id: '10193',
+    id: 10193,
     name: 'Rise and Sing',
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Rise_and_Sing_Icon.png/revision/latest?cb=20260826033801',
