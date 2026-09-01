@@ -1,7 +1,7 @@
 import { CavernRelic } from '../types';
 
 export const cavernRelics = {
-    "as-navigator-isee-sees-it": {
+    As_Navigator_Isee_Sees_It: {
         id: 1,
         name: "As Navigator Isee Sees It",
         set: "4-Piece-Set",
@@ -15,7 +15,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Item_Navigator%27s_Starship_Boots.png/revision/latest"
         }
     },
-    "band-of-sizzling-thunder": {
+    Band_Of_Sizzling_Thunder: {
         id: 2,
         name: "Band of Sizzling Thunder",
         set: "4-Piece-Set",
@@ -29,7 +29,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Item_Band%27s_Ankle_Boots_With_Rivets.png/revision/latest"
         }
     },
-    "champion-of-streetwise-boxing": {
+    Champion_Of_Streetwise_Boxing: {
         id: 3,
         name: "Champion of Streetwise Boxing",
         set: "4-Piece-Set",
@@ -43,7 +43,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/09/Item_Champion%27s_Boxing_Gloves.png/revision/latest"
         }
     },
-    "divine-querying-master-smith": {
+    Divine_Querying_Master_Smith: {
         id: 4,
         name: "Divine-Querying Master Smith",
         set: "4-Piece-Set",
@@ -57,7 +57,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Item_Smith%27s_Casting_Iron_Boots.png/revision/latest"
         }
     },
-    "diviner-of-distant-reach": {
+    Diviner_Of_Distant_Reach: {
         id: 5,
         name: "Diviner of Distant Reach",
         set: "4-Piece-Set",
@@ -71,7 +71,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Item_Diviner%27s_Gilded_Wooden_Clogs.png/revision/latest"
         }
     },
-    "eagle-of-twilight-line": {
+    Eagle_Of_Twilight_Line: {
         id: 6,
         name: "Eagle of Twilight Line",
         set: "4-Piece-Set",
@@ -85,7 +85,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Item_Eagle%27s_Winged_Suit_Boots.png/revision/latest"
         }
     },
-    "ever-glorious-magical-girl": {
+    Ever_Glorious_Magical_Girl: {
         id: 7,
         name: "Ever-Glorious Magical Girl",
         set: "4-Piece-Set",
@@ -99,7 +99,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Item_Magical_Girl%27s_High-Heeled_Boots.png/revision/latest"
         }
     },
-    "firesmith-of-lava-forging": {
+    Firesmith_Of_Lava_Forging: {
         id: 8,
         name: "Firesmith of Lava-Forging",
         set: "4-Piece-Set",
@@ -113,7 +113,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Item_Firesmith%27s_Alloy_Leg.png/revision/latest"
         }
     },
-    "genius-of-brilliant-stars": {
+    Genius_Of_Brilliant_Stars: {
         id: 9,
         name: "Genius of Brilliant Stars",
         set: "4-Piece-Set",
@@ -127,7 +127,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Item_Genius%27s_Gravity_Walker.png/revision/latest"
         }
     },
-    "guard-of-wuthering-snow": {
+    Guard_Of_Wuthering_Snow: {
         id: 10,
         name: "Guard of Wuthering Snow",
         set: "4-Piece-Set",
@@ -141,7 +141,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0a/Item_Guard%27s_Silver_Greaves.png/revision/latest"
         }
     },
-    "hero-of-triumphant-song": {
+    Hero_Of_Triumphant_Song: {
         id: 11,
         name: "Hero of Triumphant Song",
         set: "4-Piece-Set",
@@ -155,7 +155,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Item_Hero%27s_Marching_Boots.png/revision/latest"
         }
     },
-    "hunter-of-glacial-forest": {
+    Hunter_Of_Glacial_Forest: {
         id: 12,
         name: "Hunter of Glacial Forest",
         set: "4-Piece-Set",
@@ -169,7 +169,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Item_Hunter%27s_Soft_Elkskin_Boots.png/revision/latest"
         }
     },
-    "iron-cavalry-against-the-scourge": {
+    Iron_Cavalry_Against_The_Scourge: {
         id: 13,
         name: "Iron Cavalry Against the Scourge",
         set: "4-Piece-Set",
@@ -183,7 +183,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Item_Iron_Cavalry%27s_Skywalk_Greaves.png/revision/latest"
         }
     },
-    "knight-of-purity-palace": {
+    Knight_Of_Purity_Palace: {
         id: 14,
         name: "Knight of Purity Palace",
         set: "4-Piece-Set",
@@ -197,7 +197,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1b/Item_Knight%27s_Iron_Boots_of_Order.png/revision/latest"
         }
     },
-    "longevous-disciple": {
+    Longevous_Disciple: {
         id: 15,
         name: "Longevous Disciple",
         set: "4-Piece-Set",
@@ -211,7 +211,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Item_Disciple%27s_Starcrossed_Greaves.png/revision/latest"
         }
     },
-    "messenger-traversing-hackerspace": {
+   Messenger_Traversing_Hackerspace: {
         id: 16,
         name: "Messenger Traversing Hackerspace",
         set: "4-Piece-Set",
@@ -225,7 +225,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Item_Messenger%27s_Psionic_Pinions.png/revision/latest"
         }
     },
-    "musketeer-of-wild-wheat": {
+    Musketeer_Of_Wild_Wheat: {
         id: 17,
         name: "Musketeer of Wild Wheat",
         set: "4-Piece-Set",
@@ -239,7 +239,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Item_Musketeer%27s_Rivets_Riding_Boots.png/revision/latest"
         }
     },
-    "passerby-of-wandering-cloud": {
+    Passerby_Of_Wandering_Cloud: {
         id: 18,
         name: "Passerby of Wandering Cloud",
         set: "4-Piece-Set",
@@ -253,7 +253,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Item_Passerby%27s_Stygian_Hiking_Boots.png/revision/latest"
         }
     },
-    "pioneer-diver-of-dead-waters": {
+    Pioneer_Diver_Of_Dead_Waters: {
         id: 19,
         name: "Pioneer Diver of Dead Waters",
         set: "4-Piece-Set",
@@ -267,7 +267,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Item_Pioneer%27s_Starfaring_Anchor.png/revision/latest"
         }
     },
-    "poet-of-mourning-collapse": {
+    Poet_Of_Mourning_Collapse: {
         id: 20,
         name: "Poet of Mourning Collapse",
         set: "4-Piece-Set",
@@ -281,7 +281,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Item_Poet%27s_Worn_Leather_Shoes.png/revision/latest"
         }
     },
-    "prisoner-in-deep-confinement": {
+    Prisoner_In_Deep_Confinement: {
         id: 21,
         name: "Prisoner in Deep Confinement",
         set: "4-Piece-Set",
@@ -295,7 +295,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Item_Prisoner%27s_Restrictive_Fetters.png/revision/latest"
         }
     },
-    "sacerdos-relived-ordeal": {
+    Sacerdos_Relived_Ordeal: {
         id: 22,
         name: "Sacerdos' Relived Ordeal",
         set: "4-Piece-Set",
@@ -309,7 +309,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_Sacerdos%27_Solemn_Sandals.png/revision/latest"
         }
     },
-    "scholar-lost-in-erudition": {
+    Scholar_Lost_In_Erudition: {
         id: 23,
         name: "Scholar Lost in Erudition",
         set: "4-Piece-Set",
@@ -323,7 +323,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Item_Scholar%27s_Deerskin_Boots.png/revision/latest"
         }
     },
-    "self-enshrouded-recluse": {
+    Self_Enshrouded_Recluse: {
         id: 24,
         name: "Self-Enshrouded Recluse",
         set: "4-Piece-Set",
@@ -337,7 +337,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Item_Recluse%27s_Leather_Boots.png/revision/latest"
         }
     },
-    "the-ashblazing-grand-duke": {
+    The_Ashblazing_Grand_Duke: {
         id: 25,
         name: "The Ashblazing Grand Duke",
         set: "4-Piece-Set",
@@ -351,7 +351,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Item_Grand_Duke%27s_Ceremonial_Boots.png/revision/latest"
         }
     },
-    "the-wind-soaring-valorous": {
+    The_Wind_Soaring_Valorous: {
         id: 26,
         name: "The Wind-Soaring Valorous",
         set: "4-Piece-Set",
@@ -365,7 +365,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Item_Valorous_Greaves_of_Pursuing_Hunt.png/revision/latest"
         }
     },
-    "thief-of-shooting-meteor": {
+    Thief_Of_Shooting_Meteor: {
         id: 27,
         name: "Thief of Shooting Meteor",
         set: "4-Piece-Set",
@@ -379,7 +379,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Item_Thief%27s_Meteor_Boots.png/revision/latest"
         }
     },
-    "warrior-goddess-of-sun-and-thunder": {
+    Warrior_Goddess_Of_Sun_And_Thunder: {
         id: 28,
         name: "Warrior Goddess of Sun and Thunder",
         set: "4-Piece-Set",
@@ -393,7 +393,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Item_Warrior_Goddess%27s_Riding_Boots.png/revision/latest"
         }
     },
-    "wastelander-of-banditry-desert": {
+    Wastelander_Of_Banditry_Desert: {
         id: 29,
         name: "Wastelander of Banditry Desert",
         set: "4-Piece-Set",
@@ -407,7 +407,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/69/Item_Wastelander%27s_Powered_Greaves.png/revision/latest"
         }
     },
-    "watchmaker-master-of-dream-machinations": {
+   Watchmaker_Master_Of_Dream_Machinations: {
         id: 30,
         name: "Watchmaker, Master of Dream Machinations",
         set: "4-Piece-Set",
@@ -421,7 +421,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Item_Watchmaker%27s_Dream-Concealing_Dress_Shoes.png/revision/latest"
         }
     },
-    "wavestrider-captain": {
+    Wavestrider_Captain: {
         id: 31,
         name: "Wavestrider Captain",
         set: "4-Piece-Set",
@@ -435,7 +435,7 @@ export const cavernRelics = {
             feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Item_Captain%27s_Heelless_Leather_Boots.png/revision/latest"
         }
     },
-    "world-remaking-deliverer": {
+    World_Remaking_Deliverer: {
         id: 32,
         name: "World-Remaking Deliverer",
         set: "4-Piece-Set",
