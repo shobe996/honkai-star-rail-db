@@ -142,7 +142,7 @@ export const cavernRelics = {
         }
     },
     Hero_Of_Triumphant_Song: {
-        id: 11,
+        id: 3342,
         name: "Hero of Triumphant Song",
         set: "4-Piece-Set",
         two_set_effect: "Increases ATK by 12%.",
@@ -151,8 +151,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Item_Hero_of_Triumphant_Song.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Item_Hero%27s_Wreath_of_Championship.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1d/Item_Hero%27s_Gilded_Bracers.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/37/Item_Hero%27s_Victory_Insignia.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Item_Hero%27s_Marching_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Item_Hero's_Gallant_Golden_Armor.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a3/Item_Hero's_Firechasing_Shinguard.png/revision/latest"
         }
     },
     Hunter_Of_Glacial_Forest: {
