@@ -16,7 +16,7 @@ export const cavernRelics = {
         }
     },
     Band_Of_Sizzling_Thunder: {
-        id: 2,
+        id: 136,
         name: "Band of Sizzling Thunder",
         set: "4-Piece-Set",
         two_set_effect: "Increases Lightning DMG by 10%.",
@@ -25,8 +25,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6e/Item_Band_of_Sizzling_Thunder.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Item_Band%27s_Polarized_Sunglasses.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Band%27s_Touring_Bracelet.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_Band%27s_Coat_With_Leather_Jacket.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Item_Band%27s_Ankle_Boots_With_Rivets.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Band%27s_Leather_Jacket_With_Studs.png/revision/latest?cb=20240314011757",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Item_Band%27s_Ankle_Boots_With_Rivets.png/revision/latest?cb=20240314011740"
         }
     },
     Champion_Of_Streetwise_Boxing: {
@@ -72,7 +72,7 @@ export const cavernRelics = {
         }
     },
     Eagle_Of_Twilight_Line: {
-        id: 6,
+        id: 135,
         name: "Eagle of Twilight Line",
         set: "4-Piece-Set",
         two_set_effect: "Increases Wind DMG by 10%.",
@@ -81,8 +81,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Item_Eagle_of_Twilight_Line.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Item_Eagle%27s_Beaked_Helmet.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9b/Item_Eagle%27s_Soaring_Ring.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Item_Eagle%27s_Quilted_Puffer_Jacket.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Item_Eagle%27s_Winged_Suit_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Item_Eagle%27s_Winged_Suit_Harness.png/revision/latest?cb=20240314012109",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Item_Eagle%27s_Quilted_Puttees.png/revision/latest?cb=20240314012039"
         }
     },
     Ever_Glorious_Magical_Girl: {
