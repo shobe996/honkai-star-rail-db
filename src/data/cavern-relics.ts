@@ -128,7 +128,7 @@ export const cavernRelics = {
         }
     },
     Guard_Of_Wuthering_Snow: {
-        id: 10,
+        id: 133,
         name: "Guard of Wuthering Snow",
         set: "4-Piece-Set",
         two_set_effect: "Reduces DMG taken by 8%.",
@@ -137,8 +137,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Item_Guard_of_Wuthering_Snow.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Item_Guard%27s_Cast_Iron_Helmet.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/69/Item_Guard%27s_Shining_Gauntlets.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7f/Item_Guard%27s_Uniform_of_Old.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0a/Item_Guard%27s_Silver_Greaves.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Item_Guard%27s_Uniform_of_Old.png/revision/latest?cb=20240314012419",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Guard%27s_Silver_Greaves.png/revision/latest?cb=20240314012404"
         }
     },
     Hero_Of_Triumphant_Song: {
