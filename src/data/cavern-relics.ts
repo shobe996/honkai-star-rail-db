@@ -366,7 +366,7 @@ export const cavernRelics = {
         }
     },
     Thief_Of_Shooting_Meteor: {
-        id: 27,
+        id: 138,
         name: "Thief of Shooting Meteor",
         set: "4-Piece-Set",
         two_set_effect: "Increases Break Effect by 16%.",
@@ -374,9 +374,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Item_Thief_of_Shooting_Meteor.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Thief%27s_Myriad-Faced_Mask.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Item_Thief%27s_Gloves_With_Prints.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1d/Item_Thief%27s_Steel_Grappling_Hook.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Item_Thief%27s_Meteor_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Item_Thief%27s_Gloves_With_Prints.png/revision/latest?cb=20240314013208",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Item_Thief%27s_Steel_Grappling_Hook.png/revision/latest?cb=20240314013257",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Item_Thief%27s_Meteor_Boots.png/revision/latest?cb=20240314013224"
         }
     },
     Warrior_Goddess_Of_Sun_And_Thunder: {
