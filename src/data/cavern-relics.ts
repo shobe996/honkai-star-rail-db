@@ -394,7 +394,7 @@ export const cavernRelics = {
         }
     },
     Wastelander_Of_Banditry_Desert: {
-        id: 29,
+        id: 148,
         name: "Wastelander of Banditry Desert",
         set: "4-Piece-Set",
         two_set_effect: "Increases Imaginary DMG by 10%.",
@@ -402,9 +402,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Wastelander_of_Banditry_Desert.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Item_Wastelander%27s_Breathing_Mask.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6e/Item_Wastelander%27s_Desert_Terminal.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/32/Item_Wastelander%27s_Friar_Robe.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/69/Item_Wastelander%27s_Powered_Greaves.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Item_Wastelander's_Desert_Terminal.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Item_Wastelander%27s_Friar_Robe.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Item_Wastelander's_Powered_Greaves.png/revision/latest"
         }
     },
    Watchmaker_Master_Of_Dream_Machinations: {
