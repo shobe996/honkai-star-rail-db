@@ -25,8 +25,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6e/Item_Band_of_Sizzling_Thunder.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Item_Band%27s_Polarized_Sunglasses.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Band%27s_Touring_Bracelet.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Band%27s_Leather_Jacket_With_Studs.png/revision/latest?cb=20240314011757",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Item_Band%27s_Ankle_Boots_With_Rivets.png/revision/latest?cb=20240314011740"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Band%27s_Leather_Jacket_With_Studs.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Item_Band%27s_Ankle_Boots_With_Rivets.png/revision/latest"
         }
     },
     Champion_Of_Streetwise_Boxing: {
@@ -39,8 +39,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Champion_of_Streetwise_Boxing.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Item_Champion%27s_Headgear.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Item_Champion%27s_Heavy_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Item_Champion%27s_Chest_Guard.png/revision/latest?cb=20240314011918",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Item_Champion%27s_Fleetfoot_Boots.png/revision/latest?cb=20240314011934"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Item_Champion%27s_Chest_Guard.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Item_Champion%27s_Fleetfoot_Boots.png/revision/latest"
         }
     },
     Divine_Querying_Master_Smith: {
@@ -81,8 +81,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Item_Eagle_of_Twilight_Line.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Item_Eagle%27s_Beaked_Helmet.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9b/Item_Eagle%27s_Soaring_Ring.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Item_Eagle%27s_Winged_Suit_Harness.png/revision/latest?cb=20240314012109",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Item_Eagle%27s_Quilted_Puttees.png/revision/latest?cb=20240314012039"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Item_Eagle%27s_Winged_Suit_Harness.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Item_Eagle%27s_Quilted_Puttees.png/revision/latest"
         }
     },
     Ever_Glorious_Magical_Girl: {
@@ -156,7 +156,7 @@ export const cavernRelics = {
         }
     },
     Hunter_Of_Glacial_Forest: {
-        id: 12,
+        id: 141,
         name: "Hunter of Glacial Forest",
         set: "4-Piece-Set",
         two_set_effect: "Increases Ice DMG by 10%.",
@@ -165,8 +165,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Item_Hunter_of_Glacial_Forest.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Item_Hunter%27s_Artaius_Hood.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Item_Hunter%27s_Lizard_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Hunter%27s_Ice_Dragon_Cloak.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Item_Hunter%27s_Soft_Elkskin_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_Hunter%27s_Ice_Dragon_Cloak.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Item_Hunter%27s_Soft_Elkskin_Boots.png/revision/latest"
         }
     },
     Iron_Cavalry_Against_The_Scourge: {
@@ -234,9 +234,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Musketeer_of_Wild_Wheat.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Item_Musketeer%27s_Wild_Wheat_Felt_Hat.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Item_Musketeer%27s_Coarse_Leather_Gloves.png/revision/latest?cb=20240314012716",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Item_Musketeer%27s_Wind-Hunting_Shawl.png/revision/latest?cb=20240314012805",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Musketeer%27s_Rivets_Riding_Boots.png/revision/latest?cb=20240314012733"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Item_Musketeer%27s_Coarse_Leather_Gloves.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Item_Musketeer%27s_Wind-Hunting_Shawl.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Musketeer%27s_Rivets_Riding_Boots.png/revision/latest"
         }
     },
     Passerby_Of_Wandering_Cloud: {
@@ -248,9 +248,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Passerby_of_Wandering_Cloud.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/00/Item_Passerby%27s_Rejuvenated_Wooden_Hairstick.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Item_Passerby%27s_Roaming_Dragon_Bracer.png/revision/latest?cb=20240314012854",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Passerby%27s_Ragged_Embroidered_Coat.png/revision/latest?cb=20240314012822",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Passerby%27s_Stygian_Hiking_Boots.png/revision/latest?cb=20240314012910"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Item_Passerby%27s_Roaming_Dragon_Bracer.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Passerby%27s_Ragged_Embroidered_Coat.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Passerby%27s_Stygian_Hiking_Boots.png/revision/latest"
         }
     },
     Pioneer_Diver_Of_Dead_Waters: {
@@ -374,9 +374,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Item_Thief_of_Shooting_Meteor.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Thief%27s_Myriad-Faced_Mask.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Item_Thief%27s_Gloves_With_Prints.png/revision/latest?cb=20240314013208",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Item_Thief%27s_Steel_Grappling_Hook.png/revision/latest?cb=20240314013257",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Item_Thief%27s_Meteor_Boots.png/revision/latest?cb=20240314013224"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Item_Thief%27s_Gloves_With_Prints.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Item_Thief%27s_Steel_Grappling_Hook.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Item_Thief%27s_Meteor_Boots.png/revision/latest"
         }
     },
     Warrior_Goddess_Of_Sun_And_Thunder: {
