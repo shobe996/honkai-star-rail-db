@@ -408,7 +408,7 @@ export const cavernRelics = {
         }
     },
    Watchmaker_Master_Of_Dream_Machinations: {
-        id: 30,
+        id: 1926,
         name: "Watchmaker, Master of Dream Machinations",
         set: "4-Piece-Set",
         two_set_effect: "Increases Break Effect by 16%.",
@@ -416,9 +416,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Item_Watchmaker%2C_Master_of_Dream_Machinations.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Item_Watchmaker%27s_Telescoping_Lens.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/ff/Item_Watchmaker%27s_Fortuitous_Wristwatch.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Item_Watchmaker%27s_Illusory_Formal_Suit.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Item_Watchmaker%27s_Dream-Concealing_Dress_Shoes.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a6/Item_Watchmaker's_Fortuitous_Wristwatch.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Item_Watchmaker's_Illusory_Formal_Suit.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Item_Watchmaker's_Dream-Concealing_Dress_Shoes.png/revision/latest"
         }
     },
     Wavestrider_Captain: {
