@@ -30,7 +30,7 @@ export const cavernRelics = {
         }
     },
     Champion_Of_Streetwise_Boxing: {
-        id: 3,
+        id: 134,
         name: "Champion of Streetwise Boxing",
         set: "4-Piece-Set",
         two_set_effect: "Increases Physical DMG by 10%.",
@@ -39,8 +39,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Champion_of_Streetwise_Boxing.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Item_Champion%27s_Headgear.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Item_Champion%27s_Heavy_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Item_Champion%27s_Chest_Guard.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/09/Item_Champion%27s_Boxing_Gloves.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Item_Champion%27s_Chest_Guard.png/revision/latest?cb=20240314011918",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Item_Champion%27s_Fleetfoot_Boots.png/revision/latest?cb=20240314011934"
         }
     },
     Divine_Querying_Master_Smith: {
