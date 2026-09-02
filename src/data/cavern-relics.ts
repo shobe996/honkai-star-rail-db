@@ -114,7 +114,7 @@ export const cavernRelics = {
         }
     },
     Genius_Of_Brilliant_Stars: {
-        id: 9,
+        id: 145,
         name: "Genius of Brilliant Stars",
         set: "4-Piece-Set",
         two_set_effect: "Increases Quantum DMG by 10%.",
@@ -123,8 +123,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Genius_of_Brilliant_Stars.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Item_Genius%27s_Ultraremote_Sensing_Visor.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Item_Genius%27s_Frequency_Catcher.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Item_Genius%27s_Metafield_Suit.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Item_Genius%27s_Gravity_Walker.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Item_Genius%27s_Metafield_Suit.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Genius%27s_Gravity_Walker.png/revision/latest"
         }
     },
     Guard_Of_Wuthering_Snow: {
@@ -137,8 +137,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Item_Guard_of_Wuthering_Snow.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Item_Guard%27s_Cast_Iron_Helmet.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/69/Item_Guard%27s_Shining_Gauntlets.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Item_Guard%27s_Uniform_of_Old.png/revision/latest?cb=20240314012419",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Guard%27s_Silver_Greaves.png/revision/latest?cb=20240314012404"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Item_Guard%27s_Uniform_of_Old.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Guard%27s_Silver_Greaves.png/revision/latest"
         }
     },
     Hero_Of_Triumphant_Song: {
