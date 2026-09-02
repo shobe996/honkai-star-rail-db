@@ -268,7 +268,7 @@ export const cavernRelics = {
         }
     },
     Poet_Of_Mourning_Collapse: {
-        id: 20,
+        id: 3343,
         name: "Poet of Mourning Collapse",
         set: "4-Piece-Set",
         two_set_effect: "Increases Quantum DMG by 10%.",
@@ -277,8 +277,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Item_Poet_of_Mourning_Collapse.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Item_Poet%27s_Dill_Wreath.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Item_Poet%27s_Gilded_Bracelet.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Item_Poet%27s_Mourning_Cassock.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Item_Poet%27s_Worn_Leather_Shoes.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Item_Poet's_Star-Studded_Skirt.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Item_Poet's_Silver-Studded_Shoes.png/revision/latest"
         }
     },
     Prisoner_In_Deep_Confinement: {
