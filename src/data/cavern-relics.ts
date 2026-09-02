@@ -324,7 +324,7 @@ export const cavernRelics = {
         }
     },
     Self_Enshrouded_Recluse: {
-        id: 24,
+        id: 4013,
         name: "Self-Enshrouded Recluse",
         set: "4-Piece-Set",
         two_set_effect: "Increases Shield Effect by 10%.",
@@ -332,9 +332,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Item_Self-Enshrouded_Recluse.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Item_Recluse%27s_Wide-Brimmed_Fedora.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Item_Recluse%27s_Refined_Timepiece.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Item_Recluse%27s_Collared_Coat.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Item_Recluse%27s_Leather_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b5/Item_Recluse's_Refined_Timepiece.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/76/Item_Recluse's_Camel-Colored_Coat.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Item_Recluse's_Soft_Suede_Boots.png/revision/latest"
         }
     },
     The_Ashblazing_Grand_Duke: {
@@ -380,7 +380,7 @@ export const cavernRelics = {
         }
     },
     Warrior_Goddess_Of_Sun_And_Thunder: {
-        id: 28,
+        id: 3783,
         name: "Warrior Goddess of Sun and Thunder",
         set: "4-Piece-Set",
         two_set_effect: "Increases SPD by 6%.",
@@ -388,9 +388,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Item_Warrior_Goddess_of_Sun_and_Thunder.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d2/Item_Warrior_Goddess%27s_Winged_Helm.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1e/Item_Warrior_Goddess%27s_Cavalry_Gauntlets.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Item_Warrior_Goddess%27s_Golden_Armor.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Item_Warrior_Goddess%27s_Riding_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Item_Warrior_Goddess's_Cavalry_Gauntlets.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Item_Warrior_Goddess's_Dawn_Cape.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Item_Warrior_Goddess's_Honor_Spurs.png/revision/latest"
         }
     },
     Wastelander_Of_Banditry_Desert: {
@@ -422,7 +422,7 @@ export const cavernRelics = {
         }
     },
     Wavestrider_Captain: {
-        id: 31,
+        id: 3782,
         name: "Wavestrider Captain",
         set: "4-Piece-Set",
         two_set_effect: "Increases CRIT DMG by 16%.",
@@ -430,13 +430,13 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Item_Wavestrider_Captain.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/45/Item_Captain%27s_Navigator_Hat.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7f/Item_Captain%27s_Lightcatcher_Astrolabe.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/dd/Item_Captain%27s_Oceanwave_Frock_Coat.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Item_Captain%27s_Heelless_Leather_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Item_Captain's_Lightcatcher_Astrolabe.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Item_Captain's_Wind_Mantle.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Captain's_Tidal_Boots.png/revision/latest"
         }
     },
     World_Remaking_Deliverer: {
-        id: 32,
+        id: 4012,
         name: "World-Remaking Deliverer",
         set: "4-Piece-Set",
         two_set_effect: "Increases CRIT Rate by 8%.",
@@ -445,8 +445,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Item_World-Remaking_Deliverer.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Item_Deliverer%27s_Hood.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Item_Deliverer%27s_Sword_Gauntlet.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Item_Deliverer%27s_Eternal_Night_Shroud.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Item_Deliverer%27s_Journey_Greaves.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Item_Deliverer's_Robe_of_Legacy.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Item_Deliverer's_Boots_of_Pioneering.png/revision/latest"
         }
     }
 } as const satisfies Record<string, CavernRelic>;
