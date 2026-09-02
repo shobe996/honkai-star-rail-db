@@ -198,7 +198,7 @@ export const cavernRelics = {
         }
     },
     Longevous_Disciple: {
-        id: 15,
+        id: 1236,
         name: "Longevous Disciple",
         set: "4-Piece-Set",
         two_set_effect: "Increases Max HP by 12%.",
@@ -206,9 +206,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Item_Longevous_Disciple.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Item_Disciple%27s_Prosthetic_Eye.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Item_Disciple%27s_Ingenium_Hand.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Item_Disciple%27s_Celestial_Silk_Robe.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Item_Disciple%27s_Starcrossed_Greaves.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/37/Item_Disciple's_Ingenium_Hand.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Item_Disciple's_Dewy_Feather_Garb.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7f/Item_Disciple's_Celestial_Silk_Sandals.png/revision/latest"
         }
     },
    Messenger_Traversing_Hackerspace: {
