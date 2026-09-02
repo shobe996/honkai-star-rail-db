@@ -296,7 +296,7 @@ export const cavernRelics = {
         }
     },
     Sacerdos_Relived_Ordeal: {
-        id: 22,
+        id: 3162,
         name: "Sacerdos' Relived Ordeal",
         set: "4-Piece-Set",
         two_set_effect: "Increases SPD by 6%.",
@@ -304,9 +304,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/63/Item_Sacerdos%27_Relived_Ordeal.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Item_Sacerdos%27_Melodic_Earrings.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Item_Sacerdos%27_Welcoming_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Item_Sacerdos%27_Twilight_Robe.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_Sacerdos%27_Solemn_Sandals.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Item_Sacerdos'_Welcoming_Gloves.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Item_Sacerdos'_Ceremonial_Garb.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6e/Item_Sacerdos'_Arduous_Boots.png/revision/latest"
         }
     },
     Scholar_Lost_In_Erudition: {
