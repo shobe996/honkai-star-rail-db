@@ -352,7 +352,7 @@ export const cavernRelics = {
         }
     },
     The_Wind_Soaring_Valorous: {
-        id: 26,
+        id: 2655,
         name: "The Wind-Soaring Valorous",
         set: "4-Piece-Set",
         two_set_effect: "Increases ATK by 12%.",
@@ -360,9 +360,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1e/Item_The_Wind-Soaring_Valorous.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Item_Valorous_Mask_of_Northern_Skies.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Item_Valorous_Bracelet_of_Grappling_Hooks.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Item_Valorous_Raiment_of_Glory.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Item_Valorous_Greaves_of_Pursuing_Hunt.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b8/Item_Valorous_Bracelet_of_Grappling_Hooks.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Item_Valorous_Plate_of_Soaring_Flight.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Valorous_Greaves_of_Pursuing_Hunt.png/revision/latest"
         }
     },
     Thief_Of_Shooting_Meteor: {
