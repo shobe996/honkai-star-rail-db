@@ -282,7 +282,7 @@ export const cavernRelics = {
         }
     },
     Prisoner_In_Deep_Confinement: {
-        id: 21,
+        id: 1600,
         name: "Prisoner in Deep Confinement",
         set: "4-Piece-Set",
         two_set_effect: "ATK increases by 12%.",
@@ -290,9 +290,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Item_Prisoner_in_Deep_Confinement.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/54/Item_Prisoner%27s_Sealed_Muzzle.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Item_Prisoner%27s_Leadstone_Shackles.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Item_Prisoner%27s_Repressive_Straitjacket.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Item_Prisoner%27s_Restrictive_Fetters.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Item_Prisoner's_Leadstone_Shackles.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Item_Prisoner's_Repressive_Straitjacket.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Item_Prisoner's_Restrictive_Fetters.png/revision/latest"
         }
     },
     Sacerdos_Relived_Ordeal: {
