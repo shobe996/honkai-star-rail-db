@@ -184,7 +184,7 @@ export const cavernRelics = {
         }
     },
     Knight_Of_Purity_Palace: {
-        id: 14,
+        id: 142,
         name: "Knight of Purity Palace",
         set: "4-Piece-Set",
         two_set_effect: "Increases DEF by 15%.",
@@ -192,9 +192,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Item_Knight_of_Purity_Palace.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Item_Knight%27s_Forgiving_Casque.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Item_Knight%27s_Silent_Oath_Ring.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/45/Item_Knight%27s_Solemn_Breastplate.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1b/Item_Knight%27s_Iron_Boots_of_Order.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Item_Knight's_Silent_Oath_Ring.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Item_Knight's_Solemn_Breastplate.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Item_Knight's_Iron_Boots_of_Order.png/revision/latest"
         }
     },
     Longevous_Disciple: {
