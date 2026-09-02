@@ -100,7 +100,7 @@ export const cavernRelics = {
         }
     },
     Firesmith_Of_Lava_Forging: {
-        id: 8,
+        id: 150,
         name: "Firesmith of Lava-Forging",
         set: "4-Piece-Set",
         two_set_effect: "Increases Fire DMG by 10%.",
@@ -109,8 +109,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Item_Firesmith_of_Lava-Forging.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Item_Firesmith%27s_Obsidian_Goggles.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Item_Firesmith%27s_Ring_of_Flame-Mastery.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Item_Firesmith%27s_Fireproof_Apron.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Item_Firesmith%27s_Alloy_Leg.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Item_Firesmith's_Fireproof_Apron.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Item_Firesmith's_Alloy_Leg.png/revision/latest"
         }
     },
     Genius_Of_Brilliant_Stars: {
