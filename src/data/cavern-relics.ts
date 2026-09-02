@@ -170,7 +170,7 @@ export const cavernRelics = {
         }
     },
     Iron_Cavalry_Against_The_Scourge: {
-        id: 13,
+        id: 2649,
         name: "Iron Cavalry Against the Scourge",
         set: "4-Piece-Set",
         two_set_effect: "Increases Break Effect by 16%.",
@@ -178,9 +178,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Item_Iron_Cavalry_Against_the_Scourge.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0d/Item_Iron_Cavalry%27s_Homing_Helm.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Item_Iron_Cavalry%27s_Crushing_Wristguard.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Item_Iron_Cavalry%27s_Silvery_Armor.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Item_Iron_Cavalry%27s_Skywalk_Greaves.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Item_Iron_Cavalry's_Crushing_Wristguard.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Item_Iron_Cavalry's_Silvery_Armor.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Item_Iron_Cavalry's_Skywalk_Greaves.png/revision/latest"
         }
     },
     Knight_Of_Purity_Palace: {
