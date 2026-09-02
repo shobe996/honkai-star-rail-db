@@ -310,7 +310,7 @@ export const cavernRelics = {
         }
     },
     Scholar_Lost_In_Erudition: {
-        id: 23,
+        id: 3161,
         name: "Scholar Lost in Erudition",
         set: "4-Piece-Set",
         two_set_effect: "Increases CRIT Rate by 8%.",
@@ -318,9 +318,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Scholar_Lost_in_Erudition.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Item_Scholar%27s_Silver-Rimmed_Monocle.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Item_Scholar%27s_Auxiliary_Knuckle.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Item_Scholar%27s_Ascot_Tie.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Item_Scholar%27s_Deerskin_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Item_Scholar's_Auxiliary_Knuckle.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Item_Scholar's_Tweed_Jacket.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Item_Scholar's_Felt_Snowboots.png/revision/latest"
         }
     },
     Self_Enshrouded_Recluse: {
