@@ -1,7 +1,7 @@
 import {PlanarOrnament} from '../types'
 
 export const planarOrnaments = {
-    'amphoreus_the_eternal_land': {
+    Amphoreus_The_Eternal_Land: {
         id: 1,
         name: 'Amphoreus, The Eternal Land',
         set: '2-Piece-Set',
@@ -12,7 +12,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Item_Eternal_Verses_of_Amphoreus.png/revision/latest?cb=20251105035055'
         }
       },
-      'arcadia_of_woven_dreams': {
+      Arcadia_Of_Woven_Dreams: {
         id: 2,
         name: 'Arcadia of Woven Dreams',
         set: '2-Piece-Set',
@@ -23,7 +23,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Item_Membrance_Maze%27s_Wishing_Whistle.png/revision/latest?cb=20250702051506'
         }
       },
-      'belobog_of_the_architects': {
+     Belobog_Of_The_Architects: {
         id: 3,
         name: 'Belobog of the Architects',
         set: '2-Piece-Set',
@@ -34,7 +34,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7f/Item_Belobog%27s_Iron_Defense.png/revision/latest?cb=20240314011854'
         }
       },
-      'bone_collections_serene_demesne': {
+     Bone_Collections_Serene_Demesne: {
         id: 4,
         name: "Bone Collection's Serene Demesne",
         set: '2-Piece-Set',
@@ -45,7 +45,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Item_Aidonia%27s_Deathward_Bone_Chains.png/revision/latest?cb=20250226072507'
         }
       },
-      'broken_keel': {
+      Broken_Keel: {
         id: 5,
         name: 'Broken Keel',
         set: '2-Piece-Set',
@@ -56,7 +56,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Item_Insumousu%27s_Frayed_Hawser.png/revision/latest?cb=20230720095158'
         }
       },
-      'celestial_differentiator': {
+      Celestial_Differentiator: {
         id: 6,
         name: 'Celestial Differentiator',
         set: '2-Piece-Set',
@@ -67,7 +67,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Item_Planet_Screwllum%27s_Ring_System.png/revision/latest?cb=20240314012942'
         }
       },
-      'city_of_converging_stars': {
+      City_Of_Converging_Stars: {
         id: 7,
         name: 'City of Converging Stars',
         set: '2-Piece-Set',
@@ -78,7 +78,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Item_Astropolis_Employee_Credentials.png/revision/latest?cb=20260325054907'
         }
       },
-      'cosmic_life_sciences_institute': {
+      Cosmic_Life_Sciences_Institute: {
         id: 8,
         name: 'Cosmic Life Sciences Institute',
         set: '2-Piece-Set',
@@ -89,7 +89,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Item_Peripheral_Conduits_of_the_Life_Sciences_Institute.png/revision/latest?cb=20260715024753'
         }
       },
-      'duran_dynasty_of_running_wolves': {
+      Duran_Dynasty_Of_Running_Wolves: {
         id: 9,
         name: 'Duran, Dynasty of Running Wolves',
         set: '2-Piece-Set',
@@ -100,7 +100,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Item_Duran%27s_Mechabeast_Bridle.png/revision/latest?cb=20240624155106'
         }
       },
-      'fallen_star_anchorage': {
+      Fallen_Star_Anchorage: {
         id: 10,
         name: 'Fallen Star Anchorage',
         set: '2-Piece-Set',
@@ -111,7 +111,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Item_Silver_Rails_of_the_Anchorage.png/revision/latest?cb=20260715024706'
         }
       },
-      'firmament_frontline_glamoth': {
+      Firmament_Frontline_Glamoth: {
         id: 11,
         name: 'Firmament Frontline: Glamoth',
         set: '2-Piece-Set',
@@ -122,7 +122,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Glamoth%27s_Silent_Tombstone.png/revision/latest?cb=20231115231335'
         }
       },
-      'fleet_of_the_ageless': {
+      Fleet_Of_The_Ageless: {
         id: 12,
         name: 'Fleet of the Ageless',
         set: '2-Piece-Set',
@@ -133,7 +133,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Item_The_Xianzhou_Luofu%27s_Ambrosial_Arbor_Vines.png/revision/latest?cb=20240314013137'
         }
       },
-      'forge_of_the_kalpagni_lantern': {
+      Forge_Of_The_Kalpagni_Lantern: {
         id: 13,
         name: 'Forge of the Kalpagni Lantern',
         set: '2-Piece-Set',
@@ -144,7 +144,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Forge%27s_Heavenly_Flamewheel_Silk.png/revision/latest?cb=20240624154035'
         }
       },
-      'giant_tree_of_rapt_brooding': {
+      Giant_Tree_Of_Rapt_Brooding: {
         id: 14,
         name: 'Giant Tree of Rapt Brooding',
         set: '2-Piece-Set',
@@ -155,7 +155,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Item_Grove_of_Epiphany%27s_Interwoven_Veins.png/revision/latest?cb=20250226072723'
         }
       },
-      'inert_salsotto': {
+     Inert_Salsotto: {
         id: 15,
         name: 'Inert Salsotto',
         set: '2-Piece-Set',
@@ -166,7 +166,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Item_Salsotto%27s_Terminator_Line.png/revision/latest?cb=20240314013015'
         }
       },
-      'izumo_gensei_and_takama_divine_realm': {
+      Izumo_Gensei_And_Takama_Divine_Realm: {
         id: 16,
         name: 'Izumo Gensei and Takama Divine Realm',
         set: '2-Piece-Set',
@@ -177,7 +177,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Item_Izumo%27s_Blades_of_Origin_and_End.png/revision/latest?cb=20240327231533'
         }
       },
-      'lushaka_the_sunken_seas': {
+      Lushaka_The_Sunken_Seas: {
         id: 17,
         name: 'Lushaka, the Sunken Seas',
         set: '2-Piece-Set',
@@ -188,7 +188,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Item_Lushaka%27s_Twinlanes.png/revision/latest?cb=20240911203819'
         }
       },
-      'pan_cosmic_commercial_enterprise': {
+      Pan_Cosmic_Commercial_Enterprise: {
         id: 18,
         name: 'Pan-Cosmic Commercial Enterprise',
         set: '2-Piece-Set',
@@ -199,7 +199,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Item_The_IPC%27s_Trade_Route.png/revision/latest?cb=20240314013120'
         }
       },
-      'penacony_land_of_the_dreams': {
+      Penacony_Land_Of_The_Dreams: {
         id: 19,
         name: 'Penacony, Land of the Dreams',
         set: '2-Piece-Set',
@@ -210,7 +210,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Item_Penacony%27s_Dream-Seeking_Tracks.png/revision/latest?cb=20231115231756'
         }
       },
-      'punklorde_stage_zero': {
+      Punklorde_Stage_Zero: {
         id: 20,
         name: 'Punklorde Stage Zero',
         set: '2-Piece-Set',
@@ -221,7 +221,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Item_Punklorde%27s_Data_Deluge.png/revision/latest?cb=20260325054910'
         }
       },
-      'revelry_by_the_sea': {
+      Revelry_By_The_Sea: {
         id: 21,
         name: 'Revelry by the Sea',
         set: '2-Piece-Set',
@@ -232,7 +232,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e3/Item_Warbling_Shores%27_Cantillation_Trail.png/revision/latest?cb=20250702051507'
         }
       },
-      'rutilant_arena': {
+      Rutilant_Arena: {
         id: 22,
         name: 'Rutilant Arena',
         set: '2-Piece-Set',
@@ -243,7 +243,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/54/Item_Taikiyan%27s_Arclight_Race_Track.png/revision/latest?cb=20230720094949'
         }
       },
-      'sigonia_the_unclaimed_desolation': {
+      Sigonia_The_Unclaimed_Desolation: {
         id: 23,
         name: 'Sigonia, the Unclaimed Desolation',
         set: '2-Piece-Set',
@@ -254,7 +254,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Item_Sigonia%27s_Knot_of_Cyclicality.png/revision/latest?cb=20240327231459'
         }
       },
-      'space_sealing_station': {
+      Space_Sealing_Station: {
         id: 24,
         name: 'Space Sealing Station',
         set: '2-Piece-Set',
@@ -265,7 +265,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Item_Herta%27s_Wandering_Trek.png/revision/latest?cb=20240314012451'
         }
       },
-      'sprightly_vonwacq': {
+      Sprightly_Vonwacq: {
         id: 25,
         name: 'Sprightly Vonwacq',
         set: '2-Piece-Set',
@@ -276,7 +276,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Item_Vonwacq%27s_Islandic_Coast.png/revision/latest?cb=20240314013329'
         }
       },
-      'talia_kingdom_of_banditry': {
+      Talia_Kingdom_Of_Banditry: {
         id: 26,
         name: 'Talia: Kingdom of Banditry',
         set: '2-Piece-Set',
@@ -287,7 +287,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Talia%27s_Exposed_Electric_Wire.png/revision/latest?cb=20240314013031'
         }
       },
-      'tengoku_livestream': {
+      Tengoku_Livestream: {
         id: 27,
         name: 'Tengoku Livestream',
         set: '2-Piece-Set',
@@ -298,7 +298,7 @@ export const planarOrnaments = {
           rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Livestream%27s_Chatter_Banter.png/revision/latest?cb=20251105035235'
         }
       },
-      'the_wondrous_bananamusement_park': {
+      The_Wondrous_BananAmusement_Park: {
         id: 28,
         name: 'The Wondrous BananAmusement Park',
         set: '2-Piece-Set',
