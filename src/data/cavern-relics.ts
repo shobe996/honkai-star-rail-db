@@ -254,7 +254,7 @@ export const cavernRelics = {
         }
     },
     Pioneer_Diver_Of_Dead_Waters: {
-        id: 19,
+        id: 1925,
         name: "Pioneer Diver of Dead Waters",
         set: "4-Piece-Set",
         two_set_effect: "Increases DMG dealt to enemies with debuffs by 12%.",
@@ -262,9 +262,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Pioneer_Diver_of_Dead_Waters.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Item_Pioneer%27s_Heatproof_Shell.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Item_Pioneer%27s_Lacuna_Compass.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Item_Pioneer%27s_Sealed_Lead_Apron.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Item_Pioneer%27s_Starfaring_Anchor.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Item_Pioneer's_Lacuna_Compass.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/50/Item_Pioneer's_Sealed_Lead_Apron.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Item_Pioneer's_Starfaring_Anchor.png/revision/latest"
         }
     },
     Poet_Of_Mourning_Collapse: {
