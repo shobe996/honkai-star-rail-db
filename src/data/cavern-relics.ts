@@ -240,7 +240,7 @@ export const cavernRelics = {
         }
     },
     Passerby_Of_Wandering_Cloud: {
-        id: 18,
+        id: 140,
         name: "Passerby of Wandering Cloud",
         set: "4-Piece-Set",
         two_set_effect: "Increases Outgoing Healing by 10%.",
@@ -248,9 +248,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Passerby_of_Wandering_Cloud.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/00/Item_Passerby%27s_Rejuvenated_Wooden_Hairstick.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Item_Passerby%27s_Roaming_Dragon_Bracer.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Item_Passerby%27s_Ragged_Embroided_Coat.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Item_Passerby%27s_Stygian_Hiking_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Item_Passerby%27s_Roaming_Dragon_Bracer.png/revision/latest?cb=20240314012854",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Passerby%27s_Ragged_Embroidered_Coat.png/revision/latest?cb=20240314012822",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Item_Passerby%27s_Stygian_Hiking_Boots.png/revision/latest?cb=20240314012910"
         }
     },
     Pioneer_Diver_Of_Dead_Waters: {
