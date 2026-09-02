@@ -226,7 +226,7 @@ export const cavernRelics = {
         }
     },
     Musketeer_Of_Wild_Wheat: {
-        id: 17,
+        id: 139,
         name: "Musketeer of Wild Wheat",
         set: "4-Piece-Set",
         two_set_effect: "ATK increases by 12%.",
@@ -234,9 +234,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Musketeer_of_Wild_Wheat.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Item_Musketeer%27s_Wild_Wheat_Felt_Hat.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Item_Musketeer%27s_Coarse_Leather_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Item_Musketeer%27s_Wind_-_Hunting_Shawl.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Item_Musketeer%27s_Rivets_Riding_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Item_Musketeer%27s_Coarse_Leather_Gloves.png/revision/latest?cb=20240314012716",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Item_Musketeer%27s_Wind-Hunting_Shawl.png/revision/latest?cb=20240314012805",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Item_Musketeer%27s_Rivets_Riding_Boots.png/revision/latest?cb=20240314012733"
         }
     },
     Passerby_Of_Wandering_Cloud: {
