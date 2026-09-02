@@ -338,7 +338,7 @@ export const cavernRelics = {
         }
     },
     The_Ashblazing_Grand_Duke: {
-        id: 25,
+        id: 1601,
         name: "The Ashblazing Grand Duke",
         set: "4-Piece-Set",
         two_set_effect: "Increases the DMG dealt by follow-up attacks by 20%.",
@@ -346,9 +346,9 @@ export const cavernRelics = {
         icons: {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Item_The_Ashblazing_Grand_Duke.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Item_Grand_Duke%27s_Crown_of_Netherflame.png/revision/latest",
-            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f6/Item_Grand_Duke%27s_Gloves_of_Fieryfur.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Item_Grand_Duke%27s_Robe_of_Grace.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Item_Grand_Duke%27s_Ceremonial_Boots.png/revision/latest"
+            hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f7/Item_Grand_Duke's_Gloves_of_Fieryfur.png/revision/latest",
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Item_Grand_Duke's_Robe_of_Grace.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Item_Grand_Duke's_Ceremonial_Boots.png/revision/latest"
         }
     },
     The_Wind_Soaring_Valorous: {
