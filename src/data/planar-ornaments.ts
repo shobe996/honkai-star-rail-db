@@ -86,7 +86,7 @@ export const planarOrnaments = {
     icons: {
       icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Item_Cosmic_Life_Sciences_Institute.png/revision/latest?cb=20260715024345',
       sphere_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Item_Central_Synapse_of_the_Life_Sciences_Institute.png/revision/latest?cb=20260715024752',
-      rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Item_Peripheral_Conduits_of_the_Life_Sciences_Institute.png/revision/latest?cb=20260715024753'
+      rope_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f4/Item_Peripheral_Conduits_of_the_Life_Sciences_Institute.png/revision/latest'
     }
   },
   Duran_Dynasty_Of_Running_Wolves: {

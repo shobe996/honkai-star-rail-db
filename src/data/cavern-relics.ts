@@ -11,8 +11,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Item_As_Navigator_Isee_Sees_It.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Item_Navigator%27s_Deep_Space_Mirror.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Item_Navigator%27s_Game_Die.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Item_Navigator%27s_Nebula_Bracers.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Item_Navigator%27s_Starship_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Item_Navigator's_Astral_Chart_Uniform.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Item_Navigator's_Everstride_Boots.png/revision/latest"
         }
     },
     Band_Of_Sizzling_Thunder: {
@@ -53,8 +53,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Item_Divine-Querying_Master_Smith.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1d/Item_Smith%27s_Fire_Beast_Mask.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/32/Item_Smith%27s_Damascus_Steel_Gauntlets.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Item_Smith%27s_Molten_Steel_Armor.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Item_Smith%27s_Casting_Iron_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5e/Item_Smith's_Fireproof_Garment.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Item_Smith's_Unbridled_Boots.png/revision/latest"
         }
     },
     Diviner_Of_Distant_Reach: {
@@ -67,8 +67,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Item_Diviner_of_Distant_Reach.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Item_Diviner%27s_Extrapolation_Jade_Abacus.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Item_Diviner%27s_Ingenium_Prosthetic_Hand.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Item_Diviner%27s_Iridescent_Silk_Robe.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Item_Diviner%27s_Gilded_Wooden_Clogs.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Item_Diviner's_Astral_Robe.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_Diviner's_Cloud-Soaring_Boots.png/revision/latest"
         }
     },
     Eagle_Of_Twilight_Line: {
@@ -95,8 +95,8 @@ export const cavernRelics = {
             icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Item_Ever-Glorious_Magical_Girl.png/revision/latest",
             head_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Item_Magical_Girl%27s_Shining_Medal.png/revision/latest",
             hand_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Item_Magical_Girl%27s_Protective_Gloves.png/revision/latest",
-            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Item_Magical_Girl%27s_Transformation_Suit.png/revision/latest",
-            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Item_Magical_Girl%27s_High-Heeled_Boots.png/revision/latest"
+            body_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Item_Magical_Girl's_Everdance_Battle_Skirt.png/revision/latest",
+            feet_icon_url: "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fe/Item_Magical_Girl's_Contract_Boots.png/revision/latest"
         }
     },
     Firesmith_Of_Lava_Forging: {
