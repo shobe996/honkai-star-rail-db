@@ -2547,5 +2547,31 @@ export const characters = {
     },
     release_date: new Date('2026-08-26'),
     splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Character_Robin_%E2%80%A2_Summeretto_Splash_Art.png/revision/latest?cb=20260826032839'
+  },
+  Aventurine_Waveflair: {
+    id: 6566,
+    name: 'Aventurine • Waveflair',
+    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u1c9me/487b1d3552b6b6a778252d396223d7b9.png?x-oss-process=image/format,webp/quality,Q_90',
+    desc: '<p>The grand festival illuminates the coast, while a storm brews amidst euphoria.</p><p>Secret orders in hand, he steps back into the eye of the storm to shake up this long holiday—</p><p>When treacherous waves subsume his figure, how will he emerge as the game changer?</p>',
+    path: paths.Elation,
+    faction: factions.Interastral_Peace_Corporation,
+    rarity: characterRarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_hp: 158,
+        base_atk: 66,
+        base_def: 82,
+        base_speed: 107,
+      },
+      level80: {
+        base_hp: 1164,
+        base_atk: 485,
+        base_def: 606,
+        base_speed: 107,
+      },
+    },
+    release_date: new Date('2026-09-12'),
+    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Character_Aventurine_%E2%80%A2_Waveflair_Splash_Art.png/revision/latest?cb=20260912040648'
   }
 } as const satisfies Record<string, Character>;

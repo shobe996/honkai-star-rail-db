@@ -3095,4 +3095,16 @@ export const lightCones = {
       },
     },
   },
+  Summer_Rides_the_Surf: {
+    id: 10194,
+    name: 'Summer Rides the Surf',
+    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Light_Cone_Summer_Rides_the_Surf_Icon.png/revision/latest?cb=20260912040728',
+    effect: 'Waveriding<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When the wearer uses Elation Skill, gains "Updraft," which increases the wearer\'s SPD by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. If the Elation Skill used is different from the one used last time, additionally gains "Uptrend," which increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">40%</span>/<span style="color: rgba(255,199,112,1)">55%</span>/<span style="color: rgba(255,199,112,1)">70%</span>/<span style="color: rgba(255,199,112,1)">85%</span>/<span style="color: rgba(255,199,112,1)">100%</span>.</p><p>When every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.</p><p></p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 26, base_def: 24 },
+      level80: { base_hp: 952, base_atk: 582, base_def: 529 },
+    },
+  }
 } as const satisfies Record<string, LightCone>;
