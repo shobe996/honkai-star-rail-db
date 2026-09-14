@@ -1,3 +1,20 @@
+# [1.11.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.1...v1.11.0) (2026-09-14)
+
+
+### Bug Fixes
+
+* remove token ([d281e0b](https://github.com/shobe996/honkai-star-rail-db/commit/d281e0babc86e230d882ba83def090eb19ac8d93))
+* returned on missing part of the release ([eaa70df](https://github.com/shobe996/honkai-star-rail-db/commit/eaa70df566c2982663c94bd59249d04abad4656f))
+* update publish yml file ([38b51dc](https://github.com/shobe996/honkai-star-rail-db/commit/38b51dca28568f993e9d0727dbea2baadbf1c149))
+
+
+### Features
+
+* **character:** add Aventurine • Waveflair into character dataset ([d7aa7e7](https://github.com/shobe996/honkai-star-rail-db/commit/d7aa7e70be0458e0d3381ff752fabaaa13546eb9))
+* **light cone:** add Summer Rides the Surf into light cone dataset ([c5474aa](https://github.com/shobe996/honkai-star-rail-db/commit/c5474aad16664677c423f7422a49fa27f1aee88d))
+
+
+
 ## [1.10.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.0...v1.10.1) (2026-08-31)
 
 
@@ -33,16 +50,6 @@
 
 * **character:** add Rin Tohsaka and Gilgamesh into character dataset ([f657756](https://github.com/shobe996/honkai-star-rail-db/commit/f65775623235a96777966423ecabc5af31b42acf))
 * **light cone:** add Flickering Stars and I Am As You Behold into light cone dataset ([e6ec8e3](https://github.com/shobe996/honkai-star-rail-db/commit/e6ec8e334fe1192fde8f6ce36276d345703fbe0a))
-
-
-
-# [1.8.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.7.1...v1.8.0) (2026-07-17)
-
-
-### Features
-
-* **character:** add Himeko Nova into character dataset ([7e1f870](https://github.com/shobe996/honkai-star-rail-db/commit/7e1f8709127f358a4a3b2a0e4c876b06172400fe))
-* **light cone:** add A Star That Lights the Night into light cone dataset ([78f70b6](https://github.com/shobe996/honkai-star-rail-db/commit/78f70b655502c225358675598c6f87c76701695e))
 
 
 
