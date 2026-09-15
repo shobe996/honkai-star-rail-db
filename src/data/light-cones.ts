@@ -3106,5 +3106,37 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+  },
+  A_Little_Getaway: {
+    id: 1,
+    name: 'A Little Getaway',
+    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/a/af/Light_Cone_A_Little_Getaway_Icon.png/revision/latest?cb=20260826034123',
+    effect: 'Whisper<p>Increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. During the use of Elation Skill by the wearer, ignores <span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span> of the target\'s DEF.</p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 19, base_def: 18 },
+      level80: { base_hp: 952, base_atk: 423, base_def: 396 },
+    }
+  },
+  Race_to_the_Horizon: {
+    id: 2,
+    name: 'Race to the Horizon',
+    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Race_to_the_Horizon_Icon.png/revision/latest?cb=20260826034527',
+    effect: 'Overtake<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>. After the wearer uses Follow-Up ATK, increases their CRIT DMG by <span style="color: rgba(255,199,112,1)">3%</span>/<span style="color: rgba(255,199,112,1)">3.5%</span>/<span style="color: rgba(255,199,112,1)">4%</span>/<span style="color: rgba(255,199,112,1)">4.5%</span>/<span style="color: rgba(255,199,112,1)">5%</span> for 2 turn(s). This effect can stack up to 10 times.</p>',
+    path: paths.Hunt,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: {
+        base_hp: 38,
+        base_atk: 21,
+        base_def: 18,
+      },
+      level80: {
+        base_hp: 846,
+        base_atk: 476,
+        base_def: 396,
+      },
+    },
   }
 } as const satisfies Record<string, LightCone>;
