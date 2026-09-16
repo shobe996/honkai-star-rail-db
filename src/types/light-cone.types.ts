@@ -29,4 +29,9 @@ export interface LightCone {
    * Note: These exclude bonuses from Light Cones, Relics, and Traces.
    */
   readonly stats: LightConeLevelStats;
+
+  /**
+   * A URL or path string pointing to the high-resolution full artwork image.
+   */
+  readonly full_artwork_url: string;
 }
