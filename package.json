@@ -2,6 +2,10 @@
   "name": "honkai-star-rail-db",
   "version": "1.9.0",
   "description": "A type-safe database for Honkai: Star Rail characters and assets.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shobe996/honkai-star-rail-db"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [

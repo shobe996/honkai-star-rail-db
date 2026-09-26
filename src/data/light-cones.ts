@@ -7,7 +7,7 @@ export const lightCones = {
     id: 30,
     name: 'Arrows',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ad/Light_Cone_Arrows_Icon.png/revision/latest?cb=20240206022735',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ad/Light_Cone_Arrows_Icon.png',
     effect:
       'Crisis<p>At the start of the battle, the wearer\'s CRIT Rate increases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span> for 3 turn(s).</p>',
     path: paths.Hunt,
@@ -16,12 +16,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 14, base_def: 12 },
       level80: { base_hp: 846, base_atk: 317, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Arrows_Artwork.png',
   },
   Cornucopia: {
     id: 31,
     name: 'Cornucopia',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e3/Light_Cone_Cornucopia_Icon.png/revision/latest?cb=20240206022923',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e3/Light_Cone_Cornucopia_Icon.png',
     effect:
       'Prosperity<p>When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     path: paths.Abundance,
@@ -30,12 +32,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 12, base_def: 12 },
       level80: { base_hp: 952, base_atk: 264, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d2/Light_Cone_Cornucopia_Artwork.png',
   },
   Collapsing_Sky: {
     id: 32,
     name: 'Collapsing Sky',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Light_Cone_Collapsing_Sky_Icon.png/revision/latest?cb=20240206022914',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Light_Cone_Collapsing_Sky_Icon.png',
     effect:
       'Havoc<p>The wearer\'s Basic ATK and Skill deal <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> more DMG.</p>',
     path: paths.Destruction,
@@ -44,12 +48,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 16, base_def: 9 },
       level80: { base_hp: 846, base_atk: 370, base_def: 198 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Light_Cone_Collapsing_Sky_Artwork.png',
   },
   Amber: {
     id: 33,
     name: 'Amber',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Light_Cone_Amber_Icon.png/revision/latest?cb=20240206022231',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Light_Cone_Amber_Icon.png',
     effect:
       'Stasis<p>Increases the wearer\'s DEF by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. If the wearer\'s current HP is lower than 50%, increases their DEF by a further <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>.</p>',
     path: paths.Preservation,
@@ -58,12 +64,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 12, base_def: 15 },
       level80: { base_hp: 846, base_atk: 264, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/19/Light_Cone_Amber_Artwork.png',
   },
   Void: {
     id: 34,
     name: 'Void',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Void_Icon.png/revision/latest?cb=20240206022049',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Void_Icon.png',
     effect:
       'Fallen<p>At the start of the battle, increases the wearer\'s Effect Hit Rate by <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> for 3 turn(s).</p>',
     path: paths.Nihility,
@@ -72,12 +80,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 14, base_def: 12 },
       level80: { base_hp: 846, base_atk: 317, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Light_Cone_Void_Artwork.png',
   },
   Chorus: {
     id: 35,
     name: 'Chorus',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Light_Cone_Chorus_Icon.png/revision/latest?cb=20240206022904',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Light_Cone_Chorus_Icon.png',
     effect:
       'Concerted<p>After entering battle, increases the ATK of all allies by <span style="color: rgb(255, 200, 112)">8%/9%/10%/11%/12%</span>. Effects of the same type cannot stack.</p>',
     path: paths.Harmony,
@@ -86,12 +96,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 14, base_def: 12 },
       level80: { base_hp: 846, base_atk: 317, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Light_Cone_Chorus_Artwork.png',
   },
   Data_Bank: {
     id: 36,
     name: 'Data Bank',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Light_Cone_Data_Bank_Icon.png/revision/latest?cb=20250318142553',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Light_Cone_Data_Bank_Icon.png',
     effect:
       'Learned<p>Increases the wearer\'s Ultimate DMG by <span style="color: rgb(255, 200, 112)">28%/35%/42%/49%/56%</span>.</p>',
     path: paths.Erudition,
@@ -100,6 +112,8 @@ export const lightCones = {
       level1: { base_hp: 33, base_atk: 16, base_def: 12 },
       level80: { base_hp: 740, base_atk: 370, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Light_Cone_Data_Bank_Artwork.png',
   },
   Darting_Arrow: {
     id: 37,
@@ -107,7 +121,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Light_Cone_Darting_Arrow_Icon.png/revision/latest?cb=20240206023005',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Light_Cone_Darting_Arrow_Icon.png',
     effect:
       'War Cry<p>When the wearer defeats an enemy, increases ATK by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span> for 3 turn(s).</p>',
     stats: {
@@ -122,6 +136,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Darting_Arrow_Artwork.png',
   },
   Fine_Fruit: {
     id: 38,
@@ -129,7 +145,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Fine_Fruit_Icon.png/revision/latest?cb=20240206023110',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Fine_Fruit_Icon.png',
     effect:
       'Savor<p>At the start of the battle, immediately regenerates <span style="color: rgb(255, 200, 112)">6/8/9/11/12</span> Energy for all allies.</p>',
     stats: {
@@ -144,6 +160,8 @@ export const lightCones = {
         base_def: 198,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Light_Cone_Fine_Fruit_Artwork.png',
   },
   Shattered_Home: {
     id: 39,
@@ -151,7 +169,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Shattered_Home_Icon.png/revision/latest?cb=20240206021726',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Shattered_Home_Icon.png',
     effect:
       'Eradication<p>Deals <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> increased DMG to any enemies whose HP is above 50%. </p>',
     stats: {
@@ -166,6 +184,8 @@ export const lightCones = {
         base_def: 198,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Light_Cone_Shattered_Home_Artwork.png',
   },
   Defense: {
     id: 40,
@@ -173,7 +193,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Defense_Icon.png/revision/latest?cb=20240206023026',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Defense_Icon.png',
     effect:
       'Revitalization<p>When the wearer unleashes their Ultimate, they restore HP by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span> of their Max HP.</p>',
     stats: {
@@ -188,6 +208,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Light_Cone_Defense_Artwork.png',
   },
   Loop: {
     id: 41,
@@ -195,7 +217,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Light_Cone_Loop_Icon.png/revision/latest?cb=20240206021232',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Light_Cone_Loop_Icon.png',
     effect:
       'Pursuit<p>Increases DMG dealt from its wearer to Slowed enemies by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>.</p>',
     stats: {
@@ -210,6 +232,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Loop_Artwork.png',
   },
   Meshing_Cogs: {
     id: 42,
@@ -217,7 +241,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Meshing_Cogs_Icon.png/revision/latest?cb=20240206021316',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Meshing_Cogs_Icon.png',
     effect:
       'Fleet Triumph<p>After the wearer attacks or is hit, additionally regenerates <span style="color: rgb(255, 200, 112)">4/5/6/7/8</span> Energy. This effect can only be triggered 1 time per turn.</p>',
     stats: {
@@ -232,6 +256,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Light_Cone_Meshing_Cogs_Artwork.png',
   },
   Passkey: {
     id: 43,
@@ -239,7 +265,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Passkey_Icon.png/revision/latest?cb=20240206021454',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Passkey_Icon.png',
     effect:
       'Epiphany<p>After the wearer uses their Skill, additionally regenerates <span style="color: rgb(255, 200, 112)">8/9/10/11/12</span> Energy. This effect can only be triggered 1 time per turn.</p>',
     stats: {
@@ -254,6 +280,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Light_Cone_Passkey_Artwork.png',
   },
   Post_Op_Conversation: {
     id: 44,
@@ -261,7 +289,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Light_Cone_Post-Op_Conversation_Icon.png/revision/latest?cb=20240206021608',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Light_Cone_Post-Op_Conversation_Icon.png',
     effect:
       'Mutual Healing<p>Increases the wearer\'s Energy Regeneration Rate by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span> and increases Outgoing Healing when they use their Ultimate by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -276,6 +304,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Light_Cone_Post-Op_Conversation_Artwork.png',
   },
   Good_Night_and_Sleep_Well: {
     id: 45,
@@ -283,7 +313,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Good_Night_and_Sleep_Well_Icon.png/revision/latest?cb=20240206023136',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Good_Night_and_Sleep_Well_Icon.png',
     effect:
       'Toiler<p>For every debuff the target enemy has, the DMG dealt by the wearer increases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>, stacking up to 3 time(s). This effect also applies to DoT.</p>',
     stats: {
@@ -298,6 +328,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Good_Night_and_Sleep_Well_Artwork.png',
   },
   Day_One_of_My_New_Life: {
     id: 46,
@@ -305,7 +337,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Light_Cone_Day_One_of_My_New_Life_Icon.png/revision/latest?cb=20240206023016',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Light_Cone_Day_One_of_My_New_Life_Icon.png',
     effect:
       'At This Very Moment<p>Increases the wearer\'s DEF by <span style="color: rgb(255, 200, 112)">16%/18%/20%/22%/24%</span>. After entering battle, increases DMG RES of all allies by <span style="color: rgb(255, 200, 112)">8%/9%/10%/11%/12%</span>. Effects of the same type cannot stack.</p>',
     stats: {
@@ -320,6 +352,8 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Day_One_of_My_New_Life_Artwork.png',
   },
   Only_Silence_Remains: {
     id: 47,
@@ -327,7 +361,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Light_Cone_Only_Silence_Remains_Icon.png/revision/latest?cb=20240206021442',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Light_Cone_Only_Silence_Remains_Icon.png',
     effect:
       'Record<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. If there are 2 or fewer enemies on the field, increases wearer\'s CRIT Rate by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -342,6 +376,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Only_Silence_Remains_Artwork.png',
   },
   Memories_of_the_Past: {
     id: 48,
@@ -349,7 +385,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_Memories_of_the_Past_Icon.png/revision/latest?cb=20240206021304',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_Memories_of_the_Past_Icon.png',
     effect:
       'Old Photo<p>Increases the wearer\'s Break Effect by <span style="color: rgb(255, 200, 112)">28%/35%/42%/49%/56%</span>. When the wearer attacks, additionally regenerates <span style="color: rgb(255, 200, 112)">4/5/6/7/8</span> Energy. This effect can only be triggered 1 time per turn.</p>',
     stats: {
@@ -364,6 +400,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Memories_of_the_Past_Artwork.png',
   },
   The_Moles_Welcome_You: {
     id: 49,
@@ -371,7 +409,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Light_Cone_The_Moles_Welcome_You_Icon.png/revision/latest?cb=20240206021916',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Light_Cone_The_Moles_Welcome_You_Icon.png',
     effect:
       'Fantastic Adventure<p>When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -386,6 +424,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_The_Moles_Welcome_You_Artwork.png',
   },
   The_Birth_of_the_Self: {
     id: 50,
@@ -393,7 +433,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_The_Birth_of_the_Self_Icon.png/revision/latest?cb=20240206021903',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_The_Birth_of_the_Self_Icon.png',
     effect:
       'The Maiden in the Painting<p>Increases DMG dealt by the wearer\'s follow-up attacks by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>. If the current HP of the target enemy is below 50% of their Max HP, increases DMG dealt by follow-up attacks by an extra <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>.</p>',
     stats: {
@@ -408,6 +448,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_The_Birth_of_the_Self_Artwork.png',
   },
   Shared_Feeling: {
     id: 51,
@@ -415,7 +457,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Light_Cone_Shared_Feeling_Icon.png/revision/latest?cb=20240206021715',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Light_Cone_Shared_Feeling_Icon.png',
     effect:
       'Cure and Repair<p>Increases the wearer\'s Outgoing Healing by <span style="color: rgb(255, 200, 112)">10%/12.5%/15%/17.5%/20%</span>. When using Skill, regenerates <span style="color: rgb(255, 200, 112)">2/3/3/4/4</span> Energy for all allies.</p>',
     stats: {
@@ -430,6 +472,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_Shared_Feeling_Artwork.png',
   },
   Eyes_of_the_Prey: {
     id: 52,
@@ -437,7 +481,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a8/Light_Cone_Eyes_of_the_Prey_Icon.png/revision/latest?cb=20240206023048',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a8/Light_Cone_Eyes_of_the_Prey_Icon.png',
     effect:
       'Self-Confidence<p>Increases Effect Hit Rate of its wearer by <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> and increases DoT by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>.</p>',
     stats: {
@@ -452,6 +496,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Light_Cone_Eyes_of_the_Prey_Artwork.png',
   },
   Landaus_Choice: {
     id: 53,
@@ -459,7 +505,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_Landau%27s_Choice_Icon.png/revision/latest?cb=20240206023255',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_Landau%27s_Choice_Icon.png',
     effect:
       'Time Fleets Away<p>The wearer is more likely to be attacked, but DMG taken is reduced by <span style="color: rgb(255, 200, 112)">16%/18%/20%/22%/24%</span>.</p>',
     stats: {
@@ -474,6 +520,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Light_Cone_Landau%27s_Choice_Artwork.png',
   },
   Swordplay: {
     id: 54,
@@ -481,7 +529,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Swordplay_Icon.png/revision/latest?cb=20240206021839',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Swordplay_Icon.png',
     effect:
       'Answers of Their Own<p>For each time the wearer hits the same target, DMG dealt increases by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span>, stacking up to 5 time(s). The stack effect will be reset when the wearer changes targets.</p>',
     stats: {
@@ -496,6 +544,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Swordplay_Artwork.png',
   },
   Planetary_Rendezvous: {
     id: 55,
@@ -503,7 +553,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Planetary_Rendezvous_Icon.png/revision/latest?cb=20240206021557',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Planetary_Rendezvous_Icon.png',
     effect:
       'Departure<p>After entering battle, when all allies deal the same DMG Type as the wearer, DMG dealt increases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -518,6 +568,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Planetary_Rendezvous_Artwork.png',
   },
   A_Secret_Vow: {
     id: 56,
@@ -525,7 +577,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Light_Cone_A_Secret_Vow_Icon.png/revision/latest?cb=20240206021214',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Light_Cone_A_Secret_Vow_Icon.png',
     effect:
       'Spare No Effort<p><span style="color: rgba(255, 255, 255, 0.85)">Increases DMG dealt by the wearer by </span><span style="color: #FFC870">20%/25%/30%/35%/40%</span><span style="color: rgba(255, 255, 255, 0.85)">. The wearer also deals an extra </span><span style="color: #FFC870">20%/25%/30%/35%/40% </span><span style="color: rgba(255, 255, 255, 0.85)">of DMG to enemies whose current HP percentage is equal to or higher than the wearer\'s current HP percentage.</span></p>',
     stats: {
@@ -540,6 +592,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_A_Secret_Vow_Artwork.png',
   },
   Make_the_World_Clamor: {
     id: 57,
@@ -547,7 +601,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Light_Cone_Make_the_World_Clamor_Icon.png/revision/latest?cb=20240206021242',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Light_Cone_Make_the_World_Clamor_Icon.png',
     effect:
       'The Power of Sound<p>The wearer regenerates <span style="color: rgb(255, 200, 112)">20/23/26/29/32</span> Energy immediately upon entering battle, and increases Ultimate DMG by <span style="color: rgb(255, 200, 112)">32%/40%/48%/56%/64%</span>.</p>',
     stats: {
@@ -562,6 +616,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Make_the_World_Clamor_Artwork.png',
   },
   Woof_Walk_Time: {
     id: 58,
@@ -569,7 +625,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Woof%21_Walk_Time%21_Icon.png/revision/latest?cb=20240206022157',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Woof%21_Walk_Time%21_Icon.png',
     effect:
       'Run!<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">10%/12.5%/15%/17.5%/20%</span>, and increases their DMG to enemies afflicted with Burn or Bleed by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. This also applies to DoT.</p>',
     stats: {
@@ -584,6 +640,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Woof%21_Walk_Time%21_Artwork.png',
   },
   The_Seriousness_of_Breakfast: {
     id: 59,
@@ -591,7 +649,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_The_Seriousness_of_Breakfast_Icon.png/revision/latest?cb=20240206021928',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_The_Seriousness_of_Breakfast_Icon.png',
     effect:
       'Get Ready<p>Increases the wearer\'s DMG by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>. For every enemy defeated by the wearer, the wearer\'s ATK increases by <span style="color: rgb(255, 200, 112)">4%/5%/6%/7%/8%</span>, stacking up to 3 time(s).</p>',
     stats: {
@@ -606,6 +664,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Seriousness_of_Breakfast_Artwork.png',
   },
   Warmth_Shortens_Cold_Nights: {
     id: 60,
@@ -613,7 +673,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/ff/Light_Cone_Warmth_Shortens_Cold_Nights_Icon.png/revision/latest?cb=20240206022059',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/ff/Light_Cone_Warmth_Shortens_Cold_Nights_Icon.png',
     effect:
       'Tiny Light<p>Increases the wearer\'s Max HP by <span style="color: rgb(255, 200, 112)">16%/20%/24%%/28%/32%</span>. When using Basic ATK or Skill, restores all allies\' HP by an amount equal to <span style="color: rgb(255, 200, 112)">2%/2.5%/3%/3.5%/4%</span> of their respective Max HP.</p>',
     stats: {
@@ -628,6 +688,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_Warmth_Shortens_Cold_Nights_Artwork.png',
   },
   We_Will_Meet_Again: {
     id: 61,
@@ -635,7 +697,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_We_Will_Meet_Again_Icon.png/revision/latest?cb=20240206022121',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_We_Will_Meet_Again_Icon.png',
     effect:
       'A Discourse in Arms<p>After the wearer uses Basic ATK or Skill, <span style="color: rgb(242, 244, 245)">deals Additional DMG equal to</span> <span style="color: rgb(255, 200, 112)">48%/60%/72%/84%/96%</span> <span style="color: rgb(242, 244, 245)">of the wearer\'s ATK to a random enemy that has been attacked.</span></p>',
     stats: {
@@ -650,6 +712,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0e/Light_Cone_We_Will_Meet_Again_Artwork.png',
   },
   This_Is_Me: {
     id: 62,
@@ -657,7 +721,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/63/Light_Cone_This_Is_Me%21_Icon.png/revision/latest?cb=20240206021949',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/63/Light_Cone_This_Is_Me%21_Icon.png',
     effect:
       'New Chapter<p>Increases the wearer\'s DEF by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. Increases the DMG of the wearer when they use their Ultimate by <span style="color: rgb(255, 200, 112)">60%/75%/90%/105%/120%</span> of the wearer\'s DEF. This effect only apply 1 time per enemy target.</p>',
     stats: {
@@ -672,6 +736,8 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_This_Is_Me%21_Artwork.png',
   },
   Return_to_Darkness: {
     id: 63,
@@ -679,7 +745,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Return_to_Darkness_Icon.png/revision/latest?cb=20240206021641',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Return_to_Darkness_Icon.png',
     effect:
       'Raging Waves<p>Increases the wearer\'s CRIT Rate by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>. After a CRIT Hit, there is a <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span> fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.</p>',
     stats: {
@@ -694,6 +760,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Return_to_Darkness_Artwork.png',
   },
   Carve_the_Moon_Weave_the_Clouds: {
     id: 64,
@@ -701,7 +769,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Icon.png/revision/latest?cb=20240206022848',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Icon.png',
     effect:
       'Secret<p>One of the following effects is applied randomly at the start of combat and whenever the wearer\'s turn begins: Increase all allies\' ATK by <span style="color: rgb(255, 200, 112)">10%/12.5%/15%/17.5%/20%</span>, increase all allies\' CRIT DMG by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>, or increase all allies\' Energy Regeneration Rate by <span style="color: rgb(255, 200, 112)">6%/7.5%/9%/10.5%/12%</span>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar types cannot be stacked.</p>',
     stats: {
@@ -716,6 +784,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Artwork.png',
   },
   Nowhere_to_Run: {
     id: 65,
@@ -723,7 +793,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Nowhere_to_Run_Icon.png/revision/latest?cb=20240206021418',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Nowhere_to_Run_Icon.png',
     effect:
       'Crisis<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>. Whenever the wearer defeats an enemy, they restore HP equal to <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span> of their ATK.</p>',
     stats: {
@@ -738,6 +808,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Light_Cone_Nowhere_to_Run_Artwork.png',
   },
   Today_Is_Another_Peaceful_Day: {
     id: 66,
@@ -745,7 +817,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_Today_Is_Another_Peaceful_Day_Icon.png/revision/latest?cb=20240206022012',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_Today_Is_Another_Peaceful_Day_Icon.png',
     effect:
       'A Storm Is Coming<p>After entering battle, increases the wearer\'s DMG based on their Max Energy. DMG increases by <span style="color: rgb(255, 200, 112)">0.2%/0.25%/0.3%/0.35%/0.4%</span> per point of Energy, up to 160 Energy.</p>',
     stats: {
@@ -760,6 +832,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.png',
   },
   Night_on_the_Milky_Way: {
     id: 67,
@@ -767,7 +841,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Light_Cone_Night_on_the_Milky_Way_Icon.png/revision/latest?cb=20240206021407',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Light_Cone_Night_on_the_Milky_Way_Icon.png',
     effect:
       'Meteor Swarm<p>For every enemy on the field, increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">9%/10.5%/12%/13.5%/15%</span>, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by <span style="color: rgb(255, 200, 112)">30%/35%/40%/45%/50%</span> for 1 turn.</p>',
     stats: {
@@ -782,6 +856,7 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Light_Cone_Night_on_the_Milky_Way_Artwork.png',
   },
   In_the_Night: {
     id: 68,
@@ -789,7 +864,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Light_Cone_In_the_Night_Icon.png/revision/latest?cb=20240206023231',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Light_Cone_In_the_Night_Icon.png',
     effect:
       'Flowers and Butterflies<p>Increases the wearer\'s CRIT Rate by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span>. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer\'s Basic ATK and Skill is increased by <span style="color: rgb(255, 200, 112)">6%/7%/8%/9%/10%</span> and the CRIT DMG of their Ultimate is increased by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>. This effect can stack up to 6 time(s).</p>',
     stats: {
@@ -804,6 +879,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_In_the_Night_Artwork.png',
   },
   Something_Irreplaceable: {
     id: 69,
@@ -811,7 +887,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Something_Irreplaceable_Icon.png/revision/latest?cb=20240206021811',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Something_Irreplaceable_Icon.png',
     effect:
       'Kinship<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>. When the wearer defeats an enemy or is hit, immediately restores HP equal to <span style="color: rgb(255, 200, 112)">8%/9%/10%/11%/12%</span> of the wearer\'s ATK. At the same time, the wearer\'s DMG increases by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span> until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.</p>',
     stats: {
@@ -826,6 +902,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Something_Irreplaceable_Artwork.png',
   },
   But_The_Battle_Isnt_Over: {
     id: 70,
@@ -833,7 +910,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Light_Cone_But_the_Battle_Isn%27t_Over_Icon.png/revision/latest?cb=20240206022836',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Light_Cone_But_the_Battle_Isn%27t_Over_Icon.png',
     effect:
       'Heir<p>Increases the wearer\'s Energy Regeneration Rate by <span style="color: rgb(255, 200, 112)">10%/12%/14%/16%/18%</span> and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer\'s Ultimate. When the wearer uses their Skill, the next ally taking action deals <span style="color: rgb(255, 200, 112)">30%/35%/40%/45%/50%</span> more DMG for 1 turn(s).</p>',
     stats: {
@@ -848,6 +925,8 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Light_Cone_But_the_Battle_Isn%27t_Over_Artwork.png',
   },
   In_the_Name_of_the_World: {
     id: 71,
@@ -855,7 +934,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/20/Light_Cone_In_the_Name_of_the_World_Icon.png/revision/latest?cb=20240206023220',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/20/Light_Cone_In_the_Name_of_the_World_Icon.png',
     effect:
       'Inheritor<p>Increases the wearer\'s DMG to debuffed enemies by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span>, and ATK increases by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>.</p>',
     stats: {
@@ -870,6 +949,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_In_the_Name_of_the_World_Artwork.png',
   },
   Moment_of_Victory: {
     id: 72,
@@ -877,7 +957,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Moment_of_Victory_Icon.png/revision/latest?cb=20240206021326',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Moment_of_Victory_Icon.png',
     effect:
       'Verdict<p>Increases the wearer\'s DEF by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span> and Effect Hit Rate by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span> until the end of the wearer\'s turn.</p>',
     stats: {
@@ -892,6 +972,7 @@ export const lightCones = {
         base_def: 595,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_Moment_of_Victory_Artwork.png',
   },
   Before_Dawn: {
     id: 73,
@@ -899,7 +980,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/08/Light_Cone_Before_Dawn_Icon.png/revision/latest?cb=20240206022757',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/08/Light_Cone_Before_Dawn_Icon.png',
     effect:
       'Long Night<p>Increases the wearer\'s CRIT DMG by <span style="color: rgb(255, 200, 112)">36%/42%/48%/54%/60%</span>. Increases the wearer\'s Skill and Ultimate DMG by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span>. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by <span style="color: rgb(255, 200, 112)">48%/56%/64%/72%/80%</span>.</p>',
     stats: {
@@ -914,6 +995,8 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Before_Dawn_Artwork.png',
   },
   Sleep_Like_the_Dead: {
     id: 74,
@@ -921,7 +1004,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Light_Cone_Sleep_Like_the_Dead_Icon.png/revision/latest?cb=20240206021747',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Light_Cone_Sleep_Like_the_Dead_Icon.png',
     effect:
       'Sweet Dreams<p>Increases the wearer\'s CRIT DMG by <span style="color: rgb(255, 200, 112)">30%/35%/40%/45%/50%</span>. When the wearer\'s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by <span style="color: rgb(255, 200, 112)">36%/42%/48%/54%/60%</span> for 1 turn(s). This effect can only be triggered 1 time every 3 turn(s).</p>',
     stats: {
@@ -936,6 +1019,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/dd/Light_Cone_Sleep_Like_the_Dead_Artwork.png',
   },
   Time_Waits_for_No_One: {
     id: 75,
@@ -943,7 +1027,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_Time_Waits_for_No_One_Icon.png/revision/latest?cb=20240206022001',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_Time_Waits_for_No_One_Icon.png',
     effect:
       'Morn, Noon, Dusk, and Night<p>Increases the wearer\'s Max HP by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span> and Outgoing Healing by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to <span style="color: rgb(255, 200, 112)">36%/42%/48%/54%/60%</span> of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer\'s, is not affected by other buffs, and can only occur 1 time per turn.</p>',
     stats: {
@@ -958,6 +1042,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Time_Waits_for_No_One_Artwork.png',
   },
   On_the_Fall_of_an_Aeon: {
     id: 76,
@@ -965,7 +1050,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b2/Light_Cone_On_the_Fall_of_an_Aeon_Icon.png/revision/latest?cb=20240206021431',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b2/Light_Cone_On_the_Fall_of_an_Aeon_Icon.png',
     effect:
       'Moth To Flames<p>Whenever the wearer attacks, increase their ATK by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span> in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer\'s DMG increases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span> for 2 turn(s).</p>',
     stats: {
@@ -980,6 +1065,7 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_On_the_Fall_of_an_Aeon_Artwork.png',
   },
   Cruising_in_the_Stellar_Sea: {
     id: 77,
@@ -987,7 +1073,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Cruising_in_the_Stellar_Sea_Icon.png/revision/latest?cb=20240206022937',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Cruising_in_the_Stellar_Sea_Icon.png',
     effect:
       'Chase<p>Increases the wearer\'s CRIT rate by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span>, and increases their CRIT rate against enemies with HP less than or equal to 50% by an additional <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span>. When the wearer defeats an enemy, increase their ATK by <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> for 2 turn(s).</p>',
     stats: {
@@ -1002,6 +1088,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Light_Cone_Cruising_in_the_Stellar_Sea_Artwork.png',
   },
   Texture_of_Memories: {
     id: 78,
@@ -1009,7 +1096,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Light_Cone_Texture_of_Memories_Icon.png/revision/latest?cb=20240206021852',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Light_Cone_Texture_of_Memories_Icon.png',
     effect:
       'Treasure<p>Increases the wearer\'s Effect RES by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span>. If the wearer is attacked and has no Shield, they gain a Shield equal to <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span> of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by <span style="color: rgb(255, 200, 112)">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -1024,6 +1111,7 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Light_Cone_Texture_of_Memories_Artwork.png',
   },
   Perfect_Timing: {
     id: 589,
@@ -1031,7 +1119,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Light_Cone_Perfect_Timing_Icon.png/revision/latest?cb=20240206021535',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Light_Cone_Perfect_Timing_Icon.png',
     effect:
       'Refraction of Sightline<p>Increases the wearer\'s Effect RES by <span style="color: #FFC870">16%/20%/24%/28%/32%</span> and increases Outgoing Healing by an amount that is equal to <span style="color: #FFC870">33%/36%/39%/42%/45%</span> of Effect RES. Outgoing Healing can be increased this way by up to <span style="color: #FFC870">15%/18%/21%/24%/27%</span>.</p>',
     stats: {
@@ -1046,6 +1134,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Perfect_Timing_Artwork.png',
   },
   Resolution_Shines_As_Pearls_of_Sweat: {
     id: 590,
@@ -1053,7 +1143,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat_Icon.png/revision/latest?cb=20240206021630',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat_Icon.png',
     effect:
       'Glance Back<p>When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a <span style="color: #FFC870">60%/70%/80%/90%/100%</span> base chance to Ensnare the hit enemy. Ensnared enemies\' DEF decreases by <span style="color: #FFC870">12%/13%/14%/15%/16%</span> for 1 turn(s).</p>',
     stats: {
@@ -1068,6 +1158,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat_Artwork.png',
   },
   Trend_of_the_Universal_Market: {
     id: 591,
@@ -1075,7 +1167,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Light_Cone_Trend_of_the_Universal_Market_Icon.png/revision/latest?cb=20240206022024',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Light_Cone_Trend_of_the_Universal_Market_Icon.png',
     effect:
       'A New Round of Shuffling<p>Increases the wearer\'s DEF by <span style="color: #FFC870">16%/20%/24%/28%/32%</span>. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to <span style="color: #FFC870">40%/50%/60%/70%/80%</span> of the wearer\'s DEF for 2 turn(s).</p>',
     stats: {
@@ -1090,6 +1182,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_Trend_of_the_Universal_Market_Artwork.png',
   },
   Subscribe_for_More: {
     id: 592,
@@ -1097,7 +1191,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Light_Cone_Subscribe_for_More%21_Icon.png/revision/latest?cb=20240206021827',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Light_Cone_Subscribe_for_More%21_Icon.png',
     effect:
       'Like Before You Leave!<p>Increases the DMG of the wearer\'s Basic ATK and Skill by <span style="color: #FFC870">24%/30%/36%/42%/48%</span>. This effect increases by an extra <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span> when the wearer\'s current Energy reaches its max level.</p>',
     stats: {
@@ -1112,6 +1206,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Subscribe_for_More%21_Artwork.png',
   },
   Dance_Dance_Dance: {
     id: 593,
@@ -1119,7 +1215,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Dance%21_Dance%21_Dance%21_Icon.png/revision/latest?cb=20240206022953',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Dance%21_Dance%21_Dance%21_Icon.png',
     effect:
       'Cannot Stop It!<p>When the wearer uses their Ultimate, all allies\' actions are Advanced Forward by <span style="color: #FFC870">16%/18%/20%/22%/24%</span>.</p>',
     stats: {
@@ -1134,6 +1230,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_Dance%21_Dance%21_Dance%21_Artwork.png',
   },
   Under_the_Blue_Sky: {
     id: 594,
@@ -1141,7 +1239,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fe/Light_Cone_Under_the_Blue_Sky_Icon.png/revision/latest?cb=20240206022036',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fe/Light_Cone_Under_the_Blue_Sky_Icon.png',
     effect:
       'Rye Under the Sun<p>Increases the wearer\'s ATK by <span style="color: #FFC870">16%/20%/24%/28%/32%</span>. When the wearer defeats an enemy, the wearer\'s CRIT Rate increases by <span style="color: #FFC870">12%/15%/18%/21%/24%</span> for 3 turn(s).</p>',
     stats: {
@@ -1156,6 +1254,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Light_Cone_Under_the_Blue_Sky_Artwork.png',
   },
   Geniuses_Repose: {
     id: 595,
@@ -1163,7 +1263,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Light_Cone_Geniuses%27_Repose_Icon.png/revision/latest?cb=20240206023122',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Light_Cone_Geniuses%27_Repose_Icon.png',
     effect:
       'Each Now Has a Role to Play<p>Increases the wearer\'s ATK by <span style="color: #FFC870">16%/20%/24%/28%/32%</span>. When the wearer defeats an enemy, the wearer\'s CRIT DMG increases by <span style="color: #FFC870">24%/30%/36%/42%/48%</span> for 3 turn(s).</p>',
     stats: {
@@ -1178,6 +1278,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_Geniuses%27_Repose_Artwork.png',
   },
   Quid_Pro_Quo: {
     id: 596,
@@ -1185,7 +1287,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Quid_Pro_Quo_Icon.png/revision/latest?cb=20240206021619',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Quid_Pro_Quo_Icon.png',
     effect:
       'Enjoy With Rapture<p>At the start of the wearer\'s turn, regenerates <span style="color: #FFC870">8/10/12/14/16</span> Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.</p>',
     stats: {
@@ -1200,6 +1302,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Quid_Pro_Quo_Artwork.png',
   },
   Fermata: {
     id: 597,
@@ -1207,7 +1311,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/09/Light_Cone_Fermata_Icon.png/revision/latest?cb=20240206023058',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/09/Light_Cone_Fermata_Icon.png',
     effect:
       'Semibreve Rest<p>Increases the Break Effect dealt by the wearer by <span style="color: #FFC870">16%/20%/24%/28%/32%</span>, and increases their DMG to enemies afflicted with Shock or Wind Shear by <span style="color: rgb(255, 200, 112)">16%/20%/24%/28%/32%</span>. This also applies to DoT.</p>',
     stats: {
@@ -1222,6 +1326,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Fermata_Artwork.png',
   },
   We_Are_Wildfire: {
     id: 598,
@@ -1229,7 +1335,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_We_Are_Wildfire_Icon.png/revision/latest?cb=20240206022110',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_We_Are_Wildfire_Icon.png',
     effect:
       'Teary-Eyed<p>At the start of the battle, the DMG dealt to all allies decreases by <span style="color: rgb(255, 200, 112)">8%/10%/12%/14%/16%</span> for 5 turn(s). At the same time, immediately restores HP to all allies equal to <span style="color: rgb(255, 200, 112)">30%/35%/40%/45%/50%</span> of the respective HP difference between the characters\' Max HP and current HP.</p>',
     stats: {
@@ -1244,6 +1350,8 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_We_Are_Wildfire_Artwork.png',
   },
   River_Flows_in_Spring: {
     id: 599,
@@ -1251,7 +1359,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_River_Flows_in_Spring_Icon.png/revision/latest?cb=20240206021653',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_River_Flows_in_Spring_Icon.png',
     effect:
       'Stave Off the Lingering Cold<p>After entering battle, increases the wearer\'s SPD by <span style="color: #FFC870">8%/9%/10%/11%/12%</span> and DMG by <span style="color: #FFC870">12%/15%/18%/21%/24%</span>. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer\'s next turn.</p>',
     stats: {
@@ -1266,6 +1374,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_River_Flows_in_Spring_Artwork.png',
   },
   Past_and_Future: {
     id: 600,
@@ -1273,7 +1383,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_Past_and_Future_Icon.png/revision/latest?cb=20240206021504',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_Past_and_Future_Icon.png',
     effect:
       'Kites From the Past<p>When the wearer uses their Skill, then the next ally taking action (except the wearer) deals <span style="color: #FFC870">16%/20%/24%/28%/32%</span> increased DMG for 1 turn(s).</p>',
     stats: {
@@ -1288,6 +1398,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png',
   },
   Adversarial: {
     id: 601,
@@ -1295,7 +1407,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Hunt,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Light_Cone_Adversarial_Icon.png/revision/latest?cb=20240206022218',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Light_Cone_Adversarial_Icon.png',
     effect:
       'Alliance<p>When the wearer defeats an enemy, increases SPD by <span style="color: #FFC870">10%/12%/14%/16%/18%</span> for 2 turn(s).</p>',
     stats: {
@@ -1310,6 +1422,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_Adversarial_Artwork.png',
   },
   Sagacity: {
     id: 602,
@@ -1317,7 +1431,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Erudition,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Sagacity_Icon.png/revision/latest?cb=20240206021704',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Sagacity_Icon.png',
     effect:
       'Genius<p>When the wearer uses their Ultimate, increases ATK by <span style="color: #FFC870">24%/30%/36%/42%/48%</span> for 2 turn(s).</p>',
     stats: {
@@ -1332,6 +1446,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_Sagacity_Artwork.png',
   },
   Pioneering: {
     id: 603,
@@ -1339,7 +1455,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Light_Cone_Pioneering_Icon.png/revision/latest?cb=20240206021547',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Light_Cone_Pioneering_Icon.png',
     effect:
       'IPC<p>When the wearer Breaks an enemy\'s Weakness, the wearer restores HP by <span style="color: #FFC870">12%/14%/16%/18%/20%</span> of their Max HP.</p>',
     stats: {
@@ -1354,6 +1470,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_Pioneering_Artwork.png',
   },
   Multiplication: {
     id: 604,
@@ -1361,7 +1479,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Abundance,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Light_Cone_Multiplication_Icon.png/revision/latest?cb=20240206021338',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Light_Cone_Multiplication_Icon.png',
     effect:
       'Denizens of Abundance<p>After the wearer uses their Basic ATK, their next action will be Advanced Forward by <span style="color: #FFC870">12%/14%/16%/18%/20%</span>.</p><p></p>',
     stats: {
@@ -1376,6 +1494,8 @@ export const lightCones = {
         base_def: 198,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Light_Cone_Multiplication_Artwork.png',
   },
   Mediation: {
     id: 605,
@@ -1383,7 +1503,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a6/Light_Cone_Mediation_Icon.png/revision/latest?cb=20240206021254',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a6/Light_Cone_Mediation_Icon.png',
     effect:
       'Family<p>Upon battle entry, all allies receive <span style="color: #FFC870">12/14/16/18/20</span> increased SPD for 1 turn(s).</p>',
     stats: {
@@ -1398,6 +1518,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Mediation_Artwork.png',
   },
   Mutual_Demise: {
     id: 606,
@@ -1405,7 +1527,7 @@ export const lightCones = {
     rarity: lightConeRarities.Three_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Light_Cone_Mutual_Demise_Icon.png/revision/latest?cb=20240206021347',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Light_Cone_Mutual_Demise_Icon.png',
     effect:
       'Legion<p>If the wearer\'s current HP is lower than 80%, CRIT Rate increases by <span style="color: #FFC870">12%/15%/18%/21%/24%</span>.</p>',
     stats: {
@@ -1420,12 +1542,14 @@ export const lightCones = {
         base_def: 198,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3b/Light_Cone_Mutual_Demise_Artwork.png',
   },
   Hidden_Shadow: {
     id: 607,
     name: 'Hidden Shadow',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Light_Cone_Hidden_Shadow_Icon.png/revision/latest?cb=20240206023200',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Light_Cone_Hidden_Shadow_Icon.png',
     effect: `Mechanism<p>After using Skill, the wearer's next Basic ATK deals Additional DMG equal to <span style="color: rgb(255, 200, 112)">60%/75%/90%/105%/120%</span> of ATK to the target enemy.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Three_Star,
@@ -1433,12 +1557,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 14, base_def: 12 },
       level80: { base_hp: 846, base_atk: 317, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Hidden_Shadow_Artwork.png',
   },
   Incessant_Rain: {
     id: 805,
     name: 'Incessant Rain',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ac/Light_Cone_Incessant_Rain_Icon.png/revision/latest?cb=20240206023243',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ac/Light_Cone_Incessant_Rain_Icon.png',
     effect: `Mirage of Reality<p>Increases the wearer’s Effect Hit Rate by <span style="color: #FFC870">24%/28%/32%/36%/40%</span>. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by <span style="color: #FFC870">12%/14%/16%/18%/20%</span>. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random target that has been hit by the attack and also does not currently have an Aether Code on it. Targets with Aether Code receive <span style="color: #FFC870">12%/14%/16%/18%/20%</span> increased DMG for 1 turn.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Five_Star,
@@ -1446,12 +1572,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Light_Cone_Incessant_Rain_Artwork.png',
   },
   Echoes_of_the_Coffin: {
     id: 806,
     name: 'Echoes of the Coffin',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Light_Cone_Echoes_of_the_Coffin_Icon.png/revision/latest?cb=20240206023038',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4b/Light_Cone_Echoes_of_the_Coffin_Icon.png',
     effect: `Thorns<p>Increases the wearer's ATK by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates <span style="color: rgb(255, 200, 112)">3/3.5/4/4.5/5</span> Energy. Each attack can regenerate Energy up to 3 times this way. After the wearer uses their Ultimate, all allies gain <span style="color: rgb(255, 200, 112)">12/14/16/18/20</span> SPD for 1 turn.</p>`,
     path: paths.Abundance,
     rarity: lightConeRarities.Five_Star,
@@ -1459,12 +1586,13 @@ export const lightCones = {
       level1: { base_hp: 52, base_atk: 26, base_def: 18 },
       level80: { base_hp: 1164, base_atk: 582, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Echoes_of_the_Coffin_Artwork.png',
   },
   Before_the_Tutorial_Mission_Starts: {
     id: 807,
     name: 'Before the Tutorial Mission Starts',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/53/Light_Cone_Before_the_Tutorial_Mission_Starts_Icon.png/revision/latest?cb=20240206022811',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/53/Light_Cone_Before_the_Tutorial_Mission_Starts_Icon.png',
     effect: `Quick on the Draw<p>Increases the wearer's Effect Hit Rate by <span style="color: #FFC870">20%/25%/30%/35%/40%</span>. When the wearer attacks enemies that have reduced DEF, regenerates <span style="color: #FFC870">4/5/6/7/8</span> Energy.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Four_Star,
@@ -1472,12 +1600,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Before_the_Tutorial_Mission_Starts_Artwork.png',
   },
   The_Unreachable_Side: {
     id: 1230,
     name: 'The Unreachable Side',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Light_Cone_The_Unreachable_Side_Icon.png/revision/latest?cb=20240206021938',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Light_Cone_The_Unreachable_Side_Icon.png',
     effect: `Unfulfilled Yearning<p>Increases the wearer's CRIT Rate by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span> and and increases their Max HP by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span>. After the wearer is attacked or consumes their own HP, increases the wearer's DMG by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>. This effect is removed after the wearer uses an attack.</p>`,
     path: paths.Destruction,
     rarity: lightConeRarities.Five_Star,
@@ -1485,12 +1615,13 @@ export const lightCones = {
       level1: { base_hp: 57, base_atk: 26, base_def: 15 },
       level80: { base_hp: 1270, base_atk: 582, base_def: 330 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_The_Unreachable_Side_Artwork.png',
   },
   Patience_Is_All_You_Need: {
     id: 1231,
     name: 'Patience Is All You Need',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Patience_Is_All_You_Need_Icon.png/revision/latest?cb=20240206021524',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Patience_Is_All_You_Need_Icon.png',
     effect: `Spider Web<p>Increases DMG dealt by the wearer by <span style="color: #FFC870">24%/28%/32%/36%/40%</span>. After every attack unleashed by the wearer, the wearer's SPD increases by <span style="color: #FFC870">4.8%/5.6%/6.4%/7.2%/8%</span>, stacking up to <span style="color: #FFC870">3 </span>times. If the wearer hits an enemy target that is not afflicted by <span style="color: rgb(255, 200, 112)">Erode</span>, there is a 100% base chance to inflict <span style="color: rgb(255, 200, 112)">Erode </span>on the target. Enemies afflicted with <span style="color: rgb(255, 200, 112)">Erode </span>are also considered to be <span style="color: rgb(223, 84, 255)">Shocked</span> and will receive <span style="color: rgb(223, 84, 255)">Lightning DoT</span> at the start of each turn equal to <span style="color: #FFC870">60%/70%/80%/90%/100%</span> of the wearer's ATK, lasting for <span style="color: #FFC870">1</span> turn.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Five_Star,
@@ -1498,12 +1629,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Patience_Is_All_You_Need_Artwork.png',
   },
   Brighter_Than_the_Sun: {
     id: 1398,
     name: 'Brighter Than the Sun',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Light_Cone_Brighter_Than_the_Sun_Icon.png/revision/latest?cb=20240206022824',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Light_Cone_Brighter_Than_the_Sun_Icon.png',
     effect: `Defiant Till Death<p>Increases the wearer's CRIT Rate by <span style="color: #FFC870">18%/21%/24%/27%/30%</span>. When the wearer uses Basic ATK, they will gain one stack of Dragon's Call for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span> and Energy Regeneration Rate by <span style="color: #FFC870">6%/7%/8%/9%/10%</span>. Dragon's Call can be stacked up to 2 times.</p>`,
     path: paths.Destruction,
     rarity: lightConeRarities.Five_Star,
@@ -1511,12 +1643,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 28, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 635, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Light_Cone_Brighter_Than_the_Sun_Artwork.png',
   },
   She_Already_Shut_Her_Eyes: {
     id: 1399,
     name: 'She Already Shut Her Eyes',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Light_Cone_She_Already_Shut_Her_Eyes_Icon.png/revision/latest?cb=20240206021738',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Light_Cone_She_Already_Shut_Her_Eyes_Icon.png',
     effect: `Visioscape<p>Increases the wearer's Max HP by <span style="color: #FFC870">24%</span> and Energy Regeneration Rate by <span style="color: #FFC870">12%</span>. When the wearer's HP is decreased, increases the DMG of all allies by <span style="color: #FFC870">9%</span> for <span style="color: #FFC870">2 </span>turns.</p><p>At the beginning of each wave, restores HP equal to<span style="color: #FFC870"> 80%</span> of HP already lost by the character themselves for team.</p>`,
     path: paths.Preservation,
     rarity: lightConeRarities.Five_Star,
@@ -1524,12 +1658,13 @@ export const lightCones = {
       level1: { base_hp: 58, base_atk: 19, base_def: 24 },
       level80: { base_hp: 1270, base_atk: 423, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Light_Cone_She_Already_Shut_Her_Eyes_Artwork.png',
   },
   Solitary_Healing: {
     id: 1400,
     name: 'Solitary Healing',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Solitary_Healing_Icon.png/revision/latest?cb=20240206021802',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Solitary_Healing_Icon.png',
     effect: `Chaos Elixir<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span>. When the wearer uses their Ultimate, increases DoT dealt by the wearer by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates <span style="color: rgb(255, 200, 112)">4/4/5/5/6</span> Energy for the wearer.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Five_Star,
@@ -1537,12 +1672,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_Solitary_Healing_Artwork.png',
   },
   Worrisome_Blissful: {
     id: 1544,
     name: 'Worrisome, Blissful',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Light_Cone_Worrisome%2C_Blissful_Icon.png/revision/latest?cb=20240206022209',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Light_Cone_Worrisome%2C_Blissful_Icon.png',
     effect:
       'One At A Time<p>Increases the wearer\'s CRIT Rate by <span style="color: rgb(255, 200, 112)">18%/21%/24%/27%/30%</span> and their follow-up attacks\' DMG by <span style="color: rgb(255, 200, 112)">30%/35%/40%/45%/50%</span>. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>.</p>',
     path: paths.Hunt,
@@ -1551,12 +1687,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Light_Cone_Worrisome%2C_Blissful_Artwork.png',
   },
   I_Shall_Be_My_Own_Sword: {
     id: 1545,
     name: 'I Shall Be My Own Sword',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Light_Cone_I_Shall_Be_My_Own_Sword_Icon.png/revision/latest?cb=20240206023211',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Light_Cone_I_Shall_Be_My_Own_Sword_Icon.png',
     effect:
       'With This Evening Jade<p>Increases the wearer\'s CRIT DMG by <span style="color: rgb(255, 200, 112)">20%/23%/26%/29%/32%</span>. When an ally gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stacks. Each stack of Eclipse increases the DMG of the wearer\'s next attack by <span style="color: rgb(255, 200, 112)">14%/16.5%/19%/21.5%/24%</span>. When 3 stacks are reached, additionally enables the attack to ignore <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span> of the enemy\'s DEF. This effect will be removed after the wearer uses an attack.</p>',
     path: paths.Destruction,
@@ -1565,12 +1702,13 @@ export const lightCones = {
       level1: { base_hp: 52, base_atk: 26, base_def: 18 },
       level80: { base_hp: 1164, base_atk: 582, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Light_Cone_I_Shall_Be_My_Own_Sword_Artwork.png',
   },
   An_Instant_Before_A_Gaze: {
     id: 1595,
     name: 'An Instant Before A Gaze',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_An_Instant_Before_A_Gaze_Icon.png/revision/latest?cb=20240206022726',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_An_Instant_Before_A_Gaze_Icon.png',
     effect:
       'A Knight\'s Pilgrimage<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span>/<span style="color: #FFC870">54%</span>/<span style="color: #FFC870">60%</span>. When the wearer uses Ultimate, increases the wearer\'s Ultimate DMG based on their Max Energy. Each point of Energy increases the Ultimate DMG by <span style="color: #FFC870">0.36%/0.42%</span>/<span style="color: #FFC870">0.48%</span>/<span style="color: #FFC870">0.54%</span>/<span style="color: #FFC870">0.6%</span>, up to 180 points of Energy.</p>',
     path: paths.Erudition,
@@ -1579,12 +1717,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/09/Light_Cone_An_Instant_Before_A_Gaze_Artwork.png',
   },
   Hey_Over_Here: {
     id: 1596,
     name: 'Hey, Over Here',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Light_Cone_Hey%2C_Over_Here_Icon.png/revision/latest?cb=20240206023151',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Light_Cone_Hey%2C_Over_Here_Icon.png',
     effect:
       'I\'m Not Afraid!<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">8%/9%/10%/11%/12%</span>. Increases Outgoing Healing when the wearer uses their Skill by <span style="color: #FFC870">16%/19%/22%/25%/28%</span>, lasting for 2 turns.</p>',
     path: paths.Abundance,
@@ -1593,12 +1733,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 19, base_def: 18 },
       level80: { base_hp: 952, base_atk: 423, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bd/Light_Cone_Hey%2C_Over_Here_Artwork.png',
   },
   Night_of_Fright: {
     id: 1602,
     name: 'Night of Fright',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Light_Cone_Night_of_Fright_Icon.png/revision/latest?cb=20240206021358',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Light_Cone_Night_of_Fright_Icon.png',
     effect:
       'Deep, Deep Breaths<p>Increases the wearer\'s Energy Regeneration Rate by <span style="color: #FFC870">12%/14%/16%/18%/20%</span>. When any ally uses their Ultimate, restores HP to them equal to <span style="color: #FFC870">10%/11%/12%/13%/14%</span> of their Max HP. When the wearer provides healing for allies, increases the healed ally\'s ATK by <span style="color: #FFC870">2.4%/2.8%/3.2%/3.6%/4.0%</span>. This effect can stack up to 5 times and lasts for 2 turn(s).</p>',
     path: paths.Abundance,
@@ -1607,12 +1749,13 @@ export const lightCones = {
       level1: { base_hp: 52, base_atk: 21, base_def: 24 },
       level80: { base_hp: 1164, base_atk: 476, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Light_Cone_Night_of_Fright_Artwork.png',
   },
   Past_Self_in_Mirror: {
     id: 1822,
     name: 'Past Self in Mirror',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_Past_Self_in_Mirror_Icon.png/revision/latest?cb=20240206021517',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_Past_Self_in_Mirror_Icon.png',
     effect:
       'The Plum Fragrance In My Bones<p>Increases the wearer\'s Break Effect by <span style="color: #FFC870">60%/70%/80%/90%/100%</span>. When the wearer uses their Ultimate, increases all allies\' DMG by <span style="color: #FFC870">24%/28%/32%/36%/40%</span>, lasting for 3 turn(s). Should the wearer\'s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate <span style="color: #FFC870">10/12.5/15/17.5/20</span> Energy immediately. Effects of the same type cannot stack.</p>',
     path: paths.Harmony,
@@ -1621,12 +1764,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 24 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Past_Self_in_Mirror_Artwork.png',
   },
   Baptism_of_Pure_Thought: {
     id: 1823,
     name: 'Baptism of Pure Thought',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Light_Cone_Baptism_of_Pure_Thought_Icon.png/revision/latest?cb=20240206022745',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Light_Cone_Baptism_of_Pure_Thought_Icon.png',
     effect:
       'Mental Training<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">20%/23%/26%/29%/32%</span>. For every debuff on the enemy target, the wearer\'s CRIT DMG dealt against this target increases by <span style="color: #FFC870">8%/9%/10%/11%/12%</span>, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by <span style="color: #FFC870">36%/42%/48%/54%/60%</span> and enables their follow-up attacks to ignore <span style="color: #FFC870">24%/28%/32%/36%/40%</span> of the target\'s DEF. This effect lasts for 2 turns.</p>',
     path: paths.Hunt,
@@ -1635,12 +1779,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Baptism_of_Pure_Thought_Artwork.png',
   },
   What_Is_Real: {
     id: 1928,
     name: 'What Is Real?',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_What_Is_Real_Icon.png/revision/latest?cb=20240206022431',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_What_Is_Real_Icon.png',
     effect:
       'Hypothesis<p>Increases the wearer\'s Break Effect by <span style="color: rgb(255, 200, 112)">24%/30%/36%/42%/48%</span>. A<span style="color: rgba(255, 255, 255, 0.85)">fter using Basic ATK, restores HP for the wearer by an amount equal to </span><span style="color: #FFC870">2%/2.5%/3%/3.5%/4%</span><span style="color: rgba(255, 255, 255, 0.85)"> of Max HP plus 800.</span></p>',
     path: paths.Abundance,
@@ -1649,12 +1795,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 19, base_def: 15 },
       level80: { base_hp: 1058, base_atk: 423, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Light_Cone_What_Is_Real_Artwork.png',
   },
   Dreamville_Adventure: {
     id: 1929,
     name: 'Dreamville Adventure',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Light_Cone_Dreamville_Adventure_Icon.png/revision/latest?cb=20240206022504',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Light_Cone_Dreamville_Adventure_Icon.png',
     effect:
       'Solidarity<p>After the wearer uses a Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases the DMG dealt by the corresponding ability they used by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>. Childishness only takes effect with the most recent ability used by the wearer and cannot be stacked.</p>',
     path: paths.Harmony,
@@ -1663,12 +1811,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 19, base_def: 18 },
       level80: { base_hp: 952, base_atk: 423, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Light_Cone_Dreamville_Adventure_Artwork.png',
   },
   Final_Victor: {
     id: 1930,
     name: 'Final Victor',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Final_Victor_Icon.png/revision/latest?cb=20240206022540',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Final_Victor_Icon.png',
     effect:
       'All In<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>. When the wearer lands a CRIT hit on enemies, they will gain a stack of Good Fortune. This effect can be stacked 4 time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by <span style="color: rgb(255, 200, 112)">8%/9%/10%/11%/12%</span>. Good Fortune will be removed at the end of the wearer\'s turn.</p>',
     path: paths.Hunt,
@@ -1677,12 +1827,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_Final_Victor_Artwork.png',
   },
   Flames_Afar: {
     id: 1931,
     name: 'Flames Afar',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/39/Light_Cone_Flames_Afar_Icon.png/revision/latest?cb=20240206022257',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/39/Light_Cone_Flames_Afar_Icon.png',
     effect:
       'Deflagration<p>When the HP lost by the wearer during a single attack exceeds 25% of their Max HP, or if the HP they consume is greater than 25% of their Max HP, then immediately heals them for 15% of their Max HP while also increasing the DMG they deal by <span style="color: rgb(255, 200, 112)">25%/31.25%/37.5%/43.75%/50%</span> for 2 turn(s). This effect can only be triggered once every 3 turn(s).</p>',
     path: paths.Destruction,
@@ -1691,12 +1843,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 21, base_def: 12 },
       level80: { base_hp: 1058, base_atk: 476, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Light_Cone_Flames_Afar_Artwork.png',
   },
   Destinys_Threads_Forewoven: {
     id: 1932,
     name: "Destiny's Threads Forewoven",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Destiny%27s_Threads_Forewoven_Icon.png/revision/latest?cb=20240206022447',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Destiny%27s_Threads_Forewoven_Icon.png',
     effect:
       'Insight<p>Increases the wearer\'s Effect RES by <span style="color: rgb(255, 200, 112)">12%/14%/16%/18%/20%</span>. For every 100 of DEF the wearer has, increases the DMG dealt by <span style="color: rgb(255, 200, 112)">0.8%/0.9%/1.1%/1.1%/1.2%</span> to a max increase of <span style="color: rgb(255, 200, 112)">32%/36%/40%/44%/48%</span>.</p>',
     path: paths.Preservation,
@@ -1705,12 +1859,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 16, base_def: 21 },
       level80: { base_hp: 952, base_atk: 370, base_def: 463 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_Destiny%27s_Threads_Forewoven_Artwork.png',
   },
   The_Day_The_Cosmos_Fell: {
     id: 1933,
     name: 'The Day The Cosmos Fell',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_The_Day_The_Cosmos_Fell_Icon.png/revision/latest?cb=20240206022412',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_The_Day_The_Cosmos_Fell_Icon.png',
     effect:
       'Stratagem<p>Increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">16%/18%/20%/22%/24%</span>. When the wearer uses an attack and affects no fewer than 2 attacked enemies with a corresponding Weakness, the wearer\'s CRIT DMG increases by <span style="color: rgb(255, 200, 112)">20%/25%/30%/35%/40%</span> for 2 turn(s).</p>',
     path: paths.Erudition,
@@ -1719,6 +1875,8 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Light_Cone_The_Day_The_Cosmos_Fell_Artwork.png',
   },
   Its_Showtime: {
     id: 1934,
@@ -1726,7 +1884,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_It%27s_Showtime_Icon.png/revision/latest?cb=20240206022332',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_It%27s_Showtime_Icon.png',
     effect:
       'Self-Amusement<p>When the wearer inflicts a debuff on an enemy, they gain a stack of Trick. Every stack of Trick increases the wearer\'s DMG dealt by <span style="color: rgb(255, 200, 112)">6%/7%/8%/9%/10%</span> for a max of 3 stack(s). This effect lasts for 1 turn(s). When the wearer\'s Effect Hit Rate is greater than or equal to 80%, increases ATK by <span style="color: rgb(255, 200, 112)">20%/24%/28%/32%/36%</span>.</p>',
     stats: {
@@ -1741,6 +1899,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/33/Light_Cone_It%27s_Showtime_Artwork.png',
   },
   Indelible_Promise: {
     id: 1935,
@@ -1748,7 +1908,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Destruction,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Indelible_Promise_Icon.png/revision/latest?cb=20240206022313',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Indelible_Promise_Icon.png',
     effect:
       'Inheritance<p>Increases the wearer\'s Break Effect by <span style="color: #FFC870">28%/35%/42%/49%/56%</span>. When the wearer uses their Ultimate, increases CRIT Rate by <span style="color: #FFC870">15%/18.75%/22.5%/26.25%/30%</span>, lasting for 2 turn(s).</p>',
     stats: {
@@ -1763,6 +1923,8 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Light_Cone_Indelible_Promise_Artwork.png',
   },
   Earthly_Escapade: {
     id: 1936,
@@ -1770,7 +1932,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_Earthly_Escapade_Icon.png/revision/latest?cb=20240206022521',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_Earthly_Escapade_Icon.png',
     effect:
       'Capriciousness<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">32%/39%/46%/53%/60%</span>. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer\'s allies have their CRIT Rate increased by <span style="color: #FFC870">10%/11%/12%/13%/14%</span> and their CRIT DMG increased by <span style="color: #FFC870">28%/35%/42%/49%/56%</span>. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask for 4 turn(s).</p>',
     stats: {
@@ -1785,6 +1947,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ed/Light_Cone_Earthly_Escapade_Artwork.png',
   },
   Reforged_Remembrance: {
     id: 1937,
@@ -1792,7 +1955,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Light_Cone_Reforged_Remembrance_Icon.png/revision/latest?cb=20240206022352',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Light_Cone_Reforged_Remembrance_Icon.png',
     effect:
       'Crystallize<p>Increases the wearer\'s Effect Hit Rate by <span style="color: #FFC870">40%/45%/50%/55%60%</span>. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer\'s ATK by <span style="color: #FFC870">5%/6%/7%/8%/9%</span> and enables the DoT dealt to ignore <span style="color: #FFC870">7.2%/7.9%/8.6%/9.3%/10%</span> of the target\'s DEF.</p>',
     stats: {
@@ -1807,6 +1970,7 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Light_Cone_Reforged_Remembrance_Artwork.png',
   },
   Inherently_Unjust_Destiny: {
     id: 2369,
@@ -1814,7 +1978,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Inherently_Unjust_Destiny_Icon.png/revision/latest?cb=20240417060127',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Inherently_Unjust_Destiny_Icon.png',
     effect:
       'All-In<p>Increases the wearer\'s DEF by <span style="color: #FFC870">40</span><span style="color: rgb(255, 200, 112)">%/46%/52%/58%/64%</span>. When the wearer provides a Shield to an ally, the wearer\'s CRIT DMG increases by <span style="color: rgb(255, 200, 112)">40%/46%/52%/58%/64%</span>, lasting for 2 turn(s). When the wearer\'s follow-up attack hits an enemy target, there is a <span style="color: #FFC870">100%/115</span><span style="color: rgb(255, 200, 112)">%/130%/145%/160%</span> base chance to increase the DMG taken by the attacked enemy target by <span style="color: #FFC870">10%/</span><span style="color: rgb(255, 200, 112)">11.5%/13%/14.5%/16%</span>, lasting for 2 turn(s).</p>',
     stats: {
@@ -1829,6 +1993,7 @@ export const lightCones = {
         base_def: 661,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Inherently_Unjust_Destiny_Artwork.png',
   },
   Along_the_Passing_Shore: {
     id: 2370,
@@ -1836,7 +2001,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Nihility,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Light_Cone_Along_the_Passing_Shore_Icon.png/revision/latest?cb=20240327025215',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Light_Cone_Along_the_Passing_Shore_Icon.png',
     effect:
       'Steerer<p>Increases the wearer\'s CRIT DMG by <span style="color: rgb(255, 200, 112)">36%/42%/48%/54%/60%</span>. When the wearer hits the enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span> increased DMG to targets afflicted with Mirage Fizzle, and DMG dealt by the wearer\'s Ultimate additionally increases by <span style="color: rgb(255, 200, 112)">24%/28%/32%/36%/40%</span>.</p>',
     stats: {
@@ -1851,6 +2016,8 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Light_Cone_Along_the_Passing_Shore_Artwork.png',
   },
   Concert_for_Two: {
     id: 2371,
@@ -1858,7 +2025,7 @@ export const lightCones = {
     rarity: lightConeRarities.Four_Star,
     path: paths.Preservation,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Light_Cone_Concert_for_Two_Icon.png/revision/latest?cb=20240417060147',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Light_Cone_Concert_for_Two_Icon.png',
     effect:
       'Inspire<p>Increases the wearer\'s DEF by <span style="color: #FFC870">16</span><span style="color: rgb(255, 200, 112)">%/20%/24%/28%/32%</span>. For every on-field character that has a Shield, the DMG dealt by the wearer increases by <span style="color: #FFC870">4%/5</span><span style="color: rgb(255, 200, 112)">%/6%/7%/8%</span>.</p><p></p>',
     stats: {
@@ -1873,6 +2040,8 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Light_Cone_Concert_for_Two_Artwork.png',
   },
   Flowing_Nightglow: {
     id: 2500,
@@ -1880,7 +2049,7 @@ export const lightCones = {
     rarity: lightConeRarities.Five_Star,
     path: paths.Harmony,
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3b/Light_Cone_Flowing_Nightglow_Icon.png/revision/latest?cb=20240508030840',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3b/Light_Cone_Flowing_Nightglow_Icon.png',
     effect:
       'Pacify<p>Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer\'s Energy Regeneration Rate by <span style="color: #FFC870">3.0/3.5/4.0/4.5/5.0%</span>, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer\'s ATK by <span style="color: #FFC870">48/60/72/84/96%</span> and increases all allies\' DMG dealt by <span style="color: #FFC870">24/28/32/36/40%</span>, lasting for 1 turn(s).</p>',
     stats: {
@@ -1895,12 +2064,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Flowing_Nightglow_Artwork.png',
   },
   Sailing_Towards_A_Second_Life: {
     id: 2501,
     name: 'Sailing Towards A Second Life',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Sailing_Towards_a_Second_Life_Icon.png/revision/latest?cb=20240611233757',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Sailing_Towards_a_Second_Life_Icon.png',
     effect: `Rough Water<p>Increases the wearer's Break Effect by <span style="color: #FFC870">60</span>/<span style="color: #FFC870">70</span>/<span style="color: #FFC870">80</span>/<span style="color: #FFC870">90</span>/<span style="color: #FFC870">100%</span>. The Break DMG dealt by the wearer ignores 20/23/26/29/32% of the target's DEF. When the wearer's Break Effect in battle is at 150% or greater, increases their SPD by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20%</span>.</p>`,
     path: paths.Hunt,
     rarity: lightConeRarities.Five_Star,
@@ -1908,12 +2078,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Sailing_Towards_a_Second_Life_Artwork.png',
   },
   For_Tomorrows_Journey: {
     id: 2502,
     name: "For Tomorrow's Journey",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/85/Light_Cone_For_Tomorrow%27s_Journey_Icon.png/revision/latest?cb=20240508033217',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/85/Light_Cone_For_Tomorrow%27s_Journey_Icon.png',
     effect: `Bonds<p>Increases the wearer's ATK by <span style="color: #FFC870">16/20/24/28/32%</span>. After the wearer uses their Ultimate, increases their DMG dealt by <span style="color: #FFC870">18/21/24/27/30%</span>, lasting for 1 turn(s).</p>`,
     path: paths.Harmony,
     rarity: lightConeRarities.Four_Star,
@@ -1921,12 +2092,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_For_Tomorrow%27s_Journey_Artwork.png',
   },
   Boundless_Choreo: {
     id: 2503,
     name: 'Boundless Choreo',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Boundless_Choreo_Icon.png/revision/latest?cb=20240508030942',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Light_Cone_Boundless_Choreo_Icon.png',
     effect: `Scrutinize<p>Increase the wearer's CRIT Rate by <span style="color: #FFC870">8%/10%/12%/14%/16%</span>. The wearer deals <span style="color: #FFC870">24%/30%/36%/42%/48%</span> more CRIT DMG to enemies that are currently Slowed or have reduced DEF.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Four_Star,
@@ -1934,12 +2107,14 @@ export const lightCones = {
       level1: { base_hp: 42, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Light_Cone_Boundless_Choreo_Artwork.png',
   },
   Whereabouts_Should_Dreams_Rest: {
     id: 2645,
     name: 'Whereabouts Should Dreams Rest',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Whereabouts_Should_Dreams_Rest_Icon.png/revision/latest?cb=20250318142616',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Whereabouts_Should_Dreams_Rest_Icon.png',
     effect: `Metamorphosis<p>Increases the wearer's Break Effect by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40% </span>increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.</p>`,
     path: paths.Destruction,
     rarity: lightConeRarities.Five_Star,
@@ -1947,12 +2122,13 @@ export const lightCones = {
       level1: { base_hp: 52, base_atk: 21, base_def: 24 },
       level80: { base_hp: 1164, base_atk: 476, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Whereabouts_Should_Dreams_Rest_Artwork.png',
   },
   Yet_Hope_Is_Priceless: {
     id: 2646,
     name: 'Yet Hope Is Priceless',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5e/Light_Cone_Yet_Hope_Is_Priceless_Icon.png/revision/latest?cb=20250318142629',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5e/Light_Cone_Yet_Hope_Is_Priceless_Icon.png',
     effect: `Promise<p>Increases the wearer's CRIT Rate by <span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: rgb(255, 200, 112)">19%</span>/<span style="color: rgb(255, 200, 112)">22%</span>/<span style="color: rgb(255, 200, 112)">25%</span>/<span style="color: rgb(255, 200, 112)">28%</span>. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by <span style="color: rgb(255, 200, 112)">12%</span>/<span style="color: rgb(255, 200, 112)">14%</span>/<span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: rgb(255, 200, 112)">18%</span>/<span style="color: rgb(255, 200, 112)">20%</span>. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore <span style="color: rgb(255, 200, 112)">20%</span>/<span style="color: #FFC870">24%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: #FFC870">28%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: #FFC870">32%</span><span style="color: oklab(0.853484 0.00982091 -0.0419067)">/</span><span style="color: rgb(255, 200, 112)">36% </span>of the target's DEF, lasting for 2 turn(s).</p>`,
     path: paths.Erudition,
     rarity: lightConeRarities.Five_Star,
@@ -1960,12 +2136,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Light_Cone_Yet_Hope_Is_Priceless_Artwork.png',
   },
   After_the_Charmony_Fall: {
     id: 2647,
     name: 'After the Charmony Fall',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Light_Cone_After_the_Charmony_Fall_Icon.png/revision/latest?cb=20241205031039',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Light_Cone_After_the_Charmony_Fall_Icon.png',
     effect: `Quiescence<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">28%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">49%</span>/<span style="color: rgb(255, 200, 112)">56%</span>. After the wearer uses Ultimate, increases SPD by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: rgb(255, 200, 112)">16%</span>, lasting for 2 turn(s).</p>`,
     path: paths.Erudition,
     rarity: lightConeRarities.Four_Star,
@@ -1973,12 +2150,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 21, base_def: 18 },
       level80: { base_hp: 846, base_atk: 476, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_After_the_Charmony_Fall_Artwork.png',
   },
   Eternal_Calculus: {
     id: 2648,
     name: 'Eternal Calculus',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Light_Cone_Eternal_Calculus_Icon.png/revision/latest?cb=20250318142603',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Light_Cone_Eternal_Calculus_Icon.png',
     effect: `Boundless Thought<p>Increases the wearer's ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>. After using an attack, for each enemy target hit, additionally increases ATK by <span style="color: #FFC870">4%</span>/<span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">8%</span>. This effect can stack 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, lasting for 1 turn(s).</p>`,
     path: paths.Erudition,
     rarity: lightConeRarities.Five_Star,
@@ -1986,12 +2165,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/85/Light_Cone_Eternal_Calculus_Artwork.png',
   },
   Poised_to_Bloom: {
     id: 2954,
     name: 'Poised to Bloom',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Light_Cone_Poised_to_Bloom_Icon.png/revision/latest?cb=20240821090943',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/86/Light_Cone_Poised_to_Bloom_Icon.png',
     effect: `Lose Not, Forget Not<p>Increases the wearer's ATK by <span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. <span style="color: rgba(255, 255, 255, 0.85)">Upon entering the battle, if there are two or more allies in the team who follow the same Path, these characters' CRIT DMG increases by </span><span style="color: rgb(255, 200, 112)">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. Abilities of the same type cannot stack.</p>`,
     path: paths.Harmony,
     rarity: lightConeRarities.Four_Star,
@@ -1999,12 +2179,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 19, base_def: 18 },
       level80: { base_hp: 952, base_atk: 423, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e0/Light_Cone_Poised_to_Bloom_Artwork.png',
   },
   Those_Many_Springs: {
     id: 2955,
     name: 'Those Many Springs',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Those_Many_Springs_Icon.png/revision/latest?cb=20240821090713',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Those_Many_Springs_Icon.png',
     effect: `Worldly Affairs Leave No Mark<p>Increases the wearer's Effect Hit Rate by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict "Unarmored" on the target. While in the Unarmored state, the enemy target receives <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span> increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the "Unarmored" state inflicted by the wearer to the "Cornered" state, which additionally increases the DMG the target enemy receives by <span style="color: rgb(255, 200, 112)">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>, lasting for 2 turn(s). During this period, the wearer cannot inflict "Unarmored" on the target.</p>`,
     path: paths.Nihility,
     rarity: lightConeRarities.Five_Star,
@@ -2012,12 +2194,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Light_Cone_Those_Many_Springs_Artwork.png',
   },
   Dance_at_Sunset: {
     id: 2956,
     name: 'Dance at Sunset',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Light_Cone_Dance_at_Sunset_Icon.png/revision/latest?cb=20240806081745',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Light_Cone_Dance_at_Sunset_Icon.png',
     effect: `Deeply Engrossed<p>Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by <span style="color: rgb(255, 200, 112)">36%</span>/<span style="color: rgb(255, 200, 112)">42%</span>/<span style="color: rgb(255, 200, 112)">48%</span>/<span style="color: rgb(255, 200, 112)">54%</span>/<span style="color: rgb(255, 200, 112)">60%</span>. After the wearer uses Ultimate, receives 1 stack of Firedance, lasting for 2 turns and stacking up to 2 time(s). Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by <span style="color: rgb(255, 200, 112)">36%</span>/<span style="color: rgb(255, 200, 112)">42%</span>/<span style="color: rgb(255, 200, 112)">48%</span>/<span style="color: rgb(255, 200, 112)">54%</span>/<span style="color: rgb(255, 200, 112)">60</span>%.</p>`,
     path: paths.Destruction,
     rarity: lightConeRarities.Five_Star,
@@ -2025,12 +2208,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Light_Cone_Dance_at_Sunset_Artwork.png',
   },
   Shadowed_by_Night: {
     id: 3067,
     name: 'Shadowed by Night',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Light_Cone_Shadowed_by_Night_Icon.png/revision/latest?cb=20241002193843',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Light_Cone_Shadowed_by_Night_Icon.png',
     effect: `Concealment<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">28%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">49%</span>/<span style="color: #FFC870">56%</span>. When entering battle or after dealing Break DMG, increases SPD by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>, lasting for 2 turn(s). This effect can only trigger once per turn.</p>`,
     path: paths.Hunt,
     rarity: lightConeRarities.Four_Star,
@@ -2038,12 +2222,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 21, base_def: 18 },
       level80: { base_hp: 846, base_atk: 476, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Light_Cone_Shadowed_by_Night_Artwork.png',
   },
   Scent_Alone_Stays_True: {
     id: 3068,
     name: 'Scent Alone Stays True',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Scent_Alone_Stays_True_Icon.png/revision/latest?cb=20241002193742',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Scent_Alone_Stays_True_Icon.png',
     effect: `Contentment<p>Increases the wearer's Break Effect by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the "Woefree" state, lasting for 2 turn(s). While in "Woefree," enemy targets take <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span> increased DMG. The effect of increasing DMG taken is additionally boosted by <span style="color: rgb(255, 200, 112)">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span> if the wearer's current Break Effect is 150% or higher.</p>`,
     path: paths.Abundance,
     rarity: lightConeRarities.Five_Star,
@@ -2051,12 +2237,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 24 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_Scent_Alone_Stays_True_Artwork.png',
   },
   I_Venture_Forth_to_Hunt: {
     id: 3069,
     name: 'I Venture Forth to Hunt',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_I_Venture_Forth_to_Hunt_Icon.png/revision/latest?cb=20240910183809',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_I_Venture_Forth_to_Hunt_Icon.png',
     effect: `Intimidation<p>Increase the wearer's CRIT Rate by <span style="color: rgb(255, 200, 112)">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">25%</span>. When the wearer launches a follow-up attack, gains 1 stack of "Luminflux," stack up to 2 time(s). Each stack of "Luminflux" enables the Ultimate DMG dealt by the wearer to ignore <span style="color: rgb(255, 200, 112)">27%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">33%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">39%</span> of the target's DEF. When the wearer's turn ends, remove 1 stack of "Luminflux."</p>`,
     path: paths.Hunt,
     rarity: lightConeRarities.Five_Star,
@@ -2064,12 +2251,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 28, base_def: 21 },
       level80: { base_hp: 952, base_atk: 635, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_I_Venture_Forth_to_Hunt_Artwork.png',
   },
   Ninja_Record_Sound_Hunt: {
     id: 3167,
     name: 'Ninja Record: Sound Hunt',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Light_Cone_Ninja_Record_Sound_Hunt_Icon.png/revision/latest?cb=20241025211429',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Light_Cone_Ninja_Record_Sound_Hunt_Icon.png',
     effect: `Curtains Up!<p>Increases the wearer's Max HP by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When losing or restoring this unit's HP, increases CRIT DMG by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span>, lasting for 2 turn(s). This effect can only trigger once per turn.</p>`,
     path: paths.Destruction,
     rarity: lightConeRarities.Four_Star,
@@ -2077,12 +2265,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 21, base_def: 12 },
       level80: { base_hp: 1058, base_atk: 476, base_def: 264 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a6/Light_Cone_Ninja_Record_Sound_Hunt_Artwork.png',
   },
   Dreams_Montage: {
     id: 3168,
     name: "Dream's Montage",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Light_Cone_Dream%27s_Montage_Icon.png/revision/latest?cb=20241025210216',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Light_Cone_Dream%27s_Montage_Icon.png',
     effect: `Academy-Style Edit<p>Increases the wearer's SPD by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>. After attacking enemy targets that are Weakness Broken, regenerates <span style="color: #FFC870">3</span>/<span style="color: #FFC870">3.5</span>/<span style="color: #FFC870">4</span>/<span style="color: #FFC870">4.5</span>/<span style="color: #FFC870">5 </span>Energy. This effect can trigger up to 2 time(s) per turn.</p>`,
     path: paths.Abundance,
     rarity: lightConeRarities.Four_Star,
@@ -2090,12 +2280,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 19, base_def: 18 },
       level80: { base_hp: 952, base_atk: 423, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Light_Cone_Dream%27s_Montage_Artwork.png',
   },
   Ninjutsu_Inscription_Dazzling_Evilbreaker: {
     id: 3169,
     name: 'Ninjutsu Inscription: Dazzling Evilbreaker',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Light_Cone_Ninjutsu_Inscription_Dazzling_Evilbreaker_Icon.png/revision/latest?cb=20241025210745',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3a/Light_Cone_Ninjutsu_Inscription_Dazzling_Evilbreaker_Icon.png',
     effect:
       'Exorcism<p>Increases the wearer\'s Break Effect by <span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100% </span>When entering battle, immediately regenerates <span style="color: rgb(255, 200, 112)">30.0/</span><span style="color: #FFC870">32.5</span>/<span style="color: #FFC870">35</span>/<span style="color: #FFC870">37.5</span>/<span style="color: #FFC870">40 </span>Energy. After the wearer uses Ultimate, obtain "Raiton." After using 2 Basic ATKs, advances the wearer\'s action by <span style="color: rgb(255, 200, 112)">50%</span>/<span style="color: #FFC870">55%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">65%</span>/<span style="color: #FFC870">70%</span> and removes "Raiton." After the wearer uses Ultimate, resets "Raiton."</p>',
     path: paths.Erudition,
@@ -2112,12 +2304,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Light_Cone_Ninjutsu_Inscription_Dazzling_Evilbreaker_Artwork.png',
   },
   A_Grounded_Ascent: {
     id: 3288,
     name: 'A Grounded Ascent',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Light_Cone_A_Grounded_Ascent_Icon.png/revision/latest?cb=20241205031048',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Light_Cone_A_Grounded_Ascent_Icon.png',
     effect:
       'Departing Anew<p>After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates <span style="color: rgb(255, 200, 112)">6</span>/<span style="color: rgb(255, 200, 112)">6.5</span>/<span style="color: rgb(255, 200, 112)">7</span>/<span style="color: rgb(255, 200, 112)">7.5</span>/<span style="color: rgb(255, 200, 112)">8</span> Energy and the ability\'s target receives 1 stack of "Hymn" for 3 turn(s), stacking up to 3 time(s).</p><p>Each stack of "Hymn" increases its holder\'s DMG dealt by <span style="color: rgb(255, 200, 112)">15%</span>/<span style="color: rgb(255, 200, 112)">17%</span>/<span style="color: rgb(255, 200, 112)">19%</span>/<span style="color: rgb(255, 200, 112)">21%</span>/<span style="color: rgb(255, 200, 112)">24%</span>.</p><p>After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.</p>',
     path: paths.Harmony,
@@ -2134,12 +2327,14 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Light_Cone_A_Grounded_Ascent_Artwork.png',
   },
   Long_Road_Leads_Home: {
     id: 3292,
     name: 'Long Road Leads Home',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Light_Cone_Long_Road_Leads_Home_Icon.png/revision/latest?cb=20241225050343',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Light_Cone_Long_Road_Leads_Home_Icon.png',
     effect:
       'Rebirth<p>Increases the wearer\'s Break Effect by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>. When an enemy target\'s Weakness gets broken, there is a 100% base chance to inflict the "Charring" state on it, which increases its Break DMG taken by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>, lasting for 2 turn(s). This effect can stack 2 time(s).</p>',
     path: paths.Nihility,
@@ -2156,12 +2351,13 @@ export const lightCones = {
         base_def: 661,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Light_Cone_Long_Road_Leads_Home_Artwork.png',
   },
   Sweat_Now_Cry_Less: {
     id: 3327,
     name: 'Sweat Now, Cry Less',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Sweat_Now%2C_Cry_Less_Icon.png/revision/latest?cb=20250117060715',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Sweat_Now%2C_Cry_Less_Icon.png',
     effect:
       'Come Train!<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. When the wearer\'s memosprite is on the field, increases the wearer and their memosprite\'s DMG dealt by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">33%</span>/<span style="color: #FFC870">36%</span>.</p>',
     path: paths.Remembrance,
@@ -2178,12 +2374,14 @@ export const lightCones = {
         base_def: 198,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Light_Cone_Sweat_Now%2C_Cry_Less_Artwork.png',
   },
   Geniuses_Greetings: {
     id: 3328,
     name: "Geniuses' Greetings ",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Light_Cone_Geniuses%27_Greetings_Icon.png/revision/latest?cb=20250117060540',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Light_Cone_Geniuses%27_Greetings_Icon.png',
     effect:
       'Congratulations<p>Increases the wearer\'s ATK by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer uses their Ultimate, additionally increases the wearer and their memosprite\'s Basic ATK DMG dealt by <span style="color: #FFC870">20%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span> for 3 turn(s).</p>',
     path: paths.Remembrance,
@@ -2200,12 +2398,14 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_Geniuses%27_Greetings_Artwork.png',
   },
   Victory_In_a_Blink: {
     id: 3329,
     name: 'Victory In a Blink',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3d/Light_Cone_Victory_In_a_Blink_Icon.png/revision/latest?cb=20250117060448',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3d/Light_Cone_Victory_In_a_Blink_Icon.png',
     effect:
       'Final Hit<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When the wearer\'s memosprite uses an ability on any ally target, increases all ally targets\' DMG dealt by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, lasting for 3 turn(s).</p>',
     path: paths.Remembrance,
@@ -2222,12 +2422,14 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Light_Cone_Victory_In_a_Blink_Artwork.png',
   },
   Time_Woven_Into_Gold: {
     id: 3330,
     name: 'Time Woven Into Gold',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Light_Cone_Time_Woven_Into_Gold_Icon.png/revision/latest?cb=20250117060800',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Light_Cone_Time_Woven_Into_Gold_Icon.png',
     effect:
       'Establishment<p>Increases the wearer\'s base SPD by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20</span>. After the wearer and the wearer\'s memosprite attacks, the wearer gains 1 stack of "Brocade." Each stack of "Brocade" increases the wearer\'s and their memosprite\'s CRIT DMG by <span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10.5%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">13.5%</span>/<span style="color: #FFC870">15%</span>, stacking up to 6 time(s). When reaching maximum stacks, each "Brocade" stack additionally increases Basic ATK DMG dealt by <span style="color: rgb(255, 200, 112)">9%</span>/<span style="color: rgb(255, 200, 112)">10.5%</span>/<span style="color: rgb(255, 200, 112)">12%</span>/<span style="color: rgb(255, 200, 112)">13.5%</span>/<span style="color: rgb(255, 200, 112)">15%</span>.</p>',
     path: paths.Remembrance,
@@ -2244,12 +2446,13 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Light_Cone_Time_Woven_Into_Gold_Artwork.png',
   },
   Into_the_Unreachable_Veil: {
     id: 3331,
     name: 'Into the Unreachable Veil ',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4e/Light_Cone_Into_the_Unreachable_Veil_Icon.png/revision/latest?cb=20250117060849',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4e/Light_Cone_Into_the_Unreachable_Veil_Icon.png',
     effect:
       'Mind Game<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. When the wearer uses their Ultimate, increases DMG dealt by the wearer\'s Skill and Ultimate by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>, lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.</p>',
     path: paths.Erudition,
@@ -2266,12 +2469,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/3/34/Light_Cone_Into_the_Unreachable_Veil_Artwork.png',
   },
   Reminiscence: {
     id: 3351,
     name: 'Reminiscence',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Reminiscence_Icon.png/revision/latest?cb=20250117060336',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ea/Light_Cone_Reminiscence_Icon.png',
     effect:
       'Going to Sleep<p>When memosprite\'s turn starts, the wearer and the memosprite each gain 1 stack of "Commemoration." Each stack increases DMG dealt by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870}>10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span>, stacking up to 4 time(s). "Commemoration" is removed from the wearer and the memosprite when the memosprite disappears.</p>',
     path: paths.Remembrance,
@@ -2288,12 +2492,13 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url: '',
   },
   Shadowburn: {
     id: 3352,
     name: 'Shadowburn',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_Shadowburn_Icon.png/revision/latest?cb=20250117060249',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_Shadowburn_Icon.png',
     effect:
       'Beautify<p>When the wearer summons memosprite for the first time in battle, recovers 1 Skill Point(s) and regenerates <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20 </span>Energy for this unit.</p>',
     path: paths.Remembrance,
@@ -2310,12 +2515,14 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Shadowburn_Artwork.png',
   },
   Memory_s_Curtain_Never_Falls: {
     id: 3574,
     name: "Memory's Curtain Never Falls",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Light_Cone_Memory%27s_Curtain_Never_Falls_Icon.png/revision/latest?cb=20250226134215',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Light_Cone_Memory%27s_Curtain_Never_Falls_Icon.png',
     effect:
       'Reception<p>Increases the wearer\'s SPD by <span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10.5%</span>/<span style="color: #FFC870">12%</span>. After the wearer uses Skill, increases the DMG dealt by all allies by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, lasting for 3 turn(s).</p>',
     path: paths.Remembrance,
@@ -2332,12 +2539,13 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Light_Cone_Memory%27s_Curtain_Never_Falls_Artwork.png',
   },
   Flame_of_Blood__Blaze_My_Path: {
     id: 3575,
     name: 'Flame of Blood, Blaze My Path',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Light_Cone_Flame_of_Blood%2C_Blaze_My_Path_Icon.png/revision/latest?cb=20250226134202',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/74/Light_Cone_Flame_of_Blood%2C_Blaze_My_Path_Icon.png',
     effect:
       'Vista<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span> and Incoming Healing by <span style="color: #FFC870">20%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>. When using Skill or Ultimate, consumes HP equal to <span style="color: #FFC870">6%</span>/<span style="color: #FFC870">6.5%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">8%</span> of the wearer\'s Max HP and increases the DMG dealt by this attack by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>. If this effect\'s consumed HP is greater than 500, the DMG additionally increases by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>.</p><p>If the current HP is not sufficient, this effect reduces the wearer\'s current HP down to 1.</p>',
     path: paths.Destruction,
@@ -2354,12 +2562,13 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/80/Light_Cone_Flame_of_Blood%2C_Blaze_My_Path_Artwork.png',
   },
   If_Time_Were_a_Flower: {
     id: 3576,
     name: 'If Time Were a Flower',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Light_Cone_If_Time_Were_a_Flower_Icon.png/revision/latest?cb=20250226134138',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Light_Cone_If_Time_Were_a_Flower_Icon.png',
     effect:
       'Aspiration<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span>/<span style="color: #FFC870">54%</span>/<span style="color: #FFC870">60%</span>. After the wearer launches Follow-up ATK, additionally regenerates 12 Energy and gains "Presage," lasting for 2 turn(s). While the wearer has "Presage," all ally targets\' CRIT DMG increases by <span style="color: #FFC870">48%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">72%</span>/<span style="color: #FFC870">84%</span>/<span style="color: #FFC870">96%</span>. When entering battle, the wearer regenerates 21 Energy and gains "Presage," lasting for 2 turn(s). </p>',
     path: paths.Harmony,
@@ -2376,12 +2585,13 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Light_Cone_If_Time_Were_a_Flower_Artwork.png',
   },
   The_Great_Cosmic_Enterprise: {
     id: 3693,
     name: 'The Great Cosmic Enterprise',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_The_Great_Cosmic_Enterprise_Icon.png/revision/latest?cb=20250409035215',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_The_Great_Cosmic_Enterprise_Icon.png',
     effect:
       'Mutual Benefit<p>Increases the wearer\'s ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by <span style="color: #FFC870">4%</span>/<span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6%</span>/<span style="color: #FFC870">7%</span>/<span style="color: #FFC870">8%</span>. Up to a max of 7 Weakness Types can be taken into account for this effect.</p>',
     path: paths.Erudition,
@@ -2398,12 +2608,14 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Light_Cone_The_Great_Cosmic_Enterprise_Artwork.png',
   },
   Life_Should_Be_Cast_to_Flames: {
     id: 3697,
     name: 'Life Should Be Cast to Flames',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_Life_Should_Be_Cast_to_Flames_Icon.png/revision/latest?cb=20250409035138',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_Life_Should_Be_Cast_to_Flames_Icon.png',
     effect:
       'Smelt<p>When the wearer\'s turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer\'s DMG dealt to it by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>.</p><p>When an enemy target gets attacked by the wearer, the wearer decreases the target\'s DEF by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>, lasting for 2 turn(s). The same types of effects cannot stack.</p>',
     path: paths.Erudition,
@@ -2420,12 +2632,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Light_Cone_Life_Should_Be_Cast_to_Flames_Artwork.png',
   },
   Make_Farewells_More_Beautiful: {
     id: 3698,
     name: 'Make Farewells More Beautiful',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_Make_Farewells_More_Beautiful_Icon.png/revision/latest?cb=20250409035202',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_Make_Farewells_More_Beautiful_Icon.png',
     effect:
       'Engrave<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer or their memosprite loses HP during their own turn, the wearer gains "Death Flower." "Death Flower" allows the wearer and their memosprite to ignore <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">35%</span>/<span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span> of the target\'s DEF when dealing DMG, lasting for 2 turn(s).</p><p>When the wearer\'s memosprite disappears, advances the wearer\'s action by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.</p>',
     path: paths.Remembrance,
@@ -2434,12 +2647,13 @@ export const lightCones = {
       level1: { base_hp: 57, base_atk: 24, base_def: 18 },
       level80: { base_hp: 1270, base_atk: 529, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Light_Cone_Make_Farewells_More_Beautiful_Artwork.png',
   },
   Lies_Dance_on_the_Breeze: {
     id: 3774,
     name: 'Lies Dance on the Breeze',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Lies_Dance_on_the_Breeze_Icon.png/revision/latest?cb=20250611051645',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Light_Cone_Lies_Dance_on_the_Breeze_Icon.png',
     effect:
       'Deceit<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. After the wearer uses an attack, there is a 120% base chance to inflict the "Bamboozle" state on every enemy target. While under the "Bamboozle" state, enemy targets have their DEF decreased by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">24% </span>for 2 turn(s). If the wearer\'s SPD is higher than or equal to 170, there is a 120% base chance to inflict the "Theft" state on every enemy target. While under the "Theft" state, enemy targets have their DEF decreased by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">9%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11%</span>/<span style="color: #FFC870">12%</span> for 2 turn(s). When "Bamboozle" or "Theft" is repeatedly inflicted, only the most recently inflicted instance takes effect.</p>',
     path: paths.Nihility,
@@ -2448,12 +2662,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Light_Cone_Lies_Dance_on_the_Breeze_Artwork.png',
   },
   Long_May_Rainbows_Adorn_the_Sky: {
     id: 3775,
     name: 'Long May Rainbows Adorn the Sky',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Long_May_Rainbows_Adorn_the_Sky_Icon.png/revision/latest?cb=20250521031836',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Long_May_Rainbows_Adorn_the_Sky_Icon.png',
     effect:
       'Tolerant<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies\' HP equal to <span style="color: #FFC870">1%</span>/<span style="color: #FFC870">1.25%</span>/<span style="color: #FFC870">1.5%</span>/<span style="color: #FFC870">1.75%</span>/<span style="color: #FFC870">2%</span> of their current HP and additionally deals 1 instance of Additional DMG of the wearer\'s memosprite Type equal to <span style="color: #FFC870">250%</span>/<span style="color: #FFC870">312.5%</span>/<span style="color: #FFC870">375%</span>/<span style="color: #FFC870">437.5%</span>/<span style="color: #FFC870">500% </span>of the total consumed HP to the attacked target after the next attack launched by the wearer\'s memosprite. The total HP consumed is then reset. When the wearer\'s memosprite uses Memosprite Skill, increases the DMG taken by all enemies by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span> for 2 turn(s). The same types of effects cannot stack.</p>',
     path: paths.Remembrance,
@@ -2462,12 +2677,13 @@ export const lightCones = {
       level1: { base_hp: 52, base_atk: 21, base_def: 24 },
       level80: { base_hp: 1164, base_atk: 476, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Light_Cone_Long_May_Rainbows_Adorn_the_Sky_Artwork.png',
   },
   Thus_Burns_the_Dawn: {
     id: 3887,
     name: 'Thus Burns the Dawn',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Light_Cone_Thus_Burns_the_Dawn_Icon.png/revision/latest?cb=20250725220253',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Light_Cone_Thus_Burns_the_Dawn_Icon.png',
     effect:
       'Dispossession<p>The wearer\'s base SPD increases by <span style="color: #FFC870">12</span>/<span style="color: #FFC870">14</span>/<span style="color: #FFC870">16</span>/<span style="color: #FFC870">18</span>/<span style="color: #FFC870">20</span>. When dealing DMG, ignores <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">31.5%</span>/<span style="color: #FFC870">36%</span> of the target\'s DEF. After the wearer uses Ultimate, gains "Blazing Sun," which is removed at the start of the turn. While holding "Blazing Sun," increases the wearer\'s DMG dealt by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">78%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">114%</span>/<span style="color: #FFC870">132%</span>.</p>',
     path: paths.Destruction,
@@ -2476,12 +2692,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 31, base_def: 18 },
       level80: { base_hp: 952, base_atk: 687, base_def: 396 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Light_Cone_Thus_Burns_the_Dawn_Artwork.png',
   },
   The_Storys_Next_Page: {
     id: 3888,
     name: "The Story's Next Page",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_The_Story%27s_Next_Page_Icon.png/revision/latest?cb=20250702033308',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_The_Story%27s_Next_Page_Icon.png',
     effect:
       'Written Down\n<p>ncreases the wearer\'s Max HP by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer\'s memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>, lasting for 1 turn(s).</p>',
     path: paths.Remembrance,
@@ -2490,12 +2707,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 16, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 370, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_The_Story%27s_Next_Page_Artwork.png',
   },
   Journey_Forever_Peaceful: {
     id: 3889,
     name: 'Journey, Forever Peaceful',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_Journey%2C_Forever_Peaceful_Icon.png/revision/latest?cb=20250702033240',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Light_Cone_Journey%2C_Forever_Peaceful_Icon.png',
     effect:
       'Sweet Dream<p>Increases the wearer\'s provided Shield Effect by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When an ally target has a Shield, the DMG dealt increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>.</p>',
     path: paths.Preservation,
@@ -2504,12 +2723,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 16, base_def: 24 },
       level80: { base_hp: 1058, base_atk: 370, base_def: 529 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Light_Cone_Journey%2C_Forever_Peaceful_Artwork.png',
   },
   Unto_Tomorrows_Morrow: {
     id: 3890,
     name: "Unto Tomorrow's Morrow",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Unto_Tomorrow%27s_Morrow_Icon.png/revision/latest?cb=20250702033328',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/cd/Light_Cone_Unto_Tomorrow%27s_Morrow_Icon.png',
     effect:
       'Farewell<p>Increases the wearer\'s Outgoing Healing by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When an ally target\'s current HP percentage is greater than or equal to 50%, increases the DMG dealt by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>.</p>',
     path: paths.Abundance,
@@ -2518,12 +2739,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 21, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 476, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Light_Cone_Unto_Tomorrow%27s_Morrow_Artwork.png',
   },
   In_Pursuit_of_the_Wind: {
     id: 3891,
     name: 'In Pursuit of the Wind',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Light_Cone_In_Pursuit_of_the_Wind_Icon.png/revision/latest?cb=20250702033231',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Light_Cone_In_Pursuit_of_the_Wind_Icon.png',
     effect:
       'Flustered<p>After entering combat, increases all allies\' Break DMG dealt by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">24%</span>. Abilities of the same type cannot stack</p>',
     path: paths.Harmony,
@@ -2532,12 +2755,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 21, base_def: 18 },
       level80: { base_hp: 1058, base_atk: 476, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/37/Light_Cone_In_Pursuit_of_the_Wind_Artwork.png',
   },
   The_Flower_Remembers: {
     id: 3892,
     name: 'The Flower Remembers',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_The_Flower_Remembers_Icon.png/revision/latest?cb=20250702033258',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_The_Flower_Remembers_Icon.png',
     effect:
       'Interdependence<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>. The CRIT DMG dealt by the wearer\'s memosprite increases by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span>.</p>',
     path: paths.Remembrance,
@@ -2546,12 +2771,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 15 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_The_Flower_Remembers_Artwork.png',
   },
   A_Trail_of_Bygone_Blood: {
     id: 3893,
     name: 'A Trail of Bygone Blood',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_A_Trail_of_Bygone_Blood_Icon.png/revision/latest?cb=20250702033213',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_A_Trail_of_Bygone_Blood_Icon.png',
     effect:
       'Massacre<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. The Skill DMG and Ultimate DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p><p></p>',
     path: paths.Destruction,
@@ -2560,12 +2787,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 15 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Light_Cone_A_Trail_of_Bygone_Blood_Artwork.png',
   },
   A_Dream_Scented_in_Wheat: {
     id: 3894,
     name: 'A Dream Scented in Wheat',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_A_Dream_Scented_in_Wheat_Icon.png/revision/latest?cb=20250702033203',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_A_Dream_Scented_in_Wheat_Icon.png',
     effect:
       'Longing<p>Increases the wearer\'s CRIT Rate by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">20%</span>. The Ultimate DMG and Follow-up ATK DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p>',
     path: paths.Erudition,
@@ -2574,12 +2803,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 24, base_def: 18 },
       level80: { base_hp: 952, base_atk: 529, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Light_Cone_A_Dream_Scented_in_Wheat_Artwork.png',
   },
   Holiday_Thermae_Escapade: {
     id: 3895,
     name: 'Holiday Thermae Escapade',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Holiday_Thermae_Escapade_Icon.png/revision/latest?cb=20250702033222',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Light_Cone_Holiday_Thermae_Escapade_Icon.png',
     effect:
       'Chill Out<p>Increases the wearer\'s DMG dealt by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer attacks, there is a 100% base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">11.5%</span>/<span style="color: #FFC870">13%</span>/<span style="color: #FFC870">14.5%</span>/<span style="color: #FFC870">16%</span> for 2 turn(s). Effects of the same type cannot stack.</p>',
     path: paths.Nihility,
@@ -2588,12 +2819,14 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 24, base_def: 15 },
       level80: { base_hp: 1058, base_atk: 529, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Light_Cone_Holiday_Thermae_Escapade_Artwork.png',
   },
   See_You_at_the_End: {
     id: 3896,
     name: 'See You at the End',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Light_Cone_See_You_at_the_End_Icon.png/revision/latest?cb=20250702033250',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Light_Cone_See_You_at_the_End_Icon.png',
     effect:
       'Persistence<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>. The Skill DMG and Follow-up ATK DMG dealt by the wearer increase by <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">40%</span>.</p>',
     path: paths.Hunt,
@@ -2602,12 +2835,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 24, base_def: 18 },
       level80: { base_hp: 952, base_atk: 529, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/65/Light_Cone_See_You_at_the_End_Artwork.png',
   },
   A_Thankless_Coronation: {
     id: 3900,
     name: 'A Thankless Coronation',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_A_Thankless_Coronation_Icon.png/revision/latest?cb=20250711043435',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_A_Thankless_Coronation_Icon.png',
     effect:
       'King of Knights<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">36%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">54%</span>/<span style="color: #FFC870">63%</span>/<span style="color: #FFC870">72%</span>. When using Ultimate, increases the wearer\'s ATK by <span style="color: rgb(255, 200, 112)">40%</span>/<span style="color: rgb(255, 200, 112)">50%</span>/<span style="color: rgb(255, 200, 112)">60%</span>/<span style="color: rgb(255, 200, 112)">70%</span>/<span style="color: rgb(255, 200, 112)">80%</span>, and if the wearer\'s Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer\'s Max Energy and once again increases the wearer\'s ATK by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>, lasting for 2 turns.</p>',
     path: paths.Destruction,
@@ -2616,12 +2851,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_A_Thankless_Coronation_Artwork.png',
   },
   The_Hell_Where_Ideals_Burn: {
     id: 3901,
     name: 'The Hell Where Ideals Burn',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_The_Hell_Where_Ideals_Burn_Icon.png/revision/latest?cb=20250702131416',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_The_Hell_Where_Ideals_Burn_Icon.png',
     effect:
       'Hrunting<p>Increases the wearer\'s CRIT Rate by<span style="color: #FFC870"> 16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. When entering combat, if the allies\' Skill Points limit is 6 or higher, increases the wearer\'s ATK by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>. After each use of the wearer\'s Skill, increases the wearer\'s ATK by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span>, stacking up to 4 time(s).</p>',
     path: paths.Hunt,
@@ -2630,12 +2867,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 26, base_def: 24 },
       level80: { base_hp: 952, base_atk: 582, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_The_Hell_Where_Ideals_Burn_Artwork.png',
   },
   Why_Does_the_Ocean_Sing: {
     id: 3949,
     name: 'Why Does the Ocean Sing',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Why_Does_the_Ocean_Sing_Icon.png/revision/latest?cb=20250813023359',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Why_Does_the_Ocean_Sing_Icon.png',
     effect:
       'Solo<p>Increases the wearer\'s Effect Hit Rate by <span style="color: #FFC870">40%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">50%</span>/<span style="color: #FFC870">55%</span>/<span style="color: #FFC870">60%</span>. When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter "Enthrallment," lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in "Enthrallment," for every 1 debuff applied by the wearer on the target, increases the target\'s received DoT by <span style="color: #FFC870">5%</span>/<span style="color: #FFC870">6.25%</span>/<span style="color: #FFC870">7.5%</span>/<span style="color: #FFC870">8.75%</span>/<span style="color: #FFC870">10%</span>, stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker\'s SPD by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span> for 3 turn(s). When the wearer gets knocked down, removes all "Enthrallment."</p>',
     path: paths.Nihility,
@@ -2644,12 +2882,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 28, base_def: 21 },
       level80: { base_hp: 952, base_atk: 635, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Light_Cone_Why_Does_the_Ocean_Sing_Artwork.png',
   },
   Epoch_Etched_in_Golden_Blood: {
     id: 3950,
     name: 'Epoch Etched in Golden Blood',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Epoch_Etched_in_Golden_Blood_Icon.png/revision/latest?cb=20250902145109',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Epoch_Etched_in_Golden_Blood_Icon.png',
     effect:
       'Conquer<p>Increases the wearer\'s ATK by <span style="color: #FFC870">64%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">112%</span>/<span style="color: #FFC870">128%</span>. After using Ultimate to attack, recovers 1 Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by <span style="color: #FFC870">54%</span>/<span style="color: #FFC870">67.5%</span>/<span style="color: #FFC870">81%</span>/<span style="color: #FFC870">94.5%</span>/<span style="color: #FFC870">108%</span> for 3 turn(s).</p>',
     path: paths.Harmony,
@@ -2658,12 +2897,13 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 28, base_def: 21 },
       level80: { base_hp: 952, base_atk: 635, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Epoch_Etched_in_Golden_Blood_Artwork.png',
   },
   The_Forever_Victual: {
     id: 3951,
     name: 'The Forever Victual',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Light_Cone_The_Forever_Victual_Icon.png/revision/latest?cb=20250813023350',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Light_Cone_The_Forever_Victual_Icon.png',
     effect:
       'So good!<p>Increases the wearer\'s ATK by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">20%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">28%</span>/<span style="color: #FFC870">32%</span>. After the wearer uses Skill, increases ATK by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>, stacking up to 3 times.</p>',
     path: paths.Harmony,
@@ -2672,12 +2912,14 @@ export const lightCones = {
       level1: { base_hp: 43, base_atk: 21, base_def: 15 },
       level80: { base_hp: 952, base_atk: 476, base_def: 330 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_The_Forever_Victual_Artwork.png',
   },
   To_Evernights_Stars: {
     id: 4005,
     name: "To Evernight's Stars",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Light_Cone_To_Evernight%27s_Stars_Icon.png/revision/latest?cb=20250924034315',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Light_Cone_To_Evernight%27s_Stars_Icon.png',
     effect:
       'Sleepless<p>Increases the wearer\'s Max HP by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer\'s memosprite uses an ability, the wearer gains "Noctis." While the wearer has "Noctis," all allies\' memosprites ignore <span style="color: #FFC870">20%</span>/<span style="color: #FFC870">22.5%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">27.5%</span>/<span style="color: #FFC870">30%</span> of the target\'s DEF when dealing DMG. Increases the DMG dealt by the wearer and their memosprite by <span style="color: #FFC870">30%</span>/<span style="color: #FFC870">37.5%</span>/<span style="color: #FFC870">45%</span>/<span style="color: #FFC870">52.5%</span>/<span style="color: #FFC870">60%</span>. When the wearer\'s memosprite disappears, the wearer recovers 8 Energy. Similar effects cannot stack.</p>',
     path: paths.Remembrance,
@@ -2686,12 +2928,13 @@ export const lightCones = {
       level1: { base_hp: 53, base_atk: 24, base_def: 21 },
       level80: { base_hp: 1164, base_atk: 529, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_To_Evernight%27s_Stars_Artwork.png',
   },
   Though_Worlds_Apart: {
     id: 4006,
     name: 'Though Worlds Apart',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Light_Cone_Though_Worlds_Apart_Icon.png/revision/latest?cb=20251015044629',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Light_Cone_Though_Worlds_Apart_Icon.png',
     effect:
       'New Scale<p>Increases the wearer\'s ATK by <span style="color: #FFC870">64%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">96%</span>/<span style="color: #FFC870">112%</span>/<span style="color: #FFC870">128%</span>. When the wearer uses Ultimate, restores HP equal to <span style="color: rgb(255, 200, 112)">10%</span>/<span style="color: rgb(255, 200, 112)">12.5%</span>/<span style="color: rgb(255, 200, 112)">15%</span>/<span style="color: rgb(255, 200, 112)">17.5%</span>/<span style="color: rgb(255, 200, 112)">20%</span> of the wearer\'s ATK for all allies, and additionally restores HP equal to <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12.5%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">17.5%</span>/<span style="color: #FFC870">20%</span> of the wearer\'s ATK for the character with the lowest current HP, and grants "Redoubt" to all allies for 3 turn(s). Targets with "Redoubt" deal <span style="color: #FFC870">24%</span>/<span style="color: #FFC870">30%</span>/<span style="color: #FFC870">36%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">48%</span> increased DMG, which further increases by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span> if the targets have summons</p>',
     path: paths.Preservation,
@@ -2700,12 +2943,13 @@ export const lightCones = {
       level1: { base_hp: 48, base_atk: 26, base_def: 21 },
       level80: { base_hp: 1058, base_atk: 582, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Light_Cone_Though_Worlds_Apart_Artwork.png',
   },
   This_Love_Forever: {
     id: 4061,
     name: 'This Love, Forever',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_This_Love%2C_Forever_Icon.png/revision/latest?cb=20251105033038',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_This_Love%2C_Forever_Icon.png',
     effect:
       'A Promise<p>Increases the wearer\'s SPD by <span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>/<span style="color: #FFC870">27%</span>/<span style="color: #FFC870">30%</span>. When the wearer\'s memosprite uses Memosprite Skill on one ally, gains "Blank," which increases DMG taken by all enemies by <span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span>/<span style="color: #FFC870">18%</span>. When the wearer\'s memosprite uses Memosprite Skill on an enemy, gains "Verse," which increases CRIT DMG of all allies by <span style="color: #FFC870">16%</span>/<span style="color: #FFC870">19%</span>/<span style="color: #FFC870">22%</span>/<span style="color: #FFC870">25%</span>/<span style="color: #FFC870">28%</span>. When the wearer\'s memosprite has both "Blank" and "Verse," increases the effects of both "Blank" and "Verse" by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">65%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">75%</span>/<span style="color: #FFC870">80%</span>.</p>',
     path: paths.Remembrance,
@@ -2714,12 +2958,13 @@ export const lightCones = {
       level1: { base_hp: 57, base_atk: 21, base_def: 21 },
       level80: { base_hp: 1270, base_atk: 476, base_def: 463 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Light_Cone_This_Love%2C_Forever_Artwork.png',
   },
   Fly_Into_a_Pink_Tomorrow: {
     id: 4062,
     name: 'Fly Into a Pink Tomorrow',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Light_Cone_Fly_Into_a_Pink_Tomorrow_Icon.png/revision/latest?cb=20251105033534',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Light_Cone_Fly_Into_a_Pink_Tomorrow_Icon.png',
     effect:
       'Gaze<p>Increases the wearer\'s CRIT DMG by <span style="color: #FFC870">12%</span>/<span style="color: #FFC870">15%</span>/<span style="color: #FFC870">18%</span>/<span style="color: #FFC870">21%</span>/<span style="color: #FFC870">24%</span>. When equipped by Trailblazer (Remembrance), increases all ally targets\' DMG dealt by <span style="color: #FFC870">8%</span>/<span style="color: #FFC870">10%</span>/<span style="color: #FFC870">12%</span>/<span style="color: #FFC870">14%</span>/<span style="color: #FFC870">16%</span> and increases the DMG dealt by the Enhanced Basic ATK "Together, We Script Tomorrow!" by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">70%</span>/<span style="color: #FFC870">80%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">100%</span>.</p>',
     path: paths.Remembrance,
@@ -2728,12 +2973,14 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 21, base_def: 18 },
       level80: { base_hp: 846, base_atk: 476, base_def: 396 },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/3d/Light_Cone_Fly_Into_a_Pink_Tomorrow_Artwork.png',
   },
   Never_Forget_Her_Flame: {
     id: 4717,
     name: 'Never Forget Her Flame',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Never_Forget_Her_Flame_Icon.png/revision/latest?cb=20251217041105',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Never_Forget_Her_Flame_Icon.png',
     effect:
       'Immolation<p>Increases the wearer\'s Break Effect by <span style="color: #FFC870">60%</span>/<span style="color: #FFC870">75%</span>/<span style="color: #FFC870">90%</span>/<span style="color: #FFC870">105%</span>/<span style="color: #FFC870">120%</span>. When entering combat, increases Break DMG dealt by the wearer and another teammate who triggered combat by <span style="color: #FFC870">32%</span>/<span style="color: #FFC870">42%</span>/<span style="color: #FFC870">52%</span>/<span style="color: #FFC870">62%</span>/<span style="color: #FFC870">72%</span>. If there is no teammate who triggered combat, applies this effect to the wearer and the teammate with the highest Break Effect. Effects of the same type cannot be stacked. When the wearer applies Weakness to an enemy target, recovers 1 Skill Point. This effect can only trigger once. And resets this trigger count when using Ultimate.</p>',
     path: paths.Nihility,
@@ -2750,12 +2997,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e0/Light_Cone_Never_Forget_Her_Flame_Artwork.png',
   },
   Lingering_Tear: {
     id: 4774,
     name: 'Lingering Tear',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Light_Cone_Lingering_Tear_Icon.png/revision/latest?cb=20260213054834',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Light_Cone_Lingering_Tear_Icon.png',
     effect:
       'Mourning<p>When the Punchline held is 10 or more, the wearer\'s CRIT DMG increases by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>.</p>',
     path: paths.Elation,
@@ -2772,12 +3020,14 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Light_Cone_Lingering_Tear_Artwork.png',
   },
   Sneering: {
     id: 4775,
     name: 'Sneering',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_Sneering_Icon.png/revision/latest?cb=20260213055126',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_Sneering_Icon.png',
     effect:
       'Indulgence<p>When Aha Instant is activated, the wearer\'s Elation increases by <span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>, lasting until Aha Instant ends.</p><p></p>',
     path: paths.Elation,
@@ -2794,12 +3044,14 @@ export const lightCones = {
         base_def: 264,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/20/Light_Cone_Sneering_Artwork.png',
   },
   Todays_Good_Luck: {
     id: 4776,
     name: "Today's Good Luck",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Light_Cone_Today%27s_Good_Luck_Icon.png/revision/latest?cb=20260213053415',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Light_Cone_Today%27s_Good_Luck_Icon.png',
     effect:
       'Decision<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses an Elation Skill, increases Elation by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span>, stacking up to 2 times.</p>',
     path: paths.Elation,
@@ -2816,12 +3068,14 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_Today%27s_Good_Luck_Artwork.png',
   },
   Mushy_Shroomys_Adventures: {
     id: 4777,
     name: "Mushy Shroomy's Adventures",
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Mushy_Shroomy%27s_Adventures_Icon.png/revision/latest?cb=20260213054215',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Mushy_Shroomy%27s_Adventures_Icon.png',
     effect:
       'Rumble<p>Increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by <span style="color: rgba(255,199,112,1)">6%</span>/<span style="color: rgba(255,199,112,1)">7%</span>/<span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">9%</span>/<span style="color: rgba(255,199,112,1)">10%</span> for 2 turn(s).</p>',
     path: paths.Elation,
@@ -2838,12 +3092,14 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Light_Cone_Mushy_Shroomy%27s_Adventures_Artwork.png',
   },
   Dazzled_by_a_Flowery_World: {
     id: 4778,
     name: 'Dazzled by a Flowery World',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/02/Light_Cone_Dazzled_by_a_Flowery_World_Icon.png/revision/latest?cb=20260303042730',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/02/Light_Cone_Dazzled_by_a_Flowery_World_Icon.png',
     effect:
       'Center of Attention<p>Increases the wearer\'s CRIT DMG by <span style="color: rgba(255,199,112,1)">48%</span>/<span style="color: rgba(255,199,112,1)">56%</span>/<span style="color: rgba(255,199,112,1)">65%</span>/<span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">80%</span>. While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by 1, up to a max increase of 3. For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore <span style="color: rgba(255,199,112,1)">5%</span>/<span style="color: rgba(255,199,112,1)">6%</span>/<span style="color: rgba(255,199,112,1)">7%</span>/<span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">9%</span> of enemy targets\' DEF, stacking up to 4 times. If 4 or more Skill Points are consumed in the same turn, the wearer gains "Stream Promo," which increases all allies\' Elation by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span>. Light Cone effects of the same type cannot stack.</p>',
     path: paths.Elation,
@@ -2860,12 +3116,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Light_Cone_Dazzled_by_a_Flowery_World_Artwork.png',
   },
   When_She_Decided_to_See: {
     id: 4779,
     name: 'When She Decided to See',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_When_She_Decided_to_See_Icon.png/revision/latest?cb=20260213052728',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_When_She_Decided_to_See_Icon.png',
     effect:
       'Game Changer<p>Increases the wearer\'s SPD by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains "Great Fortune" for 3 turn(s). While the wearer holds "Great Fortune," all allies\' CRIT Rate increases by <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">11%</span>/<span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">13%</span>/<span style="color: rgba(255,199,112,1)">14%</span>, CRIT DMG increases by <span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">37.5%</span>/<span style="color: rgba(255,199,112,1)">45%</span>/<span style="color: rgba(255,199,112,1)">52.5%</span>/<span style="color: rgba(255,199,112,1)">60%</span>, and the wearer\'s Energy Regeneration Rate increases by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%/20%</span>.</p><p>At the start of each wave, the wearer regenerates a fixed amount of 15 Energy.</p>',
     path: paths.Elation,
@@ -2882,12 +3139,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Light_Cone_When_She_Decided_to_See_Artwork.png',
   },
   The_Finale_of_a_Lie: {
     id: 5007,
     name: 'The Finale of a Lie',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Light_Cone_The_Finale_of_a_Lie_Icon.png/revision/latest?cb=20260325055147',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Light_Cone_The_Finale_of_a_Lie_Icon.png',
     effect:
       'Subsume<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. At the start of battle or for every 4 instance(s) of Follow-Up ATK the wearer uses, the wearer gains "Umbra Devourer." While holding "Umbra Devourer," the wearer ignores <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">22.5%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">31.5%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF and increases the wearer\'s Follow-Up ATK DMG by <span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">22.5%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">27.5%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. Effects of the same type cannot stack.</p>',
     path: paths.Hunt,
@@ -2896,12 +3154,13 @@ export const lightCones = {
       level1: { base_hp: 38, base_atk: 28, base_def: 24 },
       level80: { base_hp: 846, base_atk: 635, base_def: 529 },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Light_Cone_The_Finale_of_a_Lie_Artwork.png',
   },
   Elation_Brimming_With_Blessings: {
     id: 5008,
     name: 'Elation Brimming With Blessings',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Elation_Brimming_With_Blessings_Icon.png/revision/latest?cb=20260325055138',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Elation_Brimming_With_Blessings_Icon.png',
     effect:
       'Opening<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. After the wearer uses Skill or Ultimate on one ally character, increases the target\'s Elation stat by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span> for 2 turn(s).</p>',
     path: paths.Elation,
@@ -2918,12 +3177,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Elation_Brimming_With_Blessings_Artwork.png',
   },
   Welcome_to_the_Cosmic_City: {
     id: 5218,
     name: 'Welcome to the Cosmic City',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Welcome_to_the_Cosmic_City_Icon.png/revision/latest?cb=20260422040126',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_Welcome_to_the_Cosmic_City_Icon.png',
     effect:
       'Guaranteed Victory<p>Increases the wearer\'s SPD by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. The Elation DMG dealt ignores <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF. When the wearer uses Ultimate on themselves, gains <span style="color: rgba(255,199,112,1)">20</span>/<span style="color: rgba(255,199,112,1)">25</span>/<span style="color: rgba(255,199,112,1)">30</span>/<span style="color: rgba(255,199,112,1)">35</span>/<span style="color: rgba(255,199,112,1)">40</span> point(s) of "Punchline." This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).</p>',
     path: paths.Elation,
@@ -2940,12 +3200,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Light_Cone_Welcome_to_the_Cosmic_City_Artwork.png',
   },
   Until_The_Flowers_Bloom_Again: {
     id: 5219,
     name: 'Until the Flowers Bloom Again',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Light_Cone_Until_the_Flowers_Bloom_Again_Icon.png/revision/latest?cb=20260513082017',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Light_Cone_Until_the_Flowers_Bloom_Again_Icon.png',
     effect:
       'Daydream<p>Increases the wearer\'s CRIT DMG by <span style="color: rgb(255, 199, 112)">60%</span>/<span style="color: rgb(255, 199, 112)">75%</span>/<span style="color: rgb(255, 199, 112)">90%</span>/<span style="color: rgb(255, 199, 112)">105%</span>/<span style="color: rgb(255, 199, 112)">120%</span> and Energy Regeneration Rate by <span style="color: rgb(255, 199, 112)">10%</span>/<span style="color: rgb(255, 199, 112)">11.5%</span>/<span style="color: rgba(255,199,112,1)">13%</span>/<span style="color: rgb(255, 199, 112)">14.5%</span>/<span style="color: rgb(255, 199, 112)">16%</span>. When the wearer\'s Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <span style="color: rgb(255, 199, 112)">15%</span>/<span style="color: rgb(255, 199, 112)">18.75%</span>/<span style="color: rgb(255, 199, 112)">22.5%</span>/<span style="color: rgb(255, 199, 112)">26.25%</span>/<span style="color: rgb(255, 199, 112)">30% </span>for 2 turn(s). Effects of the same type cannot stack.</p>',
     path: paths.Elation,
@@ -2962,12 +3223,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Light_Cone_Until_the_Flowers_Bloom_Again_Artwork.png',
   },
   Tomorrow_Together: {
     id: 5220,
     name: 'Tomorrow, Together',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a3/Light_Cone_Tomorrow%2C_Together_Icon.png/revision/latest?cb=20260422040100',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/a3/Light_Cone_Tomorrow%2C_Together_Icon.png',
     effect:
       'Companion<p>Increases the wearer\'s CRIT DMG by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>. After the wearer uses their Ultimate, increases all allies\' Elation by <span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">9%</span>/<span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">11%</span>/<span style="color: rgba(255,199,112,1)">12%</span>, lasting for 1 turn(s).</p>',
     path: paths.Elation,
@@ -2984,12 +3246,14 @@ export const lightCones = {
         base_def: 330,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1e/Light_Cone_Tomorrow%2C_Together_Artwork.png',
   },
   Reforged_in_Hellfire: {
     id: 5340,
     name: 'Reforged in Hellfire',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f6/Light_Cone_Reforged_in_Hellfire_Icon.png/revision/latest?cb=20260601030625',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f6/Light_Cone_Reforged_in_Hellfire_Icon.png',
     effect:
       'Tempering<p><span style="color: rgba(178,173,173,1)">Increases the wearer\'s Max HP by </span><span style="color: rgba(255,199,112,1)">30%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">37.5%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">45%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">52.5%</span><span style="color: rgba(178,173,173,1)">/</span><span style="color: rgba(255,199,112,1)">60%</span><span style="color: rgba(178,173,173,1)">. At the start of the wearer\'s turn, they regenerate a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses a Skill Attack, inflicts the target with the "Purgatory" state, lasting for 2 turn(s). While in the "Purgatory" state, CRIT DMG taken by the target increases by </span><span style="color: rgb(255, 199, 112)">30%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">37.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">45%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">52.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">60%</span><span style="color: rgba(178,173,173,1)">, and CRIT DMG taken from the wearer additionally increases by </span><span style="color: rgb(255, 199, 112)">30%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">37.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">45%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">52.5%</span><span style="color: rgb(178, 173, 173)">/</span><span style="color: rgb(255, 199, 112)">60%</span><span style="color: rgba(178,173,173,1)">.</span></p>',
     path: paths.Nihility,
@@ -3006,12 +3270,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Light_Cone_Reforged_in_Hellfire_Artwork.png',
   },
   A_Star_That_Lights_the_Night: {
     id: 6574,
     name: 'A Star That Lights the Night',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Light_Cone_A_Star_That_Lights_the_Night_Icon.png/revision/latest?cb=20260715025832',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Light_Cone_A_Star_That_Lights_the_Night_Icon.png',
     effect:
       'First Wish<p>The wearer ignores <span style="color: rgb(255, 199, 112)">32%</span>/<span style="color: rgb(255, 199, 112)">36%</span>/<span style="color: rgb(255, 199, 112)">40%</span>/<span style="color: rgb(255, 199, 112)">44%</span>/<span style="color: rgb(255, 199, 112)">48%</span> of the target\'s DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate 6 Energy and gain "Sail," lasting for 2 turns and stacking up to 3 time(s). Each stack of "Sail" increases Assist Skill DMG by <span style="color: rgb(255, 199, 112)">20%</span>/<span style="color: rgb(255, 199, 112)">25%</span>/<span style="color: rgb(255, 199, 112)">30%</span>/<span style="color: rgb(255, 199, 112)">35%</span>/<span style="color: rgb(255, 199, 112)">40%</span>. When "Sail" reaches 3 stacks, each stack of "Sail" increases Ultimate DMG by <span style="color: rgb(255, 199, 112)">20%</span>/<span style="color: rgb(255, 199, 112)">25%</span>/<span style="color: rgb(255, 199, 112)">30%</span>/<span style="color: rgb(255, 199, 112)">35%</span>/<span style="color: rgb(255, 199, 112)">40%</span>.</p>',
     path: paths.Erudition,
@@ -3028,12 +3293,14 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Light_Cone_A_Star_That_Lights_the_Night_Artwork.png',
   },
   Flickering_Stars: {
     id: 6575,
     name: 'Flickering Stars',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Flickering_Stars_Icon.png/revision/latest?cb=20260724041852',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Light_Cone_Flickering_Stars_Icon.png',
     effect:
       'Sprout<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains "Radiant Crown," lasting for 3 turn(s). While the wearer holds "Radiant Crown," all allies\' DMG dealt ignores <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span> of the target\'s DEF, and the Skill DMG dealt by the wearer increases by <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">84%</span>/<span style="color: rgba(255,199,112,1)">96%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">120%</span>. Effects of the same type cannot stack.</p>',
     path: paths.Erudition,
@@ -3050,12 +3317,13 @@ export const lightCones = {
         base_def: 529,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Flickering_Stars_Artwork.png',
   },
   I_Am_As_You_Behold: {
     id: 6576,
     name: 'I Am As You Behold',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_I_Am_As_You_Behold_Icon.png/revision/latest?cb=20260715084256',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_I_Am_As_You_Behold_Icon.png',
     effect:
       'At Will<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span> and Energy Regeneration Rate by <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12.5%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">17.5%</span>/<span style="color: rgba(255,199,112,1)">20%</span>. When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by <span style="color: rgba(255,199,112,1)">0.2%</span>/<span style="color: rgba(255,199,112,1)">0.25%</span>/<span style="color: rgba(255,199,112,1)">0.3%</span>/<span style="color: rgba(255,199,112,1)">0.35%</span>/<span style="color: rgba(255,199,112,1)">0.4%</span>, up to a max increase of <span style="color: rgba(255,199,112,1)">72%</span>/<span style="color: rgba(255,199,112,1)">90%</span>/<span style="color: rgba(255,199,112,1)">108%</span>/<span style="color: rgba(255,199,112,1)">126%</span>/<span style="color: rgba(255,199,112,1)">144%</span>. When the wearer enters combat or uses Ultimate, the wearer gains "King\'s Entertainment," lasting for 3 turn(s). While the wearer holds "King\'s Entertainment," increases all allies\' CRIT DMG by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">42%</span>/<span style="color: rgba(255,199,112,1)">48%</span>. Effects of the same type cannot stack.</p>',
     rarity: lightConeRarities.Five_Star,
@@ -3072,12 +3340,13 @@ export const lightCones = {
         base_def: 463,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Light_Cone_I_Am_As_You_Behold_Artwork.png',
   },
   Rise_and_Sing: {
     id: 10193,
     name: 'Rise and Sing',
     icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Rise_and_Sing_Icon.png/revision/latest?cb=20260826033801',
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Rise_and_Sing_Icon.png',
     effect:
       'Improvisation<p>Increases the wearer\'s Max HP by <span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">37.5%</span>/<span style="color: rgba(255,199,112,1)">45%</span>/<span style="color: rgba(255,199,112,1)">52.5%</span>/<span style="color: rgba(255,199,112,1)">60%</span>. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer\'s action by <span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">32.5%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">37.5%</span>/<span style="color: rgba(255,199,112,1)">40%</span> and grants the wearer "New Melody," lasting for 2 turn(s). While the wearer holds "New Melody," all allies\' SPD increases by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>.</p>',
     path: paths.Remembrance,
@@ -3094,5 +3363,61 @@ export const lightCones = {
         base_def: 396,
       },
     },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/9e/Light_Cone_Rise_and_Sing_Artwork.png',
+  },
+  Summer_Rides_the_Surf: {
+    id: 10194,
+    name: 'Summer Rides the Surf',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Light_Cone_Summer_Rides_the_Surf_Icon.png',
+    effect:
+      'Waveriding<p>Increases the wearer\'s CRIT Rate by <span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">27%</span>/<span style="color: rgba(255,199,112,1)">30%</span>. When the wearer uses Elation Skill, gains "Updraft," which increases the wearer\'s SPD by <span style="color: rgba(255,199,112,1)">24%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">32%</span>/<span style="color: rgba(255,199,112,1)">36%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. If the Elation Skill used is different from the one used last time, additionally gains "Uptrend," which increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">40%</span>/<span style="color: rgba(255,199,112,1)">55%</span>/<span style="color: rgba(255,199,112,1)">70%</span>/<span style="color: rgba(255,199,112,1)">85%</span>/<span style="color: rgba(255,199,112,1)">100%</span>.</p><p>When every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.</p><p></p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 26, base_def: 24 },
+      level80: { base_hp: 952, base_atk: 582, base_def: 529 },
+    },
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_Summer_Rides_the_Surf_Artwork.png',
+  },
+  A_Little_Getaway: {
+    id: 1,
+    name: 'A Little Getaway',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/af/Light_Cone_A_Little_Getaway_Icon.png',
+    effect:
+      'Whisper<p>Increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. During the use of Elation Skill by the wearer, ignores <span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span> of the target\'s DEF.</p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 19, base_def: 18 },
+      level80: { base_hp: 952, base_atk: 423, base_def: 396 },
+    },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Light_Cone_A_Little_Getaway_Artwork.png',
+  },
+  Race_to_the_Horizon: {
+    id: 2,
+    name: 'Race to the Horizon',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Race_to_the_Horizon_Icon.png',
+    effect:
+      'Overtake<p>Increases the wearer\'s ATK by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">21%</span>/<span style="color: rgba(255,199,112,1)">24%</span>. After the wearer uses Follow-Up ATK, increases their CRIT DMG by <span style="color: rgba(255,199,112,1)">3%</span>/<span style="color: rgba(255,199,112,1)">3.5%</span>/<span style="color: rgba(255,199,112,1)">4%</span>/<span style="color: rgba(255,199,112,1)">4.5%</span>/<span style="color: rgba(255,199,112,1)">5%</span> for 2 turn(s). This effect can stack up to 10 times.</p>',
+    path: paths.Hunt,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: {
+        base_hp: 38,
+        base_atk: 21,
+        base_def: 18,
+      },
+      level80: {
+        base_hp: 846,
+        base_atk: 476,
+        base_def: 396,
+      },
+    },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Race_to_the_Horizon_Artwork.png',
   },
 } as const satisfies Record<string, LightCone>;
