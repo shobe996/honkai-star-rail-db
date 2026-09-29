@@ -1,3 +1,21 @@
+# [1.12.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.11.0...v1.12.0) (2026-09-29)
+
+
+### Bug Fixes
+
+* **character:** fix factions for Dan Heng • Imbibitor Lunae, Sunday, and Dan Heng • Permansor Terrae, and fix splash art urls ([a784ff3](https://github.com/shobe996/honkai-star-rail-db/commit/a784ff306be43ba2a0d88989457be0a508782a9d))
+
+
+### Features
+
+* **character:** add Pearl into character dataset ([454ecfa](https://github.com/shobe996/honkai-star-rail-db/commit/454ecfaa25328a2f90a2feb4f3aa3cd5e169f010))
+* **light cone:** add A Little Getaway and Race to the Horizon into light cone dataset ([095832a](https://github.com/shobe996/honkai-star-rail-db/commit/095832a80ee7fd53952bdd7e24e33b41d7e1c83d))
+* **light cone:** add Colors for Tomorrow into light cone dataset ([e1ac73b](https://github.com/shobe996/honkai-star-rail-db/commit/e1ac73b8980cc9b4d2bf3d2881769ec86deaf5b8))
+* **light cone:** added property full_artwork_url to LightCone interface ([39473a4](https://github.com/shobe996/honkai-star-rail-db/commit/39473a4d87f4ef3e7d224725130a64594b568613))
+* **light cone:** implement full_artwork_url property into dataset ([2f5c9b4](https://github.com/shobe996/honkai-star-rail-db/commit/2f5c9b486ff85e02ebe726c3f24d117b886b4236))
+
+
+
 # [1.11.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.1...v1.11.0) (2026-09-14)
 
 
@@ -40,16 +58,6 @@
 ### Bug Fixes
 
 * fix silver wolf 999 id ([ae86bb0](https://github.com/shobe996/honkai-star-rail-db/commit/ae86bb08967bdf7f22b2439979c27dad4a928072))
-
-
-
-# [1.9.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.8.0...v1.9.0) (2026-07-27)
-
-
-### Features
-
-* **character:** add Rin Tohsaka and Gilgamesh into character dataset ([f657756](https://github.com/shobe996/honkai-star-rail-db/commit/f65775623235a96777966423ecabc5af31b42acf))
-* **light cone:** add Flickering Stars and I Am As You Behold into light cone dataset ([e6ec8e3](https://github.com/shobe996/honkai-star-rail-db/commit/e6ec8e334fe1192fde8f6ce36276d345703fbe0a))
 
 
 
