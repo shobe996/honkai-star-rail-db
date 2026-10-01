@@ -2528,7 +2528,7 @@ export const lightCones = {
         base_def: 264,
       },
     },
-    full_artwork_url: '',
+    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Reminiscence_Artwork.png/revision/latest',
   },
   Shadowburn: {
     id: 3352,
