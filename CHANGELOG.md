@@ -1,3 +1,12 @@
+## [1.12.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.12.0...v1.12.1) (2026-10-01)
+
+
+### Bug Fixes
+
+* **light cone:** add missing full atwork url to Reminiscence light cone ([76a1085](https://github.com/shobe996/honkai-star-rail-db/commit/76a108509c082b025449a8e0403d45e3a8eddc7f))
+
+
+
 # [1.12.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.11.0...v1.12.0) (2026-09-29)
 
 
@@ -49,15 +58,6 @@
 
 * **character:** add Robin • Summeretto into character dataset ([42f3e72](https://github.com/shobe996/honkai-star-rail-db/commit/42f3e725a6291fc0284fc764d515895342d182b5))
 * **light cone:** add Rise and Sing into light cone dataset ([f95e2a6](https://github.com/shobe996/honkai-star-rail-db/commit/f95e2a61a6fe3c533c0e7146b074cf38b38b826e))
-
-
-
-## [1.9.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.9.0...v1.9.1) (2026-08-18)
-
-
-### Bug Fixes
-
-* fix silver wolf 999 id ([ae86bb0](https://github.com/shobe996/honkai-star-rail-db/commit/ae86bb08967bdf7f22b2439979c27dad4a928072))
 
 
 
