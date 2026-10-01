@@ -45,22 +45,25 @@ export const isValidId = (id: unknown): id is number => {
  * or if the data string includes the sanitized criterion.
  */
 export const matches = (
-  dataVal: string | undefined,
-  criteriaVal?: string | null,
+  dataVal: number | string | null,
+  criteriaVal?: number | string | null,
 ): boolean => {
-  // If criteria is null, undefined, or just whitespace, IGNORE this filter (return true)
-  if (!criteriaVal || criteriaVal.trim() === '') return true;
+  // If criteria is null or undefined, IGNORE this filter (return true)
+  if (!criteriaVal) return true;
+  // If criteria is an empty string, IGNORE this filter (return true)
+  if (typeof criteriaVal === 'string' && criteriaVal.trim() === '') return true;
 
   // If dataVal is missing in the character data, it cannot match, return false
   if (!dataVal) return false;
 
-  const sanitized = sanitizeSearchString(criteriaVal);
+  const sanitized = typeof dataVal === 'string' ? sanitizeSearchString(criteriaVal) : criteriaVal;
 
   // Only proceed if sanitized result exists and matches
-  return (
-    sanitized !== null &&
-    dataVal.toLowerCase().includes(sanitized.toLowerCase())
-  );
+  if (typeof dataVal === 'string' && typeof sanitized === 'string') {
+    return dataVal.toLowerCase().includes(sanitized.toLowerCase());
+  }
+
+  return dataVal === sanitized;
 };
 
 /**
