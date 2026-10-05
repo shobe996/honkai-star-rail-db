@@ -4,3 +4,5 @@ export * from './light-cone.types';
 export * from './path.types';
 export * from './rarity.types';
 export * from './type.types';
+export * from './cavern-relic.types';
+export * from './planar-ornament.types';

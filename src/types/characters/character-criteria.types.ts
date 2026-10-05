@@ -20,4 +20,10 @@ export interface CharacterSearchCriteria {
 
   /** The star rarity value to filter by (e.g., 4 or 5). */
   rarity?: number;
+
+  /** The release date to filter by. */
+  releaseDate?: Date;
+
+  /** The date range to filter by, represented as an array with two elements: [startDate, endDate]. */
+  dateRange?: Date[];
 }
