@@ -7,5 +7,6 @@ export {
   pathFilters,
   cavernRelicFilters,
   typeFilters,
+  planarOrnamentFilters,
 } from './filters';
 export * from './types';
