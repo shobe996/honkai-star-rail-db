@@ -1,77 +1,55 @@
 import { planarOrnaments } from '../data';
 import { PlanarOrnament } from '../types';
 import { PaginatedResult } from '../types/pagination.types';
+import { PlanarOrnamentSearchCriteria } from '../types/planar-ornaments/planar-ornament-criteria.types';
 import {
-    isValidId,
     matches,
-    sanitizeSearchString,
-    toDateKey,
-    toTimestamp,
 } from '../utils/filter.utils';
-import { paginate } from '../utils/pagination.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
+/**
+ * Planar ornaments values
+ */
 const planarOrnamentList = Object.values(planarOrnaments);
-const planarOrnamentMap = new Map<number, PlanarOrnament>(
-    Object.values(planarOrnaments).map((c) => [c.id, c]),
-);
+
+/**
+ * Base filters for planar ornaments.
+ */
+const baseFilters = createBaseFilters<PlanarOrnament>(planarOrnamentList);
+
+/**
+ * Attribute checks for planar ornaments.
+ */
+const planarOrnamentAttributesChecks: AttributeCheck<
+  PlanarOrnament,
+  PlanarOrnamentSearchCriteria
+>[] = [
+  {
+    isActive: (criteria) => !!criteria.name?.trim(),
+    test: (item, criteria) => matches(item.name, criteria.name),
+  },
+  {
+    isActive: (criteria) => !!criteria.effect?.trim(),
+    test: (item, criteria) =>
+      matches(item.two_set_effect, criteria.effect)
+  },
+];
 
 export const planarOrnamentFilters = {
-    /**
-       * Returns all planar ornaments in the data set with optional pagination.
-       * @param page - The current page number (starts at 1).
-       * @param size - The number of planar ornaments to return per page (defaults to 999).
-       * @returns An array of planar ornaments for the requested page.
-       */
-    all: (page: number = 1, size: number = 999): PaginatedResult<PlanarOrnament> =>
-        paginate(planarOrnamentList, page, size),
+    
+    ...baseFilters,
 
     /**
-       * Finds a planar ornaments by their unique identifier.
-       * @param id - The unique numerical ID of the planar ornaments.
-       * @returns The matching planar ornaments object, or null if not found or ID is invalid.
+       * Filters planar ornaments based on multiple criteria.
+       * @param criteria - Object containing search parameters.
+       * @param page - Current page number.
+       * @param size - Items per page.
+       * @returns Array of planar ornaments matching at least one criterion.
        */
-    byId: (id: number): PlanarOrnament | null => {
-        if (!isValidId(id)) return null;
-        return planarOrnamentMap.get(id) ?? null;
-    },
-
-    /**
-       * Filters planar ornaments based on a partial match within their name.
-       * @param name - The string to search for within planar ornaments names.
-       * @param page - The current page number (starts at 1).
-       * @param size - The number of planar ornaments to return per page (defaults to 999).
-       * @returns An array of planar ornaments whose names contain the search string.
-       */
-    byName: (
-        name: string,
+      byAttributes: (
+        criteria: PlanarOrnamentSearchCriteria,
         page: number = 1,
         size: number = 999,
-    ): PaginatedResult<PlanarOrnament> => {
-        const search = sanitizeSearchString(name);
-        if (!search) return { data: [], total: 0, hasMore: false, page, size };
-        const filtered = planarOrnamentList.filter((c) =>
-            c.name.toLowerCase().includes(search),
-        );
-        return paginate(filtered, page, size);
-    },
-
-    /**
-      * Filters planar ornaments based on a partial match within their name.
-      * @param name - The string to search for within planar ornaments names.
-      * @param page - The current page number (starts at 1).
-      * @param size - The number of planar ornaments to return per page (defaults to 999).
-      * @returns An array of planar ornaments whose names contain the search string.
-      */
-    byEffect: (
-        effect: string,
-        page: number = 1,
-        size: number = 999
-    ): PaginatedResult<PlanarOrnament> => {
-        const search = sanitizeSearchString(effect);
-        if (!search) return { data: [], total: 0, hasMore: false, page, size };
-        const filtered = planarOrnamentList.filter((c) =>
-            c.two_set_effect.toLowerCase().includes(search),
-        );
-        return paginate(filtered, page, size);
-    }
+      ): PaginatedResult<PlanarOrnament> =>
+        baseFilters.byAttributes(criteria, planarOrnamentAttributesChecks, page, size),
 }
