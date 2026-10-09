@@ -2,24 +2,16 @@ import { lightCones } from '../data/light-cones';
 import { LightCone } from '../types/light-cone.types';
 import { LightConeSearchCriteria } from '../types/light-cones/light-cone-criteria.types';
 import { PaginatedResult } from '../types/pagination.types';
-import {
-  matches,
-} from '../utils/filter.utils';
-import { AttributeCheck, createBaseFilters } from './base.filters';
+import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters, SortOptions } from './base.filters';
 
-/**
- * Light cone values
- */
+// Light cone values
 const lightConeList = Object.values(lightCones);
 
-/**
- * Base filters for light cones.
- */
+// Base filters for light cones.
 const baseFilters = createBaseFilters<LightCone>(lightConeList);
 
-/**
- * Attribute checks for light cones.
- */
+// Attribute checks for light cones.
 const lightConeAttributesChecks: AttributeCheck<
   LightCone,
   LightConeSearchCriteria
@@ -38,8 +30,7 @@ const lightConeAttributesChecks: AttributeCheck<
   },
   {
     isActive: (criteria) => !!criteria.rarity,
-    test: (item, criteria) =>
-      matches(item.rarity.value, criteria.rarity),
+    test: (item, criteria) => matches(item.rarity.value, criteria.rarity),
   },
 ];
 
@@ -58,12 +49,20 @@ export const lightConeFilters = {
    * @param criteria - Object containing search parameters.
    * @param page - Current page number.
    * @param size - Items per page.
+   * @param sort - Sorting options for the results.
    * @returns Array of lightCones matching at least one criterion.
    */
   byAttributes: (
     criteria: LightConeSearchCriteria,
     page: number = 1,
     size: number = 999,
+    sort?: SortOptions<LightCone>,
   ): PaginatedResult<LightCone> =>
-    baseFilters.byAttributes(criteria, lightConeAttributesChecks, page, size),
+    baseFilters.byAttributes(
+      criteria,
+      lightConeAttributesChecks,
+      page,
+      size,
+      sort,
+    ),
 };

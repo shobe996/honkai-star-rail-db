@@ -2,25 +2,17 @@ import { characters } from '../data';
 import { Character } from '../types/characters';
 import { CharacterSearchCriteria } from '../types/characters/character-criteria.types';
 import { PaginatedResult } from '../types/pagination.types';
-import {
-  matches,
-} from '../utils/filter.utils';
-import type { AttributeCheck } from './base.filters';
+import { matches } from '../utils/filter.utils';
+import type { AttributeCheck, SortOptions } from './base.filters';
 import { createBaseFilters } from './base.filters';
 
-/**
- * Character values
- */
+// Character values
 const characterList = Object.values(characters);
 
-/**
- * Base filters for characters.
- */
+// Base filters for characters.
 const baseFilters = createBaseFilters<Character>(characterList);
 
-/**
- * Attribute checks for characters.
- */
+// Attribute checks for characters.
 const characterAttributesChecks: AttributeCheck<
   Character,
   CharacterSearchCriteria
@@ -62,17 +54,14 @@ const characterAttributesChecks: AttributeCheck<
       const charTime = item.release_date.getTime();
       return charTime >= start.getTime() && charTime <= end.getTime();
     },
-  }
+  },
 ];
 
 /**
  * Filters for characters based on various criteria.
  */
 export const characterFilters = {
-
-  /**
-   * Base filters for characters.
-   */
+  //Base filters for characters.
   ...baseFilters,
 
   /**
@@ -81,11 +70,20 @@ export const characterFilters = {
    * @param criteria - Object containing search parameters.
    * @param page - Current page number.
    * @param size - Items per page.
+   * @param sort - Sorting options for the results.
    * @returns Array of characters matching at least one criterion.
    */
   byAttributes: (
     criteria: CharacterSearchCriteria,
     page: number = 1,
     size: number = 999,
-  ): PaginatedResult<Character> => baseFilters.byAttributes(criteria, characterAttributesChecks, page, size),
+    sort?: SortOptions<Character>,
+  ): PaginatedResult<Character> =>
+    baseFilters.byAttributes(
+      criteria,
+      characterAttributesChecks,
+      page,
+      size,
+      sort,
+    ),
 };

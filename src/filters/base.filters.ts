@@ -2,6 +2,24 @@ import { PaginatedResult } from '../types/pagination.types';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
+// Represents the possible values that can be used for sorting.
+type SortValue = string | number | Date | null | undefined;
+
+/**
+ * Options for sorting a list of items.
+ */
+export interface SortOptions<T> {
+  /**
+   * Function to extract the value to sort by from an item.
+   */
+  by: (item: T) => SortValue;
+
+  /**
+   * The direction of the sort, either ascending ('asc') or descending ('desc').
+   */
+  direction?: 'asc' | 'desc';
+}
+
 /**
  * Base filters and utilities for filtering entities.
  */
@@ -32,13 +50,41 @@ export interface AttributeCheck<T, C> {
   test: (item: T, criteria: C) => boolean;
 }
 
-/**
- * Checks if an entity matches all active attribute checks based on the provided criteria.
- * @param item - The entity to test against the criteria.
- * @param criteria - The search criteria to match against.
- * @param checks - The list of attribute checks to apply.
- * @returns - True if the item matches all active attribute checks, false otherwise.
- */
+// Utility function for sorting items based on the provided sort options.
+const sortItems = <T>(items: T[], options: SortOptions<T>): T[] => {
+  // Determine the sort direction based on the provided options.
+  const direction = options.direction === 'desc' ? -1 : 1;
+
+  return [...items].sort((left, right) => {
+    // Extract the values to compare from the left and right items.
+    const leftValue = options.by(left);
+    const rightValue = options.by(right);
+
+    // Handle cases where one or both values are null or undefined.
+    if (!leftValue) return rightValue == null ? 0 : 1;
+    if (!rightValue) return -1;
+
+    // Convert the values to comparable types (numbers or timestamps for dates).
+    const leftComparable =
+      leftValue instanceof Date ? leftValue.getTime() : leftValue;
+    const rightComparable =
+      rightValue instanceof Date ? rightValue.getTime() : rightValue;
+
+    // Compare the values and determine the sort order.
+    const comparison =
+      typeof leftComparable === 'string' && typeof rightComparable === 'string'
+        ? leftComparable.localeCompare(rightComparable)
+        : leftComparable < rightComparable
+          ? -1
+          : leftComparable > rightComparable
+            ? 1
+            : 0;
+
+    return comparison * direction;
+  });
+};
+
+// Checks if an entity matches all active attribute checks based on the provided criteria.
 const matchesAttributes = <T, C>(
   item: T,
   criteria: C,
@@ -154,11 +200,12 @@ export const createBaseFilters = <T extends FilterableEntity>(list: T[]) => {
       checks: AttributeCheck<T, C>[],
       page: number = 1,
       size: number = 999,
-    ): PaginatedResult<T> =>
-      paginate(
-        list.filter((item) => matchesAttributes(item, criteria, checks)),
-        page,
-        size,
-      ),
+      sort?: SortOptions<T>,
+    ): PaginatedResult<T> => {
+      const filtered = list.filter((item) =>
+        matchesAttributes(item, criteria, checks),
+      );
+      return paginate(sort ? sortItems(filtered, sort) : filtered, page, size);
+    },
   };
 };

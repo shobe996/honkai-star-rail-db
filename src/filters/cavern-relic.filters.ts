@@ -3,22 +3,15 @@ import { CavernRelic } from '../types';
 import { CavernRelicSearchCriteria } from '../types/cavern-relics/cavern-relic-criteria.types';
 import { PaginatedResult } from '../types/pagination.types';
 import { matches } from '../utils/filter.utils';
-import type { AttributeCheck } from './base.filters';
-import { createBaseFilters } from './base.filters';
+import { AttributeCheck, createBaseFilters, SortOptions } from './base.filters';
 
-/**
- * Cavern relic values
- */
+// Cavern relic values
 const cavernRelicList = Object.values(cavernRelics);
 
-/**
- * Base filters for cavern relics.
- */
+// Base filters for cavern relics
 const baseFilters = createBaseFilters<CavernRelic>(cavernRelicList);
 
-/**
- * Attribute checks for cavern relics.
- */
+// Attribute checks for cavern relics.
 const cavernRelicAttributesChecks: AttributeCheck<
   CavernRelic,
   CavernRelicSearchCriteria
@@ -39,7 +32,6 @@ const cavernRelicAttributesChecks: AttributeCheck<
  * Filters for cavern relics based on various criteria.
  */
 export const cavernRelicFilters = {
-
   /**
    * Base filters for cavern relics.
    */
@@ -50,12 +42,20 @@ export const cavernRelicFilters = {
    * @param criteria - Object containing search parameters.
    * @param page - Current page number.
    * @param size - Items per page.
+   * @param sort - Sorting options for the results.
    * @returns Array of cavern relics matching at least one criterion.
    */
   byAttributes: (
     criteria: CavernRelicSearchCriteria,
     page: number = 1,
     size: number = 999,
+    sort?: SortOptions<CavernRelic>,
   ): PaginatedResult<CavernRelic> =>
-    baseFilters.byAttributes(criteria, cavernRelicAttributesChecks, page, size),
+    baseFilters.byAttributes(
+      criteria,
+      cavernRelicAttributesChecks,
+      page,
+      size,
+      sort,
+    ),
 };
