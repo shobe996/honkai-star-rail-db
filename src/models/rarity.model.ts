@@ -1,8 +1,3 @@
-import { lightConeRarities } from '../data';
-
-/** Derived literal type of all available Rarity keys. */
-export type RarityName = keyof typeof lightConeRarities;
-
 /**
  * Defines the scarcity tier and visual grade of a character.
  * Rarity typically dictates the base stat potential and the maximum level scaling available to the entity.

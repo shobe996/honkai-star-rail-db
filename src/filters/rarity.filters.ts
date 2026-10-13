@@ -1,47 +1,57 @@
-import { characterRarities, lightConeRarities } from '../data';
-import { Rarity } from '../types';
-import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
-
+import { characterRarities } from '../data/character-rarities';
+import { lightConeRarities } from '../data/light-cone-rarities';
+import { Rarity } from '../models';
+import { RaritySearchCriteria } from '../models/criteria/rarity-criteria.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
+import { matches } from '../utils/filter.utils';
 const createRarityFilters = (data: Record<string, Rarity>) => {
+  // Rarity values
   const list = Object.values(data);
 
+  // Attribute checks for characters.
+  const rarityAttributesChecks: AttributeCheck<Rarity, RaritySearchCriteria>[] =
+    [
+      {
+        isActive: (c) => !!c.name?.trim(),
+        test: (item, c) => matches(item.name, c.name),
+      },
+      {
+        isActive: (c) => !!c.value,
+        test: (item, c) => matches(item.value, c.value),
+      },
+    ];
+
+  // Base filters for characters.
+  const baseFilters = createBaseFilters<Rarity>(list);
+
   return {
-    /**
-     * Returns all rarities in the data set.
-     * @returns An array of all available rarities.
-     */
-    all: (): Rarity[] => list,
+    //Base filters for characters.
+    ...baseFilters,
 
     /**
-     * Finds a rarity by its unique identifier.
-     * @param id - The unique numerical ID of the rarity.
-     * @returns The matching rarity object, or null if not found or ID is invalid.
+     * Filters characters based on multiple criteria.
+     * Performs an OR operation across fields (matches if any provided criteria match).
+     * @param criteria - Object containing search parameters.
+     * @param page - Current page number.
+     * @param size - Items per page.
+     * @param sort - Sorting options for the results.
+     * @returns Array of characters matching at least one criterion.
      */
-    byId: (id: number): Rarity | null => {
-      if (!isValidId(id)) return null;
-      return list.find((r) => r.id === id) ?? null;
-    },
-
-    /**
-     * Filters rarities based on a partial match within their name.
-     * Case-insensitive.
-     * @param name - The string to search for within rarity names.
-     * @returns An array of rarities whose names contain the search string.
-     */
-    byName: (name: string): Rarity[] => {
-      const search = sanitizeSearchString(name);
-      if (!search) return [];
-      return list.filter((r) => {
-        const normalizedDataName = r.name.trim().toLowerCase();
-        return normalizedDataName.includes(search);
-      });
-    },
-    /**
-     * Filters the rarity list by a specific star-rating or numeric value.
-     * * @param val - The numeric rarity level to filter by (e.g., 4 or 5).
-     * @returns An array of Rarity objects that match the specified value.
-     */
-    byValue: (val: number): Rarity[] => list.filter((r) => r.value === val),
+    byAttributes: (
+      criteria: RaritySearchCriteria,
+      page: number = 1,
+      size: number = 999,
+      sort?: SortOptions<Rarity>,
+    ): PaginatedResult<Rarity> =>
+      baseFilters.byAttributes(
+        criteria,
+        rarityAttributesChecks,
+        page,
+        size,
+        sort,
+      ),
   };
 };
 

@@ -1,4 +1,4 @@
-import { Stats } from '../stats.types';
+import { Stats } from './stats.model';
 
 /**
  * The base numerical attributes of a character, excluding bonuses from equipment or buffs.

@@ -1,9 +1,10 @@
-import { planarOrnaments } from '../data';
-import { PlanarOrnament } from '../types';
-import { PaginatedResult } from '../types/pagination.types';
-import { PlanarOrnamentSearchCriteria } from '../types/planar-ornaments/planar-ornament-criteria.types';
+import { planarOrnaments } from '../data/planar-ornaments';
+import { PlanarOrnament } from '../models';
+import { PlanarOrnamentSearchCriteria } from '../models/criteria/planar-ornament-criteria.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
-import { AttributeCheck, createBaseFilters, SortOptions } from './base.filters';
 
 /**
  * Planar ornaments values

@@ -1,4 +1,4 @@
-import { CharacterStats } from './character-stats.types';
+import { CharacterStats } from './character-stats.model';
 
 /**
  * A container for a character's growth milestones.

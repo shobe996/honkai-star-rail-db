@@ -1,4 +1,4 @@
-import { Rarity } from '../types';
+import { Rarity } from '../models';
 
 export const characterRarities = {
   Four_Star: {

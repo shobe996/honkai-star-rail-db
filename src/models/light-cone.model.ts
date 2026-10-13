@@ -1,6 +1,6 @@
-import { LightConeLevelStats } from './light-cones';
-import { Path } from './path.types';
-import { Rarity } from './rarity.types';
+import { LightConeLevelStats } from './light-cone-level-stats.model';
+import { Path } from './path.model';
+import { Rarity } from './rarity.model';
 
 /**
  * The core data model for a light cone.

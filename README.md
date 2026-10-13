@@ -32,7 +32,7 @@ Before installing, ensure your environment meets the following requirements base
 
 - **Node.js**: Version `22.0.0` or higher.
 - **npm**: Version `10.0.0` or higher.
-- **TypeScript**: If you are using this in a TypeScript project, version `5.9.3` or higher is recommended.
+- **TypeScript**: If you are using this in a TypeScript project, version `6.0.3` or higher is recommended.
 
 ---
 
@@ -54,11 +54,11 @@ yarn add honkai-star-rail-db
 
 ## 🛠 Features
 
-- **Full Type Safety**: Comprehensive interfaces for Characters, Paths, Factions, and more.
+- **Full Type Safety**: Comprehensive interfaces for Characters, Paths, Factions, Light Cones, Cavern Relics, Planar Ornaments and more.
 
-- **Milestone Stats**: Access to base stats at Level 1 and Level 80 for every character.
+- **Milestone Stats**: Access to base stats at Level 1 and Level 80 for every character and light cone.
 
-- **Built-in Filters**: Efficient utility functions to search by name, ID, rarity, or combat type.
+- **Built-in Filters**: Efficient utility functions to search by various criteria.
 
 - **Zero Dependencies**: Minimal footprint as it only utilizes native TypeScript features.
 
@@ -94,89 +94,67 @@ Includes foundational attributes used for scaling:
 
 - `base_speed`: Determines turn frequency in the Action Bar.
 
+**LightCone**
+
+The central model contains biographical and combat data.
+
+- **Path**: Gameplay role (e.g., Destruction, Harmony).
+
+**LightConeStats**
+
+Includes foundational attributes used for scaling:
+
+- `base_hp`: The foundation for HP% bonuses.
+
+- `base_atk`: Used for damage output and DoT calculations.
+
+- `base_def`: Determines damage mitigation.
+
 ---
 
 ## 💻 Usage Examples
 
-### Character Filters
+### Entity Filters
 
-Most character filters now support optional pagination parameters (page and size). If left blank, they default to a large page size to ensure you receive all results by default.
+Most filters now support optional pagination parameters (page and size). If left blank, they default to a large page size to ensure all results are returned by default.
+
+Each dataset can be filtered using its corresponding Criteria interface and sorted using the SortOptions interface. While the example below uses the Characters dataset, this pattern applies universally to all entities.
 
 ```typescript
-import { Character, characterFilters } from 'honkai-star-rail-db';
+import {
+  Character,
+  CharacterSearchCriteria, // Fixed import name to match usage
+  PaginatedResult,
+  SortOptions,
+} from 'honkai-star-rail-db/models';
+import { characterFilters } from 'honkai-star-rail-db/filters';
 
-// Get all characters (page 1, 10 items per page)
-const allChars: Character[] = characterFilters.all(1, 10);
+// Get all characters
+const allChars: Character[] = characterFilters.all();
 
-// Search by name with pagination (page 2, 5 items per page)
-const march: Character[] = characterFilters.byName('March 7th', 2, 5);
+// Define search criteria
+const criteria: CharacterSearchCriteria = {
+  name: 'Jing',
+  description: 'General',
+  path: 'Erudition',
+  type: 'Lightning',
+  faction: 'Xianzhou Luofu',
+  rarity: 5,
+};
 
-// Filter by Path or Faction (defaults to all results)
-const destructionChars: Character[] = characterFilters.byPath('Destruction');
-const expressCrew: Character[] = characterFilters.byFaction('Astral Express');
+// Sort by character name in ascending order
+const sortOptions: SortOptions<Character> = {
+  by: (character) => character.name,
+  direction: 'asc',
+};
 
-// Broad search
-const globalSearch: Character[] = characterFilters.searchCharacters(
-  'Quantum',
-  1,
-  20,
+// Find the first 10 characters matching the criteria, sorted accordingly
+const results: PaginatedResult<Character> = characterFilters.byAttributes(
+  criteria, 
+  1,  // page
+  10, // size
+  sortOptions
 );
-
-// Find single character by ID (non-paginated)
-const acheron: Character | null = characterFilters.byId(1308);
-
-// Find characters that are either 'Destruction' path OR 'Fire' type
-const results = characterFilters.byAttributes({
-  path: 'Destruction',
-  type: 'Fire',
-});
-
-// Find characters matching one or more criteria simultaneously. It performs an **OR** operation, meaning it will return any character that satisfies at least one of the provided search parameters.
-const customSearch = characterFilters.byAttributes({
-  name: 'March',
-  faction: 'Astral Express',
-});
-```
-
-### Faction Filters
-
-```typescript
-import { Faction, factionFilters } from 'honkai-star-rail-db';
-
-const allFactions: Faction[] = factionFilters.all();
-const stellaronHunters: Faction | null = factionFilters.byId(2);
-const searchFaction: Faction[] = factionFilters.byName('Genius Society');
-```
-
-### Path Filters
-
-```typescript
-import { Path, pathFilters } from 'honkai-star-rail-db';
-
-const allPaths: Path[] = pathFilters.all();
-const huntPath: Path | null = pathFilters.byId(3);
-const searchPath: Path[] = pathFilters.byName('Nihility');
-```
-
-### Rarity Filters
-
-```typescript
-import { Rarity, rarityFilters } from 'honkai-star-rail-db';
-
-const allRarities: Rarity[] = rarityFilters.all();
-const legendary: Rarity | null = rarityFilters.byId(5);
-const searchRarity: Rarity[] = rarityFilters.byName('5-Star');
-const onlyFiveStars: Rarity[] = rarityFilters.byValue(5);
-```
-
-### Type (Element) Filters
-
-```typescript
-import { Type, typeFilters } from 'honkai-star-rail-db';
-
-const allTypes: Type[] = typeFilters.all();
-const lightning: Type | null = typeFilters.byId(4);
-const searchType: Type[] = typeFilters.byName('Imaginary');
 ```
 
 ---

@@ -1,38 +1,43 @@
-import { paths } from '../data';
-import { Path } from '../types';
-import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
+import { paths } from '../data/paths';
+import { Path } from '../models';
+import { PathSearchCriteria } from '../models/criteria/path-criteria.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
+import { matches } from '../utils/filter.utils';
 
+// Path values
 const pathList = Object.values(paths);
 
+// Base filters for paths.
+const baseFilters = createBaseFilters<Path>(pathList);
+
+// Attribute checks for paths.
+const pathAttributesChecks: AttributeCheck<Path, PathSearchCriteria>[] = [
+  {
+    isActive: (c) => !!c.name?.trim(),
+    test: (item, c) => matches(item.name, c.name),
+  },
+];
+
 export const pathFilters = {
-  /**
-   * Returns all paths in the data set.
-   * @returns An array of all available paths.
-   */
-  all: (): Path[] => pathList,
+  //Base filters for paths.
+  ...baseFilters,
 
   /**
-   * Finds a path by its unique identifier.
-   * @param id - The unique numerical ID of the path.
-   * @returns The matching path object, or null if not found or ID is invalid.
+   * Filters paths based on multiple criteria.
+   * Performs an OR operation across fields (matches if any provided criteria match).
+   * @param criteria - Object containing search parameters.
+   * @param page - Current page number.
+   * @param size - Items per page.
+   * @param sort - Sorting options for the results.
+   * @returns Array of paths matching at least one criterion.
    */
-  byId: (id: number): Path | null => {
-    if (!isValidId(id)) return null;
-    return pathList.find((p) => p.id === id) ?? null;
-  },
-
-  /**
-   * Filters paths based on a partial match within their name.
-   * Case-insensitive.
-   * @param name - The string to search for within path names.
-   * @returns An array of paths whose names contain the search string.
-   */
-  byName: (name: string): Path[] => {
-    const search = sanitizeSearchString(name);
-    if (!search) return [];
-    return pathList.filter((p) => {
-      const normalizedDataName = p.name.trim().toLowerCase();
-      return normalizedDataName.includes(search);
-    });
-  },
+  byAttributes: (
+    criteria: PathSearchCriteria,
+    page: number = 1,
+    size: number = 999,
+    sort?: SortOptions<Path>,
+  ): PaginatedResult<Path> =>
+    baseFilters.byAttributes(criteria, pathAttributesChecks, page, size, sort),
 };

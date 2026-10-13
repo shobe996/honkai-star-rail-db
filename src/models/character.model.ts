@@ -1,8 +1,8 @@
-import { Faction } from '../faction.types';
-import { Path } from '../path.types';
-import { Rarity } from '../rarity.types';
-import { Type } from '../type.types';
-import { CharacterLevelStats } from './character-level-stats.types';
+import { CharacterLevelStats } from './character-level-stats.model';
+import { Faction } from './faction.model';
+import { Path } from './path.model';
+import { Rarity } from './rarity.model';
+import { Type } from './type.model';
 
 /**
  * The core data model for a playable unit.

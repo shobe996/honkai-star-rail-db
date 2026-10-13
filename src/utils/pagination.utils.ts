@@ -1,4 +1,4 @@
-import { PaginatedResult } from '../types/pagination.types';
+import { PaginatedResult } from '../models/pagination.model';
 
 /**
  * Paginates an array by returning a specific slice based on the page number and page size.

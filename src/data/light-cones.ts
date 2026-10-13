@@ -1,4 +1,4 @@
-import { LightCone } from '../types/light-cone.types';
+import { LightCone } from '../models/light-cone.model';
 import { lightConeRarities } from './light-cone-rarities';
 import { paths } from './paths';
 
@@ -2528,7 +2528,8 @@ export const lightCones = {
         base_def: 264,
       },
     },
-    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Reminiscence_Artwork.png/revision/latest',
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Reminiscence_Artwork.png/revision/latest',
   },
   Shadowburn: {
     id: 3352,
@@ -3485,8 +3486,10 @@ export const lightCones = {
   Colors_for_Tomorrow: {
     id: 10394,
     name: 'Colors for Tomorrow',
-    icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Colors_for_Tomorrow_Icon.png/revision/latest',
-    effect: 'Ink Splash<p>Increases the wearer\'s DEF by <span style="color: rgba(255,199,112,1)">48%</span>/<span style="color: rgba(255,199,112,1)">60%</span>/<span style="color: rgba(255,199,112,1)">72%</span>/84%/<span style="color: rgba(255,199,112,1)">96%</span>. When the wearer uses Elation Skill on all allies, increases DMG taken by all enemies by <span style="color: rgba(255,199,112,1)">22%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">33%</span>/<span style="color: rgba(255,199,112,1)">39%</span>/<span style="color: rgba(255,199,112,1)">44%</span>, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">13%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span> of the wearer\'s DEF for all allies.</p>',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Colors_for_Tomorrow_Icon.png/revision/latest',
+    effect:
+      'Ink Splash<p>Increases the wearer\'s DEF by <span style="color: rgba(255,199,112,1)">48%</span>/<span style="color: rgba(255,199,112,1)">60%</span>/<span style="color: rgba(255,199,112,1)">72%</span>/84%/<span style="color: rgba(255,199,112,1)">96%</span>. When the wearer uses Elation Skill on all allies, increases DMG taken by all enemies by <span style="color: rgba(255,199,112,1)">22%</span>/<span style="color: rgba(255,199,112,1)">28%</span>/<span style="color: rgba(255,199,112,1)">33%</span>/<span style="color: rgba(255,199,112,1)">39%</span>/<span style="color: rgba(255,199,112,1)">44%</span>, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to <span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">13%</span>/<span style="color: rgba(255,199,112,1)">15%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span> of the wearer\'s DEF for all allies.</p>',
     path: paths.Elation,
     rarity: lightConeRarities.Five_Star,
     stats: {
@@ -3501,6 +3504,7 @@ export const lightCones = {
         base_def: 595,
       },
     },
-    full_artwork_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ce/Light_Cone_Colors_for_Tomorrow_Artwork.png/revision/latest',
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ce/Light_Cone_Colors_for_Tomorrow_Artwork.png/revision/latest',
   },
 } as const satisfies Record<string, LightCone>;

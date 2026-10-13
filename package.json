@@ -54,5 +54,15 @@
   "engines": {
     "node": ">=22.0.0",
     "npm": ">=10.0.0"
+  },
+  "exports": {
+    "./models": {
+      "import": "./dist/models/index.js",
+      "types": "./dist/models/index.d.ts"
+    },
+    "./filters": {
+      "import": "./dist/filters/index.js",
+      "types": "./dist/filters/index.d.ts"
+    }
   }
 }

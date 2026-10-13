@@ -1,38 +1,52 @@
-import { factions } from '../data';
-import { Faction } from '../types';
-import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
+import { factions } from '../data/factions';
+import { Faction } from '../models';
+import { FactionSearchCriteria } from '../models/criteria/faction-criteria.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
+import { matches } from '../utils/filter.utils';
 
+// Faction values
 const factionList = Object.values(factions);
 
+// Base filters for factions.
+const baseFilters = createBaseFilters<Faction>(factionList);
+
+// Attribute checks for factions.
+const factionAttributesChecks: AttributeCheck<
+  Faction,
+  FactionSearchCriteria
+>[] = [
+  {
+    isActive: (c) => !!c.name?.trim(),
+    test: (item, c) => matches(item.name, c.name),
+  },
+];
+
 export const factionFilters = {
-  /**
-   * Returns all factions in the data set.
-   * @returns An array of all available factions.
-   */
-  all: (): Faction[] => factionList,
+  //Base filters for factions.
+  ...baseFilters,
 
   /**
-   * Finds a faction by its unique identifier.
-   * @param id - The unique numerical ID of the faction.
-   * @returns The matching faction object, or null if not found or ID is invalid.
+   * Filters factions based on multiple criteria.
+   * Performs an OR operation across fields (matches if any provided criteria match).
+   * @param criteria - Object containing search parameters.
+   * @param page - Current page number.
+   * @param size - Items per page.
+   * @param sort - Sorting options for the results.
+   * @returns Array of factions matching at least one criterion.
    */
-  byId: (id: number): Faction | null => {
-    if (!isValidId(id)) return null;
-    return factionList.find((f) => f.id === id) ?? null;
-  },
-
-  /**
-   * Filters factions based on a partial match within their name.
-   * Case-insensitive.
-   * @param name - The string to search for within path names.
-   * @returns An array of factions whose names contain the search string.
-   */
-  byName: (name: string): Faction[] => {
-    const search = sanitizeSearchString(name);
-    if (!search) return [];
-    return factionList.filter((f) => {
-      const normalizedDataName = f.name.toLowerCase();
-      return normalizedDataName.includes(search);
-    });
-  },
+  byAttributes: (
+    criteria: FactionSearchCriteria,
+    page: number = 1,
+    size: number = 999,
+    sort?: SortOptions<Faction>,
+  ): PaginatedResult<Faction> =>
+    baseFilters.byAttributes(
+      criteria,
+      factionAttributesChecks,
+      page,
+      size,
+      sort,
+    ),
 };
