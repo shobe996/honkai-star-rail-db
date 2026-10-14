@@ -1,3 +1,17 @@
+# [1.14.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.13.0...v1.14.0) (2026-10-14)
+
+
+### Bug Fixes
+
+* move base filters back to filters folder ([8f7aa37](https://github.com/shobe996/honkai-star-rail-db/commit/8f7aa37c67916402a0cef9e320e9f84ea29269b3))
+
+
+### Features
+
+* implement base criteria ([51f9757](https://github.com/shobe996/honkai-star-rail-db/commit/51f9757844904c9b1d4f37f43696b96adc10b1f0))
+
+
+
 # [1.13.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.12.1...v1.13.0) (2026-10-09)
 
 
@@ -97,15 +111,6 @@
 
 * **character:** add Aventurine • Waveflair into character dataset ([d7aa7e7](https://github.com/shobe996/honkai-star-rail-db/commit/d7aa7e70be0458e0d3381ff752fabaaa13546eb9))
 * **light cone:** add Summer Rides the Surf into light cone dataset ([c5474aa](https://github.com/shobe996/honkai-star-rail-db/commit/c5474aad16664677c423f7422a49fa27f1aee88d))
-
-
-
-## [1.10.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.0...v1.10.1) (2026-08-31)
-
-
-### Bug Fixes
-
-* fix the data type ([da4f640](https://github.com/shobe996/honkai-star-rail-db/commit/da4f640e9c5b56565a6d534d139b9dd37e2d8473))
 
 
 
