@@ -1,5 +1,8 @@
-import { characterRarities, factions, paths, types } from '../data';
-import { Character } from '../types/characters';
+import { Character } from '../models';
+import { characterRarities } from './character-rarities';
+import { factions } from './factions';
+import { paths } from './paths';
+import { types } from './types';
 
 export const characters = {
   Trailblazer_Destruction: {
@@ -2525,7 +2528,8 @@ export const characters = {
   Robin_Summeretto: {
     id: 6565,
     name: 'Robin • Summeretto',
-    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ub3eje/d889e50b509c85f140bc0dc5a0ac5acd.png?x-oss-process=image/format,webp/quality,Q_90',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ub3eje/d889e50b509c85f140bc0dc5a0ac5acd.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: '<p>Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.</p><p>Following the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—</p><p>Beyond the melody, how else can the Harmony sing?</p>',
     path: paths.Remembrance,
     faction: factions.Penacony,
@@ -2546,12 +2550,14 @@ export const characters = {
       },
     },
     release_date: new Date('2026-08-26'),
-    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Character_Robin_%E2%80%A2_Summeretto_Splash_Art.png/revision/latest'
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Character_Robin_%E2%80%A2_Summeretto_Splash_Art.png/revision/latest',
   },
   Aventurine_Waveflair: {
     id: 6566,
     name: 'Aventurine • Waveflair',
-    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u1c9me/487b1d3552b6b6a778252d396223d7b9.png?x-oss-process=image/format,webp/quality,Q_90',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u1c9me/487b1d3552b6b6a778252d396223d7b9.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: '<p>The grand festival illuminates the coast, while a storm brews amidst euphoria.</p><p>Secret orders in hand, he steps back into the eye of the storm to shake up this long holiday—</p><p>When treacherous waves subsume his figure, how will he emerge as the game changer?</p>',
     path: paths.Elation,
     faction: factions.Interastral_Peace_Corporation,
@@ -2572,12 +2578,14 @@ export const characters = {
       },
     },
     release_date: new Date('2026-09-12'),
-    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Character_Aventurine_%E2%80%A2_Waveflair_Splash_Art.png/revision/latest'
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Character_Aventurine_%E2%80%A2_Waveflair_Splash_Art.png/revision/latest',
   },
   Pearl: {
     id: 10192,
     name: 'Pearl',
-    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u140pe/d56431abb17340230ed5a948d921c59f.png?x-oss-process=image/format,webp/quality,Q_90',
+    icon_url:
+      'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u140pe/d56431abb17340230ed5a948d921c59f.png?x-oss-process=image/format,webp/quality,Q_90',
     desc: 'Color the stars, trace the myriad phenomena, and the lost pearls of civilization regain their luster.<br>Born from the art of analysis, she pursues the pinnacle of beauty, yet has never lost her underlying hue of the Preservation:<br>After her trial by fire, what kind of "Pearl" will she harvest?',
     path: paths.Elation,
     faction: factions.Interastral_Peace_Corporation,
@@ -2595,9 +2603,10 @@ export const characters = {
         base_atk: 465,
         base_def: 727,
         base_speed: 99,
-      }
+      },
     },
     release_date: new Date('2026-09-28'),
-    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Pearl_Splash_Art.png/revision/latest'
-  }
+    splash_art_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Pearl_Splash_Art.png/revision/latest',
+  },
 } as const satisfies Record<string, Character>;

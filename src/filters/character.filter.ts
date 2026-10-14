@@ -1,10 +1,10 @@
-import { characters } from '../data';
-import { Character } from '../types/characters';
-import { CharacterSearchCriteria } from '../types/characters/character-criteria.types';
-import { PaginatedResult } from '../types/pagination.types';
+import { characters } from '../data/characters';
+import { Character } from '../models';
+import { CharacterSearchCriteria } from '../models/criteria/character-criteria.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
-import type { AttributeCheck, SortOptions } from './base.filters';
-import { createBaseFilters } from './base.filters';
 
 // Character values
 const characterList = Object.values(characters);

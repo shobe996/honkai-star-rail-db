@@ -1,9 +1,10 @@
 import { lightCones } from '../data/light-cones';
-import { LightCone } from '../types/light-cone.types';
-import { LightConeSearchCriteria } from '../types/light-cones/light-cone-criteria.types';
-import { PaginatedResult } from '../types/pagination.types';
+import { LightConeSearchCriteria } from '../models/criteria/light-cone-criteria.model';
+import { LightCone } from '../models/light-cone.model';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
+import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
-import { AttributeCheck, createBaseFilters, SortOptions } from './base.filters';
 
 // Light cone values
 const lightConeList = Object.values(lightCones);

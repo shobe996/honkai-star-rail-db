@@ -1,4 +1,4 @@
-import { Path } from '../types';
+import { Path } from '../models';
 
 export const paths = {
   Destruction: {

@@ -1,4 +1,4 @@
-import { Faction } from '../types';
+import { Faction } from '../models';
 
 export const factions = {
   Astral_Express: {

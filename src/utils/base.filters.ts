@@ -1,24 +1,7 @@
-import { PaginatedResult } from '../types/pagination.types';
+import { PaginatedResult } from '../models/pagination.model';
+import { SortOptions } from '../models/sort-options.model';
 import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
-
-// Represents the possible values that can be used for sorting.
-type SortValue = string | number | Date | null | undefined;
-
-/**
- * Options for sorting a list of items.
- */
-export interface SortOptions<T> {
-  /**
-   * Function to extract the value to sort by from an item.
-   */
-  by: (item: T) => SortValue;
-
-  /**
-   * The direction of the sort, either ascending ('asc') or descending ('desc').
-   */
-  direction?: 'asc' | 'desc';
-}
 
 /**
  * Base filters and utilities for filtering entities.
@@ -130,62 +113,6 @@ export const createBaseFilters = <T extends FilterableEntity>(list: T[]) => {
     byId: (id: number): T | null => {
       if (!isValidId(id)) return null;
       return map.get(id) ?? null;
-    },
-
-    /**
-     * Filters entity based on a partial match within their name.
-     * @param name - The string to search for within entity names.
-     * @param page - The current page number (starts at 1).
-     * @param size - The number of entity to return per page (defaults to 999).
-     * @returns An array of entity whose names contain the search string.
-     */
-    byName: (
-      name: string,
-      page: number = 1,
-      size: number = 999,
-    ): PaginatedResult<T> => {
-      const search = sanitizeSearchString(name);
-
-      if (!search) {
-        return {
-          data: [],
-          total: 0,
-          hasMore: false,
-          page,
-          size,
-        };
-      }
-
-      const filtered = list.filter((item) =>
-        item.name.toLowerCase().includes(search),
-      );
-
-      return paginate(filtered, page, size);
-    },
-
-    /**
-     * Filters entities based on a custom search function.
-     * @param searchValue - The string value to search for within entities.
-     * @param matcher - Function for filtering the list of entities.
-     * @param page - The current page number (starts at 1).
-     * @param size - The number of entity to return per page (defaults to 999).
-     * @returns An array of entity whose names contain the search string.
-     */
-    bySearch: (
-      searchValue: string,
-      matcher: (item: T, search: string) => boolean,
-      page: number = 1,
-      size: number = 999,
-    ): PaginatedResult<T> => {
-      const search = sanitizeSearchString(searchValue);
-
-      if (!search) {
-        return emptyResult(page, size);
-      }
-
-      const filtered = list.filter((item) => matcher(item, search));
-
-      return paginate(filtered, page, size);
     },
 
     /**

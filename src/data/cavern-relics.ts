@@ -1,4 +1,4 @@
-import { CavernRelic } from '../types';
+import { CavernRelic } from '../models';
 
 export const cavernRelics = {
   As_Navigator_Isee_Sees_It: {
@@ -669,11 +669,16 @@ export const cavernRelics = {
     four_set_effect:
       "Increases DMG dealt by the wearer's Basic ATK by 36%. When the wearer uses Basic ATK, increases the wearer's ATK by 20%, lasting for 2 turns.",
     icons: {
-      icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Item_The_Edacious_Heretic.png/revision/latest',
-      head_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Item_Heretic%27s_Cranial_Apparatus.png/revision/latest',
-      hand_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Item_Heretic%27s_Injection_Gloves.png/revision/latest',
-      body_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Item_Heretic%27s_Straitjacket_of_Reason.png/revision/latest',
-      feet_icon_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Item_Heretic%27s_Ravenous_Ankle-Boots.png/revision/latest',
+      icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Item_The_Edacious_Heretic.png/revision/latest',
+      head_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Item_Heretic%27s_Cranial_Apparatus.png/revision/latest',
+      hand_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Item_Heretic%27s_Injection_Gloves.png/revision/latest',
+      body_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Item_Heretic%27s_Straitjacket_of_Reason.png/revision/latest',
+      feet_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2b/Item_Heretic%27s_Ravenous_Ankle-Boots.png/revision/latest',
     },
   },
 } as const satisfies Record<string, CavernRelic>;

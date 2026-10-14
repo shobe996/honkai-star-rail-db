@@ -1,8 +1,3 @@
-import { paths } from '../data';
-
-/** Derived literal type of all available Path keys. */
-export type PathName = keyof typeof paths;
-
 /**
  * Defines a character's gameplay role.
  * The Path determines which Light Cones a character can equip and their general combat niche.

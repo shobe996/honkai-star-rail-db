@@ -1,8 +1,3 @@
-import { factions } from '../data';
-
-/** Derived literal type of all available Faction keys. */
-export type FactionName = keyof typeof factions;
-
 /**
  * Represents a group or organization within the game world (e.g., "Astral Express", "Amphoreus").
  * Factions categorize characters and often relate to specific story arcs or regional lore.

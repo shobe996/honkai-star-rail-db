@@ -1,4 +1,4 @@
-import { Type } from '../types';
+import { Type } from '../models';
 
 export const types = {
   Quantum: {

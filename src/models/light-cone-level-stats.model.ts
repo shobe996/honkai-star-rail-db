@@ -1,4 +1,4 @@
-import { Stats } from '../stats.types';
+import { Stats } from './stats.model';
 
 /**
  * A container for a light cone's growth milestones.
