@@ -1,10 +1,10 @@
+import { BaseCriteria } from './base.criteria';
+
 /**
  * Represents the criteria used to filter characters across multiple attributes.
  * Fields provided will be treated as part of an OR operation.
  */
-export interface CharacterSearchCriteria {
-  /** The name of the character to filter by. */
-  name?: string;
+export interface CharacterSearchCriteria extends BaseCriteria{
 
   /** The description text to filter by. */
   description?: string;

@@ -1,10 +1,10 @@
+import { BaseCriteria } from './base.criteria';
+
 /**
  * Represents the criteria used to filter lightCones across multiple attributes.
  * Fields provided will be treated as part of an OR operation.
  */
-export interface LightConeSearchCriteria {
-  /** The name of the lightCone to filter by. */
-  name?: string;
+export interface LightConeSearchCriteria extends BaseCriteria {
 
   /** The name of the Path to filter by (e.g., 'Destruction'). */
   path?: string;
