@@ -3,8 +3,8 @@ import { Type } from '../models';
 import { TypeSearchCriteria } from '../models/criteria/type-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Type values
 const typeList = Object.values(types);

@@ -4,8 +4,10 @@ import { Rarity } from '../models';
 import { RaritySearchCriteria } from '../models/criteria/rarity-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
+
+// Factory function to create filters for rarities.
 const createRarityFilters = (data: Record<string, Rarity>) => {
   // Rarity values
   const list = Object.values(data);
@@ -55,5 +57,8 @@ const createRarityFilters = (data: Record<string, Rarity>) => {
   };
 };
 
+/**
+ * Filters for character rarities and light cone rarities.
+ */
 export const characterRarityFilters = createRarityFilters(characterRarities);
 export const lightConeRarityFilters = createRarityFilters(lightConeRarities);

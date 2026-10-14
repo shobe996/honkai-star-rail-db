@@ -3,8 +3,8 @@ import { LightConeSearchCriteria } from '../models/criteria/light-cone-criteria.
 import { LightCone } from '../models/light-cone.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Light cone values
 const lightConeList = Object.values(lightCones);

@@ -3,8 +3,8 @@ import { CavernRelic } from '../models';
 import { CavernRelicSearchCriteria } from '../models/criteria/cavern-relic-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Cavern relic values
 const cavernRelicList = Object.values(cavernRelics);
