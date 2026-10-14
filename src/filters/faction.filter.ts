@@ -3,8 +3,8 @@ import { Faction } from '../models';
 import { FactionSearchCriteria } from '../models/criteria/faction-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Faction values
 const factionList = Object.values(factions);
@@ -23,6 +23,9 @@ const factionAttributesChecks: AttributeCheck<
   },
 ];
 
+/**
+ * Filters for factions based on various criteria.
+ */
 export const factionFilters = {
   //Base filters for factions.
   ...baseFilters,

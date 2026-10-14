@@ -3,8 +3,8 @@ import { Character } from '../models';
 import { CharacterSearchCriteria } from '../models/criteria/character-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Character values
 const characterList = Object.values(characters);

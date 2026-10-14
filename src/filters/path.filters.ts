@@ -3,8 +3,8 @@ import { Path } from '../models';
 import { PathSearchCriteria } from '../models/criteria/path-criteria.model';
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { AttributeCheck, createBaseFilters } from '../utils/base.filters';
 import { matches } from '../utils/filter.utils';
+import { AttributeCheck, createBaseFilters } from './base.filters';
 
 // Path values
 const pathList = Object.values(paths);
@@ -20,6 +20,9 @@ const pathAttributesChecks: AttributeCheck<Path, PathSearchCriteria>[] = [
   },
 ];
 
+/**
+ * Filters for paths based on various criteria.
+ */
 export const pathFilters = {
   //Base filters for paths.
   ...baseFilters,
