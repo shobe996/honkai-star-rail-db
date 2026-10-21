@@ -1,3 +1,15 @@
+## [1.14.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.0...v1.14.1) (2026-10-21)
+
+
+### Bug Fixes
+
+* fix ids ([20e74e9](https://github.com/shobe996/honkai-star-rail-db/commit/20e74e96967a1ee6f0f676339d5a3ecd07e1e20d))
+* fix ids and name ([89ca5f9](https://github.com/shobe996/honkai-star-rail-db/commit/89ca5f9f9929ad3aa5ca119fe6d8795c058f2645))
+* remove pagination from the get all ([e229167](https://github.com/shobe996/honkai-star-rail-db/commit/e2291675d5689b8d2b2dbf5ee5c25658b54ece0e))
+* switch order of types and import inside exports ([d3ec7c6](https://github.com/shobe996/honkai-star-rail-db/commit/d3ec7c62c8c86389b2e7b38dd9622434b7755b5a))
+
+
+
 # [1.14.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.13.0...v1.14.0) (2026-10-14)
 
 
@@ -94,23 +106,6 @@
 * **light cone:** add Colors for Tomorrow into light cone dataset ([e1ac73b](https://github.com/shobe996/honkai-star-rail-db/commit/e1ac73b8980cc9b4d2bf3d2881769ec86deaf5b8))
 * **light cone:** added property full_artwork_url to LightCone interface ([39473a4](https://github.com/shobe996/honkai-star-rail-db/commit/39473a4d87f4ef3e7d224725130a64594b568613))
 * **light cone:** implement full_artwork_url property into dataset ([2f5c9b4](https://github.com/shobe996/honkai-star-rail-db/commit/2f5c9b486ff85e02ebe726c3f24d117b886b4236))
-
-
-
-# [1.11.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.10.1...v1.11.0) (2026-09-14)
-
-
-### Bug Fixes
-
-* remove token ([d281e0b](https://github.com/shobe996/honkai-star-rail-db/commit/d281e0babc86e230d882ba83def090eb19ac8d93))
-* returned on missing part of the release ([eaa70df](https://github.com/shobe996/honkai-star-rail-db/commit/eaa70df566c2982663c94bd59249d04abad4656f))
-* update publish yml file ([38b51dc](https://github.com/shobe996/honkai-star-rail-db/commit/38b51dca28568f993e9d0727dbea2baadbf1c149))
-
-
-### Features
-
-* **character:** add Aventurine • Waveflair into character dataset ([d7aa7e7](https://github.com/shobe996/honkai-star-rail-db/commit/d7aa7e70be0458e0d3381ff752fabaaa13546eb9))
-* **light cone:** add Summer Rides the Surf into light cone dataset ([c5474aa](https://github.com/shobe996/honkai-star-rail-db/commit/c5474aad16664677c423f7422a49fa27f1aee88d))
 
 
 
