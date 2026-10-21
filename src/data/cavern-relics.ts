@@ -2,7 +2,7 @@ import { CavernRelic } from '../models';
 
 export const cavernRelics = {
   As_Navigator_Isee_Sees_It: {
-    id: 1,
+    id: 5345,
     name: 'As Navigator Isee Sees It',
     set: '4-Piece-Set',
     two_set_effect: 'Increases ATK by 12%.',
@@ -62,7 +62,7 @@ export const cavernRelics = {
     },
   },
   Divine_Querying_Master_Smith: {
-    id: 4,
+    id: 5344,
     name: 'Divine-Querying Master Smith',
     set: '4-Piece-Set',
     two_set_effect: 'Increases Max HP by 12%.',
@@ -82,7 +82,7 @@ export const cavernRelics = {
     },
   },
   Diviner_Of_Distant_Reach: {
-    id: 5,
+    id: 4769,
     name: 'Diviner of Distant Reach',
     set: '4-Piece-Set',
     two_set_effect: 'Increases SPD by 6%.',
@@ -122,7 +122,7 @@ export const cavernRelics = {
     },
   },
   Ever_Glorious_Magical_Girl: {
-    id: 7,
+    id: 4770,
     name: 'Ever-Glorious Magical Girl',
     set: '4-Piece-Set',
     two_set_effect: 'Increases CRIT DMG by 16%.',
