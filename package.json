@@ -57,12 +57,12 @@
   },
   "exports": {
     "./models": {
-      "import": "./dist/models/index.js",
-      "types": "./dist/models/index.d.ts"
+      "types": "./dist/models/index.d.ts",
+      "import": "./dist/models/index.js"
     },
     "./filters": {
-      "import": "./dist/filters/index.js",
-      "types": "./dist/filters/index.d.ts"
+      "types": "./dist/filters/index.d.ts",
+      "import": "./dist/filters/index.js"
     }
   }
 }
