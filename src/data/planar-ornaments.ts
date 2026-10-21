@@ -2,7 +2,7 @@ import { PlanarOrnament } from '../models';
 
 export const planarOrnaments = {
   Amphoreus_The_Eternal_Land: {
-    id: 1,
+    id: 4068,
     name: 'Amphoreus, The Eternal Land',
     set: '2-Piece-Set',
     two_set_effect:
@@ -92,7 +92,7 @@ export const planarOrnaments = {
     },
   },
   City_Of_Converging_Stars: {
-    id: 7,
+    id: 5009,
     name: 'City of Converging Stars',
     set: '2-Piece-Set',
     two_set_effect:
@@ -392,8 +392,8 @@ export const planarOrnaments = {
     },
   },
   Tengoku_Livestream: {
-    id: 27,
-    name: 'Tengoku Livestream',
+    id: 4069,
+    name: 'Tengoku@Livestream',
     set: '2-Piece-Set',
     two_set_effect:
       "Increases the wearer's CRIT DMG by 16%, If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32% for 3 turns.",
