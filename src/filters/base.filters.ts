@@ -1,6 +1,6 @@
 import { PaginatedResult } from '../models/pagination.model';
 import { SortOptions } from '../models/sort-options.model';
-import { isValidId, sanitizeSearchString } from '../utils/filter.utils';
+import { isValidId } from '../utils/filter.utils';
 import { paginate } from '../utils/pagination.utils';
 
 /**
@@ -87,23 +87,14 @@ const matchesAttributes = <T, C>(
 export const createBaseFilters = <T extends FilterableEntity>(list: T[]) => {
   const map = new Map<number, T>(list.map((item) => [item.id, item]));
 
-  const emptyResult = (page: number, size: number): PaginatedResult<T> => ({
-    data: [],
-    total: 0,
-    hasMore: false,
-    page,
-    size,
-  });
-
   return {
     /**
      * Returns all entities in the data set with optional pagination.
      * @param page - The current page number (starts at 1).
      * @param size - The number of entities to return per page (defaults to 999).
-     * @returns An array of entities for the requested page.
+     * @returns An array of all entities.
      */
-    all: (page: number = 1, size: number = 999): PaginatedResult<T> =>
-      paginate(list, page, size),
+    all: (): T[] => list,
 
     /**
      * Finds a entity by their unique identifier.
