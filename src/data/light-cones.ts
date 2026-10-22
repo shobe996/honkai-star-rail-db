@@ -3443,24 +3443,8 @@ export const lightCones = {
     full_artwork_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/e/e6/Light_Cone_Summer_Rides_the_Surf_Artwork.png/revision/latest',
   },
-  A_Little_Getaway: {
-    id: 1,
-    name: 'A Little Getaway',
-    icon_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/af/Light_Cone_A_Little_Getaway_Icon.png/revision/latest',
-    effect:
-      'Whisper<p>Increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. During the use of Elation Skill by the wearer, ignores <span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span> of the target\'s DEF.</p>',
-    path: paths.Elation,
-    rarity: lightConeRarities.Four_Star,
-    stats: {
-      level1: { base_hp: 43, base_atk: 19, base_def: 18 },
-      level80: { base_hp: 952, base_atk: 423, base_def: 396 },
-    },
-    full_artwork_url:
-      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Light_Cone_A_Little_Getaway_Artwork.png/revision/latest',
-  },
   Race_to_the_Horizon: {
-    id: 2,
+    id: 10195,
     name: 'Race to the Horizon',
     icon_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Race_to_the_Horizon_Icon.png/revision/latest',
@@ -3482,6 +3466,22 @@ export const lightCones = {
     },
     full_artwork_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Race_to_the_Horizon_Artwork.png/revision/latest',
+  },
+  A_Little_Getaway: {
+    id: 10196,
+    name: 'A Little Getaway',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/a/af/Light_Cone_A_Little_Getaway_Icon.png/revision/latest',
+    effect:
+      'Whisper<p>Increases the wearer\'s Elation by <span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">25%</span>/<span style="color: rgba(255,199,112,1)">30%</span>/<span style="color: rgba(255,199,112,1)">35%</span>/<span style="color: rgba(255,199,112,1)">40%</span>. During the use of Elation Skill by the wearer, ignores <span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">10%</span>/<span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span> of the target\'s DEF.</p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 19, base_def: 18 },
+      level80: { base_hp: 952, base_atk: 423, base_def: 396 },
+    },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Light_Cone_A_Little_Getaway_Artwork.png/revision/latest',
   },
   Colors_for_Tomorrow: {
     id: 10394,
