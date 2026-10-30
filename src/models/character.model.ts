@@ -47,4 +47,9 @@ export interface Character {
    * A URL or path string pointing to the high-resolution splash art image.
    */
   readonly splash_art_url: string;
+
+  /**
+   * A list of URLs or path strings pointing to the character's alternate outfits or costumes.
+   */
+  readonly outfits?: string[] ; 
 }

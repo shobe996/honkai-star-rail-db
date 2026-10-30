@@ -60,6 +60,9 @@ export const characters = {
     release_date: new Date('2023-04-26'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_March_7th_%28Preservation%29_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Character_March_7th_%28Preservation%29_Nascent_Spring_Splash_Art.png/revision/latest',
+    ],
   },
   Dan_Heng: {
     id: 8,
@@ -1124,6 +1127,9 @@ export const characters = {
     release_date: new Date('2023-12-27'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Ruan_Mei_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Character_Ruan_Mei_Plumblossom_Letter_Splash_Art.png/revision/latest',
+    ],
   },
   Dr_Ratio: {
     id: 1639,
@@ -1432,6 +1438,9 @@ export const characters = {
     release_date: new Date('2024-06-19'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Character_Firefly_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Character_Firefly_Spring_Missive_Splash_Art.png/revision/latest',
+    ],
   },
   Jade: {
     id: 2495,
@@ -1908,6 +1917,9 @@ export const characters = {
     release_date: new Date('2025-04-09'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Character_Castorice_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Character_Castorice_Gossamer_Flutter_Splash_Art.png/revision/latest',
+    ],
   },
   Anaxa: {
     id: 3561,
@@ -1964,6 +1976,9 @@ export const characters = {
     release_date: new Date('2025-05-21'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Character_Hyacine_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Character_Hyacine_Warm_Cotton_Skies_Splash_Art.png/revision/latest',
+    ],
   },
   Cipher: {
     id: 3691,
@@ -2300,6 +2315,9 @@ export const characters = {
     release_date: new Date('2026-03-03'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Character_Sparxie_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Character_Sparxie_Candy-Coated_Waves_Splash_Art.png/revision/latest',
+    ],
   },
   Ashveil: {
     id: 4781,
@@ -2412,6 +2430,9 @@ export const characters = {
     release_date: new Date('2026-05-13'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Character_Evanescia_Splash_Art.png/revision/latest',
+    outfits: [
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Character_Evanescia_Lunar_Blossoming_Splash_Art.png/revision/latest',
+    ],
   },
   Mortenax_Blade: {
     id: 5217,
