@@ -1,3 +1,12 @@
+# [1.15.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.2...v1.15.0) (2026-10-30)
+
+
+### Features
+
+* add outfits to the characters model and data ([1b9cb4e](https://github.com/shobe996/honkai-star-rail-db/commit/1b9cb4e447ffdf0427fdb2bb98b95f9a5f78aaad))
+
+
+
 ## [1.14.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.1...v1.14.2) (2026-10-22)
 
 
@@ -88,15 +97,6 @@
 * **relic:** implement filtering methods ([340de48](https://github.com/shobe996/honkai-star-rail-db/commit/340de48f497648685d3c00029e70d2d90b81a61d))
 * update cavern-relics names to snake case ([1c09d6e](https://github.com/shobe996/honkai-star-rail-db/commit/1c09d6e3fb740746f76bcca4a93d01c28359e43f))
 * update planar-ornaments names to snake case ([d49e0c4](https://github.com/shobe996/honkai-star-rail-db/commit/d49e0c46f0e2d0d391fa533d623f0fdfde7c2057))
-
-
-
-## [1.12.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.12.0...v1.12.1) (2026-10-01)
-
-
-### Bug Fixes
-
-* **light cone:** add missing full atwork url to Reminiscence light cone ([76a1085](https://github.com/shobe996/honkai-star-rail-db/commit/76a108509c082b025449a8e0403d45e3a8eddc7f))
 
 
 
