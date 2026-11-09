@@ -1,15 +1,10 @@
+import { Base } from '..';
 import { CavernRelicImages } from './cavern-relic-images.model';
 
 /**
  * Represents a cavern relic in the game.
  */
-export interface CavernRelic {
-  /** The unique numerical identifier for the cavern relic. */
-  id: number;
-
-  /** The name of the cavern relic. */
-  name: string;
-
+export interface CavernRelic extends Base {
   /** The type of set to which the cavern relic belongs. */
   set: '4-Piece-Set';
 
