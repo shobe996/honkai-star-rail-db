@@ -1,3 +1,4 @@
+import { Base } from './base.model';
 import { LightConeLevelStats } from './light-cone-level-stats.model';
 import { Path } from './path.model';
 import { Rarity } from './rarity.model';
@@ -6,12 +7,7 @@ import { Rarity } from './rarity.model';
  * The core data model for a light cone.
  * Combines combat metadata (Path), and numerical scaling data.
  */
-export interface LightCone {
-  /** The unique numerical identifier for the light cone. */
-  readonly id: number;
-
-  /** The official localized name of the light cone (e.g., 'Arrows'). */
-  readonly name: string;
+export interface LightCone extends Base {
 
   /** URL to the light cone's icon asset. */
   readonly icon_url: string;

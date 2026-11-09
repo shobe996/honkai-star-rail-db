@@ -1,3 +1,4 @@
+import { Base } from './base.model';
 import { CharacterLevelStats } from './character-level-stats.model';
 import { Faction } from './faction.model';
 import { Path } from './path.model';
@@ -8,12 +9,7 @@ import { Type } from './type.model';
  * The core data model for a playable unit.
  * Combines biographical information, combat metadata (Path/Type), and numerical scaling data.
  */
-export interface Character {
-  /** The unique numerical identifier for the character. */
-  readonly id: number;
-
-  /** The official localized name of the character (e.g., 'March 7th'). */
-  readonly name: string;
+export interface Character extends Base {
 
   /** URL to the character's square portrait or avatar asset. */
   readonly icon_url: string;
@@ -51,5 +47,5 @@ export interface Character {
   /**
    * A list of URLs or path strings pointing to the character's alternate outfits or costumes.
    */
-  readonly outfits?: string[] ; 
+  readonly outfits?: string[];
 }

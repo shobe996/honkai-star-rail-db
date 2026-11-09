@@ -1,15 +1,10 @@
+import { Base } from "./base.model";
+
 /**
  * Defines a character's gameplay role.
  * The Path determines which Light Cones a character can equip and their general combat niche.
  */
-export interface Path {
-  /** Unique internal identifier for the Path. */
-  readonly id: number;
-
-  /** The display name of the Path (e.g., 'Destruction', 'The Hunt').
-   * This is used for UI labels and filtering.
-   */
-  readonly name: string;
+export interface Path extends Base {
 
   /** URL to the high-resolution icon representing the Path's symbol.
    */
