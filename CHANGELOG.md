@@ -1,3 +1,12 @@
+## [1.16.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.1...v1.16.2) (2026-11-09)
+
+
+### Bug Fixes
+
+* add missing base extension ([67a84cb](https://github.com/shobe996/honkai-star-rail-db/commit/67a84cb9f3844ee452c8f65a37012074d3142832))
+
+
+
 ## [1.16.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.0...v1.16.1) (2026-11-09)
 
 
@@ -32,18 +41,6 @@
 ### Bug Fixes
 
 * fix ids and order of light cones ([31bce9c](https://github.com/shobe996/honkai-star-rail-db/commit/31bce9cfd3c724ca1e3e4a8790e2f06b350b4ed0))
-
-
-
-## [1.14.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.0...v1.14.1) (2026-10-21)
-
-
-### Bug Fixes
-
-* fix ids ([20e74e9](https://github.com/shobe996/honkai-star-rail-db/commit/20e74e96967a1ee6f0f676339d5a3ecd07e1e20d))
-* fix ids and name ([89ca5f9](https://github.com/shobe996/honkai-star-rail-db/commit/89ca5f9f9929ad3aa5ca119fe6d8795c058f2645))
-* remove pagination from the get all ([e229167](https://github.com/shobe996/honkai-star-rail-db/commit/e2291675d5689b8d2b2dbf5ee5c25658b54ece0e))
-* switch order of types and import inside exports ([d3ec7c6](https://github.com/shobe996/honkai-star-rail-db/commit/d3ec7c62c8c86389b2e7b38dd9622434b7755b5a))
 
 
 
