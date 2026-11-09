@@ -1,3 +1,13 @@
+## [1.16.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.0...v1.16.1) (2026-11-09)
+
+
+### Bug Fixes
+
+* expose base model ([9dbcf0b](https://github.com/shobe996/honkai-star-rail-db/commit/9dbcf0b05b1504d127c8af53a038ef24dd9b31b9))
+* fix linting errors ([49c1c17](https://github.com/shobe996/honkai-star-rail-db/commit/49c1c17fedd39105bc32f2eb0ff628203e114839))
+
+
+
 # [1.16.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.15.0...v1.16.0) (2026-11-09)
 
 
@@ -34,20 +44,6 @@
 * fix ids and name ([89ca5f9](https://github.com/shobe996/honkai-star-rail-db/commit/89ca5f9f9929ad3aa5ca119fe6d8795c058f2645))
 * remove pagination from the get all ([e229167](https://github.com/shobe996/honkai-star-rail-db/commit/e2291675d5689b8d2b2dbf5ee5c25658b54ece0e))
 * switch order of types and import inside exports ([d3ec7c6](https://github.com/shobe996/honkai-star-rail-db/commit/d3ec7c62c8c86389b2e7b38dd9622434b7755b5a))
-
-
-
-# [1.14.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.13.0...v1.14.0) (2026-10-14)
-
-
-### Bug Fixes
-
-* move base filters back to filters folder ([8f7aa37](https://github.com/shobe996/honkai-star-rail-db/commit/8f7aa37c67916402a0cef9e320e9f84ea29269b3))
-
-
-### Features
-
-* implement base criteria ([51f9757](https://github.com/shobe996/honkai-star-rail-db/commit/51f9757844904c9b1d4f37f43696b96adc10b1f0))
 
 
 
