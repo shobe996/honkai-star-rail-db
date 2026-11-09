@@ -1,3 +1,4 @@
+export * from './base.model';
 export * from './cavern-relic.model';
 export * from './character.model';
 export * from './criteria';
