@@ -1,14 +1,11 @@
+import { Base } from "./base.model";
+
 /**
  * Represents the elemental combat affinity of a character (e.g., Fire, Ice, Quantum).
  * The Type determines which elemental weaknesses the character can exploit
  * to trigger a Weakness Break on enemies.
  */
-export interface Type {
-  /** Unique internal identifier for the combat type. */
-  readonly id: number;
-
-  /** The display name of the element (e.g., 'Lightning'). */
-  readonly name: string;
+export interface Type extends Base {
   
   /** URL to the official elemental icon asset. */
   readonly icon_url: string;
