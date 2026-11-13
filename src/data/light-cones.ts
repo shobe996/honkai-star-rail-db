@@ -3507,6 +3507,30 @@ export const lightCones = {
     full_artwork_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ce/Light_Cone_Colors_for_Tomorrow_Artwork.png/revision/latest',
   },
+  See_You_at_the_Worlds_End: {
+    id: 0,
+    name: "See You at the World's End!",
+    icon_url:
+      "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_See_You_at_the_World's_End!_Icon.png/revision/latest",
+    effect:
+      'Conspirator<p>For every Elation character on the team, increase the wearer\'s CRIT DMG by <span style="color: rgba(255,199,112,1)">6%</span>/<span style="color: rgba(255,199,112,1)">7%</span>/<span style="color: rgba(255,199,112,1)">8%</span>/<span style="color: rgba(255,199,112,1)">9%</span>/<span style="color: rgba(255,199,112,1)">10%</span>. When Aeon ★ Aha is on the field, the wearer\'s CRIT DMG additionally increases by <span style="color: rgba(255,199,112,1)">12%</span>/<span style="color: rgba(255,199,112,1)">14%</span>/<span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span>.</p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Four_Star,
+    stats: {
+      level1: {
+        base_hp: 38,
+        base_atk: 21,
+        base_def: 18,
+      },
+      level80: {
+        base_hp: 846,
+        base_atk: 476,
+        base_def: 396,
+      },
+    },
+    full_artwork_url:
+      "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_See_You_at_the_World's_End!_Artwork.png/revision/latest",
+  },
   Upon_the_First_Echo_of_Aha: {
     id: 10632,
     name: 'Upon the First Echo of "Aha"',
