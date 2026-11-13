@@ -1,3 +1,15 @@
+# [1.17.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.2...v1.17.0) (2026-11-13)
+
+
+### Features
+
+* **character:** add Aeon ★ Aha into character dataset ([a91e067](https://github.com/shobe996/honkai-star-rail-db/commit/a91e06718f9db1bd041d2ce8cc070cdda6936f5c))
+* **light cone:** add See You at the World's End! into light cone dataset ([439b787](https://github.com/shobe996/honkai-star-rail-db/commit/439b78704a81f80465987c9ffac2f2277cc21774))
+* **light cone:** add Upon the First Echo of "Aha" into light cone dataset ([88293da](https://github.com/shobe996/honkai-star-rail-db/commit/88293da5f6fb5f4ac311d8b66a2389ecdc081208))
+* **planar-ornament:** add God's Moment of Joy and Subspace ASC Center into planar ornament dataset ([67cbed7](https://github.com/shobe996/honkai-star-rail-db/commit/67cbed7bff50cf38387679c8fb353f39fa44ea08))
+
+
+
 ## [1.16.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.1...v1.16.2) (2026-11-09)
 
 
@@ -32,15 +44,6 @@
 ### Features
 
 * add outfits to the characters model and data ([1b9cb4e](https://github.com/shobe996/honkai-star-rail-db/commit/1b9cb4e447ffdf0427fdb2bb98b95f9a5f78aaad))
-
-
-
-## [1.14.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.1...v1.14.2) (2026-10-22)
-
-
-### Bug Fixes
-
-* fix ids and order of light cones ([31bce9c](https://github.com/shobe996/honkai-star-rail-db/commit/31bce9cfd3c724ca1e3e4a8790e2f06b350b4ed0))
 
 
 
