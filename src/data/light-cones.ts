@@ -3507,4 +3507,20 @@ export const lightCones = {
     full_artwork_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/c/ce/Light_Cone_Colors_for_Tomorrow_Artwork.png/revision/latest',
   },
+  Upon_the_First_Echo_of_Aha: {
+    id: 10632,
+    name: 'Upon the First Echo of "Aha"',
+    icon_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Light_Cone_Upon_the_First_Echo_of_%22Aha%22_Icon.png/revision/latest',
+    effect:
+      'Improv Tour<p>Increases the wearer\'s base SPD by <span style="color: rgba(255,199,112,1)">12</span>/<span style="color: rgba(255,199,112,1)">14</span>/<span style="color: rgba(255,199,112,1)">16</span>/<span style="color: rgba(255,199,112,1)">18</span>/<span style="color: rgba(255,199,112,1)">20</span>. When using Skill on one other ally, gains <span style="color: rgba(255,199,112,1)">10</span>/<span style="color: rgba(255,199,112,1)">12</span>/<span style="color: rgba(255,199,112,1)">14</span>/<span style="color: rgba(255,199,112,1)">16</span>/<span style="color: rgba(255,199,112,1)">18 </span>Punchline. This effect can trigger at most once after a gap of every 1 turn(s). Then, enables all allies to ignore <span style="color: rgba(255,199,112,1)">16%</span>/<span style="color: rgba(255,199,112,1)">18%</span>/<span style="color: rgba(255,199,112,1)">20%</span>/<span style="color: rgba(255,199,112,1)">22%</span>/<span style="color: rgba(255,199,112,1)">24%</span> of the enemy target\'s DEF when they deal DMG during this battle. This effect cannot be stacked.</p>',
+    path: paths.Elation,
+    rarity: lightConeRarities.Five_Star,
+    stats: {
+      level1: { base_hp: 43, base_atk: 26, base_def: 24 },
+      level80: { base_hp: 952, base_atk: 582, base_def: 529 },
+    },
+    full_artwork_url:
+      'https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_Upon_the_First_Echo_of_%22Aha%22_Artwork.png/revision/latest',
+  },
 } as const satisfies Record<string, LightCone>;
