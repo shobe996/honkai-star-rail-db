@@ -421,4 +421,34 @@ export const planarOrnaments = {
         'https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Item_BananAmusement_Park%27s_Memetic_Cables.png/revision/latest',
     },
   },
+  Gods_Moment_of_Joy: {
+    id: 0,
+    name: "God's Moment of Joy",
+    set: '2-Piece-Set',
+    two_set_effect:
+      "Increases the wearer's SPD by 6%. When the wearer's Elation stat reaches 40% or higher, advances the wearer's action by 40% immediately upon entering combat.",
+    icons: {
+      icon_url:
+        "https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Item_God's_Moment_of_Joy.png/revision/latest",
+      sphere_icon_url:
+        "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Item_Moment_of_Joy's_Eternal_Stage.png/revision/latest",
+      rope_icon_url:
+        "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ad/Item_Moment_of_Joy's_Magic_Prop.png/revision/latest",
+    },
+  },
+  Subspace_ASC_Center: {
+    id: 1,
+    name: 'Subspace ASC Center',
+    set: '2-Piece-Set',
+    two_set_effect:
+      "Increases the wearer's SPD by 6%. When the wearer's SPD reaches 145 or higher, increases all allies' Break Effect by 18% after entering combat. This effect cannot stack.",
+    icons: {
+      icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Item_Subspace_ASC_Center.png/revision/latest',
+      sphere_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Item_ASC_Dark_Fissure.png/revision/latest',
+      rope_icon_url:
+        'https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Item_ASC_Negative_Film.png/revision/latest',
+    },
+  },
 } as const satisfies Record<string, PlanarOrnament>;
