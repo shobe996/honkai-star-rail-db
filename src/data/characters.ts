@@ -2607,7 +2607,7 @@ export const characters = {
     name: 'Pearl',
     icon_url:
       'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_u140pe/d56431abb17340230ed5a948d921c59f.png?x-oss-process=image/format,webp/quality,Q_90',
-    desc: 'Color the stars, trace the myriad phenomena, and the lost pearls of civilization regain their luster.<br>Born from the art of analysis, she pursues the pinnacle of beauty, yet has never lost her underlying hue of the Preservation:<br>After her trial by fire, what kind of "Pearl" will she harvest?',
+    desc: '<p>Color the stars, trace the myriad phenomena, and the lost pearls of civilization regain their luster.</p><p>Born from the art of analysis, she pursues the pinnacle of beauty, yet has never lost her underlying hue of the Preservation:</p><p>After her trial by fire, what kind of "Pearl" will she harvest?</p>',
     path: paths.Elation,
     faction: factions.Interastral_Peace_Corporation,
     rarity: characterRarities.Five_Star,
@@ -2629,5 +2629,31 @@ export const characters = {
     release_date: new Date('2026-09-28'),
     splash_art_url:
       'https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Pearl_Splash_Art.png/revision/latest',
+  },
+  Aeon_Aha: {
+    id: 10393,
+    name: 'Aeon ★ Aha',
+    icon_url: 'https://act-webstatic.hoyoverse.com/darkmatter/hkrpg/prod_gf_cn/item_icon_ubd4re/9992dd2ff280e580fe05729d34279568.png?x-oss-process=image/format,webp/quality,Q_90',
+    desc: '<p>Cries and comedy intertwine, and the deathly still cosmos awakens to daybreak in a farce.</p><p>Stepping back onto the stage of the Path, I tear off the god\'s mask. Who is Aha? I am Aha!</p><p>To play, to trick, to hunt... Please bear witness to an improv tour where humans and gods dance as one!</p>',
+    path: paths.Elation,
+    faction: factions.Cosmos,
+    rarity: characterRarities.Five_Star,
+    type: types.Quantum,
+    stats: {
+      level1: {
+        base_speed: 94,
+        base_hp: 142,
+        base_atk: 92,
+        base_def: 69,
+      },
+      level80: {
+        base_speed: 94,
+        base_hp: 1047,
+        base_atk: 679,
+        base_def: 509,
+      },
+    },
+    release_date: new Date(2026-11-11),
+    splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/54/Character_Aeon_%E2%98%85_Aha_Splash_Art.png/revision/latest',
   },
 } as const satisfies Record<string, Character>;
