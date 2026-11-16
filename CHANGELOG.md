@@ -1,3 +1,12 @@
+## [1.17.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.17.0...v1.17.1) (2026-11-16)
+
+
+### Bug Fixes
+
+* add missing outfit for Aeon ★ Aha ([464271b](https://github.com/shobe996/honkai-star-rail-db/commit/464271bcbc230602c1e336c7b0696ecae1b969a8))
+
+
+
 # [1.17.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.16.2...v1.17.0) (2026-11-13)
 
 
@@ -35,15 +44,6 @@
 ### Features
 
 * introduce base model interface ([d9f41f4](https://github.com/shobe996/honkai-star-rail-db/commit/d9f41f4742fbf731da2c0b982eb289061e6d0516))
-
-
-
-# [1.15.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.14.2...v1.15.0) (2026-10-30)
-
-
-### Features
-
-* add outfits to the characters model and data ([1b9cb4e](https://github.com/shobe996/honkai-star-rail-db/commit/1b9cb4e447ffdf0427fdb2bb98b95f9a5f78aaad))
 
 
 
