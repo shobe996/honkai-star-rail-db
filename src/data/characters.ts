@@ -2653,7 +2653,7 @@ export const characters = {
         base_def: 509,
       },
     },
-    release_date: new Date(2026-11-11),
+    release_date: new Date('2026-11-11'),
     splash_art_url: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/54/Character_Aeon_%E2%98%85_Aha_Splash_Art.png/revision/latest',
     outfits: ['https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Character_Aeon_%E2%98%85_Aha_Star_Lotto_Splash_Art.png/revision/latest']
   },
