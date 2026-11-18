@@ -1,3 +1,12 @@
+## [1.17.2](https://github.com/shobe996/honkai-star-rail-db/compare/v1.17.1...v1.17.2) (2026-11-18)
+
+
+### Bug Fixes
+
+* release date for aeon aha ([8854c26](https://github.com/shobe996/honkai-star-rail-db/commit/8854c2610ff76bbed80db8d7a59b7fd10bf5e006))
+
+
+
 ## [1.17.1](https://github.com/shobe996/honkai-star-rail-db/compare/v1.17.0...v1.17.1) (2026-11-16)
 
 
@@ -35,15 +44,6 @@
 
 * expose base model ([9dbcf0b](https://github.com/shobe996/honkai-star-rail-db/commit/9dbcf0b05b1504d127c8af53a038ef24dd9b31b9))
 * fix linting errors ([49c1c17](https://github.com/shobe996/honkai-star-rail-db/commit/49c1c17fedd39105bc32f2eb0ff628203e114839))
-
-
-
-# [1.16.0](https://github.com/shobe996/honkai-star-rail-db/compare/v1.15.0...v1.16.0) (2026-11-09)
-
-
-### Features
-
-* introduce base model interface ([d9f41f4](https://github.com/shobe996/honkai-star-rail-db/commit/d9f41f4742fbf731da2c0b982eb289061e6d0516))
 
 
 
